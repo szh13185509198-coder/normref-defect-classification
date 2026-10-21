@@ -1,0 +1,6380 @@
+{
+  "addendum": "docs/P6B_REVISION_ADDENDUM_C.md#c2",
+  "fidelity_gate_passed": true,
+  "fidelity_report": "ckpt\\revision_c\\c2_fidelity_report.json",
+  "label": "post-hoc revision analysis",
+  "methods": {
+    "fusion_proto_local": "formal fusion_proto prototypes x local query features (reference)",
+    "logreg_rfs": "sklearn LogisticRegression{'solver': 'lbfgs', 'C': 1.0, 'max_iter': 1000} on L2-normalized fused features",
+    "simpleshot_cl2n": "support-mean centering, L2, class-mean prototypes, cosine argmax"
+  },
+  "product_macro_summary": {
+    "fusion_proto_local": {
+      "1": {
+        "balanced_accuracy": {
+          "mean": 0.546714068694838,
+          "per_seed": {
+            "111": 0.5426663293970986,
+            "222": 0.5946756413102567,
+            "333": 0.5034643703874473,
+            "444": 0.5475312899351361,
+            "555": 0.5452327124442509
+          },
+          "std_ddof1": 0.032365472774793555
+        },
+        "macro_f1": {
+          "mean": 0.5235871850358973,
+          "per_seed": {
+            "111": 0.5200805799245015,
+            "222": 0.5710672057855842,
+            "333": 0.4732331132292226,
+            "444": 0.5324912489254667,
+            "555": 0.5210637773147113
+          },
+          "std_ddof1": 0.034956512760809653
+        },
+        "top1_accuracy": {
+          "mean": 0.5407482619119138,
+          "per_seed": {
+            "111": 0.536410276529912,
+            "222": 0.5844887046793361,
+            "333": 0.4938569892889481,
+            "444": 0.5485211348610675,
+            "555": 0.5404642042003052
+          },
+          "std_ddof1": 0.03237025695578083
+        }
+      },
+      "3": {
+        "balanced_accuracy": {
+          "mean": 0.6682493055377671,
+          "per_seed": {
+            "111": 0.665652990172221,
+            "222": 0.6624223924223924,
+            "333": 0.6731142361911592,
+            "444": 0.6658061311907465,
+            "555": 0.6742507777123161
+          },
+          "std_ddof1": 0.005156260499277447
+        },
+        "macro_f1": {
+          "mean": 0.6598464644282743,
+          "per_seed": {
+            "111": 0.6564591275168901,
+            "222": 0.6566038984007945,
+            "333": 0.6588045125192945,
+            "444": 0.6634207943465799,
+            "555": 0.6639439893578127
+          },
+          "std_ddof1": 0.0036276540107727413
+        },
+        "top1_accuracy": {
+          "mean": 0.6627426977234465,
+          "per_seed": {
+            "111": 0.6607485494610142,
+            "222": 0.6579567136604683,
+            "333": 0.6663948796114063,
+            "444": 0.6640469761338649,
+            "555": 0.6645663697504791
+          },
+          "std_ddof1": 0.003363317748906936
+        }
+      },
+      "5": {
+        "balanced_accuracy": {
+          "mean": 0.7114191364191365,
+          "per_seed": {
+            "111": 0.710006001832925,
+            "222": 0.7130990661759893,
+            "333": 0.7167488921335076,
+            "444": 0.7035885339731494,
+            "555": 0.713653187980111
+          },
+          "std_ddof1": 0.004988354697838013
+        },
+        "macro_f1": {
+          "mean": 0.7018796611914564,
+          "per_seed": {
+            "111": 0.7001944289243887,
+            "222": 0.7068878662911062,
+            "333": 0.7053783906165736,
+            "444": 0.6930619996337941,
+            "555": 0.7038756204914193
+          },
+          "std_ddof1": 0.00552037685708343
+        },
+        "top1_accuracy": {
+          "mean": 0.7046382088105629,
+          "per_seed": {
+            "111": 0.7031491518321722,
+            "222": 0.7077626373795751,
+            "333": 0.7086862389797208,
+            "444": 0.6958527971453145,
+            "555": 0.707740218716032
+          },
+          "std_ddof1": 0.005365906642862846
+        }
+      }
+    },
+    "logreg_rfs": {
+      "1": {
+        "balanced_accuracy": {
+          "mean": 0.570101490389952,
+          "per_seed": {
+            "111": 0.5715724482070635,
+            "222": 0.6105456793918332,
+            "333": 0.5161263024724563,
+            "444": 0.5652093632862863,
+            "555": 0.5870536585921202
+          },
+          "std_ddof1": 0.0348659072949551
+        },
+        "macro_f1": {
+          "mean": 0.540620311603541,
+          "per_seed": {
+            "111": 0.541492341480473,
+            "222": 0.5836717330203808,
+            "333": 0.47303398560613014,
+            "444": 0.5486227129973525,
+            "555": 0.5562807849133683
+          },
+          "std_ddof1": 0.041022511004021864
+        },
+        "top1_accuracy": {
+          "mean": 0.5624268042432667,
+          "per_seed": {
+            "111": 0.5640342499749803,
+            "222": 0.600085491566809,
+            "333": 0.5093140883223822,
+            "444": 0.5612225010211909,
+            "555": 0.5774776903309712
+          },
+          "std_ddof1": 0.033427910207942495
+        }
+      },
+      "3": {
+        "balanced_accuracy": {
+          "mean": 0.6812563099293868,
+          "per_seed": {
+            "111": 0.6800673293942524,
+            "222": 0.6595385775193467,
+            "333": 0.6854675772945004,
+            "444": 0.6820713474559628,
+            "555": 0.6991367179828718
+          },
+          "std_ddof1": 0.014240625222373153
+        },
+        "macro_f1": {
+          "mean": 0.6672011691033459,
+          "per_seed": {
+            "111": 0.6659110304224771,
+            "222": 0.6347900896129132,
+            "333": 0.6745384333532993,
+            "444": 0.6738895075740434,
+            "555": 0.6868767845539965
+          },
+          "std_ddof1": 0.019607662361212006
+        },
+        "top1_accuracy": {
+          "mean": 0.6726096571145754,
+          "per_seed": {
+            "111": 0.6725577366605044,
+            "222": 0.6484395755143099,
+            "333": 0.6758445299729151,
+            "444": 0.6769440782337781,
+            "555": 0.6892623651913699
+          },
+          "std_ddof1": 0.01492279996713246
+        }
+      },
+      "5": {
+        "balanced_accuracy": {
+          "mean": 0.723077559904483,
+          "per_seed": {
+            "111": 0.7087036005305236,
+            "222": 0.7272856168048476,
+            "333": 0.7363819442665597,
+            "444": 0.7285093965863196,
+            "555": 0.7145072413341644
+          },
+          "std_ddof1": 0.011228093163463963
+        },
+        "macro_f1": {
+          "mean": 0.7072211353922029,
+          "per_seed": {
+            "111": 0.6915685392580238,
+            "222": 0.7127337019437323,
+            "333": 0.7205904625175878,
+            "444": 0.7123436843875328,
+            "555": 0.6988692888541375
+          },
+          "std_ddof1": 0.011727370893717674
+        },
+        "top1_accuracy": {
+          "mean": 0.715338176242309,
+          "per_seed": {
+            "111": 0.7009231125950872,
+            "222": 0.7208589584819899,
+            "333": 0.7285316370983637,
+            "444": 0.7194051261500453,
+            "555": 0.7069720468860592
+          },
+          "std_ddof1": 0.011167729265714878
+        }
+      }
+    },
+    "simpleshot_cl2n": {
+      "1": {
+        "balanced_accuracy": {
+          "mean": 0.5692051901090363,
+          "per_seed": {
+            "111": 0.5658724003916311,
+            "222": 0.6099254235792697,
+            "333": 0.5178007391468931,
+            "444": 0.569540395501934,
+            "555": 0.5828869919254535
+          },
+          "std_ddof1": 0.03353716797632625
+        },
+        "macro_f1": {
+          "mean": 0.5434163007143002,
+          "per_seed": {
+            "111": 0.5418519537112579,
+            "222": 0.5855199098120506,
+            "333": 0.47989267301218963,
+            "444": 0.5553207965482856,
+            "555": 0.5544961704877175
+          },
+          "std_ddof1": 0.038970799620663764
+        },
+        "top1_accuracy": {
+          "mean": 0.5615021596240195,
+          "per_seed": {
+            "111": 0.5578647094672863,
+            "222": 0.5994376226816953,
+            "333": 0.5106829207152035,
+            "444": 0.5655386013164715,
+            "555": 0.5739869439394407
+          },
+          "std_ddof1": 0.03243103507927814
+        }
+      },
+      "3": {
+        "balanced_accuracy": {
+          "mean": 0.6888353740276817,
+          "per_seed": {
+            "111": 0.6826728719997951,
+            "222": 0.6660918533033917,
+            "333": 0.6827846583615814,
+            "444": 0.6908361012207165,
+            "555": 0.7217913852529237
+          },
+          "std_ddof1": 0.020505833995665322
+        },
+        "macro_f1": {
+          "mean": 0.6791666200958467,
+          "per_seed": {
+            "111": 0.6726207609247308,
+            "222": 0.6484310556849142,
+            "333": 0.6753938490785065,
+            "444": 0.6861419546013783,
+            "555": 0.7132454801897036
+          },
+          "std_ddof1": 0.023514787846463096
+        },
+        "top1_accuracy": {
+          "mean": 0.6805783553121258,
+          "per_seed": {
+            "111": 0.6758540063422759,
+            "222": 0.65616850602275,
+            "333": 0.6748652487932358,
+            "444": 0.6856313017291461,
+            "555": 0.7103727136732212
+          },
+          "std_ddof1": 0.019773946617062804
+        }
+      },
+      "5": {
+        "balanced_accuracy": {
+          "mean": 0.7408798146298146,
+          "per_seed": {
+            "111": 0.7318036023805254,
+            "222": 0.7419815725584956,
+            "333": 0.7506338960185114,
+            "444": 0.7445733824579979,
+            "555": 0.7354066197335428
+          },
+          "std_ddof1": 0.007455399196871434
+        },
+        "macro_f1": {
+          "mean": 0.7333114054407186,
+          "per_seed": {
+            "111": 0.7230244304953277,
+            "222": 0.7367579538348159,
+            "333": 0.7417361321800496,
+            "444": 0.7365012430101676,
+            "555": 0.7285372676832323
+          },
+          "std_ddof1": 0.0074438569478342004
+        },
+        "top1_accuracy": {
+          "mean": 0.7329886541984036,
+          "per_seed": {
+            "111": 0.7232068374345931,
+            "222": 0.7356004151266438,
+            "333": 0.7418305037340835,
+            "444": 0.735594875098415,
+            "555": 0.7287106395982826
+          },
+          "std_ddof1": 0.007172470527251291
+        }
+      }
+    }
+  },
+  "provenance": {
+    "head": "ad0db69058ad3545e0549d2dd4cfffd04a3209e3",
+    "tracked_tree_dirty": true
+  },
+  "raw_metrics": [
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6818181818181818,
+      "macro_f1": 0.6691358024691357,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6818181818181818,
+      "macro_f1": 0.6691358024691357,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6212121212121212,
+      "macro_f1": 0.6002554278416348,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7696969696969697,
+      "macro_f1": 0.7691358024691358,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7393939393939394,
+      "macro_f1": 0.7387057387057387,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7363636363636363,
+      "macro_f1": 0.7410192147034252,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6333333333333334,
+      "macro_f1": 0.5638318670576735,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.603030303030303,
+      "macro_f1": 0.5367965367965368,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5420875420875421,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6818181818181818,
+      "macro_f1": 0.6691358024691357,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6818181818181818,
+      "macro_f1": 0.6691358024691357,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5212121212121212,
+      "macro_f1": 0.46759259259259256,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.5161290322580645
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7666666666666666,
+      "macro_f1": 0.7713920817369093,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7666666666666666,
+      "macro_f1": 0.7713920817369093,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6333333333333333,
+      "macro_f1": 0.6349206349206349,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8363636363636364,
+      "macro_f1": 0.8436647173489279,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9054191033138402,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.84241103848947,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8060606060606061,
+      "macro_f1": 0.812962962962963,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8393939393939395,
+      "macro_f1": 0.8433257055682685,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7696969696969697,
+      "macro_f1": 0.7776153346328784,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8060606060606061,
+      "macro_f1": 0.812962962962963,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8393939393939395,
+      "macro_f1": 0.8433257055682685,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8363636363636364,
+      "macro_f1": 0.8436647173489279,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8393939393939395,
+      "macro_f1": 0.8415713196033563,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8060606060606061,
+      "macro_f1": 0.8114035087719299,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7030303030303031,
+      "macro_f1": 0.691358024691358,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.7096774193548387
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7999999999999999,
+      "macro_f1": 0.8109243697478993,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7999999999999999,
+      "macro_f1": 0.8109243697478993,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7666666666666666,
+      "macro_f1": 0.7773833671399594,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.903030303030303,
+      "macro_f1": 0.9036116862203819,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.903030303030303,
+      "macro_f1": 0.9036116862203819,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9011764705882354,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8060606060606061,
+      "macro_f1": 0.812962962962963,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8060606060606061,
+      "macro_f1": 0.812962962962963,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7727272727272728,
+      "macro_f1": 0.7811764705882354,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.903030303030303,
+      "macro_f1": 0.9038901601830664,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.903030303030303,
+      "macro_f1": 0.9038901601830664,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8363636363636364,
+      "macro_f1": 0.8436647173489279,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8393939393939395,
+      "macro_f1": 0.8391433128275234,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8393939393939395,
+      "macro_f1": 0.8391433128275234,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7999999999999999,
+      "macro_f1": 0.8109243697478993,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9011764705882354,
+      "method": "simpleshot_cl2n",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9011764705882354,
+      "method": "logreg_rfs",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9011764705882354,
+      "method": "fusion_proto_local",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2545454545454545,
+      "macro_f1": 0.2020083184789067,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.24528301886792453
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2545454545454545,
+      "macro_f1": 0.20370220422852,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.24528301886792453
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.29454545454545455,
+      "macro_f1": 0.23016206482593038,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.2830188679245283
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5581818181818182,
+      "macro_f1": 0.5402847152847153,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.5471698113207547
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5781818181818182,
+      "macro_f1": 0.5413003402773224,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.5660377358490566
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5890909090909091,
+      "macro_f1": 0.5769140800719749,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.5849056603773585
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3236363636363636,
+      "macro_f1": 0.3200943179204049,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.32075471698113206
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.28545454545454546,
+      "macro_f1": 0.2626501035196688,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.2830188679245283
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2690909090909091,
+      "macro_f1": 0.25645309507202085,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.2641509433962264
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.34363636363636363,
+      "macro_f1": 0.3404465709728868,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.33962264150943394
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32545454545454544,
+      "macro_f1": 0.3206583377636009,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.32075471698113206
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.34545454545454546,
+      "macro_f1": 0.3315384615384615,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.33962264150943394
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45636363636363636,
+      "macro_f1": 0.4213533834586466,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.4528301886792453
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45636363636363636,
+      "macro_f1": 0.4213533834586466,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.4528301886792453
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4381818181818182,
+      "macro_f1": 0.36833751044277363,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.4339622641509434
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5145454545454545,
+      "macro_f1": 0.5220536635706915,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.5094339622641509
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.48,
+      "macro_f1": 0.4413252197430696,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4763636363636364,
+      "macro_f1": 0.4832522614780679,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.49818181818181817,
+      "macro_f1": 0.508421052631579,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.49056603773584906
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.42363636363636364,
+      "macro_f1": 0.41640211640211644,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.41509433962264153
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.42000000000000004,
+      "macro_f1": 0.4406473700591348,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.41509433962264153
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.32181818181818184,
+      "macro_f1": 0.2807997557997558,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.32075471698113206
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.3236363636363636,
+      "macro_f1": 0.29431157078215897,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.32075471698113206
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.37454545454545457,
+      "macro_f1": 0.37344681462328516,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.37735849056603776
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.39818181818181814,
+      "macro_f1": 0.4216169226311214,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.39622641509433965
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.42181818181818176,
+      "macro_f1": 0.43809838074810853,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.41509433962264153
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.33999999999999997,
+      "macro_f1": 0.37383922383922386,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.33962264150943394
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5709090909090909,
+      "macro_f1": 0.5578899171004434,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.5660377358490566
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.43636363636363634,
+      "macro_f1": 0.46201058201058204,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.4339622641509434
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.32181818181818184,
+      "macro_f1": 0.3495775335775336,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.32075471698113206
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.4618181818181818,
+      "macro_f1": 0.4282258064516129,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.4528301886792453
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.45999999999999996,
+      "macro_f1": 0.42033936651583714,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.4528301886792453
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.48,
+      "macro_f1": 0.46904761904761905,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.530909090909091,
+      "macro_f1": 0.5526262626262627,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.5283018867924528
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.45636363636363636,
+      "macro_f1": 0.46844594091173536,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.4528301886792453
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.43090909090909085,
+      "macro_f1": 0.4453225806451613,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.4339622641509434
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.49818181818181817,
+      "macro_f1": 0.5082956259426847,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.49056603773584906
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.4836363636363637,
+      "macro_f1": 0.44881850175967825,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.48,
+      "macro_f1": 0.4807359307359307,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.4818181818181818,
+      "macro_f1": 0.4928637770897833,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.4818181818181818,
+      "macro_f1": 0.47942449707155593,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.38363636363636366,
+      "macro_f1": 0.378021978021978,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.37735849056603776
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.42181818181818187,
+      "macro_f1": 0.4018897819260796,
+      "method": "simpleshot_cl2n",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.41509433962264153
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.42181818181818187,
+      "macro_f1": 0.4018897819260796,
+      "method": "logreg_rfs",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.41509433962264153
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.40181818181818174,
+      "macro_f1": 0.39177355152587345,
+      "method": "fusion_proto_local",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.39622641509433965
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5583333333333333,
+      "macro_f1": 0.507335562987737,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.5476190476190477
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5333333333333333,
+      "macro_f1": 0.4570409982174688,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.5238095238095238
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5805555555555555,
+      "macro_f1": 0.5695238095238095,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.5714285714285714
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6055555555555555,
+      "macro_f1": 0.6041558441558441,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.5952380952380952
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5805555555555555,
+      "macro_f1": 0.5834113712374582,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.5714285714285714
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6333333333333333,
+      "macro_f1": 0.6046115288220552,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.6190476190476191
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.43611111111111106,
+      "macro_f1": 0.4331021919257213,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.42857142857142855
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4583333333333333,
+      "macro_f1": 0.4300685425685426,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.4523809523809524
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4638888888888889,
+      "macro_f1": 0.4129055258467023,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.4523809523809524
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6222222222222222,
+      "macro_f1": 0.6306367316893633,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.6190476190476191
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6222222222222222,
+      "macro_f1": 0.6306367316893633,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.6190476190476191
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5777777777777777,
+      "macro_f1": 0.5943317552013204,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.5714285714285714
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.6132067932067932,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.5952380952380952
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6444444444444445,
+      "macro_f1": 0.6647163362952837,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.6428571428571429
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5611111111111111,
+      "macro_f1": 0.5342857142857143,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.5476190476190477
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7444444444444445,
+      "macro_f1": 0.7545238095238095,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7666666666666666,
+      "macro_f1": 0.7767391304347826,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.7619047619047619
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7027777777777777,
+      "macro_f1": 0.7112972085385879,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.6904761904761905
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5853949713856835,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.5952380952380952
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5853949713856835,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.5952380952380952
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5305555555555556,
+      "macro_f1": 0.536063936063936,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.5238095238095238
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7861111111111111,
+      "macro_f1": 0.7828808446455506,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8111111111111111,
+      "macro_f1": 0.8098039215686275,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.8095238095238095
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6722222222222223,
+      "macro_f1": 0.6558041958041958,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8388888888888889,
+      "macro_f1": 0.8300690451619245,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.8333333333333334
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.861111111111111,
+      "macro_f1": 0.8589766081871344,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7916666666666666,
+      "macro_f1": 0.7766441745389113,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6972222222222222,
+      "macro_f1": 0.7025210084033613,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.6904761904761905
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7194444444444444,
+      "macro_f1": 0.7160425573738267,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.7142857142857143
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6083333333333333,
+      "macro_f1": 0.58004662004662,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.5952380952380952
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8583333333333334,
+      "macro_f1": 0.8632352941176471,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8111111111111111,
+      "macro_f1": 0.8098039215686275,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.8095238095238095
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7444444444444445,
+      "macro_f1": 0.7481203007518797,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.861111111111111,
+      "macro_f1": 0.8546992481203007,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8583333333333334,
+      "macro_f1": 0.8512280701754387,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7694444444444445,
+      "macro_f1": 0.7795238095238095,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.7619047619047619
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7833333333333333,
+      "macro_f1": 0.7710423116615067,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7833333333333333,
+      "macro_f1": 0.7783104820875719,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6722222222222223,
+      "macro_f1": 0.6598343685300208,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.861111111111111,
+      "macro_f1": 0.8498144871983883,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.861111111111111,
+      "macro_f1": 0.8498144871983883,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.733757032441243,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7444444444444445,
+      "macro_f1": 0.737593984962406,
+      "method": "simpleshot_cl2n",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7194444444444444,
+      "macro_f1": 0.7161904761904762,
+      "method": "logreg_rfs",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.7142857142857143
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7027777777777777,
+      "macro_f1": 0.6716161616161616,
+      "method": "fusion_proto_local",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.6904761904761905
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.2904761904761905,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.36,
+      "macro_f1": 0.30095238095238097,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.36
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.28542568542568547,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.24454499748617398,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.24454499748617398,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.24603174603174605,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.2784313725490196,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.2784313725490196,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.27111111111111114,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.25571428571428567,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.25372549019607843,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.28,
+      "macro_f1": 0.19714285714285718,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.28
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.34285714285714286,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.34285714285714286,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.34285714285714286,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.5806293706293706,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.5806293706293706,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.56,
+      "macro_f1": 0.5283516483516484,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.68,
+      "macro_f1": 0.6659673659673659,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.587012987012987,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.63,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6367521367521367,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6296037296037296,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.4978354978354978,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.5282539682539682,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.5282539682539682,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.5282539682539682,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.712929292929293,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6799999999999999,
+      "macro_f1": 0.6742424242424242,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6430769230769231,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6276190476190476,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6276190476190476,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.52,
+      "macro_f1": 0.49451659451659447,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7890331890331891,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.76,
+      "macro_f1": 0.7496392496392497,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.7066666666666668,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6799999999999999,
+      "macro_f1": 0.6690909090909091,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6266666666666667,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6288888888888888,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.71,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6261116661116661,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.5309890109890111,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.7109090909090909,
+      "method": "simpleshot_cl2n",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.68,
+      "macro_f1": 0.6745454545454546,
+      "method": "logreg_rfs",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.7151515151515151,
+      "method": "fusion_proto_local",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.53125,
+      "macro_f1": 0.4930555555555556,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.5294117647058824
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.53125,
+      "macro_f1": 0.4930555555555556,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.5294117647058824
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5972222222222222,
+      "macro_f1": 0.5810170221934927,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.5882352941176471
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7708333333333333,
+      "macro_f1": 0.7669467787114846,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7708333333333333,
+      "macro_f1": 0.7669467787114846,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7673611111111112,
+      "macro_f1": 0.7675082270670506,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6458333333333333,
+      "macro_f1": 0.610989010989011,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6458333333333333,
+      "macro_f1": 0.610989010989011,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6180555555555556,
+      "macro_f1": 0.5909090909090909,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.6176470588235294
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6527777777777778,
+      "macro_f1": 0.652296918767507,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6527777777777778,
+      "macro_f1": 0.6471794871794871,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7048611111111112,
+      "macro_f1": 0.6919191919191919,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.7058823529411765
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5972222222222222,
+      "macro_f1": 0.597473604826546,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.5882352941176471
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5972222222222222,
+      "macro_f1": 0.597473604826546,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.5882352941176471
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5659722222222222,
+      "macro_f1": 0.5848997493734336,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.5588235294117647
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8298611111111112,
+      "macro_f1": 0.8197478991596638,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8298611111111112,
+      "macro_f1": 0.8197478991596638,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6493055555555556,
+      "macro_f1": 0.6617086834733894,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8854166666666666,
+      "macro_f1": 0.8850361197110423,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8576388888888888,
+      "macro_f1": 0.8561274509803921,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9133986928104575,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9164086687306502,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8854166666666666,
+      "macro_f1": 0.8892156862745098,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8888888888888888,
+      "macro_f1": 0.8852941176470588,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7708333333333333,
+      "macro_f1": 0.7681888544891641,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7708333333333333,
+      "macro_f1": 0.7676169590643275,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7708333333333333,
+      "macro_f1": 0.7764705882352941,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7986111111111112,
+      "macro_f1": 0.7959752321981424,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7986111111111112,
+      "macro_f1": 0.7959752321981424,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8263888888888888,
+      "macro_f1": 0.8281045751633987,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.8491596638655462,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8298611111111112,
+      "macro_f1": 0.823091736694678,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8576388888888888,
+      "macro_f1": 0.851498538011696,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.8564327485380117,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8298611111111112,
+      "macro_f1": 0.8253869969040247,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.823015873015873,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.854341736694678,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8888888888888888,
+      "macro_f1": 0.8852941176470588,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.854341736694678,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8888888888888888,
+      "macro_f1": 0.8854166666666667,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8888888888888888,
+      "macro_f1": 0.8854166666666667,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8263888888888888,
+      "macro_f1": 0.826984126984127,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8576388888888888,
+      "macro_f1": 0.8561274509803921,
+      "method": "simpleshot_cl2n",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8020833333333333,
+      "macro_f1": 0.7933027756557168,
+      "method": "logreg_rfs",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8229166666666666,
+      "macro_f1": 0.8192426768278163,
+      "method": "fusion_proto_local",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8416666666666666,
+      "macro_f1": 0.8420718462823726,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8194444444444444,
+      "macro_f1": 0.8199005535228446,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.8181818181818182
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7722222222222223,
+      "macro_f1": 0.7780952380952382,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7972222222222223,
+      "macro_f1": 0.7720743034055728,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.7954545454545454
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.714804567413263,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7555555555555555,
+      "macro_f1": 0.7451947175631386,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.638888888888889,
+      "macro_f1": 0.6213484724993676,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.6363636363636364
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.638888888888889,
+      "macro_f1": 0.6213484724993676,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.6363636363636364
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7333333333333333,
+      "macro_f1": 0.7203076923076923,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.7272727272727273
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7196169772256729,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7230602006688963,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7722222222222223,
+      "macro_f1": 0.7543506493506493,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.888888888888889,
+      "macro_f1": 0.883235294117647,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.888888888888889,
+      "macro_f1": 0.883235294117647,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8444444444444444,
+      "macro_f1": 0.8272832722832723,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8861111111111111,
+      "macro_f1": 0.8897515848444641,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9124416433239964,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9305555555555556,
+      "macro_f1": 0.931470588235294,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9091375497567448,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9091375497567448,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9059442724458204,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8444444444444444,
+      "macro_f1": 0.8442995169082126,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8444444444444444,
+      "macro_f1": 0.8442995169082126,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8638888888888889,
+      "macro_f1": 0.8642940685045948,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8636363636363636
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8416666666666666,
+      "macro_f1": 0.8410455486542443,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8416666666666666,
+      "macro_f1": 0.8410455486542443,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8861111111111111,
+      "macro_f1": 0.8880952380952382,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9091375497567448,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9091375497567448,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9091375497567448,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9554179566563468,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9545454545454546
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9124416433239964,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9777089783281735,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9772727272727273
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.888888888888889,
+      "macro_f1": 0.886984126984127,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8666666666666666,
+      "macro_f1": 0.8661200237670826,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8636363636363636
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.888888888888889,
+      "macro_f1": 0.886984126984127,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9554179566563468,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.9545454545454546
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9777089783281735,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.9772727272727273
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9554179566563468,
+      "method": "simpleshot_cl2n",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9545454545454546
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "logreg_rfs",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9777089783281735,
+      "method": "fusion_proto_local",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9772727272727273
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6969696969696969,
+      "macro_f1": 0.6817917956656346,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6888888888888889
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6969696969696969,
+      "macro_f1": 0.6789373814041746,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6888888888888889
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6969696969696969,
+      "macro_f1": 0.6817917956656346,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6888888888888889
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5871212121212122,
+      "macro_f1": 0.5455518018018017,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.5777777777777777
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6098484848484849,
+      "macro_f1": 0.5742107653872359,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5852272727272727,
+      "macro_f1": 0.5436507936507937,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.5777777777777777
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5492424242424242,
+      "macro_f1": 0.5082757799476065,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.5555555555555556
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5265151515151515,
+      "macro_f1": 0.4791666666666667,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.5333333333333333
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5132575757575758,
+      "macro_f1": 0.5076354679802956,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.5111111111111111
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6704545454545454,
+      "macro_f1": 0.6699604743083004,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6704545454545454,
+      "macro_f1": 0.6699604743083004,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6401515151515151,
+      "macro_f1": 0.61875,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.6444444444444445
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.571969696969697,
+      "macro_f1": 0.5104166666666666,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.5777777777777777
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.571969696969697,
+      "macro_f1": 0.5104166666666666,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.5777777777777777
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5738636363636364,
+      "macro_f1": 0.5426724137931035,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.5777777777777777
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6003787878787878,
+      "macro_f1": 0.5656354515050167,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5587121212121212,
+      "macro_f1": 0.5251562163326869,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.5555555555555556
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6022727272727273,
+      "macro_f1": 0.5820625610948191,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5814393939393939,
+      "macro_f1": 0.5722133616870458,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.5777777777777777
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5606060606060606,
+      "macro_f1": 0.5527777777777778,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.5555555555555556
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6022727272727273,
+      "macro_f1": 0.592948717948718,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7518939393939394,
+      "macro_f1": 0.7490567817392945,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7083333333333334,
+      "macro_f1": 0.6880760368663594,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.7111111111111111
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7175324675324676,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8238636363636364,
+      "macro_f1": 0.8271861471861471,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.8222222222222222
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8049242424242424,
+      "macro_f1": 0.8030303030303031,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7537878787878788,
+      "macro_f1": 0.7587719298245614,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7840909090909091,
+      "macro_f1": 0.777056277056277,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.7777777777777778
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7386363636363636,
+      "macro_f1": 0.7321678321678322,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.7333333333333333
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7613636363636364,
+      "macro_f1": 0.7557471264367817,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7140151515151515,
+      "macro_f1": 0.7148148148148148,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.7111111111111111
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6704545454545454,
+      "macro_f1": 0.6695099818511796,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.759469696969697,
+      "macro_f1": 0.7584848484848485,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7821969696969697,
+      "macro_f1": 0.7757575757575758,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.7777777777777778
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7840909090909091,
+      "macro_f1": 0.7721739130434783,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.7777777777777778
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8049242424242424,
+      "macro_f1": 0.7957575757575758,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9109848484848485,
+      "macro_f1": 0.9115384615384615,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.9111111111111111
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8882575757575757,
+      "macro_f1": 0.8848794226368597,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.8888888888888888
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8882575757575757,
+      "macro_f1": 0.8848794226368597,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.8888888888888888
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7575757575757576,
+      "macro_f1": 0.7629370629370629,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7367424242424243,
+      "macro_f1": 0.7384834368530021,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.7333333333333333
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7556818181818181,
+      "macro_f1": 0.7607142857142857,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8674242424242424,
+      "macro_f1": 0.8708333333333333,
+      "method": "simpleshot_cl2n",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.8666666666666667
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8674242424242424,
+      "macro_f1": 0.8708333333333333,
+      "method": "logreg_rfs",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.8666666666666667
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8011363636363636,
+      "macro_f1": 0.8011363636363636,
+      "method": "fusion_proto_local",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5969983719983719,
+      "macro_f1": 0.6150897395995435,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.5483870967741935
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6226393976393977,
+      "macro_f1": 0.6332655888442333,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.5806451612903226
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.44215506715506714,
+      "macro_f1": 0.4933076225045372,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.43548387096774194
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6123626373626373,
+      "macro_f1": 0.5580409356725146,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.5645161290322581
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5625050875050875,
+      "macro_f1": 0.502813710323338,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.5161290322580645
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6047822547822548,
+      "macro_f1": 0.5966209244640617,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.5806451612903226
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.47123524623524626,
+      "macro_f1": 0.4570705834353325,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.4032258064516129
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4851241351241351,
+      "macro_f1": 0.4667464114832536,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.41935483870967744
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3542022792022792,
+      "macro_f1": 0.33524356467904853,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.3225806451612903
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5602360602360602,
+      "macro_f1": 0.5642965367965368,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5580993080993081,
+      "macro_f1": 0.5490033752964788,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5004578754578755,
+      "macro_f1": 0.5152732572087411,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.4838709677419355
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3992877492877493,
+      "macro_f1": 0.2829405162738496,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.3064516129032258
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.41595441595441596,
+      "macro_f1": 0.2765742194313623,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.3225806451612903
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3710826210826211,
+      "macro_f1": 0.3490175371223758,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.3225806451612903
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.641035816035816,
+      "macro_f1": 0.6342814048696401,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.5967741935483871
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.641035816035816,
+      "macro_f1": 0.6322454844006568,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.5967741935483871
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6353581603581603,
+      "macro_f1": 0.6442952543336175,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.5967741935483871
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5702889702889703,
+      "macro_f1": 0.5326214526214527,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5395095645095646,
+      "macro_f1": 0.44341718652034084,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.45161290322580644
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6555555555555556,
+      "macro_f1": 0.6629645191409897,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5792633292633292,
+      "macro_f1": 0.5982431149097815,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.532258064516129
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6024114774114774,
+      "macro_f1": 0.607553891121666,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.5483870967741935
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6255596255596255,
+      "macro_f1": 0.6459627329192547,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.5806451612903226
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.596978021978022,
+      "macro_f1": 0.5871752768304492,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.5483870967741935
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5645706145706145,
+      "macro_f1": 0.5481309317360042,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.5161290322580645
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5545177045177045,
+      "macro_f1": 0.5512896825396826,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.532258064516129
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6086487586487587,
+      "macro_f1": 0.6083039561300431,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.5483870967741935
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6115791615791616,
+      "macro_f1": 0.5725511779741281,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.5483870967741935
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6131461131461132,
+      "macro_f1": 0.6184068631576585,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.5645161290322581
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6614061864061864,
+      "macro_f1": 0.6447550034506556,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6641839641839642,
+      "macro_f1": 0.6352147074610843,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6825702075702075,
+      "macro_f1": 0.686196813873765,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7164326414326414,
+      "macro_f1": 0.6851139601139602,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.6612903225806451
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6702787952787953,
+      "macro_f1": 0.6275534851621808,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6772792022792022,
+      "macro_f1": 0.679608585858586,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6942002442002441,
+      "macro_f1": 0.6792997020008514,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6477716727716728,
+      "macro_f1": 0.6328314017594378,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.5967741935483871
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6729039479039479,
+      "macro_f1": 0.6771759428409044,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.6290322580645161
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6493589743589744,
+      "macro_f1": 0.6291792357968828,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.5967741935483871
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6532051282051282,
+      "macro_f1": 0.6058745720510427,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.5967741935483871
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6512108262108262,
+      "macro_f1": 0.6603418803418803,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6919617419617419,
+      "macro_f1": 0.6952281643061253,
+      "method": "simpleshot_cl2n",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.6612903225806451
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7021469271469272,
+      "macro_f1": 0.6953286177424108,
+      "method": "logreg_rfs",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.6612903225806451
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6401098901098902,
+      "macro_f1": 0.6497404143843772,
+      "method": "fusion_proto_local",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.29393939393939394,
+      "macro_f1": 0.2938537324744221,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3287878787878788,
+      "macro_f1": 0.31138017662561845,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.3275862068965517
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.24545454545454545,
+      "macro_f1": 0.2185891756418072,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.2413793103448276
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.1696969696969697,
+      "macro_f1": 0.15333333333333335,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.1724137931034483
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.18787878787878787,
+      "macro_f1": 0.1693793103448276,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.1896551724137931
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.20454545454545453,
+      "macro_f1": 0.1881610219845514,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.20689655172413793
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.21818181818181817,
+      "macro_f1": 0.20352579086800687,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.22413793103448276
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2515151515151515,
+      "macro_f1": 0.2267080745341615,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.18484848484848487,
+      "macro_f1": 0.17696057347670252,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.1896551724137931
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.22424242424242427,
+      "macro_f1": 0.19887542715128922,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.22413793103448276
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.20909090909090908,
+      "macro_f1": 0.17756557618626584,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.20689655172413793
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.25606060606060604,
+      "macro_f1": 0.22998405103668262,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2727272727272727,
+      "macro_f1": 0.2672721098935021,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.27586206896551724
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2893939393939394,
+      "macro_f1": 0.2803004255003612,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2909090909090909,
+      "macro_f1": 0.28978499761108456,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.3242424242424243,
+      "macro_f1": 0.31505367697318165,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.3275862068965517
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.27424242424242423,
+      "macro_f1": 0.26417874396135266,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.27586206896551724
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.32575757575757575,
+      "macro_f1": 0.31838624338624333,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.3275862068965517
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.2893939393939394,
+      "macro_f1": 0.27595415337350826,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.2727272727272727,
+      "macro_f1": 0.2582907961603614,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.27586206896551724
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.29393939393939394,
+      "macro_f1": 0.2982711323763955,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.2545454545454545,
+      "macro_f1": 0.24986938349007315,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.2545454545454545,
+      "macro_f1": 0.2527173136461062,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.23787878787878788,
+      "macro_f1": 0.238592132505176,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.2413793103448276
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.29545454545454547,
+      "macro_f1": 0.3042292609351433,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.2590909090909091,
+      "macro_f1": 0.26914285714285713,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.2924242424242424,
+      "macro_f1": 0.3069747899159664,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.20757575757575758,
+      "macro_f1": 0.20122329283619605,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.20689655172413793
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.15606060606060607,
+      "macro_f1": 0.12,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.15517241379310345
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.19242424242424244,
+      "macro_f1": 0.1737124183006536,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.1896551724137931
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2393939393939394,
+      "macro_f1": 0.23871652690401207,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.2413793103448276
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2545454545454545,
+      "macro_f1": 0.24897243107769423,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2393939393939394,
+      "macro_f1": 0.2406424493381015,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.2413793103448276
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2727272727272727,
+      "macro_f1": 0.260710875331565,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.27586206896551724
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2893939393939394,
+      "macro_f1": 0.25594514570671656,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.3090909090909091,
+      "macro_f1": 0.31002683178534574,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.3103448275862069
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.29545454545454547,
+      "macro_f1": 0.2806056009428441,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.29310344827586204
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2621212121212121,
+      "macro_f1": 0.2474637303197141,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2636363636363636,
+      "macro_f1": 0.24486274509803924,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.3106060606060606,
+      "macro_f1": 0.29401907952906137,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.3103448275862069
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.34545454545454546,
+      "macro_f1": 0.3390246354952237,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.3448275862068966
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.3772727272727273,
+      "macro_f1": 0.3806013631554342,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.3793103448275862
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2363636363636364,
+      "macro_f1": 0.23249299719887953,
+      "method": "simpleshot_cl2n",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.2413793103448276
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.22272727272727272,
+      "macro_f1": 0.2044889250152408,
+      "method": "logreg_rfs",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.22413793103448276
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.2393939393939394,
+      "macro_f1": 0.24397807818779685,
+      "method": "fusion_proto_local",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.2413793103448276
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9527777777777778,
+      "macro_f1": 0.9499019607843138,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9527777777777778,
+      "macro_f1": 0.9499019607843138,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8178571428571428,
+      "macro_f1": 0.8359413919413919,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.8292682926829268
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9464285714285714,
+      "macro_f1": 0.9475689223057644,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9464285714285714,
+      "macro_f1": 0.9475689223057644,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.8955128205128207,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9024390243902439
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8761904761904763,
+      "macro_f1": 0.8717408906882591,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.8780487804878049
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8761904761904763,
+      "macro_f1": 0.8717408906882591,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.8780487804878049
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9019841269841269,
+      "macro_f1": 0.9044089862665714,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.9024390243902439
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8825396825396826,
+      "macro_f1": 0.87985347985348,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.8780487804878049
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8825396825396826,
+      "macro_f1": 0.87985347985348,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.8780487804878049
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8861111111111111,
+      "macro_f1": 0.8768922305764411,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.8780487804878049
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7968253968253969,
+      "macro_f1": 0.7961904761904762,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.8048780487804879
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.819047619047619,
+      "macro_f1": 0.8191304347826087,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.8292682926829268
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7523809523809524,
+      "macro_f1": 0.7430769230769231,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.7560975609756098
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9464285714285714,
+      "macro_f1": 0.9464285714285714,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9527777777777778,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9764705882352942,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9244444444444445,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.926829268292683
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9464285714285714,
+      "macro_f1": 0.9475689223057644,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9764705882352942,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9764705882352942,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9284210526315789,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.926829268292683
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9464285714285714,
+      "macro_f1": 0.9475689223057644,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "simpleshot_cl2n",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "logreg_rfs",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9764705882352942,
+      "method": "fusion_proto_local",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.3817460317460318,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.3720588235294118,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.3817460317460318,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.55,
+      "macro_f1": 0.5071428571428572,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.55
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.55,
+      "macro_f1": 0.5071428571428572,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.55
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.40101010101010104,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.41491228070175445,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.41491228070175445,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4458874458874459,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.39166666666666666,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.39166666666666666,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.5284090909090908,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.43717948717948724,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.43717948717948724,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.37878787878787873,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.36195054945054944,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.36195054945054944,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.55,
+      "macro_f1": 0.4844155844155844,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.55
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.28431372549019607,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.40064102564102566,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.55,
+      "macro_f1": 0.4833333333333334,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.55
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.4160714285714286,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.46590909090909094,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.45,
+      "macro_f1": 0.3869047619047619,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.45
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.44264705882352945,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.55,
+      "macro_f1": 0.4772727272727273,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.55
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.55,
+      "macro_f1": 0.4916666666666667,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.55
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7,
+      "macro_f1": 0.6893315018315018,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.65,
+      "macro_f1": 0.6160714285714286,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.65
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5089743589743589,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5851648351648352,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42445054945054944,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42658730158730157,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5851648351648352,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42445054945054944,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42658730158730157,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5851648351648352,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42445054945054944,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42658730158730157,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5851648351648352,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42445054945054944,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42658730158730157,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5851648351648352,
+      "method": "simpleshot_cl2n",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42445054945054944,
+      "method": "logreg_rfs",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.42658730158730157,
+      "method": "fusion_proto_local",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6595238095238095,
+      "macro_f1": 0.6393939393939394,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6595238095238095,
+      "macro_f1": 0.6393939393939394,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7095238095238094,
+      "macro_f1": 0.6757575757575758,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6678571428571428,
+      "macro_f1": 0.6258971291866029,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6678571428571428,
+      "macro_f1": 0.6258971291866029,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6428571428571428,
+      "macro_f1": 0.5943181818181817,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5202380952380953,
+      "macro_f1": 0.4701825951825952,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.48
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5202380952380953,
+      "macro_f1": 0.4701825951825952,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.48
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5678571428571428,
+      "macro_f1": 0.49038461538461536,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.48
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6928571428571428,
+      "macro_f1": 0.7003367003367004,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6928571428571428,
+      "macro_f1": 0.7003367003367004,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6428571428571428,
+      "macro_f1": 0.6103896103896104,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7928571428571429,
+      "macro_f1": 0.7733585858585859,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7678571428571428,
+      "macro_f1": 0.7373737373737373,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6928571428571428,
+      "macro_f1": 0.6788419913419913,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7928571428571429,
+      "macro_f1": 0.7733585858585859,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7928571428571429,
+      "macro_f1": 0.7733585858585859,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6928571428571428,
+      "macro_f1": 0.6564935064935065,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7678571428571428,
+      "macro_f1": 0.7373737373737373,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8392857142857143,
+      "macro_f1": 0.8038686459739091,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7178571428571429,
+      "macro_f1": 0.6950757575757576,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8892857142857142,
+      "macro_f1": 0.8587301587301587,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8139705882352941,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.8890977443609023,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8785714285714286,
+      "macro_f1": 0.8979468599033816,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8785714285714286,
+      "macro_f1": 0.8979468599033816,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8785714285714286,
+      "macro_f1": 0.8979468599033816,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8055290297937356,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8892857142857142,
+      "macro_f1": 0.8462301587301586,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8892857142857142,
+      "macro_f1": 0.8462301587301586,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8428571428571429,
+      "macro_f1": 0.8138528138528138,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8785714285714286,
+      "macro_f1": 0.8458333333333333,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7928571428571429,
+      "macro_f1": 0.7733585858585859,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8178571428571428,
+      "macro_f1": 0.8139782922391618,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8535714285714286,
+      "macro_f1": 0.8493867243867244,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8178571428571428,
+      "macro_f1": 0.8139782922391618,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.925,
+      "macro_f1": 0.8767156862745098,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.95,
+      "macro_f1": 0.9198412698412699,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.95,
+      "macro_f1": 0.9198412698412699,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8785714285714286,
+      "macro_f1": 0.8458333333333333,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.8787955465587044,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8535714285714285,
+      "macro_f1": 0.8092105263157894,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8428571428571429,
+      "macro_f1": 0.8097943722943723,
+      "method": "simpleshot_cl2n",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8428571428571429,
+      "macro_f1": 0.8097943722943723,
+      "method": "logreg_rfs",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7928571428571429,
+      "macro_f1": 0.7733585858585859,
+      "method": "fusion_proto_local",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5185185185185185,
+      "macro_f1": 0.4782149223325694,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5393518518518519,
+      "macro_f1": 0.510675073718552,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.54
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5069444444444444,
+      "macro_f1": 0.42943469785575056,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5740740740740741,
+      "macro_f1": 0.5770814066008574,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.58
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6736111111111112,
+      "macro_f1": 0.6710060407428827,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5416666666666666,
+      "macro_f1": 0.5233203175126949,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.54
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5185185185185185,
+      "macro_f1": 0.4850995953937131,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5185185185185185,
+      "macro_f1": 0.4797008547008547,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5185185185185185,
+      "macro_f1": 0.4977357609710551,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5532407407407408,
+      "macro_f1": 0.5463337831758884,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5324074074074074,
+      "macro_f1": 0.51931294635113,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.54
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.49074074074074076,
+      "macro_f1": 0.5058124881654293,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5347222222222222,
+      "macro_f1": 0.5115740740740741,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.54
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.513888888888889,
+      "macro_f1": 0.48964738964738963,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5138888888888888,
+      "macro_f1": 0.49906333919491813,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7199074074074074,
+      "macro_f1": 0.710085844954266,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7013888888888888,
+      "macro_f1": 0.6903181155503137,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7199074074074074,
+      "macro_f1": 0.7164907460960093,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6944444444444445,
+      "macro_f1": 0.6868739376092318,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6550925925925926,
+      "macro_f1": 0.6225416184549312,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6574074074074074,
+      "macro_f1": 0.6531590413943354,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6805555555555555,
+      "macro_f1": 0.6812675070028011,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6597222222222222,
+      "macro_f1": 0.6537419938735728,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6435185185185185,
+      "macro_f1": 0.6415849673202615,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6620370370370371,
+      "macro_f1": 0.6565818140121545,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6018518518518519,
+      "macro_f1": 0.5720760233918128,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5995370370370371,
+      "macro_f1": 0.6098258466679519,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7430555555555555,
+      "macro_f1": 0.724899226447214,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.74
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7199074074074074,
+      "macro_f1": 0.6975742981934933,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7013888888888888,
+      "macro_f1": 0.712453314659197,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8009259259259259,
+      "macro_f1": 0.8014108139882135,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7152777777777778,
+      "macro_f1": 0.6961692719045661,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8009259259259259,
+      "macro_f1": 0.8018557422969188,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7175925925925926,
+      "macro_f1": 0.7110955493308434,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7384259259259259,
+      "macro_f1": 0.7223227752639518,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.74
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7013888888888888,
+      "macro_f1": 0.6951692957884908,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7430555555555555,
+      "macro_f1": 0.7422672285288384,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.74
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7592592592592592,
+      "macro_f1": 0.7491096866096867,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6643518518518519,
+      "macro_f1": 0.6621226268285092,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7615740740740741,
+      "macro_f1": 0.751393078598961,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7013888888888888,
+      "macro_f1": 0.6878862150920974,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7361111111111112,
+      "macro_f1": 0.7406318082788671,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.74
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7222222222222222,
+      "macro_f1": 0.714356041561924,
+      "method": "simpleshot_cl2n",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6967592592592592,
+      "macro_f1": 0.6605910200337445,
+      "method": "logreg_rfs",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8009259259259259,
+      "macro_f1": 0.8024423804609563,
+      "method": "fusion_proto_local",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    }
+  ],
+  "schema_version": "revision_c2_frozen_feature_baselines_v1",
+  "within_feature_contrasts": {
+    "logreg_rfs_minus_fusion_proto_local": {
+      "balanced_accuracy": {
+        "Dbar": 0.01601761652402678,
+        "Dbar_ci95": [
+          0.004769272275682533,
+          0.02813355780022446
+        ],
+        "Dbar_ci_excludes_zero": true,
+        "Dbar_per_product_mean_difference": {
+          "bottle": 0.051919191919191914,
+          "capsule": 0.016242424242424242,
+          "carpet": 0.057962962962962966,
+          "grid": 0.029333333333333333,
+          "hazelnut": 0.004861111111111102,
+          "leather": -0.019444444444444473,
+          "metal_nut": -0.006313131313131315,
+          "pill": 0.017341609008275694,
+          "screw": -0.006363636363636369,
+          "tile": 0.02031746031746034,
+          "transistor": 0.0033333333333333327,
+          "wood": 0.030396825396825415,
+          "zipper": 0.008641975308641973
+        },
+        "Dbar_positive_products": 10,
+        "per_K": {
+          "1": {
+            "D": 0.02338742169511401,
+            "ci95": [
+              0.009229585229585245,
+              0.03852525394833089
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.01696969696969698,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.0721212121212121,
+              "capsule": -0.007272727272727275,
+              "carpet": 0.004444444444444462,
+              "grid": 0.031999999999999994,
+              "hazelnut": -0.01111111111111116,
+              "leather": -0.00611111111111109,
+              "metal_nut": 0.013257575757575756,
+              "pill": 0.07432844932844934,
+              "screw": 0.01696969696969698,
+              "tile": 0.0437301587301588,
+              "transistor": 0.020000000000000007,
+              "wood": 0.010476190476190505,
+              "zipper": 0.041203703703703756
+            },
+            "per_seed_macro_difference": {
+              "111": 0.02890611880996497,
+              "222": 0.01587003808157655,
+              "333": 0.012661932085009021,
+              "444": 0.017678073351150278,
+              "555": 0.04182094614786924
+            },
+            "positive_products": 10,
+            "positive_seeds": 5
+          },
+          "3": {
+            "D": 0.013007004391619772,
+            "ci95": [
+              -0.0036003953311645642,
+              0.032029592914208295
+            ],
+            "ci_excludes_zero": false,
+            "median_product_difference": 0.01599999999999997,
+            "negative_products": 5,
+            "per_product_mean_difference": {
+              "bottle": 0.055151515151515174,
+              "capsule": 0.030545454545454508,
+              "carpet": 0.09055555555555554,
+              "grid": 0.01599999999999997,
+              "hazelnut": 0.01805555555555558,
+              "leather": -0.016666666666666698,
+              "metal_nut": -0.019696969696969702,
+              "pill": -0.025006105006105006,
+              "screw": -0.025151515151515164,
+              "tile": 0.017777777777777802,
+              "transistor": -0.010000000000000009,
+              "wood": 0.03428571428571432,
+              "zipper": 0.003240740740740722
+            },
+            "per_seed_macro_difference": {
+              "111": 0.01441433922203152,
+              "222": -0.0028838149030456827,
+              "333": 0.012353341103341112,
+              "444": 0.016265216265216247,
+              "555": 0.024885940270555667
+            },
+            "positive_products": 8,
+            "positive_seeds": 4
+          },
+          "5": {
+            "D": 0.011658423485346557,
+            "ci95": [
+              -0.0039193214193214395,
+              0.028558432308432306
+            ],
+            "ci_excludes_zero": false,
+            "median_product_difference": 0.0027024827024827447,
+            "negative_products": 5,
+            "per_product_mean_difference": {
+              "bottle": 0.028484848484848467,
+              "capsule": 0.025454545454545497,
+              "carpet": 0.07888888888888887,
+              "grid": 0.040000000000000036,
+              "hazelnut": 0.007638888888888884,
+              "leather": -0.03555555555555563,
+              "metal_nut": -0.0125,
+              "pill": 0.0027024827024827447,
+              "screw": -0.010909090909090924,
+              "tile": -0.0005555555555555758,
+              "transistor": 0.0,
+              "wood": 0.046428571428571416,
+              "zipper": -0.018518518518518556
+            },
+            "per_seed_macro_difference": {
+              "111": -0.0013024013024013198,
+              "222": 0.014186550628858345,
+              "333": 0.019633052133052102,
+              "444": 0.024920862613170315,
+              "555": 0.0008540533540533443
+            },
+            "positive_products": 7,
+            "positive_seeds": 4
+          }
+        }
+      },
+      "macro_f1": {
+        "Dbar": 0.009909768481153885,
+        "Dbar_ci95": [
+          -0.003857171488148828,
+          0.02512156805136297
+        ],
+        "Dbar_ci_excludes_zero": false,
+        "Dbar_per_product_mean_difference": {
+          "bottle": 0.05359483697465843,
+          "capsule": 0.004777350107580775,
+          "carpet": 0.0633208309762471,
+          "grid": 0.031902446137740244,
+          "hazelnut": 3.380454541443238e-05,
+          "leather": -0.02145958854912955,
+          "metal_nut": -0.010183704122083451,
+          "pill": -0.022422722270790785,
+          "screw": -0.015597990805565282,
+          "tile": 0.020696140760671663,
+          "transistor": -0.003800938483600998,
+          "wood": 0.03252846164801566,
+          "zipper": -0.004561936664157736
+        },
+        "Dbar_positive_products": 7,
+        "per_K": {
+          "1": {
+            "D": 0.017033126567643667,
+            "ci95": [
+              0.004067786120666131,
+              0.031905715374744174
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.012370748688081263,
+            "negative_products": 4,
+            "per_product_mean_difference": {
+              "bottle": 0.07985811000632537,
+              "capsule": -0.0027481685406805013,
+              "carpet": 0.010043129265702989,
+              "grid": 0.015588568294450633,
+              "hazelnut": -0.02012176884003507,
+              "leather": -0.012576496275594406,
+              "metal_nut": 0.0036382966686433595,
+              "pill": 0.027788079879980342,
+              "screw": 0.012370748688081263,
+              "tile": 0.04247266720805556,
+              "transistor": -0.002576086624074181,
+              "wood": 0.02469842535632013,
+              "zipper": 0.042995140292192216
+            },
+            "per_seed_macro_difference": {
+              "111": 0.021411761555971458,
+              "222": 0.012604527234796475,
+              "333": -0.00019912762309248126,
+              "444": 0.01613146407188582,
+              "555": 0.03521700759865708
+            },
+            "positive_products": 9,
+            "positive_seeds": 4
+          },
+          "3": {
+            "D": 0.007354704675071534,
+            "ci95": [
+              -0.01364622250339948,
+              0.029793529871136877
+            ],
+            "ci_excludes_zero": false,
+            "median_product_difference": 0.0062769332217580635,
+            "negative_products": 6,
+            "per_product_mean_difference": {
+              "bottle": 0.056393182133522554,
+              "capsule": 0.0062769332217580635,
+              "carpet": 0.09742021079156074,
+              "grid": 0.03444488844488841,
+              "hazelnut": 0.012741314069487397,
+              "leather": -0.01657598172754988,
+              "metal_nut": -0.021170927332477652,
+              "pill": -0.06380407606768138,
+              "screw": -0.03432140111475149,
+              "tile": 0.020243206054351592,
+              "transistor": -0.0066899766899766845,
+              "wood": 0.030106162327524544,
+              "zipper": -0.01945237333472627
+            },
+            "per_seed_macro_difference": {
+              "111": 0.009451902905586998,
+              "222": -0.021813808787881268,
+              "333": 0.01573392083400476,
+              "444": 0.01046871322746352,
+              "555": 0.022932795196183662
+            },
+            "positive_products": 7,
+            "positive_seeds": 4
+          },
+          "5": {
+            "D": 0.005341474200746451,
+            "ci95": [
+              -0.012349681598356924,
+              0.024827366995127394
+            ],
+            "ci_excludes_zero": false,
+            "median_product_difference": -0.0006274509803921635,
+            "negative_products": 7,
+            "per_product_mean_difference": {
+              "bottle": 0.024533218784127377,
+              "capsule": 0.010803285641664762,
+              "carpet": 0.08249915287147758,
+              "grid": 0.045673881673881686,
+              "hazelnut": 0.00748186840679097,
+              "leather": -0.03522628764424436,
+              "metal_nut": -0.013018481702416063,
+              "pill": -0.03125217062467132,
+              "screw": -0.02484331999002562,
+              "tile": -0.0006274509803921635,
+              "transistor": -0.002136752136752129,
+              "wood": 0.0427807972602023,
+              "zipper": -0.037228576949939154
+            },
+            "per_seed_macro_difference": {
+              "111": -0.008625889666364907,
+              "222": 0.00584583565262603,
+              "333": 0.015212071901014246,
+              "444": 0.019281684753738718,
+              "555": -0.005006331637281828
+            },
+            "positive_products": 6,
+            "positive_seeds": 3
+          }
+        }
+      },
+      "top1_accuracy": {
+        "Dbar": 0.014081823051409308,
+        "Dbar_ci95": [
+          0.0022675172628098482,
+          0.027176456675520134
+        ],
+        "Dbar_ci_excludes_zero": true,
+        "Dbar_per_product_mean_difference": {
+          "bottle": 0.049462365591397835,
+          "capsule": 0.013836477987421384,
+          "carpet": 0.06349206349206349,
+          "grid": 0.029333333333333333,
+          "hazelnut": 0.003921568627450974,
+          "leather": -0.019696969696969702,
+          "metal_nut": -0.007407407407407403,
+          "pill": -0.008602150537634416,
+          "screw": -0.005747126436781604,
+          "tile": 0.021138211382113803,
+          "transistor": 0.0033333333333333327,
+          "wood": 0.02933333333333331,
+          "zipper": 0.010666666666666661
+        },
+        "Dbar_positive_products": 9,
+        "per_K": {
+          "1": {
+            "D": 0.021678542331352947,
+            "ci95": [
+              0.009712198875249626,
+              0.03437863316856234
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.017241379310344824,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.07096774193548386,
+              "capsule": -0.007547169811320753,
+              "carpet": 0.009523809523809535,
+              "grid": 0.031999999999999994,
+              "hazelnut": -0.011764705882352944,
+              "leather": -0.004545454545454542,
+              "metal_nut": 0.01333333333333333,
+              "pill": 0.03870967741935484,
+              "screw": 0.017241379310344824,
+              "tile": 0.043902439024390214,
+              "transistor": 0.020000000000000007,
+              "wood": 0.01599999999999995,
+              "zipper": 0.04400000000000002
+            },
+            "per_seed_macro_difference": {
+              "111": 0.02762397344506826,
+              "222": 0.0155967868874729,
+              "333": 0.015457099033434075,
+              "444": 0.012701366160123507,
+              "555": 0.037013486130666
+            },
+            "positive_products": 10,
+            "positive_seeds": 5
+          },
+          "3": {
+            "D": 0.009866959391128869,
+            "ci95": [
+              -0.008791416613841387,
+              0.03038061396995389
+            ],
+            "ci_excludes_zero": false,
+            "median_product_difference": 0.015999999999999993,
+            "negative_products": 5,
+            "per_product_mean_difference": {
+              "bottle": 0.05161290322580643,
+              "capsule": 0.026415094339622646,
+              "carpet": 0.09523809523809523,
+              "grid": 0.015999999999999993,
+              "hazelnut": 0.017647058823529394,
+              "leather": -0.018181818181818167,
+              "metal_nut": -0.02222222222222219,
+              "pill": -0.051612903225806486,
+              "screw": -0.02413793103448274,
+              "tile": 0.019512195121951192,
+              "transistor": -0.010000000000000009,
+              "wood": 0.024,
+              "zipper": 0.0040000000000000036
+            },
+            "per_seed_macro_difference": {
+              "111": 0.011809187199490137,
+              "222": -0.009517138146158434,
+              "333": 0.009449650361508754,
+              "444": 0.012897102099913226,
+              "555": 0.024695995440890663
+            },
+            "positive_products": 8,
+            "positive_seeds": 4
+          },
+          "5": {
+            "D": 0.010699967431746105,
+            "ci95": [
+              -0.005204645166171058,
+              0.02873972346558361
+            ],
+            "ci_excludes_zero": false,
+            "median_product_difference": 0.0,
+            "negative_products": 5,
+            "per_product_mean_difference": {
+              "bottle": 0.025806451612903226,
+              "capsule": 0.02264150943396226,
+              "carpet": 0.0857142857142857,
+              "grid": 0.040000000000000015,
+              "hazelnut": 0.005882352941176472,
+              "leather": -0.0363636363636364,
+              "metal_nut": -0.013333333333333353,
+              "pill": -0.0129032258064516,
+              "screw": -0.010344827586206895,
+              "tile": 0.0,
+              "transistor": 0.0,
+              "wood": 0.04799999999999997,
+              "zipper": -0.016000000000000035
+            },
+            "per_seed_macro_difference": {
+              "111": -0.0022260392370849437,
+              "222": 0.013096321102414689,
+              "333": 0.0198453981186429,
+              "444": 0.023552329004730786,
+              "555": -0.0007681718299729057
+            },
+            "positive_products": 6,
+            "positive_seeds": 3
+          }
+        }
+      }
+    },
+    "simpleshot_cl2n_minus_fusion_proto_local": {
+      "balanced_accuracy": {
+        "Dbar": 0.024179289371597062,
+        "Dbar_ci95": [
+          0.013887007579315276,
+          0.03437072756303527
+        ],
+        "Dbar_ci_excludes_zero": true,
+        "Dbar_per_product_mean_difference": {
+          "bottle": 0.049494949494949494,
+          "capsule": 0.03927272727272727,
+          "carpet": 0.05574074074074074,
+          "grid": 0.048,
+          "hazelnut": 0.014814814814814814,
+          "leather": -0.009074074074074108,
+          "metal_nut": 0.010732323232323234,
+          "pill": 0.024586894586894573,
+          "screw": -0.003232323232323227,
+          "tile": 0.015687830687830705,
+          "transistor": 0.026666666666666655,
+          "wood": 0.018492063492063514,
+          "zipper": 0.023148148148148143
+        },
+        "Dbar_positive_products": 11,
+        "per_K": {
+          "1": {
+            "D": 0.022491121414198345,
+            "ci95": [
+              0.009025327948404865,
+              0.038637345560422476
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.015476190476190532,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.08424242424242423,
+              "capsule": -1.1102230246251566e-17,
+              "carpet": 0.0011111111111111183,
+              "grid": 0.024,
+              "hazelnut": -0.01111111111111116,
+              "leather": 0.007777777777777795,
+              "metal_nut": 0.013257575757575756,
+              "pill": 0.07348799348799347,
+              "screw": -0.0006060606060605989,
+              "tile": 0.03928571428571437,
+              "transistor": 0.020000000000000007,
+              "wood": 0.015476190476190532,
+              "zipper": 0.025462962962962986
+            },
+            "per_seed_macro_difference": {
+              "111": 0.023206070994532528,
+              "222": 0.01524978226901304,
+              "333": 0.014336368759445698,
+              "444": 0.02200910556679788,
+              "555": 0.03765427948120258
+            },
+            "positive_products": 10,
+            "positive_seeds": 5
+          },
+          "3": {
+            "D": 0.020586068489914643,
+            "ci95": [
+              0.0031077967616429127,
+              0.03796451696451697
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.020000000000000018,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.03575757575757579,
+              "capsule": 0.07418181818181815,
+              "carpet": 0.07222222222222223,
+              "grid": 0.039999999999999994,
+              "hazelnut": 0.029861111111111137,
+              "leather": -0.021666666666666702,
+              "metal_nut": 0.01439393939393938,
+              "pill": -0.01758445258445258,
+              "screw": 0.005757575757575767,
+              "tile": 0.019047619047619046,
+              "transistor": -0.04000000000000002,
+              "wood": 0.020000000000000018,
+              "zipper": 0.03564814814814814
+            },
+            "per_seed_macro_difference": {
+              "111": 0.01701988182757414,
+              "222": 0.0036694608809993466,
+              "333": 0.00967042217042216,
+              "444": 0.02502997002997002,
+              "555": 0.04754060754060755
+            },
+            "positive_products": 10,
+            "positive_seeds": 5
+          },
+          "5": {
+            "D": 0.029460678210678198,
+            "ci95": [
+              0.010084360084360058,
+              0.05042540792540795
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.019999999999999997,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.028484848484848467,
+              "capsule": 0.04363636363636368,
+              "carpet": 0.09388888888888887,
+              "grid": 0.08,
+              "hazelnut": 0.025694444444444464,
+              "leather": -0.01333333333333342,
+              "metal_nut": 0.0045454545454545634,
+              "pill": 0.01785714285714284,
+              "screw": -0.01484848484848485,
+              "tile": -0.011269841269841296,
+              "transistor": 0.09999999999999998,
+              "wood": 0.019999999999999997,
+              "zipper": 0.008333333333333304
+            },
+            "per_seed_macro_difference": {
+              "111": 0.021797600547600535,
+              "222": 0.02888250638250639,
+              "333": 0.03388500388500386,
+              "444": 0.04098484848484848,
+              "555": 0.02175343175343173
+            },
+            "positive_products": 10,
+            "positive_seeds": 5
+          }
+        }
+      },
+      "macro_f1": {
+        "Dbar": 0.023527005198412502,
+        "Dbar_ci95": [
+          0.011466474326285465,
+          0.03596642784708492
+        ],
+        "Dbar_ci_excludes_zero": true,
+        "Dbar_per_product_mean_difference": {
+          "bottle": 0.05127172588668756,
+          "capsule": 0.03665331975870704,
+          "carpet": 0.06345639917407132,
+          "grid": 0.05312727359786182,
+          "hazelnut": 0.010085601303867545,
+          "leather": -0.010621847213474634,
+          "metal_nut": 0.009366001052528723,
+          "pill": 0.0004129324958759247,
+          "screw": -0.005986184170997501,
+          "tile": 0.015809511712917296,
+          "transistor": 0.04191426679042782,
+          "wood": 0.02119990384954267,
+          "zipper": 0.019162163341346978
+        },
+        "Dbar_positive_products": 11,
+        "per_K": {
+          "1": {
+            "D": 0.019829115678402953,
+            "ci95": [
+              0.007234780992857877,
+              0.03538712471044513
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.013891089302853987,
+            "negative_products": 2,
+            "per_product_mean_difference": {
+              "bottle": 0.09135118881123212,
+              "capsule": 0.012156418832879812,
+              "carpet": 0.014555758057171431,
+              "grid": 0.013891089302853987,
+              "hazelnut": -0.01909828252243111,
+              "leather": 0.0026230647861284597,
+              "metal_nut": 0.004299209460036502,
+              "pill": 0.037595081159802535,
+              "screw": 0.002676114793945067,
+              "tile": 0.03788467548962906,
+              "transistor": -0.0006386449807501803,
+              "wood": 0.03189539505328983,
+              "zipper": 0.02858743557545087
+            },
+            "per_seed_macro_difference": {
+              "111": 0.02177137378675635,
+              "222": 0.014452704026466355,
+              "333": 0.006659559782967062,
+              "444": 0.02282954762281884,
+              "555": 0.033432393173006156
+            },
+            "positive_products": 11,
+            "positive_seeds": 5
+          },
+          "3": {
+            "D": 0.019320155667572305,
+            "ci95": [
+              0.0012918405979098974,
+              0.03693351558342959
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.02065752616836212,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.037930770064703176,
+              "capsule": 0.05400362163126917,
+              "carpet": 0.07910670882561568,
+              "grid": 0.059402819402819385,
+              "hazelnut": 0.02407602339181285,
+              "leather": -0.021113993423456323,
+              "metal_nut": 0.01681704326728668,
+              "pill": -0.03245876934596725,
+              "screw": 0.002078610224733518,
+              "tile": 0.02065752616836212,
+              "transistor": -0.0321960882255,
+              "wood": 0.01761886891917852,
+              "zipper": 0.02523888277758246
+            },
+            "per_seed_macro_difference": {
+              "111": 0.016161633407840735,
+              "222": -0.008172842715880322,
+              "333": 0.016589336559211975,
+              "444": 0.02272116025479844,
+              "555": 0.04930149083189071
+            },
+            "positive_products": 10,
+            "positive_seeds": 4
+          },
+          "5": {
+            "D": 0.031431744249262254,
+            "ci95": [
+              0.006908697931127661,
+              0.0603921736788589
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.014085447576159659,
+            "negative_products": 4,
+            "per_product_mean_difference": {
+              "bottle": 0.024533218784127377,
+              "capsule": 0.04379991881197215,
+              "carpet": 0.09670673063942685,
+              "grid": 0.08608791208791208,
+              "hazelnut": 0.025279063042220894,
+              "leather": -0.013374613003096036,
+              "metal_nut": 0.006981750430262989,
+              "pill": -0.0038975143262075075,
+              "screw": -0.02271327753167109,
+              "tile": -0.011113666519239285,
+              "transistor": 0.15857753357753362,
+              "wood": 0.014085447576159659,
+              "zipper": 0.003660171671007606
+            },
+            "per_seed_macro_difference": {
+              "111": 0.022830001570939087,
+              "222": 0.02987008754370964,
+              "333": 0.03635774156347605,
+              "444": 0.043439243376373456,
+              "555": 0.024661647191813053
+            },
+            "positive_products": 9,
+            "positive_seeds": 5
+          }
+        }
+      },
+      "top1_accuracy": {
+        "Dbar": 0.022313333562875178,
+        "Dbar_ci95": [
+          0.011520505101755115,
+          0.03340272888749055
+        ],
+        "Dbar_ci_excludes_zero": true,
+        "Dbar_per_product_mean_difference": {
+          "bottle": 0.047311827956989225,
+          "capsule": 0.037735849056603765,
+          "carpet": 0.06031746031746032,
+          "grid": 0.048,
+          "hazelnut": 0.013725490196078428,
+          "leather": -0.009090909090909084,
+          "metal_nut": 0.01037037037037037,
+          "pill": 0.0010752688172042852,
+          "screw": -0.0022988505747126445,
+          "tile": 0.016260162601626,
+          "transistor": 0.026666666666666655,
+          "wood": 0.015999999999999976,
+          "zipper": 0.024
+        },
+        "Dbar_positive_products": 11,
+        "per_K": {
+          "1": {
+            "D": 0.020753897712105694,
+            "ci95": [
+              0.00955331575445427,
+              0.034442840139142256
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.020000000000000007,
+            "negative_products": 1,
+            "per_product_mean_difference": {
+              "bottle": 0.08387096774193545,
+              "capsule": 0.0,
+              "carpet": 0.0047619047619047675,
+              "grid": 0.024,
+              "hazelnut": -0.011764705882352944,
+              "leather": 0.009090909090909084,
+              "metal_nut": 0.01333333333333333,
+              "pill": 0.03548387096774193,
+              "screw": 0.0,
+              "tile": 0.03902439024390243,
+              "transistor": 0.020000000000000007,
+              "wood": 0.023999999999999955,
+              "zipper": 0.028000000000000004
+            },
+            "per_seed_macro_difference": {
+              "111": 0.02145443293737424,
+              "222": 0.014948918002359273,
+              "333": 0.01682593142625538,
+              "444": 0.017017466455404025,
+              "555": 0.03352273973913555
+            },
+            "positive_products": 10,
+            "positive_seeds": 5
+          },
+          "3": {
+            "D": 0.017835657588679197,
+            "ci95": [
+              -0.001175855624701236,
+              0.03661894085035564
+            ],
+            "ci_excludes_zero": false,
+            "median_product_difference": 0.019512195121951192,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.032258064516129004,
+              "capsule": 0.07169811320754717,
+              "carpet": 0.07619047619047621,
+              "grid": 0.039999999999999994,
+              "hazelnut": 0.02941176470588234,
+              "leather": -0.022727272727272707,
+              "metal_nut": 0.01333333333333333,
+              "pill": -0.03870967741935487,
+              "screw": 0.0068965517241379335,
+              "tile": 0.019512195121951192,
+              "transistor": -0.04000000000000002,
+              "wood": 0.007999999999999985,
+              "zipper": 0.03600000000000001
+            },
+            "per_seed_macro_difference": {
+              "111": 0.015105456881261537,
+              "222": -0.0017882076377183386,
+              "333": 0.00847036918182954,
+              "444": 0.021584325595281173,
+              "555": 0.04580634392274207
+            },
+            "positive_products": 10,
+            "positive_seeds": 4
+          },
+          "5": {
+            "D": 0.028350445387840643,
+            "ci95": [
+              0.008571207969134534,
+              0.050217409385215774
+            ],
+            "ci_excludes_zero": true,
+            "median_product_difference": 0.015999999999999993,
+            "negative_products": 3,
+            "per_product_mean_difference": {
+              "bottle": 0.025806451612903226,
+              "capsule": 0.04150943396226414,
+              "carpet": 0.09999999999999998,
+              "grid": 0.08,
+              "hazelnut": 0.02352941176470589,
+              "leather": -0.013636363636363624,
+              "metal_nut": 0.0044444444444444505,
+              "pill": 0.0064516129032258,
+              "screw": -0.013793103448275867,
+              "tile": -0.009756097560975618,
+              "transistor": 0.09999999999999998,
+              "wood": 0.015999999999999993,
+              "zipper": 0.007999999999999985
+            },
+            "per_seed_macro_difference": {
+              "111": 0.020057685602420845,
+              "222": 0.027837777747068505,
+              "333": 0.03314426475436279,
+              "444": 0.03974207795310043,
+              "555": 0.020970420882250644
+            },
+            "positive_products": 10,
+            "positive_seeds": 5
+          }
+        }
+      }
+    }
+  }
+}

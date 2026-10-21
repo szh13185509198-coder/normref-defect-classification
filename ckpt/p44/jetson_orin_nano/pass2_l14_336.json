@@ -1,0 +1,44 @@
+{
+ "backbone": "l14_336",
+ "pass": 2,
+ "new_task_s": 11.763459034002153,
+ "e2e_from_pil": {
+  "median_ms": 90.77435750805307,
+  "p90_ms": 90.7953669957351,
+  "n": 100
+ },
+ "model_forward": {
+  "median_ms": 78.54036149365129,
+  "p90_ms": 79.36001299822237,
+  "n": 100
+ },
+ "precision": "torch.float32",
+ "pinv_on_cpu": true,
+ "torch": "2.8.0",
+ "machine": {
+  "os_release": "Ubuntu 22.04.5 LTS",
+  "cpu_model": "ARMv8 Processor rev 1 (v8l)",
+  "cgroup_cpu_max": null,
+  "cgroup_memory_max": null,
+  "host_mem_total": "7789892 kB",
+  "gpu": "Orin (nvgpu), [N/A], 540.5.0, [N/A], [N/A], [N/A], [N/A], [N/A]",
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "cuda_runtime": "12.6",
+  "cudnn": 90300,
+  "torch_threads": 6,
+  "cudnn_benchmark": false,
+  "tf32_matmul": false,
+  "tf32_cudnn": true
+ },
+ "telemetry": {
+  "source": "nvidia-smi",
+  "name": "Orin (nvgpu)",
+  "temp_c": "[N/A]",
+  "sm_mhz": "[N/A]",
+  "sm_max_mhz": "[N/A]",
+  "power_w": "[N/A]",
+  "mem_used_mib": "[N/A]",
+  "other_gpu_processes": 1
+ }
+}

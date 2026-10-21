@@ -1,0 +1,16 @@
+[DINOv2] Loaded from offline local torch.hub repo: D:\intergration\aaclip_optimize-main\third_party\dinov2
+[DINOv2] Local checkpoint: D:\intergration\aaclip_optimize-main\pretrained\dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+[p47-u4-mvtec] bottle: 31 queries, 87 bank images; none vs cached agreement 1.0000; 8.4 min
+[p47-u4-mvtec] capsule: 53 queries, 83 bank images; none vs cached agreement 1.0000; 19.0 min
+[p47-u4-mvtec] carpet: 42 queries, 90 bank images; none vs cached agreement 1.0000; 28.6 min
+[p47-u4-mvtec] grid: 25 queries, 87 bank images; none vs cached agreement 1.0000; 35.8 min
+[p47-u4-mvtec] hazelnut: 34 queries, 91 bank images; none vs cached agreement 1.0000; 44.2 min
+[p47-u4-mvtec] leather: 44 queries, 88 bank images; none vs cached agreement 1.0000; 53.8 min
+[p47-u4-mvtec] metal_nut: 45 queries, 79 bank images; none vs cached agreement 1.0000; 62.5 min
+[p47-u4-mvtec] pill: 62 queries, 91 bank images; none vs cached agreement 1.0000; 73.9 min
+[p47-u4-mvtec] screw: 58 queries, 90 bank images; none vs cached agreement 1.0000; 85.1 min
+[p47-u4-mvtec] tile: 41 queries, 82 bank images; none vs cached agreement 1.0000; 93.8 min
+[p47-u4-mvtec] transistor: 20 queries, 81 bank images; none vs cached agreement 1.0000; 100.1 min
+[p47-u4-mvtec] wood: 25 queries, 87 bank images; none vs cached agreement 1.0000; 107.3 min
+[p47-u4-mvtec] zipper: 50 queries, 88 bank images; none vs cached agreement 1.0000; 117.7 min

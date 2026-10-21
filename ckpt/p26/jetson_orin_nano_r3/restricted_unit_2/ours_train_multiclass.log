@@ -1,0 +1,287 @@
+2026-10-01 22:34:24,335 - INFO - Seed context: {'stage': 'prototype_init', 'epoch': 0, 'repeat': 0, 'sampler_seed': 1028830570057237846, 'augmentation_seed': 5876633166710438137}
+2026-10-01 22:34:31,677 - INFO - Gradient audit optimizer parameters (3 tensors): ['model.image_adapter.det_proj.fc.0.weight', 'prototype_mem.prototypes', 'prototype_mem.logit_scale']
+2026-10-01 22:34:31,677 - INFO - Epoch 0/19
+2026-10-01 22:34:31,686 - INFO - Seed context: {'stage': 'train', 'epoch': 0, 'repeat': 0, 'sampler_seed': 7905308558211965524, 'augmentation_seed': 7165970989763773083}
+2026-10-01 22:34:35,660 - INFO - First-backward gradient audit: nonzero=['model.image_adapter.det_proj.fc.0.weight', 'prototype_mem.prototypes', 'prototype_mem.logit_scale'] grad_none=[] zero_grad=[] module_norms={'model.image_adapter.det_proj': 0.007708629593253136, 'prototype_mem.prototypes': 0.4093014895915985, 'prototype_mem.logit_scale': 0.040996912866830826}
+2026-10-01 22:34:35,662 - INFO -   [CLS] Batch  1/ 2 | cls=1.0057 | supcon=0.0495 | orth=0.6785 | normal=0.0000 | total=0.5028 | sim=0.9860
+2026-10-01 22:34:38,963 - INFO - First optimizer update audit: updated=['model.image_adapter.det_proj.fc.0.weight', 'prototype_mem.prototypes', 'prototype_mem.logit_scale'] actual_updated_parameters=789889
+2026-10-01 22:34:38,966 - INFO -   [CLS] Batch  2/ 2 | cls=0.9930 | supcon=0.0676 | orth=0.6785 | normal=0.0000 | total=0.4965 | sim=0.9848
+2026-10-01 22:34:38,967 - INFO - Seed context: {'stage': 'train', 'epoch': 0, 'repeat': 1, 'sampler_seed': 726235434431333626, 'augmentation_seed': 3004544884728023116}
+2026-10-01 22:34:42,774 - INFO -   [CLS] Batch  1/ 2 | cls=0.9948 | supcon=0.0485 | orth=0.6768 | normal=0.0000 | total=0.4974 | sim=0.9848
+2026-10-01 22:34:45,958 - INFO -   [CLS] Batch  2/ 2 | cls=0.9549 | supcon=0.0323 | orth=0.6768 | normal=0.0000 | total=0.4774 | sim=0.9832
+2026-10-01 22:34:45,959 - INFO - Seed context: {'stage': 'train', 'epoch': 0, 'repeat': 2, 'sampler_seed': 8818103715241231406, 'augmentation_seed': 1707991034960950436}
+2026-10-01 22:34:49,744 - INFO -   [CLS] Batch  1/ 2 | cls=0.9903 | supcon=0.0257 | orth=0.6748 | normal=0.0000 | total=0.4952 | sim=0.9832
+2026-10-01 22:34:52,908 - INFO -   [CLS] Batch  2/ 2 | cls=0.9801 | supcon=0.0314 | orth=0.6748 | normal=0.0000 | total=0.4901 | sim=0.9815
+2026-10-01 22:34:52,909 - INFO - Seed context: {'stage': 'train', 'epoch': 0, 'repeat': 3, 'sampler_seed': 6608714781001549868, 'augmentation_seed': 7044021821413569315}
+2026-10-01 22:34:56,679 - INFO -   [CLS] Batch  1/ 2 | cls=0.9515 | supcon=0.0491 | orth=0.6726 | normal=0.0000 | total=0.4758 | sim=0.9815
+2026-10-01 22:34:59,862 - INFO -   [CLS] Batch  2/ 2 | cls=1.0313 | supcon=0.0739 | orth=0.6726 | normal=0.0000 | total=0.5157 | sim=0.9797
+2026-10-01 22:34:59,869 - INFO - >>> Epoch 0 Summary: avg_cls=0.9877 | avg_supcon=0.0473 | avg_orth=0.6757 | avg_normal=0.0000 | avg_total=0.4939 | avg_sim=0.9831 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:34:59,870 - INFO - Epoch 1/19
+2026-10-01 22:34:59,879 - INFO - Seed context: {'stage': 'train', 'epoch': 1, 'repeat': 0, 'sampler_seed': 1276696322715711787, 'augmentation_seed': 2152919821833927838}
+2026-10-01 22:35:03,694 - INFO -   [CLS] Batch  1/ 2 | cls=0.9674 | supcon=0.0537 | orth=0.6703 | normal=0.0000 | total=0.4837 | sim=0.9797
+2026-10-01 22:35:06,881 - INFO -   [CLS] Batch  2/ 2 | cls=0.9831 | supcon=0.0648 | orth=0.6703 | normal=0.0000 | total=0.4916 | sim=0.9776
+2026-10-01 22:35:06,882 - INFO - Seed context: {'stage': 'train', 'epoch': 1, 'repeat': 1, 'sampler_seed': 4415587590640826597, 'augmentation_seed': 5057946711930846476}
+2026-10-01 22:35:10,670 - INFO -   [CLS] Batch  1/ 2 | cls=0.9444 | supcon=0.0513 | orth=0.6679 | normal=0.0000 | total=0.4722 | sim=0.9776
+2026-10-01 22:35:13,848 - INFO -   [CLS] Batch  2/ 2 | cls=1.0163 | supcon=0.0765 | orth=0.6679 | normal=0.0000 | total=0.5081 | sim=0.9754
+2026-10-01 22:35:13,849 - INFO - Seed context: {'stage': 'train', 'epoch': 1, 'repeat': 2, 'sampler_seed': 6082314020506879039, 'augmentation_seed': 7335399929054681179}
+2026-10-01 22:35:17,666 - INFO -   [CLS] Batch  1/ 2 | cls=0.9571 | supcon=0.0486 | orth=0.6654 | normal=0.0000 | total=0.4785 | sim=0.9754
+2026-10-01 22:35:20,841 - INFO -   [CLS] Batch  2/ 2 | cls=0.9666 | supcon=0.0338 | orth=0.6654 | normal=0.0000 | total=0.4833 | sim=0.9730
+2026-10-01 22:35:20,842 - INFO - Seed context: {'stage': 'train', 'epoch': 1, 'repeat': 3, 'sampler_seed': 7369253146825828627, 'augmentation_seed': 2761078485978924727}
+2026-10-01 22:35:24,644 - INFO -   [CLS] Batch  1/ 2 | cls=0.9469 | supcon=0.0530 | orth=0.6627 | normal=0.0000 | total=0.4735 | sim=0.9730
+2026-10-01 22:35:27,836 - INFO -   [CLS] Batch  2/ 2 | cls=0.9778 | supcon=0.0762 | orth=0.6627 | normal=0.0000 | total=0.4889 | sim=0.9705
+2026-10-01 22:35:27,838 - INFO - >>> Epoch 1 Summary: avg_cls=0.9700 | avg_supcon=0.0572 | avg_orth=0.6666 | avg_normal=0.0000 | avg_total=0.4850 | avg_sim=0.9753 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:35:27,838 - INFO - Epoch 2/19
+2026-10-01 22:35:27,847 - INFO - Seed context: {'stage': 'train', 'epoch': 2, 'repeat': 0, 'sampler_seed': 4092007530954693432, 'augmentation_seed': 6599513167141995408}
+2026-10-01 22:35:31,636 - INFO -   [CLS] Batch  1/ 2 | cls=0.9490 | supcon=0.0471 | orth=0.6598 | normal=0.0000 | total=0.4745 | sim=0.9705
+2026-10-01 22:35:34,826 - INFO -   [CLS] Batch  2/ 2 | cls=0.9273 | supcon=0.0327 | orth=0.6598 | normal=0.0000 | total=0.4636 | sim=0.9678
+2026-10-01 22:35:34,827 - INFO - Seed context: {'stage': 'train', 'epoch': 2, 'repeat': 1, 'sampler_seed': 70823955942441504, 'augmentation_seed': 6844048427710122639}
+2026-10-01 22:35:38,646 - INFO -   [CLS] Batch  1/ 2 | cls=0.9511 | supcon=0.0545 | orth=0.6568 | normal=0.0000 | total=0.4756 | sim=0.9678
+2026-10-01 22:35:41,853 - INFO -   [CLS] Batch  2/ 2 | cls=0.9312 | supcon=0.0708 | orth=0.6568 | normal=0.0000 | total=0.4656 | sim=0.9649
+2026-10-01 22:35:41,854 - INFO - Seed context: {'stage': 'train', 'epoch': 2, 'repeat': 2, 'sampler_seed': 3003443941567292217, 'augmentation_seed': 4706748610015751252}
+2026-10-01 22:35:45,660 - INFO -   [CLS] Batch  1/ 2 | cls=0.9339 | supcon=0.0589 | orth=0.6537 | normal=0.0000 | total=0.4669 | sim=0.9649
+2026-10-01 22:35:48,856 - INFO -   [CLS] Batch  2/ 2 | cls=0.9374 | supcon=0.0693 | orth=0.6537 | normal=0.0000 | total=0.4687 | sim=0.9618
+2026-10-01 22:35:48,857 - INFO - Seed context: {'stage': 'train', 'epoch': 2, 'repeat': 3, 'sampler_seed': 1596737763512601053, 'augmentation_seed': 1363374687823897899}
+2026-10-01 22:35:52,658 - INFO -   [CLS] Batch  1/ 2 | cls=0.9066 | supcon=0.0460 | orth=0.6504 | normal=0.0000 | total=0.4533 | sim=0.9618
+2026-10-01 22:35:55,846 - INFO -   [CLS] Batch  2/ 2 | cls=0.9846 | supcon=0.0407 | orth=0.6504 | normal=0.0000 | total=0.4923 | sim=0.9586
+2026-10-01 22:35:55,848 - INFO - >>> Epoch 2 Summary: avg_cls=0.9401 | avg_supcon=0.0525 | avg_orth=0.6552 | avg_normal=0.0000 | avg_total=0.4701 | avg_sim=0.9647 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:35:55,848 - INFO - Epoch 3/19
+2026-10-01 22:35:55,857 - INFO - Seed context: {'stage': 'train', 'epoch': 3, 'repeat': 0, 'sampler_seed': 1380880600597320486, 'augmentation_seed': 3976698162805309391}
+2026-10-01 22:35:59,693 - INFO -   [CLS] Batch  1/ 2 | cls=0.8881 | supcon=0.0187 | orth=0.6469 | normal=0.0000 | total=0.4440 | sim=0.9586
+2026-10-01 22:36:02,895 - INFO -   [CLS] Batch  2/ 2 | cls=0.9655 | supcon=0.0279 | orth=0.6469 | normal=0.0000 | total=0.4828 | sim=0.9553
+2026-10-01 22:36:02,896 - INFO - Seed context: {'stage': 'train', 'epoch': 3, 'repeat': 1, 'sampler_seed': 2469744728054144857, 'augmentation_seed': 7358613635040692979}
+2026-10-01 22:36:06,728 - INFO -   [CLS] Batch  1/ 2 | cls=0.9173 | supcon=0.0455 | orth=0.6434 | normal=0.0000 | total=0.4586 | sim=0.9553
+2026-10-01 22:36:09,934 - INFO -   [CLS] Batch  2/ 2 | cls=0.9373 | supcon=0.0366 | orth=0.6434 | normal=0.0000 | total=0.4686 | sim=0.9519
+2026-10-01 22:36:09,935 - INFO - Seed context: {'stage': 'train', 'epoch': 3, 'repeat': 2, 'sampler_seed': 5745656196114522148, 'augmentation_seed': 3030198702414866100}
+2026-10-01 22:36:13,760 - INFO -   [CLS] Batch  1/ 2 | cls=0.8773 | supcon=0.0230 | orth=0.6397 | normal=0.0000 | total=0.4386 | sim=0.9519
+2026-10-01 22:36:16,955 - INFO -   [CLS] Batch  2/ 2 | cls=1.0006 | supcon=0.0309 | orth=0.6397 | normal=0.0000 | total=0.5003 | sim=0.9483
+2026-10-01 22:36:16,956 - INFO - Seed context: {'stage': 'train', 'epoch': 3, 'repeat': 3, 'sampler_seed': 1824421457121977574, 'augmentation_seed': 1378966916945285502}
+2026-10-01 22:36:20,781 - INFO -   [CLS] Batch  1/ 2 | cls=0.8609 | supcon=0.0205 | orth=0.6358 | normal=0.0000 | total=0.4305 | sim=0.9483
+2026-10-01 22:36:23,970 - INFO -   [CLS] Batch  2/ 2 | cls=0.9354 | supcon=0.0353 | orth=0.6358 | normal=0.0000 | total=0.4677 | sim=0.9445
+2026-10-01 22:36:23,972 - INFO - >>> Epoch 3 Summary: avg_cls=0.9228 | avg_supcon=0.0298 | avg_orth=0.6414 | avg_normal=0.0000 | avg_total=0.4614 | avg_sim=0.9518 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:36:23,972 - INFO - Epoch 4/19
+2026-10-01 22:36:23,981 - INFO - Seed context: {'stage': 'train', 'epoch': 4, 'repeat': 0, 'sampler_seed': 1124985274656565952, 'augmentation_seed': 5347026231169782610}
+2026-10-01 22:36:27,774 - INFO -   [CLS] Batch  1/ 2 | cls=0.8779 | supcon=0.0441 | orth=0.6318 | normal=0.0000 | total=0.4390 | sim=0.9445
+2026-10-01 22:36:30,939 - INFO -   [CLS] Batch  2/ 2 | cls=0.9467 | supcon=0.0359 | orth=0.6318 | normal=0.0000 | total=0.4734 | sim=0.9407
+2026-10-01 22:36:30,940 - INFO - Seed context: {'stage': 'train', 'epoch': 4, 'repeat': 1, 'sampler_seed': 4675427298247673193, 'augmentation_seed': 1533174778837261495}
+2026-10-01 22:36:34,796 - INFO -   [CLS] Batch  1/ 2 | cls=0.8881 | supcon=0.0459 | orth=0.6278 | normal=0.0000 | total=0.4440 | sim=0.9407
+2026-10-01 22:36:37,987 - INFO -   [CLS] Batch  2/ 2 | cls=0.8925 | supcon=0.0387 | orth=0.6278 | normal=0.0000 | total=0.4463 | sim=0.9368
+2026-10-01 22:36:37,988 - INFO - Seed context: {'stage': 'train', 'epoch': 4, 'repeat': 2, 'sampler_seed': 3061204553388743302, 'augmentation_seed': 1966467329570772141}
+2026-10-01 22:36:41,823 - INFO -   [CLS] Batch  1/ 2 | cls=0.8951 | supcon=0.0541 | orth=0.6237 | normal=0.0000 | total=0.4475 | sim=0.9368
+2026-10-01 22:36:44,999 - INFO -   [CLS] Batch  2/ 2 | cls=0.8606 | supcon=0.0639 | orth=0.6237 | normal=0.0000 | total=0.4303 | sim=0.9327
+2026-10-01 22:36:44,999 - INFO - Seed context: {'stage': 'train', 'epoch': 4, 'repeat': 3, 'sampler_seed': 7701332796268674526, 'augmentation_seed': 1285644293499180983}
+2026-10-01 22:36:48,828 - INFO -   [CLS] Batch  1/ 2 | cls=0.8965 | supcon=0.0256 | orth=0.6193 | normal=0.0000 | total=0.4483 | sim=0.9327
+2026-10-01 22:36:51,998 - INFO -   [CLS] Batch  2/ 2 | cls=0.8723 | supcon=0.0283 | orth=0.6193 | normal=0.0000 | total=0.4362 | sim=0.9284
+2026-10-01 22:36:52,000 - INFO - >>> Epoch 4 Summary: avg_cls=0.8912 | avg_supcon=0.0421 | avg_orth=0.6257 | avg_normal=0.0000 | avg_total=0.4456 | avg_sim=0.9367 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:36:52,000 - INFO - Epoch 5/19
+2026-10-01 22:36:52,009 - INFO - Seed context: {'stage': 'train', 'epoch': 5, 'repeat': 0, 'sampler_seed': 8694871992731762514, 'augmentation_seed': 5870864181512808716}
+2026-10-01 22:36:55,852 - INFO -   [CLS] Batch  1/ 2 | cls=0.8387 | supcon=0.0470 | orth=0.6148 | normal=0.0000 | total=0.4193 | sim=0.9284
+2026-10-01 22:36:59,040 - INFO -   [CLS] Batch  2/ 2 | cls=0.8649 | supcon=0.0648 | orth=0.6148 | normal=0.0000 | total=0.4324 | sim=0.9242
+2026-10-01 22:36:59,041 - INFO - Seed context: {'stage': 'train', 'epoch': 5, 'repeat': 1, 'sampler_seed': 5474664668580423999, 'augmentation_seed': 32270805790542019}
+2026-10-01 22:37:02,892 - INFO -   [CLS] Batch  1/ 2 | cls=0.9206 | supcon=0.0623 | orth=0.6104 | normal=0.0000 | total=0.4603 | sim=0.9242
+2026-10-01 22:37:06,075 - INFO -   [CLS] Batch  2/ 2 | cls=0.8580 | supcon=0.0666 | orth=0.6104 | normal=0.0000 | total=0.4290 | sim=0.9198
+2026-10-01 22:37:06,076 - INFO - Seed context: {'stage': 'train', 'epoch': 5, 'repeat': 2, 'sampler_seed': 8698282719057185228, 'augmentation_seed': 5344943297921180988}
+2026-10-01 22:37:09,928 - INFO -   [CLS] Batch  1/ 2 | cls=0.8920 | supcon=0.0417 | orth=0.6059 | normal=0.0000 | total=0.4460 | sim=0.9198
+2026-10-01 22:37:13,127 - INFO -   [CLS] Batch  2/ 2 | cls=0.8447 | supcon=0.0378 | orth=0.6059 | normal=0.0000 | total=0.4223 | sim=0.9152
+2026-10-01 22:37:13,128 - INFO - Seed context: {'stage': 'train', 'epoch': 5, 'repeat': 3, 'sampler_seed': 133248384119230869, 'augmentation_seed': 8943385621361278618}
+2026-10-01 22:37:16,946 - INFO -   [CLS] Batch  1/ 2 | cls=0.8606 | supcon=0.0239 | orth=0.6012 | normal=0.0000 | total=0.4303 | sim=0.9152
+2026-10-01 22:37:20,133 - INFO -   [CLS] Batch  2/ 2 | cls=0.8778 | supcon=0.0272 | orth=0.6012 | normal=0.0000 | total=0.4389 | sim=0.9108
+2026-10-01 22:37:20,135 - INFO - >>> Epoch 5 Summary: avg_cls=0.8697 | avg_supcon=0.0464 | avg_orth=0.6081 | avg_normal=0.0000 | avg_total=0.4348 | avg_sim=0.9197 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:37:20,135 - INFO - Epoch 6/19
+2026-10-01 22:37:20,143 - INFO - Seed context: {'stage': 'train', 'epoch': 6, 'repeat': 0, 'sampler_seed': 2670211729799210027, 'augmentation_seed': 9024643371928138485}
+2026-10-01 22:37:23,976 - INFO -   [CLS] Batch  1/ 2 | cls=0.8579 | supcon=0.0497 | orth=0.5965 | normal=0.0000 | total=0.4290 | sim=0.9108
+2026-10-01 22:37:27,150 - INFO -   [CLS] Batch  2/ 2 | cls=0.8522 | supcon=0.0694 | orth=0.5965 | normal=0.0000 | total=0.4261 | sim=0.9071
+2026-10-01 22:37:27,151 - INFO - Seed context: {'stage': 'train', 'epoch': 6, 'repeat': 1, 'sampler_seed': 3547176968495812400, 'augmentation_seed': 6326488383257714433}
+2026-10-01 22:37:30,984 - INFO -   [CLS] Batch  1/ 2 | cls=0.8638 | supcon=0.0266 | orth=0.5919 | normal=0.0000 | total=0.4319 | sim=0.9071
+2026-10-01 22:37:34,174 - INFO -   [CLS] Batch  2/ 2 | cls=0.7998 | supcon=0.0258 | orth=0.5919 | normal=0.0000 | total=0.3999 | sim=0.9032
+2026-10-01 22:37:34,175 - INFO - Seed context: {'stage': 'train', 'epoch': 6, 'repeat': 2, 'sampler_seed': 7913117068063538035, 'augmentation_seed': 7700409996027174925}
+2026-10-01 22:37:38,012 - INFO -   [CLS] Batch  1/ 2 | cls=0.8727 | supcon=0.0418 | orth=0.5872 | normal=0.0000 | total=0.4363 | sim=0.9032
+2026-10-01 22:37:41,197 - INFO -   [CLS] Batch  2/ 2 | cls=0.7742 | supcon=0.0318 | orth=0.5872 | normal=0.0000 | total=0.3871 | sim=0.8993
+2026-10-01 22:37:41,198 - INFO - Seed context: {'stage': 'train', 'epoch': 6, 'repeat': 3, 'sampler_seed': 6202924608672515647, 'augmentation_seed': 2614164429297649203}
+2026-10-01 22:37:45,021 - INFO -   [CLS] Batch  1/ 2 | cls=0.8072 | supcon=0.0474 | orth=0.5824 | normal=0.0000 | total=0.4036 | sim=0.8993
+2026-10-01 22:37:48,234 - INFO -   [CLS] Batch  2/ 2 | cls=0.8815 | supcon=0.0751 | orth=0.5824 | normal=0.0000 | total=0.4408 | sim=0.8953
+2026-10-01 22:37:48,236 - INFO - >>> Epoch 6 Summary: avg_cls=0.8387 | avg_supcon=0.0459 | avg_orth=0.5895 | avg_normal=0.0000 | avg_total=0.4193 | avg_sim=0.9031 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:37:48,236 - INFO - Epoch 7/19
+2026-10-01 22:37:48,245 - INFO - Seed context: {'stage': 'train', 'epoch': 7, 'repeat': 0, 'sampler_seed': 4052159712500593738, 'augmentation_seed': 6922259473090129714}
+2026-10-01 22:37:52,091 - INFO -   [CLS] Batch  1/ 2 | cls=0.8446 | supcon=0.0529 | orth=0.5775 | normal=0.0000 | total=0.4223 | sim=0.8953
+2026-10-01 22:37:55,292 - INFO -   [CLS] Batch  2/ 2 | cls=0.7602 | supcon=0.0630 | orth=0.5775 | normal=0.0000 | total=0.3801 | sim=0.8915
+2026-10-01 22:37:55,293 - INFO - Seed context: {'stage': 'train', 'epoch': 7, 'repeat': 1, 'sampler_seed': 43318602380398957, 'augmentation_seed': 3175046071999547979}
+2026-10-01 22:37:59,142 - INFO -   [CLS] Batch  1/ 2 | cls=0.8058 | supcon=0.0481 | orth=0.5729 | normal=0.0000 | total=0.4029 | sim=0.8915
+2026-10-01 22:38:02,363 - INFO -   [CLS] Batch  2/ 2 | cls=0.8174 | supcon=0.0670 | orth=0.5729 | normal=0.0000 | total=0.4087 | sim=0.8876
+2026-10-01 22:38:02,364 - INFO - Seed context: {'stage': 'train', 'epoch': 7, 'repeat': 2, 'sampler_seed': 5164871076641027929, 'augmentation_seed': 967598152816371892}
+2026-10-01 22:38:06,198 - INFO -   [CLS] Batch  1/ 2 | cls=0.8611 | supcon=0.0482 | orth=0.5681 | normal=0.0000 | total=0.4306 | sim=0.8876
+2026-10-01 22:38:09,387 - INFO -   [CLS] Batch  2/ 2 | cls=0.7767 | supcon=0.0304 | orth=0.5681 | normal=0.0000 | total=0.3884 | sim=0.8836
+2026-10-01 22:38:09,388 - INFO - Seed context: {'stage': 'train', 'epoch': 7, 'repeat': 3, 'sampler_seed': 1069565967434684694, 'augmentation_seed': 7964993666755108760}
+2026-10-01 22:38:13,228 - INFO -   [CLS] Batch  1/ 2 | cls=0.8225 | supcon=0.0485 | orth=0.5633 | normal=0.0000 | total=0.4113 | sim=0.8836
+2026-10-01 22:38:16,428 - INFO -   [CLS] Batch  2/ 2 | cls=0.7447 | supcon=0.0327 | orth=0.5633 | normal=0.0000 | total=0.3723 | sim=0.8797
+2026-10-01 22:38:16,430 - INFO - >>> Epoch 7 Summary: avg_cls=0.8041 | avg_supcon=0.0488 | avg_orth=0.5705 | avg_normal=0.0000 | avg_total=0.4021 | avg_sim=0.8875 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:38:16,430 - INFO - Epoch 8/19
+2026-10-01 22:38:16,439 - INFO - Seed context: {'stage': 'train', 'epoch': 8, 'repeat': 0, 'sampler_seed': 7438947886098360537, 'augmentation_seed': 3869488118107717114}
+2026-10-01 22:38:20,287 - INFO -   [CLS] Batch  1/ 2 | cls=0.8731 | supcon=0.0470 | orth=0.5584 | normal=0.0000 | total=0.4366 | sim=0.8797
+2026-10-01 22:38:23,483 - INFO -   [CLS] Batch  2/ 2 | cls=0.6945 | supcon=0.0282 | orth=0.5584 | normal=0.0000 | total=0.3473 | sim=0.8761
+2026-10-01 22:38:23,484 - INFO - Seed context: {'stage': 'train', 'epoch': 8, 'repeat': 1, 'sampler_seed': 2589015109378611979, 'augmentation_seed': 1334488112965386153}
+2026-10-01 22:38:27,335 - INFO -   [CLS] Batch  1/ 2 | cls=0.8218 | supcon=0.0268 | orth=0.5540 | normal=0.0000 | total=0.4109 | sim=0.8761
+2026-10-01 22:38:30,516 - INFO -   [CLS] Batch  2/ 2 | cls=0.7171 | supcon=0.0249 | orth=0.5540 | normal=0.0000 | total=0.3585 | sim=0.8724
+2026-10-01 22:38:30,517 - INFO - Seed context: {'stage': 'train', 'epoch': 8, 'repeat': 2, 'sampler_seed': 639871715162555112, 'augmentation_seed': 4706160850202341715}
+2026-10-01 22:38:34,374 - INFO -   [CLS] Batch  1/ 2 | cls=0.7594 | supcon=0.0253 | orth=0.5494 | normal=0.0000 | total=0.3797 | sim=0.8724
+2026-10-01 22:38:37,574 - INFO -   [CLS] Batch  2/ 2 | cls=0.7888 | supcon=0.0249 | orth=0.5494 | normal=0.0000 | total=0.3944 | sim=0.8688
+2026-10-01 22:38:37,575 - INFO - Seed context: {'stage': 'train', 'epoch': 8, 'repeat': 3, 'sampler_seed': 482250240997684452, 'augmentation_seed': 97276239613423971}
+2026-10-01 22:38:41,436 - INFO -   [CLS] Batch  1/ 2 | cls=0.7524 | supcon=0.0461 | orth=0.5447 | normal=0.0000 | total=0.3762 | sim=0.8688
+2026-10-01 22:38:44,635 - INFO -   [CLS] Batch  2/ 2 | cls=0.7209 | supcon=0.0325 | orth=0.5447 | normal=0.0000 | total=0.3604 | sim=0.8650
+2026-10-01 22:38:44,636 - INFO - >>> Epoch 8 Summary: avg_cls=0.7660 | avg_supcon=0.0320 | avg_orth=0.5516 | avg_normal=0.0000 | avg_total=0.3830 | avg_sim=0.8724 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:38:44,637 - INFO - Epoch 9/19
+2026-10-01 22:38:44,645 - INFO - Seed context: {'stage': 'train', 'epoch': 9, 'repeat': 0, 'sampler_seed': 612456713926086839, 'augmentation_seed': 7167074861066111330}
+2026-10-01 22:38:48,499 - INFO -   [CLS] Batch  1/ 2 | cls=0.6392 | supcon=0.0350 | orth=0.5399 | normal=0.0000 | total=0.3196 | sim=0.8650
+2026-10-01 22:38:51,688 - INFO -   [CLS] Batch  2/ 2 | cls=0.8652 | supcon=0.0657 | orth=0.5399 | normal=0.0000 | total=0.4326 | sim=0.8616
+2026-10-01 22:38:51,689 - INFO - Seed context: {'stage': 'train', 'epoch': 9, 'repeat': 1, 'sampler_seed': 4575215382164722137, 'augmentation_seed': 5680065029027404070}
+2026-10-01 22:38:55,536 - INFO -   [CLS] Batch  1/ 2 | cls=0.7226 | supcon=0.0446 | orth=0.5357 | normal=0.0000 | total=0.3613 | sim=0.8616
+2026-10-01 22:38:58,736 - INFO -   [CLS] Batch  2/ 2 | cls=0.7906 | supcon=0.0310 | orth=0.5357 | normal=0.0000 | total=0.3953 | sim=0.8582
+2026-10-01 22:38:58,737 - INFO - Seed context: {'stage': 'train', 'epoch': 9, 'repeat': 2, 'sampler_seed': 4684069395006802675, 'augmentation_seed': 7811965047491486662}
+2026-10-01 22:39:02,605 - INFO -   [CLS] Batch  1/ 2 | cls=0.7163 | supcon=0.0486 | orth=0.5313 | normal=0.0000 | total=0.3582 | sim=0.8582
+2026-10-01 22:39:05,814 - INFO -   [CLS] Batch  2/ 2 | cls=0.7493 | supcon=0.0327 | orth=0.5313 | normal=0.0000 | total=0.3747 | sim=0.8548
+2026-10-01 22:39:05,815 - INFO - Seed context: {'stage': 'train', 'epoch': 9, 'repeat': 3, 'sampler_seed': 844766785344095127, 'augmentation_seed': 3513597724458270640}
+2026-10-01 22:39:09,679 - INFO -   [CLS] Batch  1/ 2 | cls=0.7837 | supcon=0.0474 | orth=0.5270 | normal=0.0000 | total=0.3919 | sim=0.8548
+2026-10-01 22:39:12,873 - INFO -   [CLS] Batch  2/ 2 | cls=0.6997 | supcon=0.0282 | orth=0.5270 | normal=0.0000 | total=0.3498 | sim=0.8513
+2026-10-01 22:39:12,875 - INFO - >>> Epoch 9 Summary: avg_cls=0.7458 | avg_supcon=0.0417 | avg_orth=0.5335 | avg_normal=0.0000 | avg_total=0.3729 | avg_sim=0.8582 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:39:12,875 - INFO - Epoch 10/19
+2026-10-01 22:39:12,884 - INFO - Seed context: {'stage': 'train', 'epoch': 10, 'repeat': 0, 'sampler_seed': 4923325368245783530, 'augmentation_seed': 2733602025254343402}
+2026-10-01 22:39:16,772 - INFO -   [CLS] Batch  1/ 2 | cls=0.6932 | supcon=0.0465 | orth=0.5225 | normal=0.0000 | total=0.3466 | sim=0.8513
+2026-10-01 22:39:19,996 - INFO -   [CLS] Batch  2/ 2 | cls=0.7300 | supcon=0.0581 | orth=0.5225 | normal=0.0000 | total=0.3650 | sim=0.8483
+2026-10-01 22:39:19,997 - INFO - Seed context: {'stage': 'train', 'epoch': 10, 'repeat': 1, 'sampler_seed': 1100096308478705571, 'augmentation_seed': 7812262465478080880}
+2026-10-01 22:39:23,846 - INFO -   [CLS] Batch  1/ 2 | cls=0.7626 | supcon=0.0547 | orth=0.5187 | normal=0.0000 | total=0.3813 | sim=0.8483
+2026-10-01 22:39:27,041 - INFO -   [CLS] Batch  2/ 2 | cls=0.7032 | supcon=0.0557 | orth=0.5187 | normal=0.0000 | total=0.3516 | sim=0.8453
+2026-10-01 22:39:27,042 - INFO - Seed context: {'stage': 'train', 'epoch': 10, 'repeat': 2, 'sampler_seed': 7149230527750230800, 'augmentation_seed': 8011196864697081249}
+2026-10-01 22:39:30,902 - INFO -   [CLS] Batch  1/ 2 | cls=0.7975 | supcon=0.0448 | orth=0.5148 | normal=0.0000 | total=0.3988 | sim=0.8453
+2026-10-01 22:39:34,088 - INFO -   [CLS] Batch  2/ 2 | cls=0.6234 | supcon=0.0215 | orth=0.5148 | normal=0.0000 | total=0.3117 | sim=0.8423
+2026-10-01 22:39:34,089 - INFO - Seed context: {'stage': 'train', 'epoch': 10, 'repeat': 3, 'sampler_seed': 4099893672187761003, 'augmentation_seed': 3650621000694059864}
+2026-10-01 22:39:37,926 - INFO -   [CLS] Batch  1/ 2 | cls=0.6688 | supcon=0.0388 | orth=0.5109 | normal=0.0000 | total=0.3344 | sim=0.8423
+2026-10-01 22:39:41,149 - INFO -   [CLS] Batch  2/ 2 | cls=0.6902 | supcon=0.0359 | orth=0.5109 | normal=0.0000 | total=0.3451 | sim=0.8392
+2026-10-01 22:39:41,151 - INFO - >>> Epoch 10 Summary: avg_cls=0.7086 | avg_supcon=0.0445 | avg_orth=0.5167 | avg_normal=0.0000 | avg_total=0.3543 | avg_sim=0.8453 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:39:41,151 - INFO - Epoch 11/19
+2026-10-01 22:39:41,160 - INFO - Seed context: {'stage': 'train', 'epoch': 11, 'repeat': 0, 'sampler_seed': 3642291371990690606, 'augmentation_seed': 3059049768244340132}
+2026-10-01 22:39:45,024 - INFO -   [CLS] Batch  1/ 2 | cls=0.5725 | supcon=0.0328 | orth=0.5070 | normal=0.0000 | total=0.2863 | sim=0.8392
+2026-10-01 22:39:48,223 - INFO -   [CLS] Batch  2/ 2 | cls=0.8191 | supcon=0.0698 | orth=0.5070 | normal=0.0000 | total=0.4095 | sim=0.8367
+2026-10-01 22:39:48,224 - INFO - Seed context: {'stage': 'train', 'epoch': 11, 'repeat': 1, 'sampler_seed': 1903714139097439100, 'augmentation_seed': 2292325020939229677}
+2026-10-01 22:39:52,054 - INFO -   [CLS] Batch  1/ 2 | cls=0.7643 | supcon=0.0496 | orth=0.5036 | normal=0.0000 | total=0.3821 | sim=0.8367
+2026-10-01 22:39:55,233 - INFO -   [CLS] Batch  2/ 2 | cls=0.5824 | supcon=0.0429 | orth=0.5036 | normal=0.0000 | total=0.2912 | sim=0.8341
+2026-10-01 22:39:55,234 - INFO - Seed context: {'stage': 'train', 'epoch': 11, 'repeat': 2, 'sampler_seed': 2897665299909595611, 'augmentation_seed': 5079165710295348204}
+2026-10-01 22:39:59,054 - INFO -   [CLS] Batch  1/ 2 | cls=0.7134 | supcon=0.0516 | orth=0.5003 | normal=0.0000 | total=0.3567 | sim=0.8341
+2026-10-01 22:40:02,244 - INFO -   [CLS] Batch  2/ 2 | cls=0.6102 | supcon=0.0529 | orth=0.5003 | normal=0.0000 | total=0.3051 | sim=0.8315
+2026-10-01 22:40:02,245 - INFO - Seed context: {'stage': 'train', 'epoch': 11, 'repeat': 3, 'sampler_seed': 7223229196454015416, 'augmentation_seed': 8513430056101759073}
+2026-10-01 22:40:06,089 - INFO -   [CLS] Batch  1/ 2 | cls=0.6917 | supcon=0.0432 | orth=0.4969 | normal=0.0000 | total=0.3459 | sim=0.8315
+2026-10-01 22:40:09,298 - INFO -   [CLS] Batch  2/ 2 | cls=0.6176 | supcon=0.0449 | orth=0.4969 | normal=0.0000 | total=0.3088 | sim=0.8289
+2026-10-01 22:40:09,300 - INFO - >>> Epoch 11 Summary: avg_cls=0.6714 | avg_supcon=0.0485 | avg_orth=0.5019 | avg_normal=0.0000 | avg_total=0.3357 | avg_sim=0.8341 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:40:09,300 - INFO - Epoch 12/19
+2026-10-01 22:40:09,308 - INFO - Seed context: {'stage': 'train', 'epoch': 12, 'repeat': 0, 'sampler_seed': 309891960134262623, 'augmentation_seed': 830171339423893915}
+2026-10-01 22:40:13,162 - INFO -   [CLS] Batch  1/ 2 | cls=0.5988 | supcon=0.0181 | orth=0.4935 | normal=0.0000 | total=0.2994 | sim=0.8289
+2026-10-01 22:40:16,383 - INFO -   [CLS] Batch  2/ 2 | cls=0.6937 | supcon=0.0210 | orth=0.4935 | normal=0.0000 | total=0.3468 | sim=0.8267
+2026-10-01 22:40:16,383 - INFO - Seed context: {'stage': 'train', 'epoch': 12, 'repeat': 1, 'sampler_seed': 1141799406719207697, 'augmentation_seed': 5925821677612157710}
+2026-10-01 22:40:20,209 - INFO -   [CLS] Batch  1/ 2 | cls=0.5761 | supcon=0.0155 | orth=0.4907 | normal=0.0000 | total=0.2881 | sim=0.8267
+2026-10-01 22:40:23,414 - INFO -   [CLS] Batch  2/ 2 | cls=0.7617 | supcon=0.0226 | orth=0.4907 | normal=0.0000 | total=0.3809 | sim=0.8246
+2026-10-01 22:40:23,414 - INFO - Seed context: {'stage': 'train', 'epoch': 12, 'repeat': 2, 'sampler_seed': 9064469263193798102, 'augmentation_seed': 1980523409095729364}
+2026-10-01 22:40:27,267 - INFO -   [CLS] Batch  1/ 2 | cls=0.5884 | supcon=0.0420 | orth=0.4879 | normal=0.0000 | total=0.2942 | sim=0.8246
+2026-10-01 22:40:30,460 - INFO -   [CLS] Batch  2/ 2 | cls=0.6526 | supcon=0.0587 | orth=0.4879 | normal=0.0000 | total=0.3263 | sim=0.8224
+2026-10-01 22:40:30,461 - INFO - Seed context: {'stage': 'train', 'epoch': 12, 'repeat': 3, 'sampler_seed': 5387670504075090376, 'augmentation_seed': 5003735007222894281}
+2026-10-01 22:40:34,314 - INFO -   [CLS] Batch  1/ 2 | cls=0.6574 | supcon=0.0159 | orth=0.4851 | normal=0.0000 | total=0.3287 | sim=0.8224
+2026-10-01 22:40:37,544 - INFO -   [CLS] Batch  2/ 2 | cls=0.6838 | supcon=0.0147 | orth=0.4851 | normal=0.0000 | total=0.3419 | sim=0.8202
+2026-10-01 22:40:37,545 - INFO - >>> Epoch 12 Summary: avg_cls=0.6516 | avg_supcon=0.0261 | avg_orth=0.4893 | avg_normal=0.0000 | avg_total=0.3258 | avg_sim=0.8245 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:40:37,546 - INFO - Epoch 13/19
+2026-10-01 22:40:37,554 - INFO - Seed context: {'stage': 'train', 'epoch': 13, 'repeat': 0, 'sampler_seed': 522230766222213862, 'augmentation_seed': 4672511696216109454}
+2026-10-01 22:40:41,389 - INFO -   [CLS] Batch  1/ 2 | cls=0.7010 | supcon=0.0467 | orth=0.4823 | normal=0.0000 | total=0.3505 | sim=0.8202
+2026-10-01 22:40:44,582 - INFO -   [CLS] Batch  2/ 2 | cls=0.4992 | supcon=0.0382 | orth=0.4823 | normal=0.0000 | total=0.2496 | sim=0.8184
+2026-10-01 22:40:44,582 - INFO - Seed context: {'stage': 'train', 'epoch': 13, 'repeat': 1, 'sampler_seed': 8963378296860520703, 'augmentation_seed': 8060237839352052222}
+2026-10-01 22:40:48,450 - INFO -   [CLS] Batch  1/ 2 | cls=0.5827 | supcon=0.0308 | orth=0.4801 | normal=0.0000 | total=0.2914 | sim=0.8184
+2026-10-01 22:40:51,626 - INFO -   [CLS] Batch  2/ 2 | cls=0.6424 | supcon=0.0561 | orth=0.4801 | normal=0.0000 | total=0.3212 | sim=0.8166
+2026-10-01 22:40:51,627 - INFO - Seed context: {'stage': 'train', 'epoch': 13, 'repeat': 2, 'sampler_seed': 2509213328043374489, 'augmentation_seed': 1215914847413056717}
+2026-10-01 22:40:55,436 - INFO -   [CLS] Batch  1/ 2 | cls=0.6271 | supcon=0.0430 | orth=0.4779 | normal=0.0000 | total=0.3135 | sim=0.8166
+2026-10-01 22:40:58,641 - INFO -   [CLS] Batch  2/ 2 | cls=0.6536 | supcon=0.0572 | orth=0.4779 | normal=0.0000 | total=0.3268 | sim=0.8148
+2026-10-01 22:40:58,642 - INFO - Seed context: {'stage': 'train', 'epoch': 13, 'repeat': 3, 'sampler_seed': 7101636827730048994, 'augmentation_seed': 8013171551094586149}
+2026-10-01 22:41:02,484 - INFO -   [CLS] Batch  1/ 2 | cls=0.6365 | supcon=0.0118 | orth=0.4756 | normal=0.0000 | total=0.3183 | sim=0.8148
+2026-10-01 22:41:05,687 - INFO -   [CLS] Batch  2/ 2 | cls=0.6183 | supcon=0.0168 | orth=0.4756 | normal=0.0000 | total=0.3091 | sim=0.8130
+2026-10-01 22:41:05,689 - INFO - >>> Epoch 13 Summary: avg_cls=0.6201 | avg_supcon=0.0376 | avg_orth=0.4790 | avg_normal=0.0000 | avg_total=0.3100 | avg_sim=0.8166 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:41:05,689 - INFO - Epoch 14/19
+2026-10-01 22:41:05,698 - INFO - Seed context: {'stage': 'train', 'epoch': 14, 'repeat': 0, 'sampler_seed': 246121555638108330, 'augmentation_seed': 1282303707893487631}
+2026-10-01 22:41:09,531 - INFO -   [CLS] Batch  1/ 2 | cls=0.5906 | supcon=0.0427 | orth=0.4734 | normal=0.0000 | total=0.2953 | sim=0.8130
+2026-10-01 22:41:12,724 - INFO -   [CLS] Batch  2/ 2 | cls=0.6603 | supcon=0.0615 | orth=0.4734 | normal=0.0000 | total=0.3302 | sim=0.8117
+2026-10-01 22:41:12,725 - INFO - Seed context: {'stage': 'train', 'epoch': 14, 'repeat': 1, 'sampler_seed': 2425190138014297287, 'augmentation_seed': 8714420623079761595}
+2026-10-01 22:41:16,560 - INFO -   [CLS] Batch  1/ 2 | cls=0.5673 | supcon=0.0415 | orth=0.4717 | normal=0.0000 | total=0.2837 | sim=0.8117
+2026-10-01 22:41:19,771 - INFO -   [CLS] Batch  2/ 2 | cls=0.6202 | supcon=0.0592 | orth=0.4717 | normal=0.0000 | total=0.3101 | sim=0.8103
+2026-10-01 22:41:19,772 - INFO - Seed context: {'stage': 'train', 'epoch': 14, 'repeat': 2, 'sampler_seed': 1976187322209045424, 'augmentation_seed': 2205194687906336531}
+2026-10-01 22:41:23,613 - INFO -   [CLS] Batch  1/ 2 | cls=0.5672 | supcon=0.0340 | orth=0.4700 | normal=0.0000 | total=0.2836 | sim=0.8103
+2026-10-01 22:41:26,814 - INFO -   [CLS] Batch  2/ 2 | cls=0.6384 | supcon=0.0461 | orth=0.4700 | normal=0.0000 | total=0.3192 | sim=0.8090
+2026-10-01 22:41:26,815 - INFO - Seed context: {'stage': 'train', 'epoch': 14, 'repeat': 3, 'sampler_seed': 8054740009628509025, 'augmentation_seed': 4547849044437590613}
+2026-10-01 22:41:30,659 - INFO -   [CLS] Batch  1/ 2 | cls=0.6075 | supcon=0.0428 | orth=0.4683 | normal=0.0000 | total=0.3037 | sim=0.8090
+2026-10-01 22:41:33,854 - INFO -   [CLS] Batch  2/ 2 | cls=0.5842 | supcon=0.0499 | orth=0.4683 | normal=0.0000 | total=0.2921 | sim=0.8076
+2026-10-01 22:41:33,856 - INFO - >>> Epoch 14 Summary: avg_cls=0.6045 | avg_supcon=0.0472 | avg_orth=0.4708 | avg_normal=0.0000 | avg_total=0.3022 | avg_sim=0.8103 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:41:33,856 - INFO - Epoch 15/19
+2026-10-01 22:41:33,864 - INFO - Seed context: {'stage': 'train', 'epoch': 15, 'repeat': 0, 'sampler_seed': 5858356435930863652, 'augmentation_seed': 9215028501221993626}
+2026-10-01 22:41:37,717 - INFO -   [CLS] Batch  1/ 2 | cls=0.5780 | supcon=0.0415 | orth=0.4666 | normal=0.0000 | total=0.2890 | sim=0.8076
+2026-10-01 22:41:40,912 - INFO -   [CLS] Batch  2/ 2 | cls=0.6331 | supcon=0.0542 | orth=0.4666 | normal=0.0000 | total=0.3166 | sim=0.8066
+2026-10-01 22:41:40,913 - INFO - Seed context: {'stage': 'train', 'epoch': 15, 'repeat': 1, 'sampler_seed': 1054078993184857353, 'augmentation_seed': 8193689658079175258}
+2026-10-01 22:41:44,745 - INFO -   [CLS] Batch  1/ 2 | cls=0.6419 | supcon=0.0421 | orth=0.4654 | normal=0.0000 | total=0.3210 | sim=0.8066
+2026-10-01 22:41:47,934 - INFO -   [CLS] Batch  2/ 2 | cls=0.5369 | supcon=0.0452 | orth=0.4654 | normal=0.0000 | total=0.2685 | sim=0.8056
+2026-10-01 22:41:47,935 - INFO - Seed context: {'stage': 'train', 'epoch': 15, 'repeat': 2, 'sampler_seed': 2431734670537015754, 'augmentation_seed': 7634507387023737116}
+2026-10-01 22:41:51,780 - INFO -   [CLS] Batch  1/ 2 | cls=0.5897 | supcon=0.0337 | orth=0.4642 | normal=0.0000 | total=0.2948 | sim=0.8056
+2026-10-01 22:41:54,980 - INFO -   [CLS] Batch  2/ 2 | cls=0.5523 | supcon=0.0512 | orth=0.4642 | normal=0.0000 | total=0.2761 | sim=0.8046
+2026-10-01 22:41:54,980 - INFO - Seed context: {'stage': 'train', 'epoch': 15, 'repeat': 3, 'sampler_seed': 2352661465238868196, 'augmentation_seed': 1085470623335215606}
+2026-10-01 22:41:58,835 - INFO -   [CLS] Batch  1/ 2 | cls=0.6074 | supcon=0.0357 | orth=0.4630 | normal=0.0000 | total=0.3037 | sim=0.8046
+2026-10-01 22:42:02,034 - INFO -   [CLS] Batch  2/ 2 | cls=0.6189 | supcon=0.0273 | orth=0.4630 | normal=0.0000 | total=0.3094 | sim=0.8036
+2026-10-01 22:42:02,036 - INFO - >>> Epoch 15 Summary: avg_cls=0.5948 | avg_supcon=0.0414 | avg_orth=0.4648 | avg_normal=0.0000 | avg_total=0.2974 | avg_sim=0.8056 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:42:02,036 - INFO - Epoch 16/19
+2026-10-01 22:42:02,045 - INFO - Seed context: {'stage': 'train', 'epoch': 16, 'repeat': 0, 'sampler_seed': 1656956168345024360, 'augmentation_seed': 1308772211904507700}
+2026-10-01 22:42:05,903 - INFO -   [CLS] Batch  1/ 2 | cls=0.6512 | supcon=0.0195 | orth=0.4618 | normal=0.0000 | total=0.3256 | sim=0.8036
+2026-10-01 22:42:09,096 - INFO -   [CLS] Batch  2/ 2 | cls=0.5393 | supcon=0.0167 | orth=0.4618 | normal=0.0000 | total=0.2697 | sim=0.8029
+2026-10-01 22:42:09,097 - INFO - Seed context: {'stage': 'train', 'epoch': 16, 'repeat': 1, 'sampler_seed': 6575923261118290982, 'augmentation_seed': 7842162492569566784}
+2026-10-01 22:42:12,954 - INFO -   [CLS] Batch  1/ 2 | cls=0.6792 | supcon=0.0207 | orth=0.4610 | normal=0.0000 | total=0.3396 | sim=0.8029
+2026-10-01 22:42:16,145 - INFO -   [CLS] Batch  2/ 2 | cls=0.5439 | supcon=0.0152 | orth=0.4610 | normal=0.0000 | total=0.2720 | sim=0.8023
+2026-10-01 22:42:16,146 - INFO - Seed context: {'stage': 'train', 'epoch': 16, 'repeat': 2, 'sampler_seed': 4227075487060283706, 'augmentation_seed': 7620299652435857958}
+2026-10-01 22:42:20,014 - INFO -   [CLS] Batch  1/ 2 | cls=0.5976 | supcon=0.0398 | orth=0.4602 | normal=0.0000 | total=0.2988 | sim=0.8023
+2026-10-01 22:42:23,221 - INFO -   [CLS] Batch  2/ 2 | cls=0.5473 | supcon=0.0432 | orth=0.4602 | normal=0.0000 | total=0.2736 | sim=0.8017
+2026-10-01 22:42:23,222 - INFO - Seed context: {'stage': 'train', 'epoch': 16, 'repeat': 3, 'sampler_seed': 3289531082428033867, 'augmentation_seed': 803156746999974538}
+2026-10-01 22:42:27,051 - INFO -   [CLS] Batch  1/ 2 | cls=0.5094 | supcon=0.0314 | orth=0.4595 | normal=0.0000 | total=0.2547 | sim=0.8017
+2026-10-01 22:42:30,262 - INFO -   [CLS] Batch  2/ 2 | cls=0.6236 | supcon=0.0624 | orth=0.4595 | normal=0.0000 | total=0.3118 | sim=0.8010
+2026-10-01 22:42:30,264 - INFO - >>> Epoch 16 Summary: avg_cls=0.5864 | avg_supcon=0.0311 | avg_orth=0.4606 | avg_normal=0.0000 | avg_total=0.2932 | avg_sim=0.8023 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:42:30,265 - INFO - Epoch 17/19
+2026-10-01 22:42:30,273 - INFO - Seed context: {'stage': 'train', 'epoch': 17, 'repeat': 0, 'sampler_seed': 4816903994767077061, 'augmentation_seed': 8071430452684943721}
+2026-10-01 22:42:34,100 - INFO -   [CLS] Batch  1/ 2 | cls=0.6314 | supcon=0.0392 | orth=0.4587 | normal=0.0000 | total=0.3157 | sim=0.8010
+2026-10-01 22:42:37,294 - INFO -   [CLS] Batch  2/ 2 | cls=0.5000 | supcon=0.0189 | orth=0.4587 | normal=0.0000 | total=0.2500 | sim=0.8007
+2026-10-01 22:42:37,295 - INFO - Seed context: {'stage': 'train', 'epoch': 17, 'repeat': 1, 'sampler_seed': 2085750819172695324, 'augmentation_seed': 7048996067329569358}
+2026-10-01 22:42:41,150 - INFO -   [CLS] Batch  1/ 2 | cls=0.6453 | supcon=0.0243 | orth=0.4583 | normal=0.0000 | total=0.3227 | sim=0.8007
+2026-10-01 22:42:44,367 - INFO -   [CLS] Batch  2/ 2 | cls=0.5429 | supcon=0.0155 | orth=0.4583 | normal=0.0000 | total=0.2715 | sim=0.8003
+2026-10-01 22:42:44,368 - INFO - Seed context: {'stage': 'train', 'epoch': 17, 'repeat': 2, 'sampler_seed': 2316799042676283897, 'augmentation_seed': 458200799728038619}
+2026-10-01 22:42:48,231 - INFO -   [CLS] Batch  1/ 2 | cls=0.6182 | supcon=0.0464 | orth=0.4578 | normal=0.0000 | total=0.3091 | sim=0.8003
+2026-10-01 22:42:51,425 - INFO -   [CLS] Batch  2/ 2 | cls=0.5672 | supcon=0.0482 | orth=0.4578 | normal=0.0000 | total=0.2836 | sim=0.7999
+2026-10-01 22:42:51,426 - INFO - Seed context: {'stage': 'train', 'epoch': 17, 'repeat': 3, 'sampler_seed': 8700612527617269025, 'augmentation_seed': 3447978661858926574}
+2026-10-01 22:42:55,281 - INFO -   [CLS] Batch  1/ 2 | cls=0.7112 | supcon=0.0562 | orth=0.4574 | normal=0.0000 | total=0.3556 | sim=0.7999
+2026-10-01 22:42:58,484 - INFO -   [CLS] Batch  2/ 2 | cls=0.4862 | supcon=0.0312 | orth=0.4574 | normal=0.0000 | total=0.2431 | sim=0.7996
+2026-10-01 22:42:58,486 - INFO - >>> Epoch 17 Summary: avg_cls=0.5878 | avg_supcon=0.0350 | avg_orth=0.4581 | avg_normal=0.0000 | avg_total=0.2939 | avg_sim=0.8003 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:42:58,486 - INFO - Epoch 18/19
+2026-10-01 22:42:58,494 - INFO - Seed context: {'stage': 'train', 'epoch': 18, 'repeat': 0, 'sampler_seed': 3430215517769739566, 'augmentation_seed': 7345198971276449348}
+2026-10-01 22:43:02,320 - INFO -   [CLS] Batch  1/ 2 | cls=0.5639 | supcon=0.0388 | orth=0.4570 | normal=0.0000 | total=0.2819 | sim=0.7996
+2026-10-01 22:43:05,538 - INFO -   [CLS] Batch  2/ 2 | cls=0.5895 | supcon=0.0601 | orth=0.4570 | normal=0.0000 | total=0.2947 | sim=0.7994
+2026-10-01 22:43:05,539 - INFO - Seed context: {'stage': 'train', 'epoch': 18, 'repeat': 1, 'sampler_seed': 154415713450798559, 'augmentation_seed': 102447353907896360}
+2026-10-01 22:43:09,393 - INFO -   [CLS] Batch  1/ 2 | cls=0.6243 | supcon=0.0186 | orth=0.4568 | normal=0.0000 | total=0.3121 | sim=0.7994
+2026-10-01 22:43:12,602 - INFO -   [CLS] Batch  2/ 2 | cls=0.5627 | supcon=0.0246 | orth=0.4568 | normal=0.0000 | total=0.2813 | sim=0.7993
+2026-10-01 22:43:12,603 - INFO - Seed context: {'stage': 'train', 'epoch': 18, 'repeat': 2, 'sampler_seed': 6584699964123201908, 'augmentation_seed': 3846974807891876934}
+2026-10-01 22:43:16,435 - INFO -   [CLS] Batch  1/ 2 | cls=0.5354 | supcon=0.0334 | orth=0.4566 | normal=0.0000 | total=0.2677 | sim=0.7993
+2026-10-01 22:43:19,635 - INFO -   [CLS] Batch  2/ 2 | cls=0.5656 | supcon=0.0494 | orth=0.4566 | normal=0.0000 | total=0.2828 | sim=0.7991
+2026-10-01 22:43:19,635 - INFO - Seed context: {'stage': 'train', 'epoch': 18, 'repeat': 3, 'sampler_seed': 8405480952954823411, 'augmentation_seed': 1537826094838781299}
+2026-10-01 22:43:23,460 - INFO -   [CLS] Batch  1/ 2 | cls=0.5235 | supcon=0.0296 | orth=0.4564 | normal=0.0000 | total=0.2618 | sim=0.7991
+2026-10-01 22:43:26,662 - INFO -   [CLS] Batch  2/ 2 | cls=0.6822 | supcon=0.0627 | orth=0.4564 | normal=0.0000 | total=0.3411 | sim=0.7990
+2026-10-01 22:43:26,663 - INFO - >>> Epoch 18 Summary: avg_cls=0.5809 | avg_supcon=0.0396 | avg_orth=0.4567 | avg_normal=0.0000 | avg_total=0.2904 | avg_sim=0.7993 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:43:26,664 - INFO - Epoch 19/19
+2026-10-01 22:43:26,672 - INFO - Seed context: {'stage': 'train', 'epoch': 19, 'repeat': 0, 'sampler_seed': 7987169957378401943, 'augmentation_seed': 6309826963425505052}
+2026-10-01 22:43:30,496 - INFO -   [CLS] Batch  1/ 2 | cls=0.5588 | supcon=0.0105 | orth=0.4562 | normal=0.0000 | total=0.2794 | sim=0.7990
+2026-10-01 22:43:33,698 - INFO -   [CLS] Batch  2/ 2 | cls=0.5880 | supcon=0.0141 | orth=0.4562 | normal=0.0000 | total=0.2940 | sim=0.7989
+2026-10-01 22:43:33,699 - INFO - Seed context: {'stage': 'train', 'epoch': 19, 'repeat': 1, 'sampler_seed': 7634084449539786468, 'augmentation_seed': 2815764744298694683}
+2026-10-01 22:43:37,558 - INFO -   [CLS] Batch  1/ 2 | cls=0.6004 | supcon=0.0397 | orth=0.4562 | normal=0.0000 | total=0.3002 | sim=0.7989
+2026-10-01 22:43:40,742 - INFO -   [CLS] Batch  2/ 2 | cls=0.4948 | supcon=0.0377 | orth=0.4562 | normal=0.0000 | total=0.2474 | sim=0.7989
+2026-10-01 22:43:40,743 - INFO - Seed context: {'stage': 'train', 'epoch': 19, 'repeat': 2, 'sampler_seed': 5729433026548906404, 'augmentation_seed': 4195103924915011595}
+2026-10-01 22:43:44,620 - INFO -   [CLS] Batch  1/ 2 | cls=0.6270 | supcon=0.0346 | orth=0.4561 | normal=0.0000 | total=0.3135 | sim=0.7989
+2026-10-01 22:43:47,799 - INFO -   [CLS] Batch  2/ 2 | cls=0.5333 | supcon=0.0190 | orth=0.4561 | normal=0.0000 | total=0.2667 | sim=0.7988
+2026-10-01 22:43:47,800 - INFO - Seed context: {'stage': 'train', 'epoch': 19, 'repeat': 3, 'sampler_seed': 6935594707600582920, 'augmentation_seed': 9205896143658869960}
+2026-10-01 22:43:51,656 - INFO -   [CLS] Batch  1/ 2 | cls=0.5488 | supcon=0.0167 | orth=0.4561 | normal=0.0000 | total=0.2744 | sim=0.7988
+2026-10-01 22:43:54,845 - INFO -   [CLS] Batch  2/ 2 | cls=0.5759 | supcon=0.0207 | orth=0.4561 | normal=0.0000 | total=0.2879 | sim=0.7988
+2026-10-01 22:43:54,846 - INFO - >>> Epoch 19 Summary: avg_cls=0.5659 | avg_supcon=0.0241 | avg_orth=0.4562 | avg_normal=0.0000 | avg_total=0.2829 | avg_sim=0.7989 | gamma=0.010000 | cuda_peak_alloc=2.34GiB cuda_peak_reserved=3.76GiB
+2026-10-01 22:43:55,314 - INFO - Checkpoint saved to /home/<USER>/p31/repo/ckpt/p26/jetson_orin_nano_r3/restricted_unit_2.p6b_staging/multiclass_epoch_19.pth (format=lightweight_v1, 124.3 MiB, sha256=5b1d7157ae124ed6268681ff25ffea920ef83669bd7b92e47d29f4b7922b016d)
+2026-10-01 22:43:55,314 - INFO - Building FAISS index...
+2026-10-01 22:43:55,326 - INFO - FAISS index saved to /home/<USER>/p31/repo/ckpt/p26/jetson_orin_nano_r3/restricted_unit_2.p6b_staging/faiss_index.pth

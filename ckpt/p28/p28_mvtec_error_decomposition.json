@@ -1,0 +1,139 @@
+{
+  "by_K": {
+    "1": {
+      "arr_errors_also_oracle_errors": 0.6416256157635468,
+      "arr_errors_fixed_by_oracle": 0.3583743842364532,
+      "both_wrong_same_label": 0.6391554702495201,
+      "pooled_counts": {
+        "arr_only_wrong": 291,
+        "both_right": 1659,
+        "both_wrong": 521,
+        "oracle_only_wrong": 179
+      },
+      "product_macro_share": {
+        "arr_only_wrong": 0.11015086946854377,
+        "both_right": 0.6389791277585054,
+        "both_wrong": 0.18741926852080568,
+        "oracle_only_wrong": 0.06345073425214506
+      },
+      "queries": 2650
+    },
+    "3": {
+      "arr_errors_also_oracle_errors": 0.4752252252252252,
+      "arr_errors_fixed_by_oracle": 0.5247747747747747,
+      "both_wrong_same_label": 0.7345971563981043,
+      "pooled_counts": {
+        "arr_only_wrong": 233,
+        "both_right": 2074,
+        "both_wrong": 211,
+        "oracle_only_wrong": 132
+      },
+      "product_macro_share": {
+        "arr_only_wrong": 0.08461981141921789,
+        "both_right": 0.7923346436871603,
+        "both_wrong": 0.07552913360431449,
+        "oracle_only_wrong": 0.0475164112893073
+      },
+      "queries": 2650
+    },
+    "5": {
+      "arr_errors_also_oracle_errors": 0.45027624309392267,
+      "arr_errors_fixed_by_oracle": 0.5497237569060773,
+      "both_wrong_same_label": 0.8404907975460123,
+      "pooled_counts": {
+        "arr_only_wrong": 199,
+        "both_right": 2173,
+        "both_wrong": 163,
+        "oracle_only_wrong": 115
+      },
+      "product_macro_share": {
+        "arr_only_wrong": 0.07344999797356212,
+        "both_right": 0.8298737275461828,
+        "both_wrong": 0.05537355880393835,
+        "oracle_only_wrong": 0.04130271567631668
+      },
+      "queries": 2650
+    }
+  },
+  "by_product_all_K": {
+    "bottle": {
+      "arr_errors": 83,
+      "fixed_by_oracle": 0.2891566265060241,
+      "oracle_only_wrong": 20
+    },
+    "capsule": {
+      "arr_errors": 250,
+      "fixed_by_oracle": 0.336,
+      "oracle_only_wrong": 66
+    },
+    "carpet": {
+      "arr_errors": 126,
+      "fixed_by_oracle": 0.2857142857142857,
+      "oracle_only_wrong": 34
+    },
+    "grid": {
+      "arr_errors": 95,
+      "fixed_by_oracle": 0.4842105263157895,
+      "oracle_only_wrong": 21
+    },
+    "hazelnut": {
+      "arr_errors": 60,
+      "fixed_by_oracle": 0.5333333333333333,
+      "oracle_only_wrong": 11
+    },
+    "leather": {
+      "arr_errors": 81,
+      "fixed_by_oracle": 0.30864197530864196,
+      "oracle_only_wrong": 41
+    },
+    "metal_nut": {
+      "arr_errors": 85,
+      "fixed_by_oracle": 0.1411764705882353,
+      "oracle_only_wrong": 71
+    },
+    "pill": {
+      "arr_errors": 240,
+      "fixed_by_oracle": 0.4041666666666667,
+      "oracle_only_wrong": 55
+    },
+    "screw": {
+      "arr_errors": 325,
+      "fixed_by_oracle": 0.6246153846153846,
+      "oracle_only_wrong": 35
+    },
+    "tile": {
+      "arr_errors": 5,
+      "fixed_by_oracle": 0.8,
+      "oracle_only_wrong": 10
+    },
+    "transistor": {
+      "arr_errors": 78,
+      "fixed_by_oracle": 0.7948717948717948,
+      "oracle_only_wrong": 15
+    },
+    "wood": {
+      "arr_errors": 57,
+      "fixed_by_oracle": 0.3333333333333333,
+      "oracle_only_wrong": 5
+    },
+    "zipper": {
+      "arr_errors": 133,
+      "fixed_by_oracle": 0.5939849624060151,
+      "oracle_only_wrong": 42
+    }
+  },
+  "label": "read-only analysis of saved predictions",
+  "methods": {
+    "dual_branch": "fused_adareg_regres_soft_q99",
+    "mask_oracle": "oracle_maskpool_clip18"
+  },
+  "metric_reproduction_max_abs_diff": {
+    "fused_adareg_regres_soft_q99": 0.0,
+    "oracle_maskpool_clip18": 0.0
+  },
+  "provenance": {
+    "head": "913db22d26cd317592d73cb28bc678097d2e1562",
+    "tracked_tree_dirty": true
+  },
+  "schema_version": "p28_error_decomposition_v1"
+}

@@ -1,0 +1,110 @@
+{
+  "by_dataset_K": {
+    "mtd": {
+      "1": {
+        "arr_defect_to_normal": 78,
+        "arr_errors": 2598,
+        "arr_normal_to_defect": 2041,
+        "arr_wrong_defect_type": 479,
+        "arr_wrong_defect_type_oracle_right": 187,
+        "arr_wrong_defect_type_oracle_same_wrong": 70,
+        "defect_images": 970,
+        "normal_images": 2380,
+        "oracle_errors_on_defect_images": 500,
+        "oracle_errors_on_normal_images": 42,
+        "share_defect_to_normal": 0.03002309468822171,
+        "share_normal_to_defect": 0.7856043110084681,
+        "share_wrong_defect_type": 0.18437259430331024,
+        "wrong_defect_type_fixed_by_oracle": 0.3903966597077244
+      },
+      "3": {
+        "arr_defect_to_normal": 58,
+        "arr_errors": 2075,
+        "arr_normal_to_defect": 1721,
+        "arr_wrong_defect_type": 296,
+        "arr_wrong_defect_type_oracle_right": 142,
+        "arr_wrong_defect_type_oracle_same_wrong": 74,
+        "defect_images": 970,
+        "normal_images": 2380,
+        "oracle_errors_on_defect_images": 280,
+        "oracle_errors_on_normal_images": 70,
+        "share_defect_to_normal": 0.027951807228915663,
+        "share_normal_to_defect": 0.8293975903614458,
+        "share_wrong_defect_type": 0.14265060240963856,
+        "wrong_defect_type_fixed_by_oracle": 0.4797297297297297
+      },
+      "5": {
+        "arr_defect_to_normal": 71,
+        "arr_errors": 1796,
+        "arr_normal_to_defect": 1498,
+        "arr_wrong_defect_type": 227,
+        "arr_wrong_defect_type_oracle_right": 110,
+        "arr_wrong_defect_type_oracle_same_wrong": 63,
+        "defect_images": 970,
+        "normal_images": 2380,
+        "oracle_errors_on_defect_images": 247,
+        "oracle_errors_on_normal_images": 46,
+        "share_defect_to_normal": 0.03953229398663697,
+        "share_normal_to_defect": 0.8340757238307349,
+        "share_wrong_defect_type": 0.12639198218262807,
+        "wrong_defect_type_fixed_by_oracle": 0.4845814977973568
+      }
+    },
+    "visa": {
+      "1": {
+        "arr_defect_to_normal": 268,
+        "arr_errors": 9157,
+        "arr_normal_to_defect": 8359,
+        "arr_wrong_defect_type": 530,
+        "arr_wrong_defect_type_oracle_right": 300,
+        "arr_wrong_defect_type_oracle_same_wrong": 127,
+        "defect_images": 1945,
+        "normal_images": 22540,
+        "oracle_errors_on_defect_images": 476,
+        "oracle_errors_on_normal_images": 0,
+        "share_defect_to_normal": 0.029267227257835534,
+        "share_normal_to_defect": 0.912853554657639,
+        "share_wrong_defect_type": 0.0578792180845255,
+        "wrong_defect_type_fixed_by_oracle": 0.5660377358490566
+      },
+      "3": {
+        "arr_defect_to_normal": 203,
+        "arr_errors": 5447,
+        "arr_normal_to_defect": 4937,
+        "arr_wrong_defect_type": 307,
+        "arr_wrong_defect_type_oracle_right": 201,
+        "arr_wrong_defect_type_oracle_same_wrong": 78,
+        "defect_images": 1945,
+        "normal_images": 22540,
+        "oracle_errors_on_defect_images": 253,
+        "oracle_errors_on_normal_images": 0,
+        "share_defect_to_normal": 0.03726822103910409,
+        "share_normal_to_defect": 0.906370479162842,
+        "share_wrong_defect_type": 0.056361299798053974,
+        "wrong_defect_type_fixed_by_oracle": 0.6547231270358306
+      },
+      "5": {
+        "arr_defect_to_normal": 189,
+        "arr_errors": 4186,
+        "arr_normal_to_defect": 3740,
+        "arr_wrong_defect_type": 257,
+        "arr_wrong_defect_type_oracle_right": 168,
+        "arr_wrong_defect_type_oracle_same_wrong": 68,
+        "defect_images": 1945,
+        "normal_images": 22540,
+        "oracle_errors_on_defect_images": 207,
+        "oracle_errors_on_normal_images": 0,
+        "share_defect_to_normal": 0.0451505016722408,
+        "share_normal_to_defect": 0.8934543717152413,
+        "share_wrong_defect_type": 0.06139512661251792,
+        "wrong_defect_type_fixed_by_oracle": 0.6536964980544747
+      }
+    }
+  },
+  "provenance": {
+    "head": "e1c285371120923a8fb9a18682a6b60385f7dec7",
+    "tracked_tree_dirty": true
+  },
+  "schema_version": "p28_external_breakdown_v1",
+  "source": "ckpt\\p28\\p28_external_error_decomposition.json"
+}

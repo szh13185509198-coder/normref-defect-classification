@@ -1,0 +1,3 @@
+image_path,true,ours_pred_seed111,region_patches
+combined/train/images/001.png,combined,bent_wire,43
+combined/train/images/003.png,combined,poke_insulation,49

@@ -1,0 +1,18 @@
+/home/<USER>/p31/repo/experiments/p41/fused_engine.py:112: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /opt/pytorch/torch/csrc/utils/tensor_numpy.cpp:204.)
+  x = torch.from_numpy(np.asarray(image.convert("RGB"))).to(device, non_blocking=True)
+[10/02/2026-22:42:05] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+{
+ "p50": 67.05700600286946,
+ "p99": 67.1923279951443,
+ "max": 67.81689100171207,
+ "switch_same_p50": 63.60954449701239,
+ "switch_alt_p50": 64.56631199762342,
+ "load_ms": {
+  "bottle": 21.12875200327835,
+  "capsule": 20.45908349828096
+ },
+ "new_task_s": {
+  "bottle": 2.619960860996798,
+  "capsule": 3.0320865719986614
+ }
+}

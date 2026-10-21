@@ -1,0 +1,29 @@
+[10/02/2026-23:03:17] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p43] trt_s336 bottle: 10 s
+[p43] trt_s336 capsule: 18 s
+[p43] trt_s336 carpet: 16 s
+[p43] trt_s336 grid: 8 s
+[p43] trt_s336 hazelnut: 14 s
+[p43] trt_s336 leather: 15 s
+[p43] trt_s336 metal_nut: 10 s
+[p43] trt_s336 pill: 15 s
+[p43] trt_s336 screw: 13 s
+[p43] trt_s336 tile: 12 s
+[p43] trt_s336 transistor: 10 s
+[p43] trt_s336 wood: 12 s
+[p43] trt_s336 zipper: 12 s
+[10/02/2026-23:06:03] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p43] trt_b336 bottle: 13 s
+[p43] trt_b336 capsule: 23 s
+[p43] trt_b336 carpet: 20 s
+[p43] trt_b336 grid: 11 s
+[p43] trt_b336 hazelnut: 17 s
+[p43] trt_b336 leather: 19 s
+[p43] trt_b336 metal_nut: 14 s
+[p43] trt_b336 pill: 21 s
+[p43] trt_b336 screw: 18 s
+[p43] trt_b336 tile: 16 s
+[p43] trt_b336 transistor: 13 s
+[p43] trt_b336 wood: 15 s
+[p43] trt_b336 zipper: 16 s
+[p43] single-backbone extraction done

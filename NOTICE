@@ -1,0 +1,29 @@
+Normal-reference evidence selection for training-free few-shot defect classification
+Copyright 2026 The authors
+
+This product includes software derived from the following projects.
+
+AA-CLIP (https://github.com/Mwxinnn/AA-CLIP), Apache License 2.0.
+  This repository started as a fork of AA-CLIP. The files under model/ and dataset/, utils.py and train_multiclass.py
+  are derived from it and have been modified (feature extraction at intermediate layers, DINOv2 support, prompt configuration).
+  Everything under experiments/ and tests/ is new.
+
+open_clip (https://github.com/mlfoundations/open_clip), MIT License.
+  Copyright (c) 2012-2021 Gabriel Ilharco, Mitchell Wortsman, Nicholas Carlini, Rohan Taori, Achal Dave,
+  Vaishaal Shankar, John Miller, Hongseok Namkoong, Hannaneh Hajishirzi, Ali Farhadi, Ludwig Schmidt.
+  Parts of model/ (transformer.py, modified_resnet.py, clip.py, model_configs/), via AA-CLIP.
+
+CLIP (https://github.com/openai/CLIP), MIT License. Copyright (c) 2021 OpenAI.
+  model/model.py, model/openai.py, model/tokenizer.py and the BPE vocabulary model/bpe_simple_vocab_16e6.txt.gz.
+
+MVREC (https://arxiv.org/abs/2412.16897), Apache License 2.0.
+  Vendored unchanged in MVREC-main/ except for the compatibility fixes listed in
+  experiments/p6/mvrec_rgb/audit_main.py. Upstream commit 112c187b6de8a7400fad89ca2a201545842a5d84.
+  Its license is in MVREC-main/LICENSE.
+  The font file lyus/FileTool/TimesSong.ttf of the upstream repository (SimSun, (c) ZHONGYI Electronic Co.) is
+  not redistributed here; no code path used by this repository loads it.
+
+Not included (downloaded by the user; see third_party/README.md):
+  DINOv2 (Apache-2.0), Alpha-CLIP (Apache-2.0), CLIP-LoRA (no license file upstream).
+  GDA (AGPL-3.0): experiments/p44/gda.py implements the method from the paper's equations and contains none of
+  the official code.

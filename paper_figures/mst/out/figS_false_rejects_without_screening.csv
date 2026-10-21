@@ -1,0 +1,43 @@
+dataset,method,K,false_rejects_per_1000
+VisA (11 objects),SimpleShot (whole image),1,439.37
+VisA (11 objects),SimpleShot (whole image),3,312.1
+VisA (11 objects),SimpleShot (whole image),5,263.75
+VisA (11 objects),Cross-class contrast,1,400.22
+VisA (11 objects),Cross-class contrast,3,288.39
+VisA (11 objects),Cross-class contrast,5,244.23
+VisA (11 objects),Support consensus,1,394.35
+VisA (11 objects),Support consensus,3,220.06
+VisA (11 objects),Support consensus,5,170.71
+VisA (11 objects),Fixed 10% region,1,404.89
+VisA (11 objects),Fixed 10% region,3,278.26
+VisA (11 objects),Fixed 10% region,5,229.91
+VisA (11 objects),Proposed method,1,326.98
+VisA (11 objects),Proposed method,3,179.26
+VisA (11 objects),Proposed method,5,136.16
+VisA (11 objects),Trainable support adapter,1,493.46
+VisA (11 objects),Trainable support adapter,3,485.61
+VisA (11 objects),Trainable support adapter,5,421.02
+VisA (11 objects),MVREC (RGB),1,486.08
+VisA (11 objects),MVREC (RGB),3,377.35
+VisA (11 objects),MVREC (RGB),5,325.16
+Magnetic tile (MTD),SimpleShot (whole image),1,756.81
+Magnetic tile (MTD),SimpleShot (whole image),3,760.8
+Magnetic tile (MTD),SimpleShot (whole image),5,658.21
+Magnetic tile (MTD),Cross-class contrast,1,706.11
+Magnetic tile (MTD),Cross-class contrast,3,656.62
+Magnetic tile (MTD),Cross-class contrast,5,549.64
+Magnetic tile (MTD),Support consensus,1,714.5
+Magnetic tile (MTD),Support consensus,3,736.45
+Magnetic tile (MTD),Support consensus,5,600.34
+Magnetic tile (MTD),Fixed 10% region,1,709.31
+Magnetic tile (MTD),Fixed 10% region,3,662.21
+Magnetic tile (MTD),Fixed 10% region,5,536.47
+Magnetic tile (MTD),Proposed method,1,814.68
+Magnetic tile (MTD),Proposed method,3,686.95
+Magnetic tile (MTD),Proposed method,5,597.94
+Magnetic tile (MTD),Trainable support adapter,1,595.15
+Magnetic tile (MTD),Trainable support adapter,3,748.42
+Magnetic tile (MTD),Trainable support adapter,5,571.6
+Magnetic tile (MTD),MVREC (RGB),1,682.16
+Magnetic tile (MTD),MVREC (RGB),3,611.51
+Magnetic tile (MTD),MVREC (RGB),5,575.19

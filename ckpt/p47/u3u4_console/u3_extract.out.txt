@@ -1,0 +1,16 @@
+[DINOv2] Loaded from offline local torch.hub repo: D:\intergration\aaclip_optimize-main\third_party\dinov2
+[DINOv2] Local checkpoint: D:\intergration\aaclip_optimize-main\pretrained\dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+[p47-u3-extract] bottle: 208 of 209 train/good images
+[p47-u3-extract] capsule: 218 of 219 train/good images
+[p47-u3-extract] carpet: 268 of 280 train/good images
+[p47-u3-extract] grid: 257 of 264 train/good images
+[p47-u3-extract] hazelnut: 342 of 391 train/good images
+[p47-u3-extract] leather: 237 of 245 train/good images
+[p47-u3-extract] metal_nut: 218 of 220 train/good images
+[p47-u3-extract] pill: 258 of 267 train/good images
+[p47-u3-extract] screw: 304 of 320 train/good images
+[p47-u3-extract] tile: 225 of 230 train/good images
+[p47-u3-extract] transistor: 212 of 213 train/good images
+[p47-u3-extract] wood: 237 of 247 train/good images
+[p47-u3-extract] zipper: 232 of 240 train/good images

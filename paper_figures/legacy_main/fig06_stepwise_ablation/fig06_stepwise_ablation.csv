@@ -1,0 +1,21 @@
+step,dataset,delta_pp,ci_low_pp,ci_high_pp
+① Normal-image centering,MVTec-FS (13 products),2.24,-0.67,5.08
+① Normal-image centering,VisA (11 objects),3.44,1.27,5.21
+② Select by normal reference (fixed 10%),MVTec-FS (13 products),3.97,0.87,7.51
+② Select by normal reference (fixed 10%),VisA (11 objects),2.75,-0.42,5.91
+③ Soft weights by excess,MVTec-FS (13 products),4.71,2.73,6.88
+③ Soft weights by excess,VisA (11 objects),7.53,3.91,10.81
+④ Calibrated threshold (vs fixed 10%),MVTec-FS (13 products),1.32,0.70,2.02
+④ Calibrated threshold (vs fixed 10%),VisA (11 objects),2.10,-0.47,4.16
+⑤ Deviation branch,MVTec-FS (13 products),2.11,0.47,4.13
+⑤ Deviation branch,VisA (11 objects),2.34,0.24,4.24
+⑤ Deviation branch,Real-IAD blind (30 objects),1.44,0.62,2.28
+①+②  Fixed-fraction normal ref. − SimpleShot,MVTec-FS (13 products),6.22,4.13,8.21
+①+②  Fixed-fraction normal ref. − SimpleShot,VisA (11 objects),6.19,3.75,8.76
+①+②  Fixed-fraction normal ref. − SimpleShot,Real-IAD blind (30 objects),1.65,-0.09,3.35
+③+④  Calibrated soft region − fixed fraction,MVTec-FS (13 products),6.04,3.68,8.64
+③+④  Calibrated soft region − fixed fraction,VisA (11 objects),9.64,3.68,14.53
+③+④  Calibrated soft region − fixed fraction,Real-IAD blind (30 objects),7.32,5.77,8.84
+①–⑤  Dual branch − SimpleShot,MVTec-FS (13 products),14.36,9.50,19.60
+①–⑤  Dual branch − SimpleShot,VisA (11 objects),18.16,10.77,24.21
+①–⑤  Dual branch − SimpleShot,Real-IAD blind (30 objects),10.41,7.86,13.00

@@ -1,0 +1,40 @@
+[DINOv2] Loaded from offline local torch.hub repo: /home/<USER>/p31/repo/third_party/dinov2
+[DINOv2] Local checkpoint: /home/<USER>/p31/repo/pretrained/dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+{
+  "schema_version": "revision_c3_latency_v1",
+  "pipeline": "ours",
+  "boundary_model_forward": {
+    "median_ms": 442.1746304997214,
+    "mean_ms": 442.20620807493106,
+    "p90_ms": 442.4390759995731,
+    "n": 200
+  },
+  "boundary_end_to_end_from_pil": {
+    "median_ms": 453.89777950185817,
+    "mean_ms": 453.9016621799783,
+    "p90_ms": 454.07777999935206,
+    "n": 200
+  },
+  "batch_size": 1,
+  "precision": "fp32",
+  "warmup": 50,
+  "timed": 200,
+  "input_view": "deterministic 336 evaluation view",
+  "timing_image": "support-pool image from data/p6b_stage1_manifest_bundle/p6b_support_manifests/bottle/k5_s111.json",
+  "resident_allocated_bytes": 1939485184,
+  "peak_allocated_bytes": 2014606848,
+  "environment": {
+    "torch": "2.8.0",
+    "cuda": "12.6",
+    "platform": "Linux-5.15.199-tegra-aarch64-with-glibc2.35",
+    "processor": "aarch64",
+    "device": "cuda",
+    "gpu": "Orin",
+    "cudnn": 90300
+  },
+  "provenance": {
+    "head": null,
+    "tracked_tree_dirty": null
+  }
+}

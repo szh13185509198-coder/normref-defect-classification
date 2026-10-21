@@ -1,0 +1,23 @@
+P43-D 2026-10-02 23:10:11; booted 2026-10-02 12:34:08
+== FP16 anchor clip_l14_336_r2_fp16 23:10:11
+[10/02/2026-23:10:24] [I] GPU Compute Time: min = 49.7214 ms, max = 51.1504 ms, mean = 50.7478 ms, median = 50.9023 ms, percentile(90%) = 51.092 ms, percentile(95%) = 51.1128 ms, percentile(99%) = 51.1455 ms
+[10/02/2026-23:10:24] [I] Total GPU Compute Time: 10.1496 s
+== FP16 anchor dinov2_s_336_ex_r5 23:10:24
+[10/02/2026-23:10:27] [I] GPU Compute Time: min = 4.91992 ms, max = 4.95215 ms, mean = 4.93499 ms, median = 4.93518 ms, percentile(90%) = 4.94214 ms, percentile(95%) = 4.94482 ms, percentile(99%) = 4.95068 ms
+[10/02/2026-23:10:27] [I] Total GPU Compute Time: 0.986998 s
+== FP16 anchor dinov2_b_336_ex_r5 23:10:27
+[10/02/2026-23:10:33] [I] GPU Compute Time: min = 14.1865 ms, max = 15.3369 ms, mean = 14.7244 ms, median = 14.7726 ms, percentile(90%) = 15.231 ms, percentile(95%) = 15.2375 ms, percentile(99%) = 15.3108 ms
+[10/02/2026-23:10:33] [I] Total GPU Compute Time: 2.94488 s
+== INT8 clip_l14_336 23:10:33
+[10/02/2026-23:12:21] [I] Engine built in 104.811 sec.
+[10/02/2026-23:12:37] [I] GPU Compute Time: min = 49.2698 ms, max = 51.2366 ms, mean = 50.1037 ms, median = 49.9551 ms, percentile(90%) = 50.5713 ms, percentile(95%) = 50.8867 ms, percentile(99%) = 50.957 ms
+[10/02/2026-23:12:37] [I] Total GPU Compute Time: 9.97064 s
+== INT8 dinov2_s_336_ex 23:12:37
+[10/02/2026-23:13:51] [I] Engine built in 72.1525 sec.
+[10/02/2026-23:13:55] [I] GPU Compute Time: min = 4.90479 ms, max = 4.93115 ms, mean = 4.91706 ms, median = 4.91699 ms, percentile(90%) = 4.92334 ms, percentile(95%) = 4.92651 ms, percentile(99%) = 4.92871 ms
+[10/02/2026-23:13:55] [I] Total GPU Compute Time: 0.978495 s
+== INT8 dinov2_b_336_ex 23:13:55
+[10/02/2026-23:15:06] [I] Engine built in 68.3192 sec.
+[10/02/2026-23:15:12] [I] GPU Compute Time: min = 14.1692 ms, max = 15.2856 ms, mean = 14.6728 ms, median = 14.541 ms, percentile(90%) = 14.9531 ms, percentile(95%) = 15.2051 ms, percentile(99%) = 15.2236 ms
+[10/02/2026-23:15:12] [I] Total GPU Compute Time: 2.91988 s
+done 2026-10-02 23:15:12

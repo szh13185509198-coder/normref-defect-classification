@@ -1,0 +1,37 @@
+{
+  "batch_size": 1,
+  "boundary_end_to_end_from_pil": {
+    "mean_ms": 453.9016621799783,
+    "median_ms": 453.89777950185817,
+    "n": 200,
+    "p90_ms": 454.07777999935206
+  },
+  "boundary_model_forward": {
+    "mean_ms": 442.20620807493106,
+    "median_ms": 442.1746304997214,
+    "n": 200,
+    "p90_ms": 442.4390759995731
+  },
+  "environment": {
+    "cuda": "12.6",
+    "cudnn": 90300,
+    "device": "cuda",
+    "gpu": "Orin",
+    "platform": "Linux-5.15.199-tegra-aarch64-with-glibc2.35",
+    "processor": "aarch64",
+    "torch": "2.8.0"
+  },
+  "input_view": "deterministic 336 evaluation view",
+  "peak_allocated_bytes": 2014606848,
+  "pipeline": "ours",
+  "precision": "fp32",
+  "provenance": {
+    "head": null,
+    "tracked_tree_dirty": null
+  },
+  "resident_allocated_bytes": 1939485184,
+  "schema_version": "revision_c3_latency_v1",
+  "timed": 200,
+  "timing_image": "support-pool image from data/p6b_stage1_manifest_bundle/p6b_support_manifests/bottle/k5_s111.json",
+  "warmup": 50
+}

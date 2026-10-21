@@ -1,0 +1,45 @@
+{
+ "head_check_max_abs_diff": {
+  "appearance_deviation_AR": 2.384185791015625e-07
+ },
+ "offline_ms": {
+  "support_feature_extraction_ms": 896.1741621606052,
+  "bank_feature_extraction_ms": 1318.6332350596786,
+  "tau_calibration_loo_ms": 165.51045421510935,
+  "support_state_ms": 19.390514120459557
+ },
+ "online": {
+  "appearance_deviation_AR": {
+   "end_to_end_from_pil": {
+    "median_ms": 80.86310653015971,
+    "mean_ms": 65.12170831905678,
+    "p90_ms": 96.41556069254875,
+    "n": 200
+   },
+   "head_only_given_features": {
+    "median_ms": 0.8087023161351681,
+    "mean_ms": 0.816100665833801,
+    "p90_ms": 0.818357802927494,
+    "n": 200
+   },
+   "peak_allocated_bytes": 2000731648
+  }
+ },
+ "storage": {
+  "patch_grid": 576,
+  "patch_dim": 1024,
+  "bank_patches": 11520,
+  "bank_fp32_mb": 45.0
+ },
+ "precision": "fp32",
+ "model_forward": {
+  "median_ms": 14.99032462015748,
+  "p90_ms": 15.016917139291763,
+  "n": 100
+ },
+ "gflops_per_image_backbone": 381.919789056,
+ "params": 304293888,
+ "per_task_preparation_s": 2.3997083655558527,
+ "block_wall_s": 33.651149842422456,
+ "torch": "2.8.0+cu128"
+}

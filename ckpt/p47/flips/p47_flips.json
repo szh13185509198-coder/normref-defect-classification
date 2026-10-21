@@ -1,0 +1,36 @@
+{
+ "schema_version": "p47_flips_v1",
+ "protocol": "docs/P47_SCALING_AND_TILING_PROTOCOL.md#A1",
+ "agreement_equals_p41": true,
+ "per_K": {
+  "1": {
+   "n": 2650,
+   "agree": 2526,
+   "right_to_wrong": 39,
+   "wrong_to_right": 44,
+   "wrong_to_wrong": 41
+  },
+  "3": {
+   "n": 2650,
+   "agree": 2564,
+   "right_to_wrong": 35,
+   "wrong_to_right": 34,
+   "wrong_to_wrong": 17
+  },
+  "5": {
+   "n": 2650,
+   "agree": 2588,
+   "right_to_wrong": 24,
+   "wrong_to_right": 29,
+   "wrong_to_wrong": 9
+  }
+ },
+ "total": {
+  "n": 7950,
+  "agree": 7678,
+  "right_to_wrong": 98,
+  "wrong_to_right": 107,
+  "wrong_to_wrong": 67
+ },
+ "note": "counts over query x episode cells (13 products x 5 seeds per K)"
+}

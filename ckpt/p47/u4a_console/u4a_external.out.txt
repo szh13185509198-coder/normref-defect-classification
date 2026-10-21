@@ -1,0 +1,15 @@
+[DINOv2] Loaded from offline local torch.hub repo: D:\intergration\aaclip_optimize-main\third_party\dinov2
+[DINOv2] Local checkpoint: D:\intergration\aaclip_optimize-main\pretrained\dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+[p47-u4a-ext] visa__candle: 284 of 534 queries, window 0.880; 12.9 min
+[p47-u4a-ext] visa__cashew: 284 of 284 queries, window 0.880; 25.5 min
+[p47-u4a-ext] visa__chewinggum: 273 of 274 queries, window 0.880; 37.5 min
+[p47-u4a-ext] visa__fryum: 282 of 282 queries, window 0.880; 49.9 min
+[p47-u4a-ext] visa__macaroni1: 288 of 538 queries, window 0.880; 62.6 min
+[p47-u4a-ext] visa__macaroni2: 284 of 534 queries, window 0.880; 75.2 min
+[p47-u4a-ext] visa__pcb1: 295 of 547 queries, window 0.880; 88.1 min
+[p47-u4a-ext] visa__pcb2: 295 of 545 queries, window 0.880; 101.0 min
+[p47-u4a-ext] visa__pcb3: 296 of 549 queries, window 0.876; 114.0 min
+[p47-u4a-ext] visa__pcb4: 265 of 517 queries, window 0.880; 125.6 min
+[p47-u4a-ext] visa__pipe_fryum: 293 of 293 queries, window 0.880; 138.5 min
+[p47-u4a-ext] mtd__mtd6way: 444 of 670 queries, window 0.777; 156.4 min

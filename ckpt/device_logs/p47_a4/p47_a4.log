@@ -1,0 +1,16 @@
+/home/<USER>/p31/repo/experiments/p41/fused_engine.py:112: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /opt/pytorch/torch/csrc/utils/tensor_numpy.cpp:204.)
+  x = torch.from_numpy(np.asarray(image.convert("RGB"))).to(device, non_blocking=True)
+[10/03/2026-17:06:52] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p47-A4] visa__candle: 634 images, 787 s
+[p47-A4] visa__cashew: 384 images, 488 s
+[p47-A4] visa__chewinggum: 374 images, 475 s
+[p47-A4] visa__fryum: 382 images, 485 s
+[p47-A4] visa__macaroni1: 638 images, 793 s
+[p47-A4] visa__macaroni2: 634 images, 787 s
+[p47-A4] visa__pcb1: 647 images, 804 s
+[p47-A4] visa__pcb2: 645 images, 802 s
+[p47-A4] visa__pcb3: 649 images, 804 s
+[p47-A4] visa__pcb4: 617 images, 767 s
+[p47-A4] visa__pipe_fryum: 393 images, 496 s
+[p47-A4] mtd__mtd6way: 770 images, 930 s
+[p47-A4] extraction done

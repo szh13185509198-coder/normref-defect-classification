@@ -1,0 +1,18 @@
+/home/<USER>/p31/venv/lib/python3.10/site-packages/torch/backends/cuda/__init__.py:131: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/aten/src/ATen/Context.cpp:80.)
+  return torch._C._get_cublas_allow_tf32()
+[p43] idle 30 s recorded
+[10/03/2026-10:48:24] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+/home/<USER>/p31/repo/experiments/p41/fused_engine.py:112: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /opt/pytorch/torch/csrc/utils/tensor_numpy.cpp:204.)
+  x = torch.from_numpy(np.asarray(image.convert("RGB"))).to(device, non_blocking=True)
+[10/03/2026-10:48:25] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p43] fused_e2e: 700 calls, 85.73 ms each
+[10/03/2026-10:49:48] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+/home/<USER>/p31/repo/experiments/p41/fused_engine.py:112: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /opt/pytorch/torch/csrc/utils/tensor_numpy.cpp:204.)
+  x = torch.from_numpy(np.asarray(image.convert("RGB"))).to(device, non_blocking=True)
+[10/03/2026-10:49:48] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p43] fused_engine_only: 744 calls, 80.73 ms each
+[10/03/2026-10:51:12] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[10/03/2026-10:51:12] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[10/03/2026-10:51:12] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[10/03/2026-10:51:12] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p43] gate_dino_pass: 2075 calls, 28.92 ms each

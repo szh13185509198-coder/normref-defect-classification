@@ -1,0 +1,603 @@
+{
+  "K": [
+    1,
+    3,
+    5
+  ],
+  "class_counts": {
+    "mtd__mtd6way": {
+      "MT_Blowhole": {
+        "eligible_unique": 115,
+        "query": 57,
+        "support_candidates": 58
+      },
+      "MT_Break": {
+        "eligible_unique": 85,
+        "query": 42,
+        "support_candidates": 43
+      },
+      "MT_Crack": {
+        "eligible_unique": 57,
+        "query": 28,
+        "support_candidates": 29
+      },
+      "MT_Fray": {
+        "eligible_unique": 32,
+        "query": 16,
+        "support_candidates": 16
+      },
+      "MT_Free": {
+        "eligible_unique": 952,
+        "query": 476,
+        "support_candidates": 476
+      },
+      "MT_Uneven": {
+        "eligible_unique": 103,
+        "query": 51,
+        "support_candidates": 52
+      }
+    },
+    "visa__candle": {
+      "chunk of wax missing": {
+        "eligible_unique": 12,
+        "query": 6,
+        "support_candidates": 6
+      },
+      "damaged corner of packaging": {
+        "eligible_unique": 18,
+        "query": 9,
+        "support_candidates": 9
+      },
+      "different colour spot": {
+        "eligible_unique": 15,
+        "query": 7,
+        "support_candidates": 8
+      },
+      "foreign particals on candle": {
+        "eligible_unique": 12,
+        "query": 6,
+        "support_candidates": 6
+      },
+      "normal": {
+        "eligible_unique": 1000,
+        "query": 500,
+        "support_candidates": 500
+      },
+      "wax melded out of the candle": {
+        "eligible_unique": 12,
+        "query": 6,
+        "support_candidates": 6
+      }
+    },
+    "visa__cashew": {
+      "burnt": {
+        "eligible_unique": 10,
+        "query": 5,
+        "support_candidates": 5
+      },
+      "corner or edge breakage": {
+        "eligible_unique": 14,
+        "query": 7,
+        "support_candidates": 7
+      },
+      "normal": {
+        "eligible_unique": 500,
+        "query": 250,
+        "support_candidates": 250
+      },
+      "same colour spot": {
+        "eligible_unique": 10,
+        "query": 5,
+        "support_candidates": 5
+      },
+      "small holes": {
+        "eligible_unique": 20,
+        "query": 10,
+        "support_candidates": 10
+      },
+      "small scratches": {
+        "eligible_unique": 15,
+        "query": 7,
+        "support_candidates": 8
+      }
+    },
+    "visa__chewinggum": {
+      "chunk of gum missing": {
+        "eligible_unique": 16,
+        "query": 8,
+        "support_candidates": 8
+      },
+      "corner missing": {
+        "eligible_unique": 13,
+        "query": 6,
+        "support_candidates": 7
+      },
+      "normal": {
+        "eligible_unique": 503,
+        "query": 251,
+        "support_candidates": 252
+      },
+      "similar colour spot": {
+        "eligible_unique": 19,
+        "query": 9,
+        "support_candidates": 10
+      }
+    },
+    "visa__fryum": {
+      "different colour spot": {
+        "eligible_unique": 14,
+        "query": 7,
+        "support_candidates": 7
+      },
+      "fryum stuck together": {
+        "eligible_unique": 20,
+        "query": 10,
+        "support_candidates": 10
+      },
+      "middle breakage": {
+        "eligible_unique": 18,
+        "query": 9,
+        "support_candidates": 9
+      },
+      "normal": {
+        "eligible_unique": 500,
+        "query": 250,
+        "support_candidates": 250
+      },
+      "similar colour spot": {
+        "eligible_unique": 12,
+        "query": 6,
+        "support_candidates": 6
+      }
+    },
+    "visa__macaroni1": {
+      "chip around edge and corner": {
+        "eligible_unique": 17,
+        "query": 8,
+        "support_candidates": 9
+      },
+      "different colour spot": {
+        "eligible_unique": 15,
+        "query": 7,
+        "support_candidates": 8
+      },
+      "normal": {
+        "eligible_unique": 1000,
+        "query": 500,
+        "support_candidates": 500
+      },
+      "similar colour spot": {
+        "eligible_unique": 21,
+        "query": 10,
+        "support_candidates": 11
+      },
+      "small cracks": {
+        "eligible_unique": 11,
+        "query": 5,
+        "support_candidates": 6
+      },
+      "small scratches": {
+        "eligible_unique": 16,
+        "query": 8,
+        "support_candidates": 8
+      }
+    },
+    "visa__macaroni2": {
+      "color spot similar to the object": {
+        "eligible_unique": 23,
+        "query": 11,
+        "support_candidates": 12
+      },
+      "different color spot": {
+        "eligible_unique": 12,
+        "query": 6,
+        "support_candidates": 6
+      },
+      "normal": {
+        "eligible_unique": 1000,
+        "query": 500,
+        "support_candidates": 500
+      },
+      "small chip around edge": {
+        "eligible_unique": 19,
+        "query": 9,
+        "support_candidates": 10
+      },
+      "small scratches": {
+        "eligible_unique": 16,
+        "query": 8,
+        "support_candidates": 8
+      }
+    },
+    "visa__pcb1": {
+      "bent": {
+        "eligible_unique": 14,
+        "query": 7,
+        "support_candidates": 7
+      },
+      "melt": {
+        "eligible_unique": 46,
+        "query": 23,
+        "support_candidates": 23
+      },
+      "missing": {
+        "eligible_unique": 17,
+        "query": 8,
+        "support_candidates": 9
+      },
+      "normal": {
+        "eligible_unique": 1004,
+        "query": 502,
+        "support_candidates": 502
+      },
+      "scratch": {
+        "eligible_unique": 14,
+        "query": 7,
+        "support_candidates": 7
+      }
+    },
+    "visa__pcb2": {
+      "bent": {
+        "eligible_unique": 12,
+        "query": 6,
+        "support_candidates": 6
+      },
+      "melt": {
+        "eligible_unique": 48,
+        "query": 24,
+        "support_candidates": 24
+      },
+      "missing": {
+        "eligible_unique": 17,
+        "query": 8,
+        "support_candidates": 9
+      },
+      "normal": {
+        "eligible_unique": 1001,
+        "query": 500,
+        "support_candidates": 501
+      },
+      "scratch": {
+        "eligible_unique": 14,
+        "query": 7,
+        "support_candidates": 7
+      }
+    },
+    "visa__pcb3": {
+      "bent": {
+        "eligible_unique": 19,
+        "query": 9,
+        "support_candidates": 10
+      },
+      "melt": {
+        "eligible_unique": 38,
+        "query": 19,
+        "support_candidates": 19
+      },
+      "missing": {
+        "eligible_unique": 16,
+        "query": 8,
+        "support_candidates": 8
+      },
+      "normal": {
+        "eligible_unique": 1006,
+        "query": 503,
+        "support_candidates": 503
+      },
+      "scratch": {
+        "eligible_unique": 20,
+        "query": 10,
+        "support_candidates": 10
+      }
+    },
+    "visa__pcb4": {
+      "extra": {
+        "eligible_unique": 12,
+        "query": 6,
+        "support_candidates": 6
+      },
+      "missing": {
+        "eligible_unique": 19,
+        "query": 9,
+        "support_candidates": 10
+      },
+      "normal": {
+        "eligible_unique": 1005,
+        "query": 502,
+        "support_candidates": 503
+      }
+    },
+    "visa__pipe_fryum": {
+      "burnt": {
+        "eligible_unique": 15,
+        "query": 7,
+        "support_candidates": 8
+      },
+      "corner and edge breakage": {
+        "eligible_unique": 15,
+        "query": 7,
+        "support_candidates": 8
+      },
+      "different colour spot": {
+        "eligible_unique": 10,
+        "query": 5,
+        "support_candidates": 5
+      },
+      "normal": {
+        "eligible_unique": 500,
+        "query": 250,
+        "support_candidates": 250
+      },
+      "similar colour spot": {
+        "eligible_unique": 20,
+        "query": 10,
+        "support_candidates": 10
+      },
+      "small scratches": {
+        "eligible_unique": 18,
+        "query": 9,
+        "support_candidates": 9
+      },
+      "stuck together": {
+        "eligible_unique": 10,
+        "query": 5,
+        "support_candidates": 5
+      }
+    }
+  },
+  "class_order_version": "normal_first_then_label_asc_v1",
+  "excluded_map": {
+    "classes": {
+      "candle": {
+        "extra wax in candle": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 9
+        },
+        "weird candle wick": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 9
+        }
+      },
+      "capsules": {
+        "bubble": {
+          "reason": "fewer_than_2_retained_defect_subtypes",
+          "unique_count": 30
+        }
+      },
+      "cashew": {
+        "different colour spot": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 9
+        },
+        "middle breakage": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 6
+        },
+        "stuck together": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 6
+        }
+      },
+      "chewinggum": {
+        "scratches": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 9
+        }
+      },
+      "fryum": {
+        "burnt": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 9
+        },
+        "corner or edge breakage": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 8
+        },
+        "small scratches": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 6
+        }
+      },
+      "macaroni2": {
+        "breakage down the middle": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 1
+        },
+        "small cracks": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 7
+        }
+      },
+      "pcb4": {
+        "burnt": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 2
+        },
+        "damage": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 7
+        },
+        "scratch": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 2
+        },
+        "wrong place": {
+          "reason": "availability_below_10_unique_single_label_images",
+          "unique_count": 2
+        }
+      }
+    },
+    "multi_label": {
+      "candle": 13,
+      "capsules": 70,
+      "cashew": 10,
+      "chewinggum": 43,
+      "fryum": 13,
+      "macaroni1": 20,
+      "macaroni2": 22,
+      "pcb1": 9,
+      "pcb2": 9,
+      "pcb3": 7,
+      "pcb4": 56,
+      "pipe_fryum": 12
+    },
+    "objects": {
+      "capsules": "fewer_than_2_retained_defect_subtypes"
+    }
+  },
+  "feasibility_commit": "f8db649ffc47eb5c8ad06ac7a5c452217f6ed5cc",
+  "formal_test_used": false,
+  "grayscale_contract": "MTD input: RGB(x) = stack(L, L, L), identical channels; no learned colorization / pseudo-color / channel-specific transform; masks never used",
+  "image_pixels_identity_hash_read": true,
+  "image_pixels_model_read": false,
+  "lock_schema": "external_rgb_fewshot_transfer_protocol_lock_v1",
+  "manifest_bundle": "data/external_transfer_manifest_bundle",
+  "manifest_bundle_complete_sha256": "aa2a3484cbde36002b5350aaa8c1ea946e4e47ced5aba52ee179c555b0350079",
+  "manifest_index": "audit/external_transfer_manifest_index.json",
+  "manifest_index_sha256": "f1071a3ad2d89c5e7bca44b2e336ef51e29e543c046c16fac4082c6aa281cbff",
+  "method_registry": [
+    "frozen_fusion_proto",
+    "mvrec_rgb_adaptation",
+    "ours"
+  ],
+  "metric_registry": {
+    "descriptive": "accuracy",
+    "primary": "balanced_accuracy",
+    "secondary": "macro_f1"
+  },
+  "min_defect_classes_per_object": 2,
+  "min_unique_per_class": 10,
+  "model_loaded": false,
+  "mtd_archive": "data/Magnetic-tile-defect-datasets.-master.zip",
+  "mtd_archive_sha256": "39bd97027c027116dc97f858db6e5028f98fdcf94b70e695c063f74e40976cf5",
+  "mtd_task": {
+    "classes": [
+      "MT_Blowhole",
+      "MT_Break",
+      "MT_Crack",
+      "MT_Fray",
+      "MT_Free",
+      "MT_Uneven"
+    ],
+    "normal_class": "MT_Free",
+    "task": "mtd__mtd6way"
+  },
+  "multi_label_rule": "exclude len(defect_types) != 1",
+  "partition_algorithm": "sort identities by decoded RGB SHA256 ascending; first ceil(n/2) -> support candidate pool; remaining floor(n/2) -> fixed query pool; predefined odd rule: odd image goes to support candidate pool",
+  "partition_version": "sha256_order_ceil_support_v1",
+  "performance_metrics_generated": false,
+  "protocol_canonical_lf_sha256": "b57aae4ab7e102b6e8df23dc3398ee793d231d59d6ae4e4364dd7c07860ab451",
+  "protocol_path": "docs/EXTERNAL_RGB_FEWSHOT_TRANSFER_PROTOCOL.md",
+  "protocol_version": "external_rgb_fewshot_transfer_v1",
+  "retained_visa_class_map": {
+    "candle": [
+      "normal",
+      "chunk of wax missing",
+      "damaged corner of packaging",
+      "different colour spot",
+      "foreign particals on candle",
+      "wax melded out of the candle"
+    ],
+    "cashew": [
+      "normal",
+      "burnt",
+      "corner or edge breakage",
+      "same colour spot",
+      "small holes",
+      "small scratches"
+    ],
+    "chewinggum": [
+      "normal",
+      "chunk of gum missing",
+      "corner missing",
+      "similar colour spot"
+    ],
+    "fryum": [
+      "normal",
+      "different colour spot",
+      "fryum stuck together",
+      "middle breakage",
+      "similar colour spot"
+    ],
+    "macaroni1": [
+      "normal",
+      "chip around edge and corner",
+      "different colour spot",
+      "similar colour spot",
+      "small cracks",
+      "small scratches"
+    ],
+    "macaroni2": [
+      "normal",
+      "color spot similar to the object",
+      "different color spot",
+      "small chip around edge",
+      "small scratches"
+    ],
+    "pcb1": [
+      "normal",
+      "bent",
+      "melt",
+      "missing",
+      "scratch"
+    ],
+    "pcb2": [
+      "normal",
+      "bent",
+      "melt",
+      "missing",
+      "scratch"
+    ],
+    "pcb3": [
+      "normal",
+      "bent",
+      "melt",
+      "missing",
+      "scratch"
+    ],
+    "pcb4": [
+      "normal",
+      "extra",
+      "missing"
+    ],
+    "pipe_fryum": [
+      "normal",
+      "burnt",
+      "corner and edge breakage",
+      "different colour spot",
+      "similar colour spot",
+      "small scratches",
+      "stuck together"
+    ]
+  },
+  "retained_visa_objects": [
+    "candle",
+    "cashew",
+    "chewinggum",
+    "fryum",
+    "macaroni1",
+    "macaroni2",
+    "pcb1",
+    "pcb2",
+    "pcb3",
+    "pcb4",
+    "pipe_fryum"
+  ],
+  "seeds": [
+    111,
+    222,
+    333,
+    444,
+    555
+  ],
+  "statistics_policy": {
+    "go_no_go": "none; results reported regardless of sign",
+    "mtd_uncertainty": "seed-level paired differences mean\u00b1SD over the 5 paired seeds; no fabricated object clusters",
+    "visa_uncertainty": "paired object-cluster percentile bootstrap, 10000 resamples, rng_seed 20260814, two-sided 95% CI, descriptive/confirmatory only"
+  },
+  "support_draw_algorithm": "rank = SHA256(version|draw_version|dataset|task|class|seed|rgb_sha256); ascending rank order; K1/K3/K5 = first 1/3/5 (nested by construction); query invariant across K, seeds, methods",
+  "support_draw_version": "sha256_ranked_nested_v1",
+  "transport_rule": "cloud execution must use a transferred copy of this frozen local bundle; regenerating the formal split on cloud is forbidden",
+  "visa_archive": "data/VisA_20220922.tar",
+  "visa_archive_sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362"
+}

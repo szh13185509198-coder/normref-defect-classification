@@ -1,0 +1,17 @@
+{
+ "schema_version": "p43_energy_v1",
+ "block": "trt_s336_engine",
+ "seconds": 60.0,
+ "torch": "2.8.0",
+ "start": {
+  "epoch": 1790953244.5881128,
+  "local": "2026-10-02 23:00:44"
+ },
+ "end": {
+  "epoch": 1790953304.589857,
+  "local": "2026-10-02 23:01:44"
+ },
+ "forwards": 11693,
+ "mean_ms": 5.131419660822945,
+ "check": {}
+}

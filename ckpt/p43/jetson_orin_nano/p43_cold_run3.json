@@ -1,0 +1,44 @@
+{
+ "run_index": 3,
+ "epochs": {
+  "launch": 1790952872.3474383,
+  "module": 1790952872.3864045,
+  "imports": 1790952875.0798812,
+  "project_imports": 1790952876.8598273,
+  "cuda_context": 1790952877.0088897,
+  "engine_ready": 1790952878.1183062,
+  "state_on_gpu": 1790952878.1767476,
+  "image_decoded": 1790952878.214298,
+  "first_decision": 1790952878.3540473
+ },
+ "phases_s": {
+  "launch->module_s": 0.03896617889404297,
+  "module->imports_s": 2.693476676940918,
+  "imports->project_imports_s": 1.7799460887908936,
+  "project_imports->cuda_context_s": 0.1490623950958252,
+  "cuda_context->engine_ready_s": 1.1094164848327637,
+  "engine_ready->state_on_gpu_s": 0.0584414005279541,
+  "state_on_gpu->image_decoded_s": 0.03755044937133789,
+  "image_decoded->first_decision_s": 0.13974928855895996
+ },
+ "launch_to_first_decision_s": 6.006608963012695,
+ "module_to_first_decision_s": 5.967642784118652,
+ "decision": [
+  1,
+  0.5390625
+ ],
+ "steady_e2e": {
+  "n": 50,
+  "mean_ms": 63.44491925963666,
+  "sd_ms": 0.5089615870572746,
+  "min_ms": 62.90060700121103,
+  "p50_ms": 63.333116500871256,
+  "p90_ms": 63.81145100021968,
+  "p95_ms": 63.84981900191633,
+  "p99_ms": 66.32205500500277,
+  "p999_ms": 66.32205500500277,
+  "max_ms": 66.32205500500277,
+  "over_2x_median": 0
+ },
+ "note": "page cache not dropped (no sudo): file reads are warm"
+}

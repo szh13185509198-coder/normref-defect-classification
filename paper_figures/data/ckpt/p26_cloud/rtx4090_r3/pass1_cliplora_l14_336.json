@@ -1,0 +1,45 @@
+{
+ "backbone": "ViT-L/14@336px",
+ "resolution": 336,
+ "official_steps": 2500,
+ "loader_workers": 8,
+ "loralib_layer_table": "ViT-L/14",
+ "official": {
+  "fits_official_batch": true,
+  "run_s": {
+   "25": 40.63984851073474,
+   "125": 185.09682174306363
+  },
+  "s_per_step": 1.444569732323289,
+  "task_training_s_extrapolated": 3611.4243308082223
+ },
+ "compute_only": {
+  "batch": 15,
+  "micro_batch": 15,
+  "gradient_accumulation": false,
+  "step": {
+   "median_ms": 234.0779835358262,
+   "p90_ms": 235.52610399201512,
+   "n": 30
+  },
+  "text_encoder_calls_per_step": 1,
+  "task_training_s_extrapolated": 585.1949588395655,
+  "gflops_per_step": 16104.990970368,
+  "peak_train_mb": 10241.37451171875
+ },
+ "trainable_params": 405504,
+ "model_forward": {
+  "median_ms": 12.039185035973787,
+  "p90_ms": 12.163660023361444,
+  "n": 100
+ },
+ "end_to_end": {
+  "median_ms": 81.21172757819295,
+  "p90_ms": 93.6838579364121,
+  "n": 100
+ },
+ "peak_infer_mb": 1205.11474609375,
+ "gflops_per_image": 381.919793664,
+ "block_wall_s": 269.81591513194144,
+ "torch": "2.8.0+cu128"
+}

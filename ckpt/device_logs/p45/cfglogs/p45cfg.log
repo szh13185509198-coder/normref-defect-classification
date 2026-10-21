@@ -1,0 +1,285 @@
+[p45] idle 30 s
+[10/03/2026-11:30:44] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] clip_l18 frame_seq bottle: 192 parts, 15.93 parts/s, p50 62.6 ms, changeover 3.2 s
+[p45] clip_l18 frame_seq capsule: 252 parts, 15.53 parts/s, p50 64.3 ms, changeover 4.8 s
+[p45] clip_l18 frame_seq carpet: 231 parts, 15.40 parts/s, p50 64.8 ms, changeover 4.8 s
+[p45] clip_l18 frame_seq grid: 174 parts, 15.38 parts/s, p50 64.9 ms, changeover 3.4 s
+[p45] clip_l18 frame_seq hazelnut: 207 parts, 15.37 parts/s, p50 65.1 ms, changeover 4.1 s
+[p45] clip_l18 frame_seq leather: 234 parts, 15.26 parts/s, p50 65.3 ms, changeover 4.4 s
+[p45] clip_l18 frame_seq metal_nut: 222 parts, 16.59 parts/s, p50 60.1 ms, changeover 3.0 s
+[p45] clip_l18 frame_seq pill: 291 parts, 16.26 parts/s, p50 61.4 ms, changeover 4.3 s
+[p45] clip_l18 frame_seq screw: 279 parts, 15.16 parts/s, p50 65.8 ms, changeover 3.4 s
+[p45] clip_l18 frame_seq tile: 216 parts, 16.09 parts/s, p50 62.0 ms, changeover 4.1 s
+[p45] clip_l18 frame_seq transistor: 150 parts, 15.27 parts/s, p50 65.4 ms, changeover 4.3 s
+[p45] clip_l18 frame_seq wood: 174 parts, 15.25 parts/s, p50 65.5 ms, changeover 4.3 s
+[p45] clip_l18 frame_seq zipper: 252 parts, 15.29 parts/s, p50 65.2 ms, changeover 3.7 s
+{
+ "config": "clip_l18",
+ "mode": "frame_seq",
+ "throughput_pps": 15.60139647334248,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 64.09131491656166,
+  "p50_ms": 64.75184250302846,
+  "p90_ms": 66.01949600735679,
+  "p99_ms": 67.75760800519492,
+  "max_ms": 68.81812900246587
+ },
+ "head_check": 2.384185791015625e-07
+}
+[10/03/2026-11:36:04] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] clip_l18 file_pipe bottle: 192 parts, 15.11 parts/s, p50 395.8 ms, changeover 3.3 s
+[p45] clip_l18 file_pipe capsule: 252 parts, 14.63 parts/s, p50 408.5 ms, changeover 4.8 s
+[p45] clip_l18 file_pipe carpet: 231 parts, 14.50 parts/s, p50 412.4 ms, changeover 4.8 s
+[p45] clip_l18 file_pipe grid: 174 parts, 14.70 parts/s, p50 407.2 ms, changeover 3.4 s
+[p45] clip_l18 file_pipe hazelnut: 207 parts, 14.50 parts/s, p50 412.2 ms, changeover 4.1 s
+[p45] clip_l18 file_pipe leather: 234 parts, 14.51 parts/s, p50 412.0 ms, changeover 4.5 s
+[p45] clip_l18 file_pipe metal_nut: 222 parts, 15.88 parts/s, p50 377.1 ms, changeover 3.0 s
+[p45] clip_l18 file_pipe pill: 291 parts, 15.47 parts/s, p50 387.0 ms, changeover 4.3 s
+[p45] clip_l18 file_pipe screw: 279 parts, 14.71 parts/s, p50 407.2 ms, changeover 3.4 s
+[p45] clip_l18 file_pipe tile: 216 parts, 15.31 parts/s, p50 390.8 ms, changeover 4.1 s
+[p45] clip_l18 file_pipe transistor: 150 parts, 14.49 parts/s, p50 411.4 ms, changeover 4.3 s
+[p45] clip_l18 file_pipe wood: 174 parts, 14.50 parts/s, p50 412.7 ms, changeover 4.3 s
+[p45] clip_l18 file_pipe zipper: 252 parts, 14.71 parts/s, p50 407.2 ms, changeover 3.7 s
+{
+ "config": "clip_l18",
+ "mode": "file_pipe",
+ "throughput_pps": 14.85726213365882,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 392.3553993559619,
+  "p50_ms": 407.04872999776853,
+  "p90_ms": 412.8861589997541,
+  "p99_ms": 415.5464969953755,
+  "max_ms": 419.85413499060087
+ },
+ "head_check": 2.384185791015625e-07
+}
+[10/03/2026-11:41:00] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] dino_b frame_seq bottle: 192 parts, 25.80 parts/s, p50 38.6 ms, changeover 2.3 s
+[p45] dino_b frame_seq capsule: 252 parts, 24.65 parts/s, p50 40.5 ms, changeover 3.6 s
+[p45] dino_b frame_seq carpet: 231 parts, 24.18 parts/s, p50 41.2 ms, changeover 3.7 s
+[p45] dino_b frame_seq grid: 174 parts, 24.35 parts/s, p50 40.9 ms, changeover 2.2 s
+[p45] dino_b frame_seq hazelnut: 207 parts, 24.25 parts/s, p50 41.1 ms, changeover 3.1 s
+[p45] dino_b frame_seq leather: 234 parts, 24.34 parts/s, p50 41.0 ms, changeover 3.3 s
+[p45] dino_b frame_seq metal_nut: 222 parts, 28.12 parts/s, p50 35.5 ms, changeover 1.9 s
+[p45] dino_b frame_seq pill: 291 parts, 26.97 parts/s, p50 37.0 ms, changeover 2.9 s
+[p45] dino_b frame_seq screw: 279 parts, 24.25 parts/s, p50 41.3 ms, changeover 2.3 s
+[p45] dino_b frame_seq tile: 216 parts, 26.66 parts/s, p50 37.4 ms, changeover 2.9 s
+[p45] dino_b frame_seq transistor: 150 parts, 24.32 parts/s, p50 40.9 ms, changeover 3.3 s
+[p45] dino_b frame_seq wood: 174 parts, 24.38 parts/s, p50 41.0 ms, changeover 3.3 s
+[p45] dino_b frame_seq zipper: 252 parts, 24.38 parts/s, p50 40.9 ms, changeover 2.4 s
+{
+ "config": "dino_b",
+ "mode": "frame_seq",
+ "throughput_pps": 25.111897843950853,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 39.81640254312495,
+  "p50_ms": 40.653750496858265,
+  "p90_ms": 41.68961200048216,
+  "p99_ms": 42.92537400033325,
+  "max_ms": 43.86920100660063
+ },
+ "head_check": 4.76837158203125e-07
+}
+[10/03/2026-11:44:44] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] dino_b file_pipe bottle: 192 parts, 24.40 parts/s, p50 245.2 ms, changeover 2.3 s
+[p45] dino_b file_pipe capsule: 252 parts, 19.33 parts/s, p50 94.5 ms, changeover 3.6 s
+[p45] dino_b file_pipe carpet: 231 parts, 18.85 parts/s, p50 96.3 ms, changeover 3.7 s
+[p45] dino_b file_pipe grid: 174 parts, 23.23 parts/s, p50 257.5 ms, changeover 2.2 s
+[p45] dino_b file_pipe hazelnut: 207 parts, 19.85 parts/s, p50 93.6 ms, changeover 3.1 s
+[p45] dino_b file_pipe leather: 234 parts, 21.31 parts/s, p50 92.3 ms, changeover 3.3 s
+[p45] dino_b file_pipe metal_nut: 222 parts, 26.35 parts/s, p50 227.0 ms, changeover 1.9 s
+[p45] dino_b file_pipe pill: 291 parts, 25.38 parts/s, p50 235.4 ms, changeover 2.9 s
+[p45] dino_b file_pipe screw: 279 parts, 23.17 parts/s, p50 258.5 ms, changeover 2.2 s
+[p45] dino_b file_pipe tile: 216 parts, 24.77 parts/s, p50 240.9 ms, changeover 2.9 s
+[p45] dino_b file_pipe transistor: 150 parts, 18.27 parts/s, p50 98.3 ms, changeover 3.3 s
+[p45] dino_b file_pipe wood: 174 parts, 18.53 parts/s, p50 97.0 ms, changeover 3.3 s
+[p45] dino_b file_pipe zipper: 252 parts, 23.35 parts/s, p50 256.5 ms, changeover 2.4 s
+{
+ "config": "dino_b",
+ "mode": "file_pipe",
+ "throughput_pps": 21.92005200920668,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 175.74473048973528,
+  "p50_ms": 226.32913699635537,
+  "p90_ms": 257.892894995166,
+  "p99_ms": 259.9927819974255,
+  "max_ms": 262.84034599666484
+ },
+ "head_check": 4.76837158203125e-07
+}
+[10/03/2026-11:48:12] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] dino_s frame_seq bottle: 192 parts, 39.63 parts/s, p50 24.9 ms, changeover 2.0 s
+[p45] dino_s frame_seq capsule: 252 parts, 36.97 parts/s, p50 26.8 ms, changeover 3.2 s
+[p45] dino_s frame_seq carpet: 231 parts, 36.63 parts/s, p50 27.1 ms, changeover 3.3 s
+[p45] dino_s frame_seq grid: 174 parts, 36.63 parts/s, p50 27.1 ms, changeover 1.8 s
+[p45] dino_s frame_seq hazelnut: 207 parts, 36.62 parts/s, p50 27.1 ms, changeover 2.8 s
+[p45] dino_s frame_seq leather: 234 parts, 36.67 parts/s, p50 27.0 ms, changeover 2.9 s
+[p45] dino_s frame_seq metal_nut: 222 parts, 45.92 parts/s, p50 21.5 ms, changeover 1.5 s
+[p45] dino_s frame_seq pill: 291 parts, 42.95 parts/s, p50 23.1 ms, changeover 2.4 s
+[p45] dino_s frame_seq screw: 279 parts, 35.71 parts/s, p50 27.9 ms, changeover 1.9 s
+[p45] dino_s frame_seq tile: 216 parts, 41.92 parts/s, p50 23.6 ms, changeover 2.4 s
+[p45] dino_s frame_seq transistor: 150 parts, 36.83 parts/s, p50 27.0 ms, changeover 3.0 s
+[p45] dino_s frame_seq wood: 174 parts, 36.48 parts/s, p50 27.4 ms, changeover 2.9 s
+[p45] dino_s frame_seq zipper: 252 parts, 36.87 parts/s, p50 27.0 ms, changeover 2.0 s
+{
+ "config": "dino_s",
+ "mode": "frame_seq",
+ "throughput_pps": 38.3171685073786,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 26.092781422051917,
+  "p50_ms": 26.961641997331753,
+  "p90_ms": 27.809701990918256,
+  "p99_ms": 29.51147098792717,
+  "max_ms": 30.38151399232447
+ },
+ "head_check": 2.384185791015625e-07
+}
+[10/03/2026-11:51:05] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] dino_s file_pipe bottle: 192 parts, 35.78 parts/s, p50 59.5 ms, changeover 2.0 s
+[p45] dino_s file_pipe capsule: 252 parts, 20.22 parts/s, p50 78.7 ms, changeover 3.2 s
+[p45] dino_s file_pipe carpet: 231 parts, 19.68 parts/s, p50 80.6 ms, changeover 3.3 s
+[p45] dino_s file_pipe grid: 174 parts, 33.63 parts/s, p50 177.2 ms, changeover 1.9 s
+[p45] dino_s file_pipe hazelnut: 207 parts, 20.76 parts/s, p50 77.7 ms, changeover 2.8 s
+[p45] dino_s file_pipe leather: 234 parts, 22.42 parts/s, p50 75.4 ms, changeover 2.9 s
+[p45] dino_s file_pipe metal_nut: 222 parts, 40.87 parts/s, p50 146.1 ms, changeover 1.5 s
+[p45] dino_s file_pipe pill: 291 parts, 33.32 parts/s, p50 55.7 ms, changeover 2.4 s
+[p45] dino_s file_pipe screw: 279 parts, 33.41 parts/s, p50 178.8 ms, changeover 1.9 s
+[p45] dino_s file_pipe tile: 216 parts, 27.85 parts/s, p50 61.9 ms, changeover 2.4 s
+[p45] dino_s file_pipe transistor: 150 parts, 19.26 parts/s, p50 81.6 ms, changeover 3.0 s
+[p45] dino_s file_pipe wood: 174 parts, 19.56 parts/s, p50 80.8 ms, changeover 2.9 s
+[p45] dino_s file_pipe zipper: 252 parts, 34.00 parts/s, p50 175.9 ms, changeover 2.0 s
+{
+ "config": "dino_s",
+ "mode": "file_pipe",
+ "throughput_pps": 26.243309648984976,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 101.84606298586642,
+  "p50_ms": 79.83793599851197,
+  "p90_ms": 177.85078300221357,
+  "p99_ms": 180.57854899961967,
+  "max_ms": 185.21572199824732
+ },
+ "head_check": 2.384185791015625e-07
+}
+[10/03/2026-11:53:59] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[10/03/2026-11:54:00] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] clipb16_224 frame_seq bottle: 192 parts, 46.41 parts/s, p50 21.3 ms, changeover 1.8 s
+[p45] clipb16_224 frame_seq capsule: 252 parts, 42.47 parts/s, p50 23.7 ms, changeover 2.9 s
+[p45] clipb16_224 frame_seq carpet: 231 parts, 42.23 parts/s, p50 23.4 ms, changeover 3.0 s
+[p45] clipb16_224 frame_seq grid: 174 parts, 42.39 parts/s, p50 23.3 ms, changeover 1.5 s
+[p45] clipb16_224 frame_seq hazelnut: 207 parts, 42.33 parts/s, p50 23.6 ms, changeover 2.5 s
+[p45] clipb16_224 frame_seq leather: 234 parts, 42.39 parts/s, p50 23.3 ms, changeover 2.6 s
+[p45] clipb16_224 frame_seq metal_nut: 222 parts, 54.16 parts/s, p50 18.2 ms, changeover 1.2 s
+[p45] clipb16_224 frame_seq pill: 291 parts, 50.16 parts/s, p50 20.2 ms, changeover 2.1 s
+[p45] clipb16_224 frame_seq screw: 279 parts, 41.65 parts/s, p50 24.1 ms, changeover 1.6 s
+[p45] clipb16_224 frame_seq tile: 216 parts, 48.55 parts/s, p50 20.3 ms, changeover 2.1 s
+[p45] clipb16_224 frame_seq transistor: 150 parts, 42.04 parts/s, p50 24.0 ms, changeover 2.7 s
+[p45] clipb16_224 frame_seq wood: 174 parts, 42.13 parts/s, p50 24.0 ms, changeover 2.6 s
+[p45] clipb16_224 frame_seq zipper: 252 parts, 42.45 parts/s, p50 23.3 ms, changeover 1.7 s
+{
+ "config": "clipb16_224",
+ "mode": "frame_seq",
+ "throughput_pps": 44.394787994943954,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 22.520289190331713,
+  "p50_ms": 23.275344996363856,
+  "p90_ms": 24.07295099692419,
+  "p99_ms": 24.329876992851496,
+  "max_ms": 26.61320401239209
+ },
+ "head_check": 1.9073486328125e-06
+}
+[10/03/2026-11:56:37] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[10/03/2026-11:56:38] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] clipb16_224 file_pipe bottle: 192 parts, 35.49 parts/s, p50 51.8 ms, changeover 1.8 s
+[p45] clipb16_224 file_pipe capsule: 252 parts, 20.26 parts/s, p50 74.9 ms, changeover 3.0 s
+[p45] clipb16_224 file_pipe carpet: 231 parts, 19.74 parts/s, p50 76.5 ms, changeover 3.0 s
+[p45] clipb16_224 file_pipe grid: 174 parts, 38.87 parts/s, p50 153.1 ms, changeover 1.5 s
+[p45] clipb16_224 file_pipe hazelnut: 207 parts, 20.93 parts/s, p50 73.6 ms, changeover 2.5 s
+[p45] clipb16_224 file_pipe leather: 234 parts, 22.47 parts/s, p50 71.4 ms, changeover 2.6 s
+[p45] clipb16_224 file_pipe metal_nut: 222 parts, 46.91 parts/s, p50 45.3 ms, changeover 1.3 s
+[p45] clipb16_224 file_pipe pill: 291 parts, 33.47 parts/s, p50 52.1 ms, changeover 2.1 s
+[p45] clipb16_224 file_pipe screw: 279 parts, 38.43 parts/s, p50 155.3 ms, changeover 1.5 s
+[p45] clipb16_224 file_pipe tile: 216 parts, 27.93 parts/s, p50 58.5 ms, changeover 2.1 s
+[p45] clipb16_224 file_pipe transistor: 150 parts, 19.31 parts/s, p50 77.8 ms, changeover 2.7 s
+[p45] clipb16_224 file_pipe wood: 174 parts, 19.61 parts/s, p50 76.7 ms, changeover 2.7 s
+[p45] clipb16_224 file_pipe zipper: 252 parts, 39.03 parts/s, p50 152.9 ms, changeover 1.7 s
+{
+ "config": "clipb16_224",
+ "mode": "file_pipe",
+ "throughput_pps": 27.15272530901799,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 85.87109831523175,
+  "p50_ms": 74.80468199355528,
+  "p90_ms": 154.4701509992592,
+  "p99_ms": 156.54888200515416,
+  "max_ms": 159.67045199067798
+ },
+ "head_check": 1.9073486328125e-06
+}
+[10/03/2026-11:59:23] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[10/03/2026-11:59:24] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] clipb16_336 frame_seq bottle: 192 parts, 31.35 parts/s, p50 31.8 ms, changeover 2.0 s
+[p45] clipb16_336 frame_seq capsule: 252 parts, 29.49 parts/s, p50 33.8 ms, changeover 3.3 s
+[p45] clipb16_336 frame_seq carpet: 231 parts, 29.18 parts/s, p50 34.1 ms, changeover 3.3 s
+[p45] clipb16_336 frame_seq grid: 174 parts, 29.13 parts/s, p50 34.2 ms, changeover 1.9 s
+[p45] clipb16_336 frame_seq hazelnut: 207 parts, 29.09 parts/s, p50 34.2 ms, changeover 2.8 s
+[p45] clipb16_336 frame_seq leather: 234 parts, 29.14 parts/s, p50 34.3 ms, changeover 3.0 s
+[p45] clipb16_336 frame_seq metal_nut: 222 parts, 34.64 parts/s, p50 28.7 ms, changeover 1.6 s
+[p45] clipb16_336 frame_seq pill: 291 parts, 32.94 parts/s, p50 30.2 ms, changeover 2.5 s
+[p45] clipb16_336 frame_seq screw: 279 parts, 28.90 parts/s, p50 34.7 ms, changeover 1.9 s
+[p45] clipb16_336 frame_seq tile: 216 parts, 32.20 parts/s, p50 31.0 ms, changeover 2.5 s
+[p45] clipb16_336 frame_seq transistor: 150 parts, 28.70 parts/s, p50 34.6 ms, changeover 3.0 s
+[p45] clipb16_336 frame_seq wood: 174 parts, 28.74 parts/s, p50 34.6 ms, changeover 3.0 s
+[p45] clipb16_336 frame_seq zipper: 252 parts, 28.94 parts/s, p50 34.3 ms, changeover 2.1 s
+{
+ "config": "clipb16_336",
+ "mode": "frame_seq",
+ "throughput_pps": 30.158387763527017,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 33.15306001266539,
+  "p50_ms": 34.01643250253983,
+  "p90_ms": 34.95449099864345,
+  "p99_ms": 36.57089298940264,
+  "max_ms": 37.298865005141124
+ },
+ "head_check": 1.1920928955078125e-07
+}
+[10/03/2026-12:02:41] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[10/03/2026-12:02:43] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p45] clipb16_336 file_pipe bottle: 192 parts, 28.63 parts/s, p50 208.4 ms, changeover 2.0 s
+[p45] clipb16_336 file_pipe capsule: 252 parts, 19.93 parts/s, p50 86.6 ms, changeover 3.4 s
+[p45] clipb16_336 file_pipe carpet: 231 parts, 19.33 parts/s, p50 88.8 ms, changeover 3.3 s
+[p45] clipb16_336 file_pipe grid: 174 parts, 27.19 parts/s, p50 220.0 ms, changeover 1.9 s
+[p45] clipb16_336 file_pipe hazelnut: 207 parts, 20.50 parts/s, p50 85.7 ms, changeover 2.8 s
+[p45] clipb16_336 file_pipe leather: 234 parts, 22.06 parts/s, p50 83.4 ms, changeover 3.0 s
+[p45] clipb16_336 file_pipe metal_nut: 222 parts, 31.66 parts/s, p50 188.8 ms, changeover 1.6 s
+[p45] clipb16_336 file_pipe pill: 291 parts, 30.12 parts/s, p50 198.4 ms, changeover 2.5 s
+[p45] clipb16_336 file_pipe screw: 279 parts, 27.05 parts/s, p50 221.2 ms, changeover 1.9 s
+[p45] clipb16_336 file_pipe tile: 216 parts, 27.33 parts/s, p50 70.0 ms, changeover 2.5 s
+[p45] clipb16_336 file_pipe transistor: 150 parts, 18.95 parts/s, p50 89.8 ms, changeover 3.0 s
+[p45] clipb16_336 file_pipe wood: 174 parts, 19.19 parts/s, p50 89.0 ms, changeover 3.0 s
+[p45] clipb16_336 file_pipe zipper: 252 parts, 27.30 parts/s, p50 219.3 ms, changeover 2.1 s
+{
+ "config": "clipb16_336",
+ "mode": "file_pipe",
+ "throughput_pps": 24.047975536071693,
+ "latency": {
+  "n": 2874,
+  "mean_ms": 142.44910438368785,
+  "p50_ms": 90.68156300054397,
+  "p90_ms": 220.52641300251707,
+  "p99_ms": 223.03798201028258,
+  "max_ms": 224.79798398853745
+ },
+ "head_check": 1.1920928955078125e-07
+}

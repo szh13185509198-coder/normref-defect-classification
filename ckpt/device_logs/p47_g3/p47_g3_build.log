@@ -1,0 +1,147 @@
+&&&& RUNNING TensorRT.trtexec [TensorRT v100300] # /usr/src/tensorrt/bin/trtexec --onnx=p47_g3.onnx --fp16 --memPoolSize=workspace:2048 --skipInference --saveEngine=p47_g3.engine --minShapes=proto_g:2x1152,proto_a:2x1024,proto_r:2x1024 --optShapes=proto_g:5x1152,proto_a:5x1024,proto_r:5x1024 --maxShapes=proto_g:16x1152,proto_a:16x1024,proto_r:16x1024
+[10/03/2026-16:39:17] [I] === Model Options ===
+[10/03/2026-16:39:17] [I] Format: ONNX
+[10/03/2026-16:39:17] [I] Model: p47_g3.onnx
+[10/03/2026-16:39:17] [I] Output:
+[10/03/2026-16:39:17] [I] === Build Options ===
+[10/03/2026-16:39:17] [I] Memory Pools: workspace: 2048 MiB, dlaSRAM: default, dlaLocalDRAM: default, dlaGlobalDRAM: default, tacticSharedMem: default
+[10/03/2026-16:39:17] [I] avgTiming: 8
+[10/03/2026-16:39:17] [I] Precision: FP32+FP16
+[10/03/2026-16:39:17] [I] LayerPrecisions: 
+[10/03/2026-16:39:17] [I] Layer Device Types: 
+[10/03/2026-16:39:17] [I] Calibration: 
+[10/03/2026-16:39:17] [I] Refit: Disabled
+[10/03/2026-16:39:17] [I] Strip weights: Disabled
+[10/03/2026-16:39:17] [I] Version Compatible: Disabled
+[10/03/2026-16:39:17] [I] ONNX Plugin InstanceNorm: Disabled
+[10/03/2026-16:39:17] [I] TensorRT runtime: full
+[10/03/2026-16:39:17] [I] Lean DLL Path: 
+[10/03/2026-16:39:17] [I] Tempfile Controls: { in_memory: allow, temporary: allow }
+[10/03/2026-16:39:17] [I] Exclude Lean Runtime: Disabled
+[10/03/2026-16:39:17] [I] Sparsity: Disabled
+[10/03/2026-16:39:17] [I] Safe mode: Disabled
+[10/03/2026-16:39:17] [I] Build DLA standalone loadable: Disabled
+[10/03/2026-16:39:17] [I] Allow GPU fallback for DLA: Disabled
+[10/03/2026-16:39:17] [I] DirectIO mode: Disabled
+[10/03/2026-16:39:17] [I] Restricted mode: Disabled
+[10/03/2026-16:39:17] [I] Skip inference: Enabled
+[10/03/2026-16:39:17] [I] Save engine: p47_g3.engine
+[10/03/2026-16:39:17] [I] Load engine: 
+[10/03/2026-16:39:17] [I] Profiling verbosity: 0
+[10/03/2026-16:39:17] [I] Tactic sources: Using default tactic sources
+[10/03/2026-16:39:17] [I] timingCacheMode: local
+[10/03/2026-16:39:17] [I] timingCacheFile: 
+[10/03/2026-16:39:17] [I] Enable Compilation Cache: Enabled
+[10/03/2026-16:39:17] [I] errorOnTimingCacheMiss: Disabled
+[10/03/2026-16:39:17] [I] Preview Features: Use default preview flags.
+[10/03/2026-16:39:17] [I] MaxAuxStreams: -1
+[10/03/2026-16:39:17] [I] BuilderOptimizationLevel: -1
+[10/03/2026-16:39:17] [I] Calibration Profile Index: 0
+[10/03/2026-16:39:17] [I] Weight Streaming: Disabled
+[10/03/2026-16:39:17] [I] Runtime Platform: Same As Build
+[10/03/2026-16:39:17] [I] Debug Tensors: 
+[10/03/2026-16:39:17] [I] Input(s)s format: fp32:CHW
+[10/03/2026-16:39:17] [I] Output(s)s format: fp32:CHW
+[10/03/2026-16:39:17] [I] Input build shape (profile 0): proto_g=2x1152+5x1152+16x1152
+[10/03/2026-16:39:17] [I] Input build shape (profile 0): proto_a=2x1024+5x1024+16x1024
+[10/03/2026-16:39:17] [I] Input build shape (profile 0): proto_r=2x1024+5x1024+16x1024
+[10/03/2026-16:39:17] [I] Input calibration shapes: model
+[10/03/2026-16:39:17] [I] === System Options ===
+[10/03/2026-16:39:17] [I] Device: 0
+[10/03/2026-16:39:17] [I] DLACore: 
+[10/03/2026-16:39:17] [I] Plugins:
+[10/03/2026-16:39:17] [I] setPluginsToSerialize:
+[10/03/2026-16:39:17] [I] dynamicPlugins:
+[10/03/2026-16:39:17] [I] ignoreParsedPluginLibs: 0
+[10/03/2026-16:39:17] [I] 
+[10/03/2026-16:39:17] [I] === Inference Options ===
+[10/03/2026-16:39:17] [I] Batch: Explicit
+[10/03/2026-16:39:17] [I] Input inference shape : proto_r=5x1024
+[10/03/2026-16:39:17] [I] Input inference shape : proto_a=5x1024
+[10/03/2026-16:39:17] [I] Input inference shape : proto_g=5x1152
+[10/03/2026-16:39:17] [I] Iterations: 10
+[10/03/2026-16:39:17] [I] Duration: 3s (+ 200ms warm up)
+[10/03/2026-16:39:17] [I] Sleep time: 0ms
+[10/03/2026-16:39:17] [I] Idle time: 0ms
+[10/03/2026-16:39:17] [I] Inference Streams: 1
+[10/03/2026-16:39:17] [I] ExposeDMA: Disabled
+[10/03/2026-16:39:17] [I] Data transfers: Enabled
+[10/03/2026-16:39:17] [I] Spin-wait: Disabled
+[10/03/2026-16:39:17] [I] Multithreading: Disabled
+[10/03/2026-16:39:17] [I] CUDA Graph: Disabled
+[10/03/2026-16:39:17] [I] Separate profiling: Disabled
+[10/03/2026-16:39:17] [I] Time Deserialize: Disabled
+[10/03/2026-16:39:17] [I] Time Refit: Disabled
+[10/03/2026-16:39:17] [I] NVTX verbosity: 0
+[10/03/2026-16:39:17] [I] Persistent Cache Ratio: 0
+[10/03/2026-16:39:17] [I] Optimization Profile Index: 0
+[10/03/2026-16:39:17] [I] Weight Streaming Budget: 100.000000%
+[10/03/2026-16:39:17] [I] Inputs:
+[10/03/2026-16:39:17] [I] Debug Tensor Save Destinations:
+[10/03/2026-16:39:17] [I] === Reporting Options ===
+[10/03/2026-16:39:17] [I] Verbose: Disabled
+[10/03/2026-16:39:17] [I] Averages: 10 inferences
+[10/03/2026-16:39:17] [I] Percentiles: 90,95,99
+[10/03/2026-16:39:17] [I] Dump refittable layers:Disabled
+[10/03/2026-16:39:17] [I] Dump output: Disabled
+[10/03/2026-16:39:17] [I] Profile: Disabled
+[10/03/2026-16:39:17] [I] Export timing to JSON file: 
+[10/03/2026-16:39:17] [I] Export output to JSON file: 
+[10/03/2026-16:39:17] [I] Export profile to JSON file: 
+[10/03/2026-16:39:17] [I] 
+[10/03/2026-16:39:17] [I] === Device Information ===
+[10/03/2026-16:39:17] [I] Available Devices: 
+[10/03/2026-16:39:17] [I]   Device 0: "Orin" UUID: GPU-5ef10ea8-9d9e-5f82-acbb-6720ec173115
+[10/03/2026-16:39:18] [I] Selected Device: Orin
+[10/03/2026-16:39:18] [I] Selected Device ID: 0
+[10/03/2026-16:39:18] [I] Selected Device UUID: GPU-5ef10ea8-9d9e-5f82-acbb-6720ec173115
+[10/03/2026-16:39:18] [I] Compute Capability: 8.7
+[10/03/2026-16:39:18] [I] SMs: 8
+[10/03/2026-16:39:18] [I] Device Global Memory: 7607 MiB
+[10/03/2026-16:39:18] [I] Shared Memory per SM: 164 KiB
+[10/03/2026-16:39:18] [I] Memory Bus Width: 128 bits (ECC disabled)
+[10/03/2026-16:39:18] [I] Application Compute Clock Rate: 1.02 GHz
+[10/03/2026-16:39:18] [I] Application Memory Clock Rate: 1.02 GHz
+[10/03/2026-16:39:18] [I] 
+[10/03/2026-16:39:18] [I] Note: The application clock rates do not reflect the actual clock rates that the GPU is currently running at.
+[10/03/2026-16:39:18] [I] 
+[10/03/2026-16:39:18] [I] TensorRT version: 10.3.0
+[10/03/2026-16:39:18] [I] Loading standard plugins
+[10/03/2026-16:39:18] [I] [TRT] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 31, GPU 757 (MiB)
+[10/03/2026-16:39:20] [I] [TRT] [MemUsageChange] Init builder kernel library: CPU +928, GPU +1096, now: CPU 1002, GPU 1894 (MiB)
+[10/03/2026-16:39:20] [I] Start parsing network model.
+[libprotobuf WARNING google/protobuf/io/coded_stream.cc:604] Reading dangerously large protocol message.  If the message turns out to be larger than 2147483647 bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+[libprotobuf WARNING google/protobuf/io/coded_stream.cc:81] The total number of bytes read was 1304834803
+[10/03/2026-16:39:21] [I] [TRT] ----------------------------------------------------------------
+[10/03/2026-16:39:21] [I] [TRT] Input filename:   p47_g3.onnx
+[10/03/2026-16:39:21] [I] [TRT] ONNX IR version:  0.0.8
+[10/03/2026-16:39:21] [I] [TRT] Opset version:    17
+[10/03/2026-16:39:21] [I] [TRT] Producer name:    pytorch
+[10/03/2026-16:39:21] [I] [TRT] Producer version: 2.8.0
+[10/03/2026-16:39:21] [I] [TRT] Domain:           
+[10/03/2026-16:39:21] [I] [TRT] Model version:    0
+[10/03/2026-16:39:21] [I] [TRT] Doc string:       
+[10/03/2026-16:39:21] [I] [TRT] ----------------------------------------------------------------
+[10/03/2026-16:39:21] [I] Finished parsing network model. Parse time: 1.146
+[10/03/2026-16:39:21] [I] Set shape of input tensor proto_g for optimization profile 0 to: MIN=2x1152 OPT=5x1152 MAX=16x1152
+[10/03/2026-16:39:21] [I] Set shape of input tensor proto_a for optimization profile 0 to: MIN=2x1024 OPT=5x1024 MAX=16x1024
+[10/03/2026-16:39:21] [I] Set shape of input tensor proto_r for optimization profile 0 to: MIN=2x1024 OPT=5x1024 MAX=16x1024
+[10/03/2026-16:39:21] [W] [TRT] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[10/03/2026-16:39:21] [I] [TRT] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[10/03/2026-16:42:06] [I] [TRT] Detected 10 inputs and 6 output network tensors.
+[10/03/2026-16:42:07] [I] [TRT] Total Host Persistent Memory: 16592
+[10/03/2026-16:42:07] [I] [TRT] Total Device Persistent Memory: 0
+[10/03/2026-16:42:07] [I] [TRT] Total Scratch Memory: 842857472
+[10/03/2026-16:42:07] [I] [TRT] [BlockAssignment] Started assigning block shifts. This will take 15 steps to complete.
+[10/03/2026-16:42:07] [I] [TRT] [BlockAssignment] Algorithm ShiftNTopDown took 0.387977ms to assign 10 blocks to 15 nodes requiring 877959680 bytes.
+[10/03/2026-16:42:07] [I] [TRT] Total Activation Memory: 877959680
+[10/03/2026-16:42:07] [I] [TRT] Total Weights Memory: 803672960
+[10/03/2026-16:42:07] [I] [TRT] Engine generation completed in 166.008 seconds.
+[10/03/2026-16:42:07] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 620 MiB, GPU 1804 MiB
+[10/03/2026-16:42:08] [I] [TRT] [MemUsageStats] Peak memory usage during Engine building and serialization: CPU: 6607 MiB
+[10/03/2026-16:42:08] [I] Engine built in 166.703 sec.
+[10/03/2026-16:42:08] [I] Created engine with size: 783.971 MiB
+[10/03/2026-16:42:09] [I] [TRT] Loaded engine size: 783 MiB
+[10/03/2026-16:42:09] [I] Engine deserialized in 0.43188 sec.
+[10/03/2026-16:42:09] [I] Skipped inference phase since --skipInference is added.
+&&&& PASSED TensorRT.trtexec [TensorRT v100300] # /usr/src/tensorrt/bin/trtexec --onnx=p47_g3.onnx --fp16 --memPoolSize=workspace:2048 --skipInference --saveEngine=p47_g3.engine --minShapes=proto_g:2x1152,proto_a:2x1024,proto_r:2x1024 --optShapes=proto_g:5x1152,proto_a:5x1024,proto_r:5x1024 --maxShapes=proto_g:16x1152,proto_a:16x1024,proto_r:16x1024

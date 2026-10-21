@@ -1,0 +1,5 @@
+START 2026-10-03 16:22:31
+STEP_OK 2026-10-03 16:22:31 dyn built and checked
+STEP_OK 2026-10-03 16:22:31 g2 built and checked
+STEP_OK 2026-10-03 16:27:13 timing pass 1
+STEP_OK 2026-10-03 16:31:54 timing pass 2

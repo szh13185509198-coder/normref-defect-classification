@@ -1,0 +1,99 @@
+{
+  "classes": {
+    "candle": {
+      "extra wax in candle": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 9
+      },
+      "weird candle wick": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 9
+      }
+    },
+    "capsules": {
+      "bubble": {
+        "reason": "fewer_than_2_retained_defect_subtypes",
+        "unique_count": 30
+      }
+    },
+    "cashew": {
+      "different colour spot": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 9
+      },
+      "middle breakage": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 6
+      },
+      "stuck together": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 6
+      }
+    },
+    "chewinggum": {
+      "scratches": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 9
+      }
+    },
+    "fryum": {
+      "burnt": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 9
+      },
+      "corner or edge breakage": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 8
+      },
+      "small scratches": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 6
+      }
+    },
+    "macaroni2": {
+      "breakage down the middle": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 1
+      },
+      "small cracks": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 7
+      }
+    },
+    "pcb4": {
+      "burnt": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 2
+      },
+      "damage": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 7
+      },
+      "scratch": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 2
+      },
+      "wrong place": {
+        "reason": "availability_below_10_unique_single_label_images",
+        "unique_count": 2
+      }
+    }
+  },
+  "multi_label": {
+    "candle": 13,
+    "capsules": 70,
+    "cashew": 10,
+    "chewinggum": 43,
+    "fryum": 13,
+    "macaroni1": 20,
+    "macaroni2": 22,
+    "pcb1": 9,
+    "pcb2": 9,
+    "pcb3": 7,
+    "pcb4": 56,
+    "pipe_fryum": 12
+  },
+  "objects": {
+    "capsules": "fewer_than_2_retained_defect_subtypes"
+  }
+}

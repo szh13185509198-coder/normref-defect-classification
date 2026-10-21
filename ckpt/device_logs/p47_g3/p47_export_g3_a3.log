@@ -1,0 +1,18 @@
+[DINOv2] Loaded from offline local torch.hub repo: /home/<USER>/p31/repo/third_party/dinov2
+[DINOv2] Local checkpoint: /home/<USER>/p31/repo/pretrained/dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+NvMapMemAllocInternalTagged: 1075072515 error 12
+NvMapMemHandleAlloc: error 0
+NvMapMemAllocInternalTagged: 1075072515 error 12
+NvMapMemHandleAlloc: error 0
+{"tile_tokens_vs_full_forward_max_abs": 0.0, "input_shapes": {"full": [1, 3, 336, 336], "tiles": [9, 3, 336, 336], "bank": [51840, 1024], "tau": [1], "mu_g": [1, 1152], "proto_g": [3, 1152], "mu_a": [1, 1024], "proto_a": [3, 1024], "mu_r": [1, 1024], "proto_r": [3, 1024]}}
+[DINOv2] Loaded from offline local torch.hub repo: /home/<USER>/p31/repo/third_party/dinov2
+[DINOv2] Local checkpoint: /home/<USER>/p31/repo/pretrained/dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+/home/<USER>/p31/repo/experiments/p47/scale_tile.py:266: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter will be the default. To switch now, set dynamo=True in torch.onnx.export. This new exporter supports features like exporting LLMs with DynamicCache. We encourage you to try it and share feedback to help improve the experience. Learn more about the new export logic: https://pytorch.org/docs/stable/onnx_dynamo.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html.
+  torch.onnx.export(model, inputs, str(onnx_path), input_names=names, output_names=fe.OUT_NAMES, opset_version=17,
+/home/<USER>/p31/repo/third_party/dinov2/dinov2/layers/patch_embed.py:72: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  assert H % patch_H == 0, f"Input image height {H} is not a multiple of patch height {patch_H}"
+/home/<USER>/p31/repo/third_party/dinov2/dinov2/layers/patch_embed.py:73: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  assert W % patch_W == 0, f"Input image width {W} is not a multiple of patch width: {patch_W}"
+{"onnx_mb": 1244.387438774109}

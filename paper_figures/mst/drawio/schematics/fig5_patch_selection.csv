@@ -1,0 +1,4 @@
+product,rgb_sha256,fixed_top10_patches,otsu_patches,mebin_patches,ours_patches,fixed_top10_lambda,otsu_lambda,mebin_lambda,ours_lambda
+screw,199a211bbe529f1304f8d8e6182b00a0d584c0ca170eccbdab2e463156e044e8,58,228,4,15,0.1034,0.0307,0.75,0.5075
+capsule,1e4e8416bf13c74855eddc1a9e58c7595f9602838a2732ed0b167695b2253182,58,100,3,18,0.0862,0.05,1.0,0.6276
+metal_nut,58cf9edeae910864755fefddad1208bb15bf7661959baf0cd76bad89c58182e9,58,205,17,32,0.3793,0.1268,1.0,0.9627

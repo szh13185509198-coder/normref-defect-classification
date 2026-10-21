@@ -1,0 +1,3900 @@
+{
+  "descriptor_cosine": {
+    "bottle": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999817609786987
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999951124191284
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999996423721313
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999967813491821
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999848008155823
+      }
+    },
+    "capsule": {
+      "111": {
+        "g": 0.9999999403953552,
+        "h_a": 0.9999999403953552,
+        "h_r": 0.9990233182907104
+      },
+      "222": {
+        "g": 0.9999999403953552,
+        "h_a": 0.9999999403953552,
+        "h_r": 0.9999898672103882
+      },
+      "333": {
+        "g": 0.9999999403953552,
+        "h_a": 0.9999999403953552,
+        "h_r": 0.9999644160270691
+      },
+      "444": {
+        "g": 0.9999999403953552,
+        "h_a": 0.9999999403953552,
+        "h_r": 0.9999998211860657
+      },
+      "555": {
+        "g": 0.9999999403953552,
+        "h_a": 0.9999999403953552,
+        "h_r": 0.9998933672904968
+      }
+    },
+    "carpet": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999823570251465
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.999995231628418
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999939799308777
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999954104423523
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999989867210388
+      }
+    },
+    "grid": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.999984860420227
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999816417694092
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999942779541016
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      }
+    },
+    "hazelnut": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999759197235107
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999719858169556
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999982714653015
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999993443489075
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999488592147827
+      }
+    },
+    "leather": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999915361404419
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999963641166687
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999995231628418
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999997019767761
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999338388442993
+      }
+    },
+    "metal_nut": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999499917030334
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999994039535522
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999923706054688
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999515414237976
+      }
+    },
+    "pill": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999940395355225
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999790787696838
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999952912330627
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999869465827942
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999836087226868
+      }
+    },
+    "screw": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      }
+    },
+    "tile": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999927282333374
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999977350234985
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999978542327881
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999404549598694
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999707937240601
+      }
+    },
+    "transistor": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999917149543762
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999973177909851
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999999403953552
+      }
+    },
+    "wood": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999731779098511
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 1.0
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999980926513672
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999938011169434
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999915361404419
+      }
+    },
+    "zipper": {
+      "111": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999997615814209
+      },
+      "222": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999666213989258
+      },
+      "333": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999938607215881
+      },
+      "444": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9999998807907104
+      },
+      "555": {
+        "g": 1.0,
+        "h_a": 1.0,
+        "h_r": 0.9997788667678833
+      }
+    }
+  },
+  "fused_minus_cache": {
+    "Dbar_pp": -0.010256410256410265,
+    "agreement": 0.999748427672956,
+    "ci95_pp": [
+      -0.0307692307692308,
+      0.0
+    ],
+    "decision": "keeps accuracy",
+    "per_K_pp": {
+      "1": -0.0307692307692308,
+      "3": 0.0,
+      "5": 0.0
+    }
+  },
+  "gate_cache_vs_P14": 0.0,
+  "levels_ba_pct": {
+    "fused_adareg_regres_soft_q99|cache": {
+      "1": 71.0091410014487,
+      "3": 84.49572058995136,
+      "5": 87.47870341908805
+    },
+    "fused_adareg_regres_soft_q99|fused": {
+      "1": 70.97837177067946,
+      "3": 84.49572058995136,
+      "5": 87.47870341908805
+    }
+  },
+  "protocol": "docs/P41_FUSED_ENGINE_PROTOCOL.md#4",
+  "provenance": {
+    "head": "3b4fd3f320c6e78853a41c9b84c2d921b8735381",
+    "tracked_tree_dirty": true
+  },
+  "raw_metrics": [
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6272727272727273,
+      "macro_f1": 0.5854072398190046,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6272727272727273,
+      "macro_f1": 0.5854072398190046,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9666666666666667,
+      "macro_f1": 0.9679633867276888,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.967741935483871
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9666666666666667,
+      "macro_f1": 0.9679633867276888,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.967741935483871
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333332,
+      "macro_f1": 0.9325971934667586,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.9354838709677419
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333332,
+      "macro_f1": 0.9325971934667586,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.9354838709677419
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7363636363636363,
+      "macro_f1": 0.7358024691358024,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7363636363636363,
+      "macro_f1": 0.7358024691358024,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8727272727272727,
+      "macro_f1": 0.8727272727272727,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.8709677419354839
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8727272727272727,
+      "macro_f1": 0.8727272727272727,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.8709677419354839
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9060606060606061,
+      "macro_f1": 0.9047619047619048,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9060606060606061,
+      "macro_f1": 0.9047619047619048,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7363636363636363,
+      "macro_f1": 0.7436456063907043,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7363636363636363,
+      "macro_f1": 0.7436456063907043,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8727272727272727,
+      "macro_f1": 0.8727272727272727,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.8709677419354839
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8727272727272727,
+      "macro_f1": 0.8727272727272727,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.8709677419354839
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.903030303030303,
+      "macro_f1": 0.9038901601830664,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.903030303030303,
+      "macro_f1": 0.9038901601830664,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.9032258064516129
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7212121212121212,
+      "macro_f1": 0.7000000000000001,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.7096774193548387
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7212121212121212,
+      "macro_f1": 0.7000000000000001,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.7096774193548387
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8363636363636364,
+      "macro_f1": 0.8391812865497076,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8363636363636364,
+      "macro_f1": 0.8391812865497076,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.8376068376068376,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.8376068376068376,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6727272727272727,
+      "macro_f1": 0.6777777777777777,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6727272727272727,
+      "macro_f1": 0.6777777777777777,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8363636363636364,
+      "macro_f1": 0.8436647173489279,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8363636363636364,
+      "macro_f1": 0.8436647173489279,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8696969696969696,
+      "macro_f1": 0.8665746491833448,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.8709677419354839
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8696969696969696,
+      "macro_f1": 0.8665746491833448,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.8709677419354839
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6509090909090909,
+      "macro_f1": 0.5936080325850147,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.6415094339622641
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6309090909090909,
+      "macro_f1": 0.5766279756049577,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.6226415094339622
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7763636363636364,
+      "macro_f1": 0.7775335775335775,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.7735849056603774
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7763636363636364,
+      "macro_f1": 0.7775335775335775,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.7735849056603774
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7436363636363637,
+      "macro_f1": 0.725993851559069,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.7358490566037735
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7436363636363637,
+      "macro_f1": 0.7239762329174094,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.7358490566037735
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6709090909090909,
+      "macro_f1": 0.6522148541114058,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.660377358490566
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6709090909090909,
+      "macro_f1": 0.6522148541114058,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.660377358490566
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7963636363636364,
+      "macro_f1": 0.7953132105626384,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.7924528301886793
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7963636363636364,
+      "macro_f1": 0.7953132105626384,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.7924528301886793
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7745454545454545,
+      "macro_f1": 0.774260578983691,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.7735849056603774
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7745454545454545,
+      "macro_f1": 0.774260578983691,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.7735849056603774
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.510909090909091,
+      "macro_f1": 0.5198389694041868,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.5094339622641509
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.510909090909091,
+      "macro_f1": 0.5198389694041868,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.5094339622641509
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7090909090909091,
+      "macro_f1": 0.6893398595757942,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.6981132075471698
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7090909090909091,
+      "macro_f1": 0.6893398595757942,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.6981132075471698
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7418181818181818,
+      "macro_f1": 0.7321553158257964,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.7358490566037735
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7418181818181818,
+      "macro_f1": 0.7321553158257964,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.7358490566037735
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4963636363636364,
+      "macro_f1": 0.4270621118012422,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.49056603773584906
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4963636363636364,
+      "macro_f1": 0.4270621118012422,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.49056603773584906
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6454545454545455,
+      "macro_f1": 0.6276328502415458,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.6415094339622641
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6454545454545455,
+      "macro_f1": 0.6276328502415458,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.6415094339622641
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7963636363636364,
+      "macro_f1": 0.7880299563137092,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.7924528301886793
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7963636363636364,
+      "macro_f1": 0.7880299563137092,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.7924528301886793
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5763636363636364,
+      "macro_f1": 0.504708742402992,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.5660377358490566
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5763636363636364,
+      "macro_f1": 0.504708742402992,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.5660377358490566
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7181818181818181,
+      "macro_f1": 0.7141549953314659,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.7169811320754716
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7181818181818181,
+      "macro_f1": 0.7141549953314659,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.7169811320754716
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7581818181818182,
+      "macro_f1": 0.7473684210526315,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.7547169811320755
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7581818181818182,
+      "macro_f1": 0.7473684210526315,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.7547169811320755
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7416666666666666,
+      "macro_f1": 0.7174955075883869,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7416666666666666,
+      "macro_f1": 0.7174955075883869,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8083333333333333,
+      "macro_f1": 0.8124561403508771,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.8095238095238095
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8083333333333333,
+      "macro_f1": 0.8124561403508771,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.8095238095238095
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8583333333333334,
+      "macro_f1": 0.85453216374269,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8583333333333334,
+      "macro_f1": 0.85453216374269,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7472222222222222,
+      "macro_f1": 0.721671826625387,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7472222222222222,
+      "macro_f1": 0.721671826625387,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7916666666666667,
+      "macro_f1": 0.7631498532427325,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7916666666666667,
+      "macro_f1": 0.7631498532427325,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8833333333333334,
+      "macro_f1": 0.8797058823529411,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.8809523809523809
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8833333333333334,
+      "macro_f1": 0.8797058823529411,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.8809523809523809
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7444444444444445,
+      "macro_f1": 0.7158730158730159,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7444444444444445,
+      "macro_f1": 0.7158730158730159,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8111111111111111,
+      "macro_f1": 0.7999813258636788,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.8095238095238095
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8111111111111111,
+      "macro_f1": 0.7999813258636788,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.8095238095238095
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.8265978672170622,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.8333333333333334
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.8265978672170622,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.8333333333333334
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6944444444444444,
+      "macro_f1": 0.6712781954887218,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.6904761904761905
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6944444444444444,
+      "macro_f1": 0.6712781954887218,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.6904761904761905
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.836111111111111,
+      "macro_f1": 0.8302614379084968,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.8333333333333334
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.836111111111111,
+      "macro_f1": 0.8302614379084968,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.8333333333333334
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7861111111111111,
+      "macro_f1": 0.7822222222222222,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7861111111111111,
+      "macro_f1": 0.7822222222222222,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.7857142857142857
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7388888888888889,
+      "macro_f1": 0.7168702147525676,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7388888888888889,
+      "macro_f1": 0.7168702147525676,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9083333333333334,
+      "macro_f1": 0.9009442724458203,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.9047619047619048
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9083333333333334,
+      "macro_f1": 0.9009442724458203,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.9047619047619048
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.861111111111111,
+      "macro_f1": 0.8533333333333333,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.861111111111111,
+      "macro_f1": 0.8533333333333333,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.8571428571428571
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.6918181818181818,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.6918181818181818,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8400000000000001,
+      "macro_f1": 0.8336363636363636,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8400000000000001,
+      "macro_f1": 0.8336363636363636,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.76,
+      "macro_f1": 0.7296037296037297,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.76,
+      "macro_f1": 0.7296037296037297,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.76
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.56,
+      "macro_f1": 0.5337912087912089,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.56,
+      "macro_f1": 0.5337912087912089,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7976190476190477,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7976190476190477,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8400000000000001,
+      "macro_f1": 0.8428571428571429,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8400000000000001,
+      "macro_f1": 0.8428571428571429,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6799999999999999,
+      "macro_f1": 0.6780366692131399,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6799999999999999,
+      "macro_f1": 0.6780366692131399,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.7072150072150072,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.72,
+      "macro_f1": 0.7072150072150072,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7928571428571429,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7928571428571429,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.52,
+      "macro_f1": 0.4330158730158731,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.52,
+      "macro_f1": 0.4330158730158731,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6799999999999999,
+      "macro_f1": 0.6572150072150073,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6799999999999999,
+      "macro_f1": 0.6572150072150073,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8400000000000001,
+      "macro_f1": 0.8366666666666667,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8400000000000001,
+      "macro_f1": 0.8366666666666667,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6051948051948053,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6051948051948053,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8800000000000001,
+      "macro_f1": 0.8816239316239317,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8800000000000001,
+      "macro_f1": 0.8816239316239317,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9199999999999999,
+      "macro_f1": 0.9136363636363637,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9199999999999999,
+      "macro_f1": 0.9136363636363637,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.83125,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8333333333333334,
+      "macro_f1": 0.83125,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9131944444444444,
+      "macro_f1": 0.9130718954248366,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9131944444444444,
+      "macro_f1": 0.9130718954248366,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9164086687306502,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9164086687306502,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.854341736694678,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.854341736694678,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9444444444444444,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.9411764705882353
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9444444444444444,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.9411764705882353
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9131944444444444,
+      "macro_f1": 0.9130718954248366,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9131944444444444,
+      "macro_f1": 0.9130718954248366,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8020833333333334,
+      "macro_f1": 0.7811274509803922,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8020833333333334,
+      "macro_f1": 0.7811274509803922,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.8494983277591973,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.8494983277591973,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9142857142857143,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9142857142857143,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8020833333333334,
+      "macro_f1": 0.7974310776942356,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8020833333333334,
+      "macro_f1": 0.7974310776942356,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.8564327485380117,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8611111111111112,
+      "macro_f1": 0.8564327485380117,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.8529411764705882
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9444444444444444,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.9411764705882353
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9444444444444444,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.9411764705882353
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8888888888888888,
+      "macro_f1": 0.8888888888888888,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8888888888888888,
+      "macro_f1": 0.8888888888888888,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.8823529411764706
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9444444444444444,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.9411764705882353
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9444444444444444,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.9411764705882353
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9164086687306502,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9166666666666666,
+      "macro_f1": 0.9164086687306502,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.9117647058823529
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7753452685421995,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7753452685421995,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.888888888888889,
+      "macro_f1": 0.8915217391304349,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.888888888888889,
+      "macro_f1": 0.8915217391304349,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.8863636363636364
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9550000000000001,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9545454545454546
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9550000000000001,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9545454545454546
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7186363636363636,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7186363636363636,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9314285714285715,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9314285714285715,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7615686274509803,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7615686274509803,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.7727272727272727
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8444444444444444,
+      "macro_f1": 0.8442995169082126,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8444444444444444,
+      "macro_f1": 0.8442995169082126,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9314285714285715,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9314285714285715,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7972222222222223,
+      "macro_f1": 0.7943788819875777,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.7954545454545454
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7972222222222223,
+      "macro_f1": 0.7943788819875777,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.7954545454545454
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8444444444444444,
+      "macro_f1": 0.8460047846889951,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8444444444444444,
+      "macro_f1": 0.8460047846889951,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.8409090909090909
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9327089783281733,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9059442724458204,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9059442724458204,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9314285714285715,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9314285714285715,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9550000000000001,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9545454545454546
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9550000000000001,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9545454545454546
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6268939393939394,
+      "macro_f1": 0.5588235294117647,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6222222222222222
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6268939393939394,
+      "macro_f1": 0.5588235294117647,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6222222222222222
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9356060606060606,
+      "macro_f1": 0.9337121212121212,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.9333333333333333
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9356060606060606,
+      "macro_f1": 0.9337121212121212,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.9333333333333333
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9564393939393939,
+      "macro_f1": 0.9563923395445134,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9564393939393939,
+      "macro_f1": 0.9563923395445134,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7556818181818181,
+      "macro_f1": 0.7528912311521007,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7556818181818181,
+      "macro_f1": 0.7528912311521007,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.7555555555555555
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9356060606060606,
+      "macro_f1": 0.9337944664031621,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.9333333333333333
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9356060606060606,
+      "macro_f1": 0.9337944664031621,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.9333333333333333
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9772727272727273,
+      "macro_f1": 0.9772256728778468,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.9777777777777777
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9772727272727273,
+      "macro_f1": 0.9772256728778468,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.9777777777777777
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6193181818181818,
+      "macro_f1": 0.5939495798319328,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.6222222222222222
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6193181818181818,
+      "macro_f1": 0.5939495798319328,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.6222222222222222
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9564393939393939,
+      "macro_f1": 0.9555335968379447,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9564393939393939,
+      "macro_f1": 0.9555335968379447,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9545454545454546,
+      "macro_f1": 0.9541666666666666,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9545454545454546,
+      "macro_f1": 0.9541666666666666,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7045454545454546,
+      "macro_f1": 0.6458333333333334,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.7111111111111111
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7045454545454546,
+      "macro_f1": 0.6458333333333334,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.7111111111111111
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9772727272727273,
+      "macro_f1": 0.9772256728778468,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.9777777777777777
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9772727272727273,
+      "macro_f1": 0.9772256728778468,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.9777777777777777
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9147727272727273,
+      "macro_f1": 0.9115584415584416,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.9111111111111111
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9147727272727273,
+      "macro_f1": 0.9115584415584416,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.9111111111111111
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8636363636363636,
+      "macro_f1": 0.8619152046783626,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.8666666666666667
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8636363636363636,
+      "macro_f1": 0.8619152046783626,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.8666666666666667
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9772727272727273,
+      "macro_f1": 0.9772256728778468,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.9777777777777777
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9772727272727273,
+      "macro_f1": 0.9772256728778468,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.9777777777777777
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9545454545454546,
+      "macro_f1": 0.9541666666666666,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9545454545454546,
+      "macro_f1": 0.9541666666666666,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.9555555555555556
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6910052910052911,
+      "macro_f1": 0.6893759018759019,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6910052910052911,
+      "macro_f1": 0.6893759018759019,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7553011803011803,
+      "macro_f1": 0.7557475204534029,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.7258064516129032
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7553011803011803,
+      "macro_f1": 0.7557475204534029,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.7258064516129032
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.832946682946683,
+      "macro_f1": 0.8229699248120301,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.832946682946683,
+      "macro_f1": 0.8229699248120301,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7669312169312169,
+      "macro_f1": 0.7434888096652802,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7669312169312169,
+      "macro_f1": 0.7434888096652802,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.7419354838709677
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8205026455026455,
+      "macro_f1": 0.8163398692810458,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8205026455026455,
+      "macro_f1": 0.8163398692810458,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.8064516129032258
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7873015873015873,
+      "macro_f1": 0.7873041561122056,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7873015873015873,
+      "macro_f1": 0.7873041561122056,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6791005291005291,
+      "macro_f1": 0.6557396083832555,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6791005291005291,
+      "macro_f1": 0.6557396083832555,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8484126984126984,
+      "macro_f1": 0.8258897215886464,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.8225806451612904
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8484126984126984,
+      "macro_f1": 0.8258897215886464,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.8225806451612904
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8615079365079366,
+      "macro_f1": 0.8523809523809524,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8615079365079366,
+      "macro_f1": 0.8523809523809524,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.8387096774193549
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6850630850630851,
+      "macro_f1": 0.6605832076420312,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6850630850630851,
+      "macro_f1": 0.6605832076420312,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.6451612903225806
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7513329263329264,
+      "macro_f1": 0.7409523809523809,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.7258064516129032
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7513329263329264,
+      "macro_f1": 0.7409523809523809,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.7258064516129032
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8123117623117624,
+      "macro_f1": 0.7977204058125111,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.7903225806451613
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8123117623117624,
+      "macro_f1": 0.7977204058125111,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.7903225806451613
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.560022385022385,
+      "macro_f1": 0.4767169940981486,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.560022385022385,
+      "macro_f1": 0.4767169940981486,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8065120065120065,
+      "macro_f1": 0.7989648033126294,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8065120065120065,
+      "macro_f1": 0.7989648033126294,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8736975986975987,
+      "macro_f1": 0.8677243448982579,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.8548387096774194
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8736975986975987,
+      "macro_f1": 0.8677243448982579,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.8548387096774194
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.47575757575757577,
+      "macro_f1": 0.4898209718670077,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.4827586206896552
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.47575757575757577,
+      "macro_f1": 0.4898209718670077,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.4827586206896552
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7484848484848484,
+      "macro_f1": 0.7366021505376344,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.7586206896551724
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7484848484848484,
+      "macro_f1": 0.7366021505376344,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.7586206896551724
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.746969696969697,
+      "macro_f1": 0.7273839188542074,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.7586206896551724
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.746969696969697,
+      "macro_f1": 0.7273839188542074,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.7586206896551724
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.37272727272727274,
+      "macro_f1": 0.32886128364389233,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.3793103448275862
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.37272727272727274,
+      "macro_f1": 0.32886128364389233,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.3793103448275862
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6454545454545454,
+      "macro_f1": 0.6227049866229801,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.6551724137931034
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6454545454545454,
+      "macro_f1": 0.6227049866229801,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.6551724137931034
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.693939393939394,
+      "macro_f1": 0.6627721433400946,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.7068965517241379
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.693939393939394,
+      "macro_f1": 0.6627721433400946,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.7068965517241379
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5393939393939394,
+      "macro_f1": 0.5123998469973224,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.5517241379310345
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5393939393939394,
+      "macro_f1": 0.5123998469973224,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.5517241379310345
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6787878787878788,
+      "macro_f1": 0.6552171277867872,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.6896551724137931
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6787878787878788,
+      "macro_f1": 0.6552171277867872,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.6896551724137931
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7545454545454545,
+      "macro_f1": 0.7552380952380953,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.7586206896551724
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7545454545454545,
+      "macro_f1": 0.7552380952380953,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.7586206896551724
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3757575757575758,
+      "macro_f1": 0.32022005772005774,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.3793103448275862
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3757575757575758,
+      "macro_f1": 0.32022005772005774,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.3793103448275862
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.65,
+      "macro_f1": 0.6607671104639068,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.6551724137931034
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.65,
+      "macro_f1": 0.6607671104639068,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.6551724137931034
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7681818181818182,
+      "macro_f1": 0.7573735545500251,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.7758620689655172
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7681818181818182,
+      "macro_f1": 0.7573735545500251,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.7758620689655172
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.546969696969697,
+      "macro_f1": 0.5263095411862015,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.5517241379310345
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.546969696969697,
+      "macro_f1": 0.5263095411862015,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.5517241379310345
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5893939393939394,
+      "macro_f1": 0.5422220192424796,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.603448275862069
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5893939393939394,
+      "macro_f1": 0.5422220192424796,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.603448275862069
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6757575757575758,
+      "macro_f1": 0.6207553366174057,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.6896551724137931
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6757575757575758,
+      "macro_f1": 0.6207553366174057,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.6896551724137931
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9714285714285713,
+      "macro_f1": 0.9728506787330315,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9714285714285713,
+      "macro_f1": 0.9728506787330315,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9428571428571428,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9428571428571428,
+      "macro_f1": 0.9444444444444444,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9714285714285713,
+      "macro_f1": 0.9728506787330315,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9714285714285713,
+      "macro_f1": 0.9728506787330315,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9714285714285713,
+      "macro_f1": 0.9728506787330315,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9714285714285713,
+      "macro_f1": 0.9728506787330315,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2,
+      "macro_f1": 0.08695652173913045,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.2
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2,
+      "macro_f1": 0.08695652173913045,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.2
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7585858585858586,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.7585858585858586,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.8,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.8,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.75,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.75,
+      "macro_f1": 0.75,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.75
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.65,
+      "macro_f1": 0.5558441558441558,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.65
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.65,
+      "macro_f1": 0.5558441558441558,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.65
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.85,
+      "macro_f1": 0.8484848484848484,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.85
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.85,
+      "macro_f1": 0.8484848484848484,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.85
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5171886936592819,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5171886936592819,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7840909090909091,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7840909090909091,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9000000000000001,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9000000000000001,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5166666666666667,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5166666666666667,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9000000000000001,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.9000000000000001,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.8958333333333333,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9,
+      "macro_f1": 0.8958333333333333,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7916666666666666,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7916666666666666,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7840909090909091,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7840909090909091,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.793939393939394,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.793939393939394,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8535714285714285,
+      "macro_f1": 0.801524864024864,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8535714285714285,
+      "macro_f1": 0.801524864024864,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.920054945054945,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.920054945054945,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.920054945054945,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.920054945054945,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8072398190045249,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8072398190045249,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8072398190045249,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8072398190045249,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8892857142857142,
+      "macro_f1": 0.8418803418803418,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8892857142857142,
+      "macro_f1": 0.8418803418803418,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7678571428571428,
+      "macro_f1": 0.6812499999999999,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7678571428571428,
+      "macro_f1": 0.6812499999999999,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.8787955465587044,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.8787955465587044,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9642857142857143,
+      "macro_f1": 0.9688644688644689,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.96
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9642857142857143,
+      "macro_f1": 0.9688644688644689,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.96
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8142857142857143,
+      "macro_f1": 0.8319597069597069,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8142857142857143,
+      "macro_f1": 0.8319597069597069,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9642857142857143,
+      "macro_f1": 0.9688644688644689,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.96
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9642857142857143,
+      "macro_f1": 0.9688644688644689,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.96
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.920054945054945,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.920054945054945,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8035714285714286,
+      "macro_f1": 0.7306547619047619,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8035714285714286,
+      "macro_f1": 0.7306547619047619,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8074229691876751,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8642857142857143,
+      "macro_f1": 0.8074229691876751,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.8787955465587044,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.8787955465587044,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6226851851851852,
+      "macro_f1": 0.5984583688547883,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.62
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6226851851851852,
+      "macro_f1": 0.5984583688547883,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.62
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9421296296296297,
+      "macro_f1": 0.9399509803921569,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.94
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9421296296296297,
+      "macro_f1": 0.9399509803921569,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.94
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9398148148148149,
+      "macro_f1": 0.9386437908496732,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.94
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9398148148148149,
+      "macro_f1": 0.9386437908496732,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.94
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7337962962962963,
+      "macro_f1": 0.7192307692307692,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.74
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7337962962962963,
+      "macro_f1": 0.7192307692307692,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.74
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8796296296296297,
+      "macro_f1": 0.8761282290694056,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8796296296296297,
+      "macro_f1": 0.8761282290694056,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8819444444444445,
+      "macro_f1": 0.8799019607843137,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8819444444444445,
+      "macro_f1": 0.8799019607843137,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6550925925925926,
+      "macro_f1": 0.6183526440879382,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6550925925925926,
+      "macro_f1": 0.6183526440879382,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8009259259259259,
+      "macro_f1": 0.7994747899159664,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8009259259259259,
+      "macro_f1": 0.7994747899159664,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9004629629629629,
+      "macro_f1": 0.8992919389978214,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9004629629629629,
+      "macro_f1": 0.8992919389978214,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7802631578947369,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.78
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7777777777777778,
+      "macro_f1": 0.7802631578947369,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.78
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8587962962962963,
+      "macro_f1": 0.857473544973545,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.86
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8587962962962963,
+      "macro_f1": 0.857473544973545,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.86
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8796296296296297,
+      "macro_f1": 0.881140350877193,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8796296296296297,
+      "macro_f1": 0.881140350877193,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6921296296296297,
+      "macro_f1": 0.6559007441360383,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6921296296296297,
+      "macro_f1": 0.6559007441360383,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9004629629629629,
+      "macro_f1": 0.8979030501089325,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9004629629629629,
+      "macro_f1": 0.8979030501089325,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.9
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8657407407407408,
+      "macro_f1": 0.8571117335823218,
+      "method": "fused_adareg_regres_soft_q99|cache",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.86
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8657407407407408,
+      "macro_f1": 0.8571117335823218,
+      "method": "fused_adareg_regres_soft_q99|fused",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.86
+    }
+  ],
+  "schema_version": "p41_scores_v1"
+}

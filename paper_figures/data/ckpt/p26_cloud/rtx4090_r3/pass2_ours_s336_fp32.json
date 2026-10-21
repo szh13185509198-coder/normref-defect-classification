@@ -1,0 +1,76 @@
+{
+ "head_check_max_abs_diff": {
+  "simpleshot": 0.0,
+  "dual_branch_ARR": 0.0,
+  "consensus_C0": 0.0
+ },
+ "offline_ms": {
+  "support_feature_extraction_ms": 705.2460620179772,
+  "bank_feature_extraction_ms": 918.3077458292246,
+  "tau_calibration_loo_ms": 232.0848172530532,
+  "support_state_ms": 107.3045190423727
+ },
+ "online": {
+  "simpleshot": {
+   "end_to_end_from_pil": {
+    "median_ms": 77.217279933393,
+    "mean_ms": 52.02318085357547,
+    "p90_ms": 89.39464297145605,
+    "n": 200
+   },
+   "head_only_given_features": {
+    "median_ms": 0.053137773647904396,
+    "mean_ms": 0.05337941460311413,
+    "p90_ms": 0.0538150779902935,
+    "n": 200
+   },
+   "peak_allocated_bytes": 198332928
+  },
+  "dual_branch_ARR": {
+   "end_to_end_from_pil": {
+    "median_ms": 13.675813795998693,
+    "mean_ms": 45.10495009133592,
+    "p90_ms": 86.47006377577782,
+    "n": 200
+   },
+   "head_only_given_features": {
+    "median_ms": 0.6777402013540268,
+    "mean_ms": 0.6783219636417925,
+    "p90_ms": 0.6857439875602722,
+    "n": 200
+   },
+   "peak_allocated_bytes": 215332352
+  },
+  "consensus_C0": {
+   "end_to_end_from_pil": {
+    "median_ms": 14.437922509387136,
+    "mean_ms": 46.968616305384785,
+    "p90_ms": 86.67779807001352,
+    "n": 200
+   },
+   "head_only_given_features": {
+    "median_ms": 0.5422437097877264,
+    "mean_ms": 0.5465716007165611,
+    "p90_ms": 0.5546347238123417,
+    "n": 200
+   },
+   "peak_allocated_bytes": 198332928
+  }
+ },
+ "storage": {
+  "patch_grid": 576,
+  "patch_dim": 384,
+  "bank_patches": 11520,
+  "bank_fp32_mb": 16.875
+ },
+ "model_forward": {
+  "median_ms": 4.031669115647674,
+  "p90_ms": 4.330392461270094,
+  "n": 100
+ },
+ "gflops_per_image_backbone": 30.900307968,
+ "params": 22056576,
+ "per_task_preparation_s": 1.9629431441426277,
+ "block_wall_s": 43.812987139914185,
+ "torch": "2.8.0+cu128"
+}

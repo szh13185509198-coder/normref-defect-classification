@@ -1,0 +1,12 @@
+block,mvtec_ba_mean_over_K,model_forward_ms,new_task_s,lora_compute_only_s
+ours_main,80.99,19.06,2.6,
+ours_clipb16_336,75.90,4.26,2.1,
+ours_clipb16_224,72.62,3.49,1.8,
+ours_b336_fp32,79.76,8.04,1.8,
+ours_s336_fp32,78.47,4.03,1.9,
+restricted_adaptation,66.30,20.13,103.9,
+cliplora_b16_224,67.11,5.82,2494.1,200.5
+cliplora_b16_336,66.91,5.99,2639.4,216.7
+cliplora_l14_336,73.41,11.96,3726.4,581.7
+ours_l14_336_fp32,80.43,14.99,2.1,
+ours_l14_336_fp16,80.43,10.25,2.1,

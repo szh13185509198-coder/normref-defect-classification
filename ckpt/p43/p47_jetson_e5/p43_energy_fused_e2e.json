@@ -1,0 +1,17 @@
+{
+ "schema_version": "p43_energy_v1",
+ "block": "fused_e2e",
+ "seconds": 60.0,
+ "torch": "2.8.0",
+ "start": {
+  "epoch": 1791029138.7284377,
+  "local": "2026-10-03 20:05:38"
+ },
+ "end": {
+  "epoch": 1791029198.7857208,
+  "local": "2026-10-03 20:06:38"
+ },
+ "forwards": 946,
+ "mean_ms": 63.4854389408041,
+ "check": {}
+}

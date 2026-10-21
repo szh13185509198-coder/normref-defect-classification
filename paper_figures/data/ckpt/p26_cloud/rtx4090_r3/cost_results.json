@@ -1,0 +1,906 @@
+{
+ "schema_version": "p26_cost_v1",
+ "tag": "rtx4090_r3",
+ "environment": {
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "python": "3.12.3",
+  "cpu_count": 224,
+  "telemetry_start": {
+   "source": "nvidia-smi",
+   "name": "NVIDIA GeForce RTX 4090",
+   "temp_c": "34",
+   "sm_mhz": "210",
+   "sm_max_mhz": "3105",
+   "power_w": "24.40",
+   "mem_used_mib": "1",
+   "other_gpu_processes": 0
+  }
+ },
+ "setting": {
+  "product": "bottle",
+  "K": 5,
+  "seed": 111,
+  "bank": 20,
+  "inference_batch": 1
+ },
+ "summary": {
+  "ours_main": {
+   "1": {
+    "prep_or_train_s": 2.543641817755997,
+    "model_forward_ms": 18.986506387591362,
+    "end_to_end_ms": 78.48654082044959,
+    "gflops_per_image": 412.820097024,
+    "params": 326350464,
+    "trainable": 0,
+    "peak_mb": 2029.419921875
+   },
+   "2": {
+    "prep_or_train_s": 2.6851517613977194,
+    "model_forward_ms": 19.13649868220091,
+    "end_to_end_ms": 78.98888504132628,
+    "gflops_per_image": 412.820097024,
+    "params": 326350464,
+    "trainable": 0,
+    "peak_mb": 2029.419921875
+   }
+  },
+  "ours_b336_fp32": {
+   "1": {
+    "prep_or_train_s": 1.8064506379887462,
+    "model_forward_ms": 8.016802603378892,
+    "end_to_end_ms": 77.67575606703758,
+    "gflops_per_image": 110.807912448,
+    "params": 86580480,
+    "trainable": 0,
+    "peak_mb": 545.076171875
+   },
+   "2": {
+    "prep_or_train_s": 1.7550750658847392,
+    "model_forward_ms": 8.056570077314973,
+    "end_to_end_ms": 73.31726490519941,
+    "gflops_per_image": 110.807912448,
+    "params": 86580480,
+    "trainable": 0,
+    "peak_mb": 545.0849609375
+   }
+  },
+  "ours_s336_fp32": {
+   "1": {
+    "prep_or_train_s": 1.7884643184952438,
+    "model_forward_ms": 4.0286260191351175,
+    "end_to_end_ms": 77.70160981453955,
+    "gflops_per_image": 30.900307968,
+    "params": 22056576,
+    "trainable": 0,
+    "peak_mb": 205.35693359375
+   },
+   "2": {
+    "prep_or_train_s": 1.9629431441426277,
+    "model_forward_ms": 4.031669115647674,
+    "end_to_end_ms": 13.675813795998693,
+    "gflops_per_image": 30.900307968,
+    "params": 22056576,
+    "trainable": 0,
+    "peak_mb": 205.35693359375
+   }
+  },
+  "ours_s336_fp16": {
+   "1": {
+    "prep_or_train_s": 1.9219820923171937,
+    "model_forward_ms": 5.169162061065435,
+    "end_to_end_ms": 74.44733893498778,
+    "gflops_per_image": 30.900307968,
+    "params": 22056576,
+    "trainable": 0,
+    "peak_mb": 205.63818359375
+   },
+   "2": {
+    "prep_or_train_s": 1.9178567347116768,
+    "model_forward_ms": 3.9807241410017014,
+    "end_to_end_ms": 76.86174870468676,
+    "gflops_per_image": 30.900307968,
+    "params": 22056576,
+    "trainable": 0,
+    "peak_mb": 205.63818359375
+   }
+  },
+  "ours_clipb16_224": {
+   "1": {
+    "prep_or_train_s": 1.703531017061323,
+    "model_forward_ms": 3.5045710392296314,
+    "end_to_end_ms": 12.479368597269058,
+    "gflops_per_image": 35.12690688,
+    "params": 86192640,
+    "trainable": 0,
+    "peak_mb": 649.36181640625
+   },
+   "2": {
+    "prep_or_train_s": 1.9926429106853902,
+    "model_forward_ms": 3.475083038210869,
+    "end_to_end_ms": 13.264589942991734,
+    "gflops_per_image": 35.12690688,
+    "params": 86192640,
+    "trainable": 0,
+    "peak_mb": 649.36181640625
+   }
+  },
+  "ours_clipb16_336": {
+   "1": {
+    "prep_or_train_s": 2.245224241632968,
+    "model_forward_ms": 4.585136426612735,
+    "end_to_end_ms": 15.684070531278849,
+    "gflops_per_image": 82.8051456,
+    "params": 86380800,
+    "trainable": 0,
+    "peak_mb": 761.28173828125
+   },
+   "2": {
+    "prep_or_train_s": 1.8627228499390185,
+    "model_forward_ms": 3.9287724066525698,
+    "end_to_end_ms": 76.26353949308395,
+    "gflops_per_image": 82.8051456,
+    "params": 86380800,
+    "trainable": 0,
+    "peak_mb": 761.28173828125
+   }
+  },
+  "ours_l14_336_fp32": {
+   "1": {
+    "prep_or_train_s": 1.8780798860825598,
+    "model_forward_ms": 14.984830981120467,
+    "end_to_end_ms": 84.92405456490815,
+    "gflops_per_image": 381.919789056,
+    "params": 304293888,
+    "trainable": 0,
+    "peak_mb": 1908.04638671875
+   },
+   "2": {
+    "prep_or_train_s": 2.3997083655558527,
+    "model_forward_ms": 14.99032462015748,
+    "end_to_end_ms": 80.86310653015971,
+    "gflops_per_image": 381.919789056,
+    "params": 304293888,
+    "trainable": 0,
+    "peak_mb": 1908.04638671875
+   }
+  },
+  "ours_l14_336_fp16": {
+   "1": {
+    "prep_or_train_s": 2.1368342144414783,
+    "model_forward_ms": 12.077279388904572,
+    "end_to_end_ms": 82.21050957217813,
+    "gflops_per_image": 381.919789056,
+    "params": 304293888,
+    "trainable": 0,
+    "peak_mb": 1893.50537109375
+   },
+   "2": {
+    "prep_or_train_s": 2.1154082138091326,
+    "model_forward_ms": 8.415617747232318,
+    "end_to_end_ms": 81.365937134251,
+    "gflops_per_image": 381.919789056,
+    "params": 304293888,
+    "trainable": 0,
+    "peak_mb": 1893.50537109375
+   }
+  },
+  "restricted_adaptation": {
+   "1": {
+    "prep_or_train_s": 104.697,
+    "model_forward_ms": 20.100667607039213,
+    "end_to_end_ms": 84.38987145200372,
+    "optimizer_steps": 80
+   },
+   "2": {
+    "prep_or_train_s": 103.122,
+    "model_forward_ms": 20.167208509519696,
+    "end_to_end_ms": 85.19178838469088,
+    "optimizer_steps": 80
+   }
+  },
+  "cliplora_b16_224": {
+   "1": {
+    "prep_or_train_s": 2493.0061265593395,
+    "train_compute_only_s": 200.10441483464092,
+    "fits_official_batch": true,
+    "gradient_accumulation": false,
+    "model_forward_ms": 5.822720006108284,
+    "end_to_end_ms": 77.69237528555095,
+    "gflops_per_image": 35.126909952,
+    "gflops_per_train_step": 1487.220888576,
+    "trainable": 184320,
+    "peak_train_mb": 1781.1904296875
+   },
+   "2": {
+    "prep_or_train_s": 2495.2477249200456,
+    "train_compute_only_s": 200.80839982256293,
+    "fits_official_batch": true,
+    "gradient_accumulation": false,
+    "model_forward_ms": 5.815965123474598,
+    "end_to_end_ms": 45.980754075571895,
+    "gflops_per_image": 35.126909952,
+    "gflops_per_train_step": 1487.220888576,
+    "trainable": 184320,
+    "peak_train_mb": 1781.1904296875
+   }
+  },
+  "cliplora_b16_336": {
+   "1": {
+    "prep_or_train_s": 2633.59677355038,
+    "train_compute_only_s": 217.50112064182758,
+    "fits_official_batch": true,
+    "gradient_accumulation": false,
+    "model_forward_ms": 6.049509858712554,
+    "end_to_end_ms": 77.45473529212177,
+    "gflops_per_image": 82.805148672,
+    "gflops_per_train_step": 3485.276875776,
+    "trainable": 184320,
+    "peak_train_mb": 3171.310546875
+   },
+   "2": {
+    "prep_or_train_s": 2645.2931208186783,
+    "train_compute_only_s": 215.81555425655097,
+    "fits_official_batch": true,
+    "gradient_accumulation": false,
+    "model_forward_ms": 5.923515418544412,
+    "end_to_end_ms": 81.88141393475235,
+    "gflops_per_image": 82.805148672,
+    "gflops_per_train_step": 3485.276875776,
+    "trainable": 184320,
+    "peak_train_mb": 3171.310546875
+   }
+  },
+  "cliplora_l14_336": {
+   "1": {
+    "prep_or_train_s": 3611.4243308082223,
+    "train_compute_only_s": 585.1949588395655,
+    "fits_official_batch": true,
+    "gradient_accumulation": false,
+    "model_forward_ms": 12.039185035973787,
+    "end_to_end_ms": 81.21172757819295,
+    "gflops_per_image": 381.919793664,
+    "gflops_per_train_step": 16104.990970368,
+    "trainable": 405504,
+    "peak_train_mb": 10241.37451171875
+   },
+   "2": {
+    "prep_or_train_s": 3841.29729392007,
+    "train_compute_only_s": 578.1131749972701,
+    "fits_official_batch": true,
+    "gradient_accumulation": false,
+    "model_forward_ms": 11.887783417478204,
+    "end_to_end_ms": 80.01475152559578,
+    "gflops_per_image": 381.919793664,
+    "gflops_per_train_step": 16104.990970368,
+    "trainable": 405504,
+    "peak_train_mb": 10241.37451171875
+   }
+  }
+ },
+ "run_log": [
+  {
+   "pass": 1,
+   "block": "ours_main",
+   "returncode": 0,
+   "wall_s": 74.70766117516905,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "34",
+    "sm_mhz": "210",
+    "sm_max_mhz": "3105",
+    "power_w": "24.40",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "138.59",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "ours_b336_fp32",
+   "returncode": 0,
+   "wall_s": 48.95469287503511,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "110.04",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "48",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "162.35",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "ours_s336_fp32",
+   "returncode": 0,
+   "wall_s": 47.466928157024086,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "48",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "141.97",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "46",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "142.07",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "ours_s336_fp16",
+   "returncode": 0,
+   "wall_s": 46.622141792904586,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "46",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "133.71",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "91.98",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "ours_clipb16_224",
+   "returncode": 0,
+   "wall_s": 46.53124953713268,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "87.84",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "118.57",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "ours_clipb16_336",
+   "returncode": 0,
+   "wall_s": 49.587936824187636,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "104.66",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "46",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "170.53",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "ours_l14_336_fp32",
+   "returncode": 0,
+   "wall_s": 35.48540446674451,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "46",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "147.94",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "158.19",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "ours_l14_336_fp16",
+   "returncode": 0,
+   "wall_s": 32.884898805990815,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "128.27",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "48",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "93.03",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "restricted_adaptation",
+   "returncode": 0,
+   "wall_s": 175.21932848310098,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "48",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "81.18",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "81.75",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "cliplora_b16_224",
+   "returncode": 0,
+   "wall_s": 177.32680677389726,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2595",
+    "sm_max_mhz": "3105",
+    "power_w": "76.01",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "44",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "64.32",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "cliplora_b16_336",
+   "returncode": 0,
+   "wall_s": 186.52971335407346,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "44",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "63.93",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "65.51",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 1,
+   "block": "cliplora_l14_336",
+   "returncode": 0,
+   "wall_s": 272.440829873085,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "65.13",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "51",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "74.98",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "cliplora_l14_336",
+   "returncode": 0,
+   "wall_s": 277.551997018978,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "51",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "73.68",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "51",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "78.10",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "cliplora_b16_336",
+   "returncode": 0,
+   "wall_s": 185.70300698885694,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "52",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "76.68",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "46",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "65.37",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "cliplora_b16_224",
+   "returncode": 0,
+   "wall_s": 178.33445520000532,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "46",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "64.94",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "44",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "64.24",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "restricted_adaptation",
+   "returncode": 0,
+   "wall_s": 173.29297067597508,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "44",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "63.97",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "85.15",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_l14_336_fp16",
+   "returncode": 0,
+   "wall_s": 32.93116428144276,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2520",
+    "sm_max_mhz": "3105",
+    "power_w": "79.75",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "124.74",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_l14_336_fp32",
+   "returncode": 0,
+   "wall_s": 36.18571328697726,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "101.62",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "51",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "145.80",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_clipb16_336",
+   "returncode": 0,
+   "wall_s": 49.57666079001501,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "51",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "145.80",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "189.28",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_clipb16_224",
+   "returncode": 0,
+   "wall_s": 45.92897442635149,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "49",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "163.27",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "47",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "127.78",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_s336_fp16",
+   "returncode": 0,
+   "wall_s": 48.43458910379559,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "47",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "113.83",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "92.18",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_s336_fp32",
+   "returncode": 0,
+   "wall_s": 46.25834778603166,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "81.38",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "46",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "126.93",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_b336_fp32",
+   "returncode": 0,
+   "wall_s": 49.78298359690234,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "45",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "114.88",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "47",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "151.84",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  },
+  {
+   "pass": 2,
+   "block": "ours_main",
+   "returncode": 0,
+   "wall_s": 76.21719880308956,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "47",
+    "sm_mhz": "2730",
+    "sm_max_mhz": "3105",
+    "power_w": "132.18",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "NVIDIA GeForce RTX 4090",
+    "temp_c": "53",
+    "sm_mhz": "2715",
+    "sm_max_mhz": "3105",
+    "power_w": "120.57",
+    "mem_used_mib": "1",
+    "other_gpu_processes": 0
+   }
+  }
+ ]
+}

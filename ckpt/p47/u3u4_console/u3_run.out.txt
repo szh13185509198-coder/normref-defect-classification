@@ -1,0 +1,14 @@
+[p47-u3] bottle: 31 queries, 3 classes; diagonal reproduces P14
+[p47-u3] capsule: 53 queries, 5 classes; diagonal reproduces P14
+[p47-u3] carpet: 42 queries, 5 classes; diagonal reproduces P14
+[p47-u3] grid: 25 queries, 5 classes; diagonal reproduces P14
+[p47-u3] hazelnut: 34 queries, 4 classes; diagonal reproduces P14
+[p47-u3] leather: 44 queries, 5 classes; diagonal reproduces P14
+[p47-u3] metal_nut: 45 queries, 4 classes; diagonal reproduces P14
+[p47-u3] pill: 62 queries, 6 classes; diagonal reproduces P14
+[p47-u3] screw: 58 queries, 5 classes; diagonal reproduces P14
+[p47-u3] tile: 41 queries, 5 classes; diagonal reproduces P14
+[p47-u3] transistor: 20 queries, 4 classes; diagonal reproduces P14
+[p47-u3] wood: 25 queries, 4 classes; diagonal reproduces P14
+[p47-u3] zipper: 50 queries, 6 classes; diagonal reproduces P14
+[p47-u3] done; 8970 cells; diagonal max |dBA| vs P14 = 0.0e+00

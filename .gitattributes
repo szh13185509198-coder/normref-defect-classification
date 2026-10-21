@@ -1,0 +1,21 @@
+# Enforce explicit line endings for P9 locked implementation reference files
+# This ensures deterministic raw SHA256 checks across Windows, Linux, and Mac clones.
+model/adapter.py text eol=crlf
+train_multiclass.py text eol=crlf
+experiments/p3/run_p3f_clean_five_seed.py text eol=crlf
+model/faiss_memory.py text eol=lf
+experiments/p3/run_p30_dino_mean_oof.py text eol=lf
+docs/p21/P21_MVTEC_FS_EPISODES.json text eol=lf
+experiments/p21/cliplora_runner.py text eol=lf
+experiments/p21/p21_watch.sh text eol=lf
+experiments/p25/p25_watch.sh text eol=lf
+experiments/p29/p29_watch.sh text eol=lf
+experiments/p47/*.py text eol=lf
+experiments/p47/*.sh text eol=lf
+
+# Result files: stored byte-for-byte so that their SHA-256 match Supplementary S2.4 and RESULTS.md on every OS
+ckpt/** -text
+paper_figures/data/** -text
+docs/paper/*_EVIDENCE_MANIFEST.json -text
+# Vendored MVREC: checked out exactly as upstream (tests compare file hashes with upstream commit 112c187b)
+MVREC-main/** -text

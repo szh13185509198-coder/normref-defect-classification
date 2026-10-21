@@ -1,0 +1,1988 @@
+{
+  "alpha_ckpt_sha256": "b0e9c4d5d33bfa2724a0864f8e4b2b92f99aba3a4daf43084114c8caecfbadd9",
+  "backbone": "ViT-L/14@336px",
+  "contrasts": {
+    "ARR - MVREC-RGB 336": {
+      "Dbar_pp": 20.739011178754772,
+      "ci95_pp": [
+        15.782848632848639,
+        24.970963794040713
+      ],
+      "per_K_pp": {
+        "1": 22.875010459625845,
+        "3": 21.738866617712777,
+        "5": 17.60315645892569
+      },
+      "positive_products": 13
+    },
+    "MVREC-RGB 336 - 224": {
+      "Dbar_pp": 0.7610985405857198,
+      "ci95_pp": [
+        -1.8410943282738148,
+        3.4837380093790373
+      ],
+      "per_K_pp": {
+        "1": 0.6898796360334828,
+        "3": 1.6572569168723004,
+        "5": -0.06384093114862373
+      },
+      "positive_products": 6
+    },
+    "SimpleShot - MVREC-RGB 336": {
+      "Dbar_pp": 6.375168800809826,
+      "ci95_pp": [
+        1.6620350210093813,
+        10.77675577034552
+      ],
+      "per_K_pp": {
+        "1": 8.786388469080777,
+        "3": 6.126683430529585,
+        "5": 4.212434502819117
+      },
+      "positive_products": 10
+    },
+    "consensus (C0) - MVREC-RGB 336": {
+      "Dbar_pp": 15.678977266797778,
+      "ci95_pp": [
+        11.343747918747912,
+        19.78585626149728
+      ],
+      "per_K_pp": {
+        "1": 15.917025780487318,
+        "3": 17.723666789051403,
+        "5": 13.396239230854615
+      },
+      "positive_products": 13
+    }
+  },
+  "launch": {
+    "allow_dirty_diagnostic": false,
+    "commit": "843a7726e80042ae950c38565d540b243a4b83c1",
+    "dirty": false
+  },
+  "levels_ba_pct": {
+    "fused_adareg_regres_soft_q99": {
+      "1": {
+        "mean": 71.0091410014487,
+        "sd": 2.9214218409162216
+      },
+      "3": {
+        "mean": 84.49572058995136,
+        "sd": 1.6329344239891894
+      },
+      "5": {
+        "mean": 87.47870341908805,
+        "sd": 0.45640499844080556
+      }
+    },
+    "mvrec_rgb": {
+      "1": {
+        "mean": 47.44425090578936,
+        "sd": 1.5704067642727435
+      },
+      "3": {
+        "mean": 61.099597055366296,
+        "sd": 2.6035108164082432
+      },
+      "5": {
+        "mean": 69.93938789131097,
+        "sd": 1.3432273097525973
+      }
+    },
+    "mvrec_rgb_336": {
+      "1": {
+        "mean": 48.13413054182285,
+        "sd": 1.8627132859741966
+      },
+      "3": {
+        "mean": 62.75685397223858,
+        "sd": 0.8111639212874158
+      },
+      "5": {
+        "mean": 69.87554696016234,
+        "sd": 1.3678371022113227
+      }
+    },
+    "simpleshot_cl2n": {
+      "1": {
+        "mean": 56.920519010903625,
+        "sd": 3.3537167976326248
+      },
+      "3": {
+        "mean": 68.88353740276817,
+        "sd": 2.0505833995665323
+      },
+      "5": {
+        "mean": 74.08798146298146,
+        "sd": 0.7455399196871434
+      }
+    }
+  },
+  "product_macro_per_seed": [
+    {
+      "K": 1,
+      "balanced_accuracy": 0.46330834051987896,
+      "macro_f1": 0.43559065417612897,
+      "seed": 111,
+      "top1_accuracy": 0.4530868721324006
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5004433920780075,
+      "macro_f1": 0.4645042195764326,
+      "seed": 222,
+      "top1_accuracy": 0.48745999146749597
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.46205576830576833,
+      "macro_f1": 0.4354755139842442,
+      "seed": 333,
+      "top1_accuracy": 0.4502774396208616
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.48150658458350765,
+      "macro_f1": 0.46669147947818157,
+      "seed": 444,
+      "top1_accuracy": 0.48092553610207367
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.49939244160398005,
+      "macro_f1": 0.46153094771899617,
+      "seed": 555,
+      "top1_accuracy": 0.4894695646034972
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6216268311460619,
+      "macro_f1": 0.6029066116193812,
+      "seed": 111,
+      "top1_accuracy": 0.6147214988031651
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6175868540291618,
+      "macro_f1": 0.6088974253939754,
+      "seed": 222,
+      "top1_accuracy": 0.6159335286757859
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6378308514846976,
+      "macro_f1": 0.6303224345262408,
+      "seed": 333,
+      "top1_accuracy": 0.6292722480316731
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6322588985088985,
+      "macro_f1": 0.6122691198880768,
+      "seed": 444,
+      "top1_accuracy": 0.6241771817256698
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6285392634431096,
+      "macro_f1": 0.6165350944817737,
+      "seed": 555,
+      "top1_accuracy": 0.6187319828816631
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7197771672771673,
+      "macro_f1": 0.7121263532225639,
+      "seed": 111,
+      "top1_accuracy": 0.7145224958680778
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6971249050095204,
+      "macro_f1": 0.6941324358577443,
+      "seed": 222,
+      "top1_accuracy": 0.6931071473317204
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6921959984459984,
+      "macro_f1": 0.683028546565492,
+      "seed": 333,
+      "top1_accuracy": 0.6852064557058364
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7017860238052547,
+      "macro_f1": 0.6939679215602405,
+      "seed": 444,
+      "top1_accuracy": 0.6936656345086601
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6828932534701765,
+      "macro_f1": 0.6701967118803426,
+      "seed": 555,
+      "top1_accuracy": 0.6775060586255237
+    }
+  ],
+  "protocol": "docs/P23_MVREC_RGB_336_PROTOCOL.md",
+  "raw_metrics": [
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4515151515151515,
+      "macro_f1": 0.47741147741147744,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.45161290322580644
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.38484848484848483,
+      "macro_f1": 0.37777777777777777,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.3870967741935484
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5090909090909091,
+      "macro_f1": 0.50242656449553,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.5161290322580645
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4484848484848485,
+      "macro_f1": 0.47126436781609193,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.45161290322580644
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5060606060606061,
+      "macro_f1": 0.5029761904761905,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.5161290322580645
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5909090909090909,
+      "macro_f1": 0.5778359926966737,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.5806451612903226
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4575757575757576,
+      "macro_f1": 0.44228610895277565,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.45161290322580644
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5212121212121211,
+      "macro_f1": 0.5289449112978525,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.5161290322580645
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5212121212121211,
+      "macro_f1": 0.5160784313725489,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.5161290322580645
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7727272727272728,
+      "macro_f1": 0.7763157894736842,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.7741935483870968
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6818181818181818,
+      "macro_f1": 0.6761904761904761,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 111,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6848484848484849,
+      "macro_f1": 0.6851851851851851,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 222,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6787878787878787,
+      "macro_f1": 0.6790890269151139,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 333,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6181818181818182,
+      "macro_f1": 0.6154970760233918,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 444,
+      "top1_accuracy": 0.6129032258064516
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6757575757575758,
+      "macro_f1": 0.6819607843137255,
+      "method": "mvrec_rgb_336",
+      "product": "bottle",
+      "seed": 555,
+      "top1_accuracy": 0.6774193548387096
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.38545454545454544,
+      "macro_f1": 0.37812409812409814,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.37735849056603776
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.45636363636363636,
+      "macro_f1": 0.42497849976110846,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.4528301886792453
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.30363636363636365,
+      "macro_f1": 0.29365079365079366,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.3018867924528302
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.28909090909090907,
+      "macro_f1": 0.2917469654528478,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.2830188679245283
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3981818181818182,
+      "macro_f1": 0.33612554112554116,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.39622641509433965
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4490909090909091,
+      "macro_f1": 0.4643700159489633,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.4528301886792453
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4745454545454545,
+      "macro_f1": 0.4641090591554987,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.4716981132075472
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4381818181818182,
+      "macro_f1": 0.4156837944664032,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.4339622641509434
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.38181818181818183,
+      "macro_f1": 0.39568740031897925,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.37735849056603776
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.43454545454545457,
+      "macro_f1": 0.42434333958724196,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.4339622641509434
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5509090909090909,
+      "macro_f1": 0.551716247139588,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 111,
+      "top1_accuracy": 0.5471698113207547
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5890909090909091,
+      "macro_f1": 0.5745518207282914,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 222,
+      "top1_accuracy": 0.5849056603773585
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5327272727272727,
+      "macro_f1": 0.5306447938026885,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 333,
+      "top1_accuracy": 0.5283018867924528
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6054545454545455,
+      "macro_f1": 0.6034862798020693,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 444,
+      "top1_accuracy": 0.6037735849056604
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5890909090909091,
+      "macro_f1": 0.5840853548270428,
+      "method": "mvrec_rgb_336",
+      "product": "capsule",
+      "seed": 555,
+      "top1_accuracy": 0.5849056603773585
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4333333333333333,
+      "macro_f1": 0.40144927536231884,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.42857142857142855
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5833333333333333,
+      "macro_f1": 0.5687908496732026,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.5714285714285714
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4611111111111111,
+      "macro_f1": 0.44200466200466193,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.4523809523809524
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5527777777777778,
+      "macro_f1": 0.5529014844804319,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.5476190476190477
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5027777777777778,
+      "macro_f1": 0.4742215679057784,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6027777777777777,
+      "macro_f1": 0.5865068265068265,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.5952380952380952
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5083333333333333,
+      "macro_f1": 0.5234343434343434,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6722222222222223,
+      "macro_f1": 0.6724509803921569,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7472222222222222,
+      "macro_f1": 0.7416666666666667,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.7380952380952381
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.675,
+      "macro_f1": 0.657965367965368,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7,
+      "macro_f1": 0.6826190476190477,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 111,
+      "top1_accuracy": 0.6904761904761905
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.675,
+      "macro_f1": 0.6802253628724217,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 222,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.65,
+      "macro_f1": 0.6371794871794872,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 333,
+      "top1_accuracy": 0.6428571428571429
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7722222222222223,
+      "macro_f1": 0.7599744245524297,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 444,
+      "top1_accuracy": 0.7619047619047619
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6527777777777778,
+      "macro_f1": 0.636904761904762,
+      "method": "mvrec_rgb_336",
+      "product": "carpet",
+      "seed": 555,
+      "top1_accuracy": 0.6428571428571429
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2,
+      "macro_f1": 0.1531578947368421,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.2
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.32,
+      "macro_f1": 0.23897435897435898,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.32
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.36,
+      "macro_f1": 0.3191311612364244,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.36
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.27999999999999997,
+      "macro_f1": 0.17411764705882354,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.28
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.44000000000000006,
+      "macro_f1": 0.36888111888111885,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.44
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.48,
+      "macro_f1": 0.43434343434343436,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.48
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5028571428571429,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.44000000000000006,
+      "macro_f1": 0.3746031746031746,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.44
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.52,
+      "macro_f1": 0.4404761904761904,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5599999999999999,
+      "macro_f1": 0.5165501165501165,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.56,
+      "macro_f1": 0.5410101010101009,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 111,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6799999999999999,
+      "macro_f1": 0.657857697857698,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 222,
+      "top1_accuracy": 0.68
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.6043223443223444,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 333,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.56,
+      "macro_f1": 0.5326340326340326,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 444,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.64,
+      "macro_f1": 0.5565811965811966,
+      "method": "mvrec_rgb_336",
+      "product": "grid",
+      "seed": 555,
+      "top1_accuracy": 0.64
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5590277777777778,
+      "macro_f1": 0.5426286676286676,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.5588235294117647
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6215277777777778,
+      "macro_f1": 0.6158771929824561,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.6176470588235294
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.53125,
+      "macro_f1": 0.5387254901960784,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.5294117647058824
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4375,
+      "macro_f1": 0.38634301270417426,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.4411764705882353
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4340277777777778,
+      "macro_f1": 0.4320367132867133,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.4411764705882353
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6493055555555556,
+      "macro_f1": 0.6464460784313726,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7604166666666666,
+      "macro_f1": 0.7505252100840336,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7708333333333333,
+      "macro_f1": 0.7714285714285715,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.65625,
+      "macro_f1": 0.6379336349924585,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6840277777777778,
+      "macro_f1": 0.6663533834586466,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.6764705882352942
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7986111111111112,
+      "macro_f1": 0.7963060224089636,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 111,
+      "top1_accuracy": 0.7941176470588235
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8263888888888888,
+      "macro_f1": 0.8227941176470588,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 222,
+      "top1_accuracy": 0.8235294117647058
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7673611111111112,
+      "macro_f1": 0.765669991772933,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 333,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7743055555555556,
+      "macro_f1": 0.7630566801619433,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 444,
+      "top1_accuracy": 0.7647058823529411
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6388888888888888,
+      "macro_f1": 0.6190058479532163,
+      "method": "mvrec_rgb_336",
+      "product": "hazelnut",
+      "seed": 555,
+      "top1_accuracy": 0.6470588235294118
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.725,
+      "macro_f1": 0.7134841628959276,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.7272727272727273
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6555555555555556,
+      "macro_f1": 0.6586363636363637,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.6590909090909091
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5472222222222223,
+      "macro_f1": 0.5313237639553429,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.5454545454545454
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.475,
+      "macro_f1": 0.48816483516483516,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.4772727272727273
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7333333333333333,
+      "macro_f1": 0.6999600399600399,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.7272727272727273
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9305555555555556,
+      "macro_f1": 0.9289473684210527,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9111111111111111,
+      "macro_f1": 0.9006349206349207,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9090909090909091
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8666666666666666,
+      "macro_f1": 0.8636824905400757,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8636363636363636
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9305555555555556,
+      "macro_f1": 0.9289473684210527,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.8,
+      "macro_f1": 0.7937878787878788,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.7954545454545454
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333333,
+      "macro_f1": 0.9304179566563467,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 222,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8194444444444444,
+      "macro_f1": 0.8158169934640522,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 333,
+      "top1_accuracy": 0.8181818181818182
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9777777777777779,
+      "macro_f1": 0.9764705882352942,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 444,
+      "top1_accuracy": 0.9772727272727273
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9333333333333332,
+      "macro_f1": 0.93312693498452,
+      "method": "mvrec_rgb_336",
+      "product": "leather",
+      "seed": 555,
+      "top1_accuracy": 0.9318181818181818
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5189393939393939,
+      "macro_f1": 0.5122650976099252,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.5111111111111111
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5416666666666666,
+      "macro_f1": 0.5,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.5333333333333333
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4412878787878788,
+      "macro_f1": 0.4106617647058824,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.4444444444444444
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5208333333333334,
+      "macro_f1": 0.4913105413105413,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.5111111111111111
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5208333333333334,
+      "macro_f1": 0.44612704368801925,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.5111111111111111
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6060606060606061,
+      "macro_f1": 0.6087301587301587,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5132575757575758,
+      "macro_f1": 0.5108100711548987,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.5111111111111111
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6666666666666666,
+      "macro_f1": 0.6788515406162465,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.6666666666666666
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5852272727272727,
+      "macro_f1": 0.5757575757575758,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.5777777777777777
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6477272727272727,
+      "macro_f1": 0.6442307692307693,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.6444444444444445
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7196969696969697,
+      "macro_f1": 0.711111111111111,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 111,
+      "top1_accuracy": 0.7111111111111111
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7784090909090909,
+      "macro_f1": 0.7772435897435898,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 222,
+      "top1_accuracy": 0.7777777777777778
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7424242424242424,
+      "macro_f1": 0.7214932126696832,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 333,
+      "top1_accuracy": 0.7333333333333333
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7291666666666666,
+      "macro_f1": 0.7190860215053764,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 444,
+      "top1_accuracy": 0.7333333333333333
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6231060606060606,
+      "macro_f1": 0.6196428571428572,
+      "method": "mvrec_rgb_336",
+      "product": "metal_nut",
+      "seed": 555,
+      "top1_accuracy": 0.6222222222222222
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.34277574277574274,
+      "macro_f1": 0.36391169494617764,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.3387096774193548
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.5260785510785511,
+      "macro_f1": 0.497753963452693,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.4838709677419355
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.31732804232804235,
+      "macro_f1": 0.27920122887864823,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.27419354838709675
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.48878713878713875,
+      "macro_f1": 0.5095238095238095,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.4838709677419355
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3948921448921449,
+      "macro_f1": 0.3519540229885057,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.3548387096774194
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5181623931623932,
+      "macro_f1": 0.5063216353538934,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.46774193548387094
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5673382173382173,
+      "macro_f1": 0.567436557632636,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.5483870967741935
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4942409442409443,
+      "macro_f1": 0.4991670352351467,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.43548387096774194
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.598015873015873,
+      "macro_f1": 0.5799019607843138,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.5483870967741935
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4856430606430606,
+      "macro_f1": 0.4869957543257426,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.41935483870967744
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6297619047619047,
+      "macro_f1": 0.6291452991452992,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 111,
+      "top1_accuracy": 0.5967741935483871
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5374542124542124,
+      "macro_f1": 0.5408492741826075,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 222,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5981481481481482,
+      "macro_f1": 0.5994753086419754,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 333,
+      "top1_accuracy": 0.5645161290322581
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.4954110704110704,
+      "macro_f1": 0.5151098901098902,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 444,
+      "top1_accuracy": 0.43548387096774194
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5368030118030118,
+      "macro_f1": 0.5330850522026992,
+      "method": "mvrec_rgb_336",
+      "product": "pill",
+      "seed": 555,
+      "top1_accuracy": 0.4838709677419355
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2621212121212121,
+      "macro_f1": 0.23582417582417578,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.25862068965517243
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.1696969696969697,
+      "macro_f1": 0.1239298955173576,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.1724137931034483
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.34545454545454546,
+      "macro_f1": 0.32872523865658876,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.3448275862068966
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.27121212121212124,
+      "macro_f1": 0.23897470950102534,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.27586206896551724
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2772727272727272,
+      "macro_f1": 0.2772549019607843,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.27586206896551724
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.33636363636363636,
+      "macro_f1": 0.31144385026737964,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.3448275862068966
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.38181818181818183,
+      "macro_f1": 0.3867059147894062,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.3793103448275862
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.3621212121212121,
+      "macro_f1": 0.3723609723609724,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.3620689655172414
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.35909090909090907,
+      "macro_f1": 0.335807486631016,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.3620689655172414
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.3757575757575758,
+      "macro_f1": 0.3704084321475626,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.3793103448275862
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5409090909090909,
+      "macro_f1": 0.5149967679379445,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 111,
+      "top1_accuracy": 0.5517241379310345
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.4424242424242424,
+      "macro_f1": 0.4449974398361495,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 222,
+      "top1_accuracy": 0.4482758620689655
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.4803030303030303,
+      "macro_f1": 0.47609195402298854,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 333,
+      "top1_accuracy": 0.4827586206896552
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.44393939393939397,
+      "macro_f1": 0.4387878787878788,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 444,
+      "top1_accuracy": 0.4482758620689655
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5772727272727273,
+      "macro_f1": 0.5751995373048004,
+      "method": "mvrec_rgb_336",
+      "product": "screw",
+      "seed": 555,
+      "top1_accuracy": 0.5862068965517241
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8678571428571429,
+      "macro_f1": 0.8713286713286713,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.8780487804878049
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8178571428571428,
+      "macro_f1": 0.8183333333333334,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.8292682926829268
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8067460317460318,
+      "macro_f1": 0.8000294854784018,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.8048780487804879
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7880952380952382,
+      "macro_f1": 0.7853494029190624,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.7804878048780488
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.7880952380952381,
+      "macro_f1": 0.7740573152337857,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.7804878048780488
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.95,
+      "macro_f1": 0.9464285714285715,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9428571428571428,
+      "macro_f1": 0.9431372549019608,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9499019607843138,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9714285714285713,
+      "macro_f1": 0.9728506787330315,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.861111111111111,
+      "macro_f1": 0.8472689075630253,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.8536585365853658
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 111,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 222,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.975,
+      "macro_f1": 0.9733333333333334,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 333,
+      "top1_accuracy": 0.975609756097561
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 444,
+      "top1_accuracy": 1.0
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9555555555555555,
+      "macro_f1": 0.9499019607843138,
+      "method": "mvrec_rgb_336",
+      "product": "tile",
+      "seed": 555,
+      "top1_accuracy": 0.9512195121951219
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3,
+      "macro_f1": 0.18012422360248448,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.3
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.35,
+      "macro_f1": 0.27005347593582885,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.35
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.34805194805194806,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.36070261437908496,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.2,
+      "macro_f1": 0.08695652173913045,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.2
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.27232142857142855,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.6041666666666666,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.5827922077922079,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.6
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.3952380952380953,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.4,
+      "macro_f1": 0.3706709956709957,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.48809523809523814,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 111,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.48809523809523814,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 222,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.48809523809523814,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 333,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.48809523809523814,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.48809523809523814,
+      "method": "mvrec_rgb_336",
+      "product": "transistor",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6714285714285715,
+      "macro_f1": 0.5708333333333333,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6714285714285715,
+      "macro_f1": 0.5474747474747474,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.6178571428571429,
+      "macro_f1": 0.5223526473526473,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.9302641802641802,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.8035714285714286,
+      "macro_f1": 0.7633928571428572,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.72
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9035714285714286,
+      "macro_f1": 0.8916666666666666,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.7928571428571428,
+      "macro_f1": 0.8068181818181818,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.8
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.933041958041958,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.933041958041958,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.9142857142857143,
+      "macro_f1": 0.9020847573479153,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.88
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.933041958041958,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 111,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.8392857142857143,
+      "macro_f1": 0.8371003996003996,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 222,
+      "top1_accuracy": 0.84
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.95,
+      "macro_f1": 0.9328282828282828,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 333,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.95,
+      "macro_f1": 0.9328282828282828,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 444,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.9392857142857143,
+      "macro_f1": 0.933041958041958,
+      "method": "mvrec_rgb_336",
+      "product": "wood",
+      "seed": 555,
+      "top1_accuracy": 0.92
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.3055555555555555,
+      "macro_f1": 0.2621357314855767,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.3
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.40740740740740744,
+      "macro_f1": 0.395974395974396,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.36574074074074076,
+      "macro_f1": 0.3448969331322273,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.36
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.39351851851851855,
+      "macro_f1": 0.3863256626414521,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.4
+    },
+    {
+      "K": 1,
+      "balanced_accuracy": 0.4930555555555555,
+      "macro_f1": 0.48595848595848595,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.6643518518518519,
+      "macro_f1": 0.6624239236855336,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5185185185185185,
+      "macro_f1": 0.5127450980392156,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.52
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5648148148148148,
+      "macro_f1": 0.5512820512820513,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5092592592592592,
+      "macro_f1": 0.5061111111111111,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.5
+    },
+    {
+      "K": 3,
+      "balanced_accuracy": 0.5601851851851852,
+      "macro_f1": 0.5579807361541108,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.56
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.7361111111111112,
+      "macro_f1": 0.733410323193605,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 111,
+      "top1_accuracy": 0.74
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.576388888888889,
+      "macro_f1": 0.584403583745689,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 222,
+      "top1_accuracy": 0.58
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6643518518518519,
+      "macro_f1": 0.6553311383032745,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 333,
+      "top1_accuracy": 0.66
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6967592592592592,
+      "macro_f1": 0.6765565875472995,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 444,
+      "top1_accuracy": 0.7
+    },
+    {
+      "K": 5,
+      "balanced_accuracy": 0.6157407407407408,
+      "macro_f1": 0.6019257703081232,
+      "method": "mvrec_rgb_336",
+      "product": "zipper",
+      "seed": 555,
+      "top1_accuracy": 0.62
+    }
+  ],
+  "resolution": 336,
+  "schema_version": "p23_mvrec_rgb_336_v1"
+}

@@ -1,0 +1,8 @@
+# Paper figures
+
+| Folder | Contents |
+|---|---|
+| [`final/`](final/README.md) | **The figures of the paper**: every image linked from the manuscript and the supplementary material, byte-identical to the manuscript files, under English names, with the PDF of the same export. The README there maps each figure to its editable source, generating script and plotted data. |
+| `mst/` | Generators of the figures. `make_mst_figures.py` reads the result files and writes the plotted numbers (`out/*.csv`, with notes on sources and intervals in `out/NOTES.txt`); `schematics/make_color_charts.py` and `schematics/make_schematics.py` turn them into editable draw.io files; `schematics/make_figs_v2.py` draws figures 1 and 6, `schematics/make_figs_v3.py` figures 8 and 10. `drawio/` holds the draw.io sources and their PNG / PDF exports. `check_pdf.py` and `schematics/check_figs.py` check the 8 pt minimum text size. |
+| `data/` | Copies of the result files the figure scripts read (JSON / JSONL, same relative paths as in `ckpt/`). `data/README.md` lists the SHA-256 of each original; files marked "replaced" had the cloud host name, cloud directory and device user name replaced by placeholders, so their copies hash differently while every number is unchanged. The original, unmodified result files are under `ckpt/` at the repository root (see [`../RESULTS.md`](../RESULTS.md)). |
+| `legacy_main/`, `legacy_supplementary/` | Figures of the previous version of the paper, one folder per figure, with their plotted data (CSV). Six supplementary figures are still used unchanged (S1.1, S6.1, S10.1, S11.1, S12.2, S14.1), and the MST scripts read plotted data from several of these folders. |

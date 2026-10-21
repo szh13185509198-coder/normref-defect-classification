@@ -1,0 +1,23 @@
+{
+ "new_task_s": 2.6184200860006968,
+ "e2e_from_pil": {
+  "median_ms": 66.83068449819984,
+  "mean_ms": 66.65953497486043,
+  "p90_ms": 67.03767599901767,
+  "n": 200
+ },
+ "engine_only": {
+  "median_ms": 66.77670150020276,
+  "p90_ms": 67.3231200016744,
+  "n": 100
+ },
+ "gpu_preprocess": {
+  "median_ms": 7.193300500148325,
+  "p90_ms": 7.2319909995712806,
+  "n": 100
+ },
+ "classes": 3,
+ "pass": 1,
+ "engine": "/home/<USER>/p31/p35_trt/main_fused_r8.engine",
+ "torch": "2.8.0"
+}

@@ -1,0 +1,83 @@
+dataset,series,K_or_unit,value,sd_or_ci
+MVTec-FS (13 products),Ground-truth mask pooling (evaluation only),1,75.52,3.18
+MVTec-FS (13 products),Ground-truth mask pooling (evaluation only),3,88.1,0.94
+MVTec-FS (13 products),Ground-truth mask pooling (evaluation only),5,90.52,0.8
+MVTec-FS (13 products),Proposed method,1,71.01,2.92
+MVTec-FS (13 products),Proposed method,3,84.5,1.63
+MVTec-FS (13 products),Proposed method,5,87.48,0.46
+MVTec-FS (13 products),"Fixed-ratio normal reference",1,62.99,1.47
+MVTec-FS (13 products),"Fixed-ratio normal reference",3,75.89,1.49
+MVTec-FS (13 products),"Fixed-ratio normal reference",5,79.67,1.04
+MVTec-FS (13 products),Trainable support adapter,1,56.18,0.77
+MVTec-FS (13 products),Trainable support adapter,3,68.85,2.12
+MVTec-FS (13 products),Trainable support adapter,5,73.87,0.85
+MVTec-FS (13 products),SimpleShot (whole image),1,56.92,3.35
+MVTec-FS (13 products),SimpleShot (whole image),3,68.88,2.05
+MVTec-FS (13 products),SimpleShot (whole image),5,74.09,0.75
+VisA (11 objects),Proposed method,1,61.73,1.55
+VisA (11 objects),Proposed method,3,75.9,0.87
+VisA (11 objects),Proposed method,5,78.89,0.91
+VisA (11 objects),"Fixed-ratio normal reference",1,49.17,1.4
+VisA (11 objects),"Fixed-ratio normal reference",3,63.72,1.77
+VisA (11 objects),"Fixed-ratio normal reference",5,67.73,0.86
+VisA (11 objects),SimpleShot (whole image),1,43.56,1.62
+VisA (11 objects),SimpleShot (whole image),3,56.29,1.27
+VisA (11 objects),SimpleShot (whole image),5,62.19,1.4
+MVTec-FS (13),per unit,bottle,2.34,
+MVTec-FS (13),per unit,capsule,24.87,
+MVTec-FS (13),per unit,carpet,9.65,
+MVTec-FS (13),per unit,grid,18.13,
+MVTec-FS (13),per unit,hazelnut,10.6,
+MVTec-FS (13),per unit,leather,1.31,
+MVTec-FS (13),per unit,metal_nut,16.4,
+MVTec-FS (13),per unit,pill,16.55,
+MVTec-FS (13),per unit,screw,35.72,
+MVTec-FS (13),per unit,tile,4.48,
+MVTec-FS (13),per unit,transistor,21.0,
+MVTec-FS (13),per unit,wood,9.75,
+MVTec-FS (13),per unit,zipper,15.91,
+MVTec-FS (13),mean [95% CI],,14.36,9.65..19.77
+VisA (11),per unit,visa__candle,30.31,
+VisA (11),per unit,visa__cashew,32.19,
+VisA (11),per unit,visa__chewinggum,13.19,
+VisA (11),per unit,visa__fryum,13.71,
+VisA (11),per unit,visa__macaroni1,21.58,
+VisA (11),per unit,visa__macaroni2,27.32,
+VisA (11),per unit,visa__pcb1,13.09,
+VisA (11),per unit,visa__pcb2,19.27,
+VisA (11),per unit,visa__pcb3,14.6,
+VisA (11),per unit,visa__pcb4,-10.95,
+VisA (11),per unit,visa__pipe_fryum,25.46,
+VisA (11),mean [95% CI],,18.16,11.00..24.21
+Real-IAD blind (30),per unit,audiojack,11.94,
+Real-IAD blind (30),per unit,bottle_cap,2.67,
+Real-IAD blind (30),per unit,button_battery,11.71,
+Real-IAD blind (30),per unit,end_cap,1.08,
+Real-IAD blind (30),per unit,eraser,8.17,
+Real-IAD blind (30),per unit,fire_hood,18.62,
+Real-IAD blind (30),per unit,mint,8.39,
+Real-IAD blind (30),per unit,mounts,8.06,
+Real-IAD blind (30),per unit,pcb,8.12,
+Real-IAD blind (30),per unit,phone_battery,-4.0,
+Real-IAD blind (30),per unit,plastic_nut,18.12,
+Real-IAD blind (30),per unit,plastic_plug,1.08,
+Real-IAD blind (30),per unit,porcelain_doll,8.61,
+Real-IAD blind (30),per unit,regulator,14.29,
+Real-IAD blind (30),per unit,rolled_strip_base,13.0,
+Real-IAD blind (30),per unit,sim_card_set,0.61,
+Real-IAD blind (30),per unit,switch,20.61,
+Real-IAD blind (30),per unit,tape,14.08,
+Real-IAD blind (30),per unit,terminalblock,8.17,
+Real-IAD blind (30),per unit,toothbrush,-2.33,
+Real-IAD blind (30),per unit,toy,13.12,
+Real-IAD blind (30),per unit,toy_brick,10.25,
+Real-IAD blind (30),per unit,transistor1,5.28,
+Real-IAD blind (30),per unit,u_block,14.42,
+Real-IAD blind (30),per unit,usb,14.0,
+Real-IAD blind (30),per unit,usb_adaptor,17.21,
+Real-IAD blind (30),per unit,vcpill,25.96,
+Real-IAD blind (30),per unit,wooden_beads,12.17,
+Real-IAD blind (30),per unit,woodstick,24.33,
+Real-IAD blind (30),per unit,zipper,4.54,
+Real-IAD blind (30),mean [95% CI],,10.41,7.77..13.02
+MTD,single dataset,mtd,14.03,

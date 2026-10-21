@@ -1,0 +1,7 @@
+row,dataset,delta_pp,ci_low_pp,ci_high_pp
+Otsu threshold per image,MVTec-FS (13 products),5.472,3.7215,7.444
+Otsu threshold per image,VisA (11 objects),6.136,1.9745,9.7421
+MEBin threshold per image,MVTec-FS (13 products),1.5989,0.4016,3.0886
+MEBin threshold per image,VisA (11 objects),2.4129,1.0173,3.9009
+Fixed top 10% per image,MVTec-FS (13 products),1.3229,0.7047,2.0242
+Fixed top 10% per image,VisA (11 objects),2.1029,-0.4671,4.1608

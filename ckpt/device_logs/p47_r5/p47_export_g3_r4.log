@@ -1,0 +1,33 @@
+[DINOv2] Loaded from offline local torch.hub repo: /home/<USER>/p31/repo/third_party/dinov2
+[DINOv2] Local checkpoint: /home/<USER>/p31/repo/pretrained/dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+NvMapMemAllocInternalTagged: 1075072515 error 12
+NvMapMemHandleAlloc: error 0
+NvMapMemAllocInternalTagged: 1075072515 error 12
+NvMapMemHandleAlloc: error 0
+NvMapMemAllocInternalTagged: 1075072515 error 12
+NvMapMemHandleAlloc: error 0
+NvMapMemAllocInternalTagged: 1075072515 error 12
+NvMapMemHandleAlloc: error 0
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/<USER>/p31/repo/experiments/p47/scale_tile.py", line 552, in <module>
+    sys.exit(main())
+  File "/home/<USER>/p31/repo/experiments/p47/scale_tile.py", line 537, in main
+    return export(a)
+  File "/home/<USER>/p31/repo/experiments/p47/scale_tile.py", line 214, in export
+    toks = torch.stack([model(fe.gpu_prep(im, device), gpu_tiles(im, grid, device), zero,
+  File "/home/<USER>/p31/repo/experiments/p47/scale_tile.py", line 214, in <listcomp>
+    toks = torch.stack([model(fe.gpu_prep(im, device), gpu_tiles(im, grid, device), zero,
+  File "/home/<USER>/p31/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/<USER>/p31/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/<USER>/p31/repo/experiments/p47/scale_tile.py", line 110, in forward
+    h_a, h_r, screen = tiled_head(c, bank, tau, self.k_screen)
+  File "/home/<USER>/p31/repo/experiments/p47/scale_tile.py", line 76, in tiled_head
+    sims = c @ bank.t()
+RuntimeError: NVML_SUCCESS == r INTERNAL ASSERT FAILED at "/opt/pytorch/c10/cuda/CUDACachingAllocator.cpp":1131, please report a bug to PyTorch. 

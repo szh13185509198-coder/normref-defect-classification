@@ -1,0 +1,24 @@
+{"image_path": "train/MT_Blowhole/image/exp2_num_262572.jpg", "label": 0.0, "class_name": "MT_Blowhole", "mask_path": "train/MT_Blowhole/mask/exp2_num_262572.png"}
+{"image_path": "train/MT_Blowhole/image/exp1_num_308015.jpg", "label": 0.0, "class_name": "MT_Blowhole", "mask_path": "train/MT_Blowhole/mask/exp1_num_308015.png"}
+{"image_path": "train/MT_Blowhole/image/exp3_num_36246.jpg", "label": 0.0, "class_name": "MT_Blowhole", "mask_path": "train/MT_Blowhole/mask/exp3_num_36246.png"}
+{"image_path": "train/MT_Blowhole/image/exp3_num_317526.jpg", "label": 0.0, "class_name": "MT_Blowhole", "mask_path": "train/MT_Blowhole/mask/exp3_num_317526.png"}
+{"image_path": "train/MT_Break/image/exp5_num_149023.jpg", "label": 1.0, "class_name": "MT_Break", "mask_path": "train/MT_Break/mask/exp5_num_149023.png"}
+{"image_path": "train/MT_Break/image/exp1_num_356718.jpg", "label": 1.0, "class_name": "MT_Break", "mask_path": "train/MT_Break/mask/exp1_num_356718.png"}
+{"image_path": "train/MT_Break/image/exp1_num_194173.jpg", "label": 1.0, "class_name": "MT_Break", "mask_path": "train/MT_Break/mask/exp1_num_194173.png"}
+{"image_path": "train/MT_Break/image/exp5_num_356780.jpg", "label": 1.0, "class_name": "MT_Break", "mask_path": "train/MT_Break/mask/exp5_num_356780.png"}
+{"image_path": "train/MT_Crack/image/exp2_num_249619.jpg", "label": 2.0, "class_name": "MT_Crack", "mask_path": "train/MT_Crack/mask/exp2_num_249619.png"}
+{"image_path": "train/MT_Crack/image/exp1_num_276355.jpg", "label": 2.0, "class_name": "MT_Crack", "mask_path": "train/MT_Crack/mask/exp1_num_276355.png"}
+{"image_path": "train/MT_Crack/image/exp3_num_86892.jpg", "label": 2.0, "class_name": "MT_Crack", "mask_path": "train/MT_Crack/mask/exp3_num_86892.png"}
+{"image_path": "train/MT_Crack/image/exp3_num_3223.jpg", "label": 2.0, "class_name": "MT_Crack", "mask_path": "train/MT_Crack/mask/exp3_num_3223.png"}
+{"image_path": "train/MT_Fray/image/exp6_num_77744.jpg", "label": 3.0, "class_name": "MT_Fray", "mask_path": "train/MT_Fray/mask/exp6_num_77744.png"}
+{"image_path": "train/MT_Fray/image/exp1_num_331149.jpg", "label": 3.0, "class_name": "MT_Fray", "mask_path": "train/MT_Fray/mask/exp1_num_331149.png"}
+{"image_path": "train/MT_Fray/image/exp0_num_797.jpg", "label": 3.0, "class_name": "MT_Fray", "mask_path": "train/MT_Fray/mask/exp0_num_797.png"}
+{"image_path": "train/MT_Fray/image/exp3_num_135593.jpg", "label": 3.0, "class_name": "MT_Fray", "mask_path": "train/MT_Fray/mask/exp3_num_135593.png"}
+{"image_path": "train/MT_Free/image/exp6_num_51154.jpg", "label": 4.0, "class_name": "MT_Free"}
+{"image_path": "train/MT_Free/image/exp2_num_11292.jpg", "label": 4.0, "class_name": "MT_Free"}
+{"image_path": "train/MT_Free/image/exp1_num_1810.jpg", "label": 4.0, "class_name": "MT_Free"}
+{"image_path": "train/MT_Free/image/exp3_num_304882.jpg", "label": 4.0, "class_name": "MT_Free"}
+{"image_path": "train/MT_Uneven/image/exp1_num_524.jpg", "label": 5.0, "class_name": "MT_Uneven", "mask_path": "train/MT_Uneven/mask/exp1_num_524.png"}
+{"image_path": "train/MT_Uneven/image/exp1_num_139798.jpg", "label": 5.0, "class_name": "MT_Uneven", "mask_path": "train/MT_Uneven/mask/exp1_num_139798.png"}
+{"image_path": "train/MT_Uneven/image/exp3_num_313507.jpg", "label": 5.0, "class_name": "MT_Uneven", "mask_path": "train/MT_Uneven/mask/exp3_num_313507.png"}
+{"image_path": "train/MT_Uneven/image/exp3_num_186885.jpg", "label": 5.0, "class_name": "MT_Uneven", "mask_path": "train/MT_Uneven/mask/exp3_num_186885.png"}

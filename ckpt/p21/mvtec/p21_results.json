@@ -1,0 +1,4769 @@
+{
+ "schema_version": "p21_results_v1",
+ "protocol": "docs/P21_CLIPLORA_MVTEC_FS_PROTOCOL.md",
+ "levels_pct": {
+  "cliplora_b16": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 55.89796649219727,
+     "sd": 2.060927168402883
+    },
+    "macro_f1": {
+     "mean": 53.8509054689845,
+     "sd": 2.7016705148869344
+    },
+    "top1_accuracy": {
+     "mean": 55.407254007925246,
+     "sd": 2.007985718640861
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 69.45264365264366,
+     "sd": 2.6307219144521437
+    },
+    "macro_f1": {
+     "mean": 68.68802550210054,
+     "sd": 2.76387792615185
+    },
+    "top1_accuracy": {
+     "mean": 68.68524436125495,
+     "sd": 2.81658346232697
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 75.98366960674653,
+     "sd": 1.5177711137238945
+    },
+    "macro_f1": {
+     "mean": 75.32082375518785,
+     "sd": 1.815526502553647
+    },
+    "top1_accuracy": {
+     "mean": 75.48937407805889,
+     "sd": 1.6834865113800983
+    }
+   }
+  },
+  "clip_zeroshot_b16": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 28.565462315462316,
+     "sd": 0.0
+    },
+    "macro_f1": {
+     "mean": 19.25590777520161,
+     "sd": 0.0
+    },
+    "top1_accuracy": {
+     "mean": 28.782276047020066,
+     "sd": 0.0
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 28.565462315462316,
+     "sd": 0.0
+    },
+    "macro_f1": {
+     "mean": 19.25590777520161,
+     "sd": 0.0
+    },
+    "top1_accuracy": {
+     "mean": 28.782276047020066,
+     "sd": 0.0
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 28.565462315462316,
+     "sd": 0.0
+    },
+    "macro_f1": {
+     "mean": 19.25590777520161,
+     "sd": 0.0
+    },
+    "top1_accuracy": {
+     "mean": 28.782276047020066,
+     "sd": 0.0
+    }
+   }
+  },
+  "fused_adareg_regres_soft_q99": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 71.0091410014487,
+     "sd": 2.9214218409162216
+    },
+    "macro_f1": {
+     "mean": 68.2830272521432,
+     "sd": 3.2219674004016254
+    },
+    "top1_accuracy": {
+     "mean": 70.24298620106505,
+     "sd": 2.78187097338074
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 84.49572058995136,
+     "sd": 1.6329344239891894
+    },
+    "macro_f1": {
+     "mean": 83.6156610788923,
+     "sd": 1.9602918469572281
+    },
+    "top1_accuracy": {
+     "mean": 83.98510549764676,
+     "sd": 1.6362416224830172
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 87.47870341908805,
+     "sd": 0.45640499844080556
+    },
+    "macro_f1": {
+     "mean": 86.82876646161934,
+     "sd": 0.6605292647087149
+    },
+    "top1_accuracy": {
+     "mean": 87.11764432224996,
+     "sd": 0.5122089616745106
+    }
+   }
+  },
+  "arr_clip_b16": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 66.0111098303406,
+     "sd": 1.5272227173615578
+    },
+    "macro_f1": {
+     "mean": 63.48544239986944,
+     "sd": 1.9785291339762934
+    },
+    "top1_accuracy": {
+     "mean": 65.45843841255315,
+     "sd": 1.4491529866722803
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 78.92630716861487,
+     "sd": 1.5505618187464754
+    },
+    "macro_f1": {
+     "mean": 77.95782260191741,
+     "sd": 1.7193734816278488
+    },
+    "top1_accuracy": {
+     "mean": 78.431894233529,
+     "sd": 1.4794312812507122
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 82.76653218576294,
+     "sd": 1.33412935501961
+    },
+    "macro_f1": {
+     "mean": 82.19628852361112,
+     "sd": 1.6112041560671493
+    },
+    "top1_accuracy": {
+     "mean": 82.38746118025155,
+     "sd": 1.3610864648130414
+    }
+   }
+  },
+  "simpleshot_cl2n": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 56.920519010903625,
+     "sd": 3.3537167976326248
+    },
+    "macro_f1": {
+     "mean": 54.341630071430025,
+     "sd": 3.8970799620663765
+    },
+    "top1_accuracy": {
+     "mean": 56.15021596240195,
+     "sd": 3.2431035079278137
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 68.88353740276817,
+     "sd": 2.0505833995665323
+    },
+    "macro_f1": {
+     "mean": 67.91666200958467,
+     "sd": 2.3514787846463094
+    },
+    "top1_accuracy": {
+     "mean": 68.05783553121259,
+     "sd": 1.9773946617062803
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 74.08798146298146,
+     "sd": 0.7455399196871434
+    },
+    "macro_f1": {
+     "mean": 73.33114054407186,
+     "sd": 0.7443856947834201
+    },
+    "top1_accuracy": {
+     "mean": 73.29886541984037,
+     "sd": 0.717247052725129
+    }
+   }
+  },
+  "ss_clip_b16": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 47.377338971569735,
+     "sd": 1.0881597286423903
+    },
+    "macro_f1": {
+     "mean": 44.08705915141367,
+     "sd": 1.6658314277398067
+    },
+    "top1_accuracy": {
+     "mean": 46.80897776148944,
+     "sd": 1.114393924228113
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 55.420162174008325,
+     "sd": 2.0202605496304886
+    },
+    "macro_f1": {
+     "mean": 53.36322131159888,
+     "sd": 2.486413821812906
+    },
+    "top1_accuracy": {
+     "mean": 54.67309598710563,
+     "sd": 2.112359700566615
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 60.123886725809804,
+     "sd": 1.5379747524268002
+    },
+    "macro_f1": {
+     "mean": 57.928301112344236,
+     "sd": 1.5989256383352044
+    },
+    "top1_accuracy": {
+     "mean": 59.32616625606821,
+     "sd": 1.6516038605774552
+    }
+   }
+  },
+  "tip_adapter_f": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 40.65847300847301,
+     "sd": 1.4351124761743814
+    },
+    "macro_f1": {
+     "mean": 33.21137273299703,
+     "sd": 1.5216015164930239
+    },
+    "top1_accuracy": {
+     "mean": 40.91010624485366,
+     "sd": 1.5201863774142872
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 55.7191174210405,
+     "sd": 1.729857462730171
+    },
+    "macro_f1": {
+     "mean": 51.834166996356736,
+     "sd": 2.3075530925773884
+    },
+    "top1_accuracy": {
+     "mean": 55.18377876606708,
+     "sd": 1.8162654778014684
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 63.64862658708812,
+     "sd": 1.2628120815202404
+    },
+    "macro_f1": {
+     "mean": 61.3834879991451,
+     "sd": 1.4517653060619646
+    },
+    "top1_accuracy": {
+     "mean": 63.17081815483834,
+     "sd": 1.3252505316680283
+    }
+   }
+  },
+  "mvrec_rgb": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 47.44425090578936,
+     "sd": 1.5704067642727435
+    },
+    "macro_f1": {
+     "mean": 44.70310439816442,
+     "sd": 1.3766153978443252
+    },
+    "top1_accuracy": {
+     "mean": 46.92466689909136,
+     "sd": 1.6317652511269998
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 61.099597055366296,
+     "sd": 2.6035108164082432
+    },
+    "macro_f1": {
+     "mean": 59.691112716946094,
+     "sd": 3.053537628100677
+    },
+    "top1_accuracy": {
+     "mean": 60.431472230034565,
+     "sd": 2.587020050275697
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 69.93938789131097,
+     "sd": 1.3432273097525973
+    },
+    "macro_f1": {
+     "mean": 69.2739910948318,
+     "sd": 1.4218864887169438
+    },
+    "top1_accuracy": {
+     "mean": 69.25099902435167,
+     "sd": 1.429970838497675
+    }
+   }
+  },
+  "ours": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 56.175755939217474,
+     "sd": 0.7695063101217834
+    },
+    "macro_f1": {
+     "mean": 53.108563942922025,
+     "sd": 1.1568252187829111
+    },
+    "top1_accuracy": {
+     "mean": 55.39605888970769,
+     "sd": 0.8234626228307621
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 68.8506408833332,
+     "sd": 2.1169810552079147
+    },
+    "macro_f1": {
+     "mean": 67.80694308026733,
+     "sd": 2.60676971924389
+    },
+    "top1_accuracy": {
+     "mean": 68.33775586560365,
+     "sd": 1.9912838436857032
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 73.87337705030012,
+     "sd": 0.8534875619623181
+    },
+    "macro_f1": {
+     "mean": 73.03509998386228,
+     "sd": 0.8971458119999968
+    },
+    "top1_accuracy": {
+     "mean": 73.51829949857553,
+     "sd": 0.807454944545751
+    }
+   }
+  },
+  "fused_xclass_clip18": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 61.99693782001475,
+     "sd": 2.0958206867500153
+    },
+    "macro_f1": {
+     "mean": 59.78400906703732,
+     "sd": 2.3123687792758583
+    },
+    "top1_accuracy": {
+     "mean": 61.27270076410862,
+     "sd": 2.0153575552923946
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 73.42271638617792,
+     "sd": 1.9926368710739977
+    },
+    "macro_f1": {
+     "mean": 72.74798662748113,
+     "sd": 2.217408901589561
+    },
+    "top1_accuracy": {
+     "mean": 72.81120094376995,
+     "sd": 2.0122446110710905
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 77.13376843953766,
+     "sd": 0.9589293742430154
+    },
+    "macro_f1": {
+     "mean": 76.61924631602686,
+     "sd": 1.0692044948386188
+    },
+    "top1_accuracy": {
+     "mean": 76.66207053012741,
+     "sd": 0.9963863556275739
+    }
+   }
+  },
+  "fused_cons_soft_supq90": {
+   "1": {
+    "balanced_accuracy": {
+     "mean": 64.05115632231018,
+     "sd": 2.372506940736887
+    },
+    "macro_f1": {
+     "mean": 61.3395264352893,
+     "sd": 2.8510275459746093
+    },
+    "top1_accuracy": {
+     "mean": 63.30399621596637,
+     "sd": 2.2017579421037397
+    }
+   },
+   "3": {
+    "balanced_accuracy": {
+     "mean": 80.48052076129,
+     "sd": 0.5629244810151038
+    },
+    "macro_f1": {
+     "mean": 79.8229494066343,
+     "sd": 0.543897161689939
+    },
+    "top1_accuracy": {
+     "mean": 79.89966839698297,
+     "sd": 0.5896263618000835
+    }
+   },
+   "5": {
+    "balanced_accuracy": {
+     "mean": 83.27178619101696,
+     "sd": 0.7295416300190253
+    },
+    "macro_f1": {
+     "mean": 82.73638072197495,
+     "sd": 0.7674070197643119
+    },
+    "top1_accuracy": {
+     "mean": 82.81121385621589,
+     "sd": 0.7706344954029564
+    }
+   }
+  }
+ },
+ "declared_contrasts": {
+  "L1 ARR(main) - CLIP-LoRA": {
+   "target": "fused_adareg_regres_soft_q99",
+   "reference": "cliplora_b16",
+   "per_K_pp": {
+    "1": 15.111174509251432,
+    "3": 15.043076937307706,
+    "5": 11.495033812341505
+   },
+   "Dbar_pp": 13.883095086300216,
+   "ci95_pp": [
+    8.96997261997262,
+    18.875996629201747
+   ],
+   "positive_products": 12,
+   "signflip_p": 0.00048828125,
+   "holm_p": 0.001953125
+  },
+  "L2 ARR(CLIP-B/16) - CLIP-LoRA": {
+   "target": "arr_clip_b16",
+   "reference": "cliplora_b16",
+   "per_K_pp": {
+    "1": 10.113143338143336,
+    "3": 9.473663515971209,
+    "5": 6.782862579016426
+   },
+   "Dbar_pp": 8.789889811043656,
+   "ci95_pp": [
+    4.215321715321715,
+    13.53582727813498
+   ],
+   "positive_products": 11,
+   "signflip_p": 0.004638671875,
+   "holm_p": 0.00927734375
+  },
+  "L3 CLIP-LoRA - SimpleShot(main)": {
+   "target": "cliplora_b16",
+   "reference": "simpleshot_cl2n",
+   "per_K_pp": {
+    "1": -1.0225525187063653,
+    "3": 0.5691062498754798,
+    "5": 1.8956881437650681
+   },
+   "Dbar_pp": 0.4807472916447275,
+   "ci95_pp": [
+    -3.8787103210180107,
+    4.67585007585008
+   ],
+   "positive_products": 6,
+   "signflip_p": 0.832275390625,
+   "holm_p": 0.832275390625
+  },
+  "L4 CLIP-LoRA - Tip-Adapter-F*": {
+   "target": "cliplora_b16",
+   "reference": "tip_adapter_f",
+   "per_K_pp": {
+    "1": 15.239493483724253,
+    "3": 13.733526231603152,
+    "5": 12.335043019658405
+   },
+   "Dbar_pp": 13.769354244995272,
+   "ci95_pp": [
+    8.193759943759947,
+    20.58576238576239
+   ],
+   "positive_products": 12,
+   "signflip_p": 0.00048828125,
+   "holm_p": 0.001953125
+  },
+  "L5 CLIP-LoRA - CLIP zero-shot": {
+   "target": "cliplora_b16",
+   "reference": "clip_zeroshot_b16",
+   "per_K_pp": {
+    "1": 27.332504176734947,
+    "3": 40.88718133718134,
+    "5": 47.41820729128421
+   },
+   "Dbar_pp": 38.54596426840016,
+   "ci95_pp": [
+    32.032740763509985,
+    44.43436753180342
+   ],
+   "positive_products": 13,
+   "signflip_p": 0.000244140625,
+   "holm_p": 0.001220703125
+  }
+ },
+ "descriptive_contrasts": {
+  "CLIP-LoRA - SimpleShot(CLIP-B/16)": {
+   "target": "cliplora_b16",
+   "reference": "ss_clip_b16",
+   "per_K_pp": {
+    "1": 8.52062752062752,
+    "3": 14.032481478635322,
+    "5": 15.859782880936727
+   },
+   "Dbar_pp": 12.804297293399856,
+   "ci95_pp": [
+    8.659877349620936,
+    17.44746303079636
+   ],
+   "positive_products": 13,
+   "signflip_p": 0.000244140625
+  },
+  "CLIP-LoRA - MVREC-RGB": {
+   "target": "cliplora_b16",
+   "reference": "mvrec_rgb",
+   "per_K_pp": {
+    "1": 8.453715586407894,
+    "3": 8.353046597277364,
+    "5": 6.044281715435562
+   },
+   "Dbar_pp": 7.617014633040274,
+   "ci95_pp": [
+    3.7973951973951965,
+    11.425414400414395
+   ],
+   "positive_products": 11,
+   "signflip_p": 0.003173828125
+  },
+  "CLIP-LoRA - trainable adaptation": {
+   "target": "cliplora_b16",
+   "reference": "ours",
+   "per_K_pp": {
+    "1": -0.2777894470202167,
+    "3": 0.6020027693104604,
+    "5": 2.110292556446403
+   },
+   "Dbar_pp": 0.8115019595788822,
+   "ci95_pp": [
+    -2.952163079086156,
+    4.742366465443388
+   ],
+   "positive_products": 5,
+   "signflip_p": 0.693359375
+  },
+  "CLIP-LoRA - cross-class (C0)": {
+   "target": "cliplora_b16",
+   "reference": "fused_xclass_clip18",
+   "per_K_pp": {
+    "1": -6.098971327817482,
+    "3": -3.970072733534273,
+    "5": -1.1500988327911394
+   },
+   "Dbar_pp": -3.7397142980476312,
+   "ci95_pp": [
+    -6.740750607417274,
+    -0.6434990934990936
+   ],
+   "positive_products": 3,
+   "signflip_p": 0.0419921875
+  },
+  "CLIP-LoRA - consensus (C0)": {
+   "target": "cliplora_b16",
+   "reference": "fused_cons_soft_supq90",
+   "per_K_pp": {
+    "1": -8.153189830112908,
+    "3": -11.027877108646338,
+    "5": -7.288116584270429
+   },
+   "Dbar_pp": -8.823061174343225,
+   "ci95_pp": [
+    -12.793981279878713,
+    -4.882847067462452
+   ],
+   "positive_products": 2,
+   "signflip_p": 0.001708984375
+  },
+  "ARR(CLIP-B/16@224) - CLIP-LoRA [matched; added after a partial look]": {
+   "target": "arr_clip_b16_r224",
+   "reference": "cliplora_b16",
+   "per_K_pp": {
+    "1": 6.557562736408891,
+    "3": 5.938707517553672,
+    "5": 4.017811817811818
+   },
+   "Dbar_pp": 5.5046940239247935,
+   "ci95_pp": [
+    2.552408038305474,
+    8.522389765979508
+   ],
+   "positive_products": 9,
+   "signflip_p": 0.00634765625
+  }
+ },
+ "extension_rule": {
+  "margin_pp": 2.0,
+  "ARR_minus_CLIPLoRA_BA_pp": {
+   "1": 15.111174509251427,
+   "3": 15.043076937307703,
+   "5": 11.495033812341518
+  },
+  "triggered": false
+ },
+ "train_seconds_total": 420278.8950548172,
+ "launches": [
+  {
+   "shard": "0/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 20,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "0/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 1,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "10/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "11/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "12/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "13/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "14/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "15/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 9,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "16/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 9,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "17/20",
+   "resume": false,
+   "started": "20260928_200348",
+   "assigned": 9,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "18/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 9,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "19/20",
+   "resume": false,
+   "started": "20260928_200348",
+   "assigned": 9,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "1/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 20,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "1/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "2/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 20,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "2/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "3/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 20,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "3/20",
+   "resume": false,
+   "started": "20260928_200348",
+   "assigned": 10,
+   "already_done": 1,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "4/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 20,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "4/20",
+   "resume": false,
+   "started": "20260928_200348",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "5/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 19,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "5/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "6/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 19,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "6/20",
+   "resume": false,
+   "started": "20260928_200348",
+   "assigned": 10,
+   "already_done": 1,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "7/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 19,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "7/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "8/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 19,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "8/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "9/10",
+   "resume": false,
+   "started": "20260928_195437",
+   "assigned": 19,
+   "already_done": 0,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  },
+  {
+   "shard": "9/20",
+   "resume": false,
+   "started": "20260928_200347",
+   "assigned": 10,
+   "already_done": 1,
+   "environment": {
+    "host": "<cloud-container>",
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "cliplora_commit": "ce3701ba370576f082e1295fbd90760961ead724 Fri Jun 6 14:20:43 2025 +0200",
+    "cliplora_dirty": false,
+    "clip_module": "/root/<cloud-dir>/p21/CLIP-LoRA/clip/__init__.py",
+    "runner_sha256": "977920e3b94e03f17badb003e3eb6339bd161edf3e13a5e6920e0af801feeba6",
+    "episodes_sha256": "11de94bf7979fbb555ec52f1c26f1a09f1a6ee2f9e65b7ee97edd575d1811339"
+   }
+  }
+ ],
+ "raw_metrics": [
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.5161290322580645,
+   "balanced_accuracy": 0.5272727272727272,
+   "macro_f1": 0.4821428571428572
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.7741935483870968,
+   "balanced_accuracy": 0.7696969696969697,
+   "macro_f1": 0.7765340954195442
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.8709677419354839,
+   "balanced_accuracy": 0.8757575757575758,
+   "macro_f1": 0.8698412698412699
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.45161290322580644,
+   "balanced_accuracy": 0.4636363636363636,
+   "macro_f1": 0.4145658263305323
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.7096774193548387,
+   "balanced_accuracy": 0.7090909090909091,
+   "macro_f1": 0.7146464646464645
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.7741935483870968,
+   "balanced_accuracy": 0.7757575757575758,
+   "macro_f1": 0.7821486082355648
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.45161290322580644,
+   "balanced_accuracy": 0.43333333333333335,
+   "macro_f1": 0.35204435204435197
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.5806451612903226,
+   "balanced_accuracy": 0.5909090909090909,
+   "macro_f1": 0.5867828612926652
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.7741935483870968,
+   "balanced_accuracy": 0.7696969696969697,
+   "macro_f1": 0.7765340954195442
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.6451612903225806,
+   "balanced_accuracy": 0.6393939393939394,
+   "macro_f1": 0.6160683760683761
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.7741935483870968,
+   "balanced_accuracy": 0.7666666666666666,
+   "macro_f1": 0.7717086834733893
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.6774193548387096,
+   "balanced_accuracy": 0.6666666666666666,
+   "macro_f1": 0.6696428571428572
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.5483870967741935,
+   "balanced_accuracy": 0.5333333333333333,
+   "macro_f1": 0.5052910052910053
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.6774193548387096,
+   "balanced_accuracy": 0.6696969696969696,
+   "macro_f1": 0.6669220945083013
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.8064516129032258,
+   "balanced_accuracy": 0.8030303030303031,
+   "macro_f1": 0.8119658119658119
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "bottle",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.3225806451612903,
+   "balanced_accuracy": 0.3333333333333333,
+   "macro_f1": 0.26535087719298245
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.5283018867924528,
+   "balanced_accuracy": 0.5272727272727272,
+   "macro_f1": 0.5371561771561771
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.660377358490566,
+   "balanced_accuracy": 0.6563636363636364,
+   "macro_f1": 0.6456720659278204
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.660377358490566,
+   "balanced_accuracy": 0.6636363636363637,
+   "macro_f1": 0.6733771209633279
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.4528301886792453,
+   "balanced_accuracy": 0.45090909090909087,
+   "macro_f1": 0.413202614379085
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.6037735849056604,
+   "balanced_accuracy": 0.6054545454545455,
+   "macro_f1": 0.5920634920634921
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.5283018867924528,
+   "balanced_accuracy": 0.5254545454545455,
+   "macro_f1": 0.5158003351265543
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.37735849056603776,
+   "balanced_accuracy": 0.38,
+   "macro_f1": 0.3769230769230769
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.4716981132075472,
+   "balanced_accuracy": 0.4763636363636364,
+   "macro_f1": 0.47296918767507
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.6415094339622641,
+   "balanced_accuracy": 0.6399999999999999,
+   "macro_f1": 0.6426065162907267
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.33962264150943394,
+   "balanced_accuracy": 0.3381818181818182,
+   "macro_f1": 0.3232843137254902
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.5849056603773585,
+   "balanced_accuracy": 0.5836363636363636,
+   "macro_f1": 0.5849030372032029
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.6226415094339622,
+   "balanced_accuracy": 0.6254545454545455,
+   "macro_f1": 0.6283641512577045
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.3018867924528302,
+   "balanced_accuracy": 0.3,
+   "macro_f1": 0.22906178489702517
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.4528301886792453,
+   "balanced_accuracy": 0.4545454545454545,
+   "macro_f1": 0.4261422787738577
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.660377358490566,
+   "balanced_accuracy": 0.6636363636363637,
+   "macro_f1": 0.6467632850241547
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "capsule",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.2830188679245283,
+   "balanced_accuracy": 0.28181818181818186,
+   "macro_f1": 0.16031746031746033
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.6666666666666666,
+   "balanced_accuracy": 0.6722222222222223,
+   "macro_f1": 0.6759631388787399
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.7142857142857143,
+   "balanced_accuracy": 0.7138888888888889,
+   "macro_f1": 0.6735748792270532
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.6190476190476191,
+   "balanced_accuracy": 0.625,
+   "macro_f1": 0.6177045177045177
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.5238095238095238,
+   "balanced_accuracy": 0.5361111111111111,
+   "macro_f1": 0.5200948476810546
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.7380952380952381,
+   "balanced_accuracy": 0.7416666666666666,
+   "macro_f1": 0.7426340326340326
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.7380952380952381,
+   "balanced_accuracy": 0.7444444444444445,
+   "macro_f1": 0.7433333333333334
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.5238095238095238,
+   "balanced_accuracy": 0.5361111111111111,
+   "macro_f1": 0.469133069828722
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.6666666666666666,
+   "balanced_accuracy": 0.675,
+   "macro_f1": 0.6610263403607057
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.7380952380952381,
+   "balanced_accuracy": 0.75,
+   "macro_f1": 0.7271512113617377
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.7380952380952381,
+   "balanced_accuracy": 0.736111111111111,
+   "macro_f1": 0.7338105032222679
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.5952380952380952,
+   "balanced_accuracy": 0.6083333333333333,
+   "macro_f1": 0.5522424242424242
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.8095238095238095,
+   "balanced_accuracy": 0.8194444444444444,
+   "macro_f1": 0.806842105263158
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.6904761904761905,
+   "balanced_accuracy": 0.6972222222222222,
+   "macro_f1": 0.6973249299719888
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.7380952380952381,
+   "balanced_accuracy": 0.75,
+   "macro_f1": 0.7300191655609612
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.6428571428571429,
+   "balanced_accuracy": 0.6444444444444445,
+   "macro_f1": 0.6342497868712702
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "carpet",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.23809523809523808,
+   "balanced_accuracy": 0.22777777777777777,
+   "macro_f1": 0.1511111111111111
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.32,
+   "balanced_accuracy": 0.32,
+   "macro_f1": 0.25650793650793646
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.52,
+   "macro_f1": 0.5358241758241759
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.44,
+   "balanced_accuracy": 0.44000000000000006,
+   "macro_f1": 0.4533333333333333
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.48,
+   "balanced_accuracy": 0.48,
+   "macro_f1": 0.4588344988344989
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.56,
+   "balanced_accuracy": 0.56,
+   "macro_f1": 0.5207843137254902
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.64,
+   "balanced_accuracy": 0.64,
+   "macro_f1": 0.6355555555555557
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.36,
+   "balanced_accuracy": 0.36,
+   "macro_f1": 0.3151515151515151
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.4,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.3548951048951049
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.56,
+   "balanced_accuracy": 0.5599999999999999,
+   "macro_f1": 0.5424242424242424
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.36,
+   "balanced_accuracy": 0.36,
+   "macro_f1": 0.29000000000000004
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.36,
+   "balanced_accuracy": 0.36,
+   "macro_f1": 0.3465934065934066
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.6,
+   "balanced_accuracy": 0.6,
+   "macro_f1": 0.5805128205128205
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.24,
+   "balanced_accuracy": 0.24000000000000005,
+   "macro_f1": 0.14666666666666667
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.44,
+   "balanced_accuracy": 0.44000000000000006,
+   "macro_f1": 0.4074509803921568
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.68,
+   "balanced_accuracy": 0.68,
+   "macro_f1": 0.6084848484848485
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "grid",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.2,
+   "balanced_accuracy": 0.2,
+   "macro_f1": 0.13714285714285715
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.7647058823529411,
+   "balanced_accuracy": 0.7638888888888888,
+   "macro_f1": 0.7467032967032967
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.8823529411764706,
+   "balanced_accuracy": 0.8888888888888888,
+   "macro_f1": 0.8839869281045752
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.8529411764705882,
+   "balanced_accuracy": 0.8611111111111112,
+   "macro_f1": 0.8570046439628483
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.7352941176470589,
+   "balanced_accuracy": 0.7291666666666666,
+   "macro_f1": 0.7334054834054835
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.9117647058823529,
+   "balanced_accuracy": 0.9166666666666666,
+   "macro_f1": 0.9164086687306502
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.9117647058823529,
+   "balanced_accuracy": 0.9166666666666666,
+   "macro_f1": 0.9090643274853801
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.6470588235294118,
+   "balanced_accuracy": 0.6527777777777778,
+   "macro_f1": 0.6400375939849624
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.9117647058823529,
+   "balanced_accuracy": 0.9166666666666666,
+   "macro_f1": 0.9145704334365325
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.9117647058823529,
+   "balanced_accuracy": 0.9166666666666666,
+   "macro_f1": 0.9142857142857143
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.7941176470588235,
+   "balanced_accuracy": 0.7986111111111112,
+   "macro_f1": 0.8029927760577915
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.8235294117647058,
+   "balanced_accuracy": 0.8333333333333334,
+   "macro_f1": 0.8258928571428572
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.9411764705882353,
+   "balanced_accuracy": 0.9444444444444444,
+   "macro_f1": 0.9409722222222223
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.6176470588235294,
+   "balanced_accuracy": 0.6076388888888888,
+   "macro_f1": 0.5883694083694084
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.9117647058823529,
+   "balanced_accuracy": 0.9166666666666666,
+   "macro_f1": 0.9164086687306502
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.9411764705882353,
+   "balanced_accuracy": 0.9444444444444444,
+   "macro_f1": 0.9444444444444444
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "hazelnut",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.4411764705882353,
+   "balanced_accuracy": 0.4375,
+   "macro_f1": 0.34415849673202614
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.5681818181818182,
+   "balanced_accuracy": 0.5666666666666667,
+   "macro_f1": 0.5796360628618693
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.7954545454545454,
+   "balanced_accuracy": 0.8,
+   "macro_f1": 0.7875506072874494
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.8409090909090909,
+   "balanced_accuracy": 0.8416666666666666,
+   "macro_f1": 0.833171163202123
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.7045454545454546,
+   "balanced_accuracy": 0.7083333333333333,
+   "macro_f1": 0.7064102564102563
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.8409090909090909,
+   "balanced_accuracy": 0.8416666666666666,
+   "macro_f1": 0.8434299652875504
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.9090909090909091,
+   "balanced_accuracy": 0.9111111111111111,
+   "macro_f1": 0.9073684210526316
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.6818181818181818,
+   "balanced_accuracy": 0.6833333333333333,
+   "macro_f1": 0.6831111111111111
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.75,
+   "balanced_accuracy": 0.7527777777777778,
+   "macro_f1": 0.748
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.7954545454545454,
+   "balanced_accuracy": 0.8,
+   "macro_f1": 0.794327731092437
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.6818181818181818,
+   "balanced_accuracy": 0.6722222222222223,
+   "macro_f1": 0.6690909090909092
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.8636363636363636,
+   "balanced_accuracy": 0.8666666666666666,
+   "macro_f1": 0.8551343393448656
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.8863636363636364,
+   "balanced_accuracy": 0.888888888888889,
+   "macro_f1": 0.8859442724458205
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.75,
+   "balanced_accuracy": 0.7527777777777778,
+   "macro_f1": 0.7574928774928775
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.9090909090909091,
+   "balanced_accuracy": 0.9111111111111111,
+   "macro_f1": 0.9037593984962407
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.9090909090909091,
+   "balanced_accuracy": 0.9111111111111111,
+   "macro_f1": 0.9018045112781955
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "leather",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.3181818181818182,
+   "balanced_accuracy": 0.33333333333333337,
+   "macro_f1": 0.23411764705882354
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.4888888888888889,
+   "balanced_accuracy": 0.4943181818181818,
+   "macro_f1": 0.4926242236024845
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.7333333333333333,
+   "balanced_accuracy": 0.7310606060606061,
+   "macro_f1": 0.7270299145299145
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.7555555555555555,
+   "balanced_accuracy": 0.75,
+   "macro_f1": 0.7376190476190476
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.5555555555555556,
+   "balanced_accuracy": 0.5643939393939394,
+   "macro_f1": 0.5403050108932462
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.6222222222222222,
+   "balanced_accuracy": 0.6268939393939394,
+   "macro_f1": 0.6281385281385281
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.8444444444444444,
+   "balanced_accuracy": 0.8428030303030303,
+   "macro_f1": 0.8388711678185362
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.6444444444444445,
+   "balanced_accuracy": 0.6420454545454546,
+   "macro_f1": 0.5953351449275363
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.7555555555555555,
+   "balanced_accuracy": 0.75,
+   "macro_f1": 0.7440144478844168
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.8444444444444444,
+   "balanced_accuracy": 0.8409090909090909,
+   "macro_f1": 0.8268817204301075
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.5555555555555556,
+   "balanced_accuracy": 0.5625,
+   "macro_f1": 0.5557422969187675
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.7111111111111111,
+   "balanced_accuracy": 0.7102272727272727,
+   "macro_f1": 0.7107142857142857
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.7777777777777778,
+   "balanced_accuracy": 0.7746212121212122,
+   "macro_f1": 0.7725499092558984
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.5777777777777777,
+   "balanced_accuracy": 0.5757575757575757,
+   "macro_f1": 0.5601220016542597
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.7111111111111111,
+   "balanced_accuracy": 0.7102272727272727,
+   "macro_f1": 0.7083333333333333
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.7111111111111111,
+   "balanced_accuracy": 0.7083333333333334,
+   "macro_f1": 0.706065034709536
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "metal_nut",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.26666666666666666,
+   "balanced_accuracy": 0.25757575757575757,
+   "macro_f1": 0.22430555555555554
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.41935483870967744,
+   "balanced_accuracy": 0.47996540496540496,
+   "macro_f1": 0.4942318897988122
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.46774193548387094,
+   "balanced_accuracy": 0.5212352462352462,
+   "macro_f1": 0.5207293523469995
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.7096774193548387,
+   "balanced_accuracy": 0.7547924297924298,
+   "macro_f1": 0.7367614269788182
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.5,
+   "balanced_accuracy": 0.5327228327228327,
+   "macro_f1": 0.5310457516339869
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.5,
+   "balanced_accuracy": 0.5519230769230768,
+   "macro_f1": 0.5543145743145743
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.7580645161290323,
+   "balanced_accuracy": 0.772903947903948,
+   "macro_f1": 0.7626404853128991
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.3870967741935484,
+   "balanced_accuracy": 0.39075091575091575,
+   "macro_f1": 0.3334813334813334
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.3870967741935484,
+   "balanced_accuracy": 0.45986975986975986,
+   "macro_f1": 0.4688371626152736
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.7096774193548387,
+   "balanced_accuracy": 0.7398351648351649,
+   "macro_f1": 0.7391015417331207
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.3709677419354839,
+   "balanced_accuracy": 0.3914936914936915,
+   "macro_f1": 0.40049762086375357
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.4838709677419355,
+   "balanced_accuracy": 0.5430606430606431,
+   "macro_f1": 0.5519384045699834
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.5161290322580645,
+   "balanced_accuracy": 0.5545482295482296,
+   "macro_f1": 0.5535093636116654
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.3387096774193548,
+   "balanced_accuracy": 0.41093813593813594,
+   "macro_f1": 0.413006438006438
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.3548387096774194,
+   "balanced_accuracy": 0.4268213268213268,
+   "macro_f1": 0.41137334887334887
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.5,
+   "balanced_accuracy": 0.5602564102564103,
+   "macro_f1": 0.5628568402313109
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "pill",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.06451612903225806,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.020202020202020204
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.29310344827586204,
+   "balanced_accuracy": 0.29393939393939394,
+   "macro_f1": 0.2832345230893325
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.46551724137931033,
+   "balanced_accuracy": 0.4621212121212121,
+   "macro_f1": 0.4531115288220552
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.41379310344827586,
+   "balanced_accuracy": 0.40909090909090906,
+   "macro_f1": 0.3920275802628744
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.2413793103448276,
+   "balanced_accuracy": 0.24545454545454545,
+   "macro_f1": 0.2412567783094099
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.3103448275862069,
+   "balanced_accuracy": 0.31212121212121213,
+   "macro_f1": 0.3110588235294117
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.46551724137931033,
+   "balanced_accuracy": 0.4621212121212121,
+   "macro_f1": 0.47581906016688624
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.22413793103448276,
+   "balanced_accuracy": 0.21969696969696967,
+   "macro_f1": 0.19368814192343603
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.29310344827586204,
+   "balanced_accuracy": 0.2878787878787879,
+   "macro_f1": 0.28035317050796926
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.3103448275862069,
+   "balanced_accuracy": 0.30757575757575756,
+   "macro_f1": 0.305717868338558
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.20689655172413793,
+   "balanced_accuracy": 0.20454545454545453,
+   "macro_f1": 0.1676885428253615
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.3103448275862069,
+   "balanced_accuracy": 0.3090909090909091,
+   "macro_f1": 0.2836700336700337
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.46551724137931033,
+   "balanced_accuracy": 0.46060606060606063,
+   "macro_f1": 0.4512307692307692
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.19242424242424244,
+   "macro_f1": 0.18493506493506495
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.3275862068965517,
+   "balanced_accuracy": 0.32575757575757575,
+   "macro_f1": 0.3271111111111111
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.43103448275862066,
+   "balanced_accuracy": 0.4318181818181818,
+   "macro_f1": 0.4318181818181818
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "screw",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.1896551724137931,
+   "balanced_accuracy": 0.1893939393939394,
+   "macro_f1": 0.10829268292682928
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.975609756097561,
+   "balanced_accuracy": 0.975,
+   "macro_f1": 0.9761403508771931
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 1.0,
+   "balanced_accuracy": 1.0,
+   "macro_f1": 1.0
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.975609756097561,
+   "balanced_accuracy": 0.975,
+   "macro_f1": 0.9733333333333334
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.7804878048780488,
+   "balanced_accuracy": 0.7678571428571429,
+   "macro_f1": 0.7288200894392844
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.9024390243902439,
+   "balanced_accuracy": 0.8964285714285714,
+   "macro_f1": 0.8963562753036438
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 1.0,
+   "balanced_accuracy": 1.0,
+   "macro_f1": 1.0
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.926829268292683,
+   "balanced_accuracy": 0.9214285714285714,
+   "macro_f1": 0.9196638655462184
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 1.0,
+   "balanced_accuracy": 1.0,
+   "macro_f1": 1.0
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.975609756097561,
+   "balanced_accuracy": 0.975,
+   "macro_f1": 0.9733333333333334
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.8780487804878049,
+   "balanced_accuracy": 0.8670634920634921,
+   "macro_f1": 0.8696608946608947
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 1.0,
+   "balanced_accuracy": 1.0,
+   "macro_f1": 1.0
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 1.0,
+   "balanced_accuracy": 1.0,
+   "macro_f1": 1.0
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.8292682926829268,
+   "balanced_accuracy": 0.8134920634920635,
+   "macro_f1": 0.8067379679144384
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.926829268292683,
+   "balanced_accuracy": 0.925,
+   "macro_f1": 0.917081447963801
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 1.0,
+   "balanced_accuracy": 1.0,
+   "macro_f1": 1.0
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "tile",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.4878048780487805,
+   "balanced_accuracy": 0.46944444444444444,
+   "macro_f1": 0.3643756243756243
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.5,
+   "balanced_accuracy": 0.5,
+   "macro_f1": 0.4237179487179487
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.7,
+   "balanced_accuracy": 0.7,
+   "macro_f1": 0.6883116883116883
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.7,
+   "balanced_accuracy": 0.7,
+   "macro_f1": 0.6637362637362637
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.45,
+   "balanced_accuracy": 0.45,
+   "macro_f1": 0.44209956709956716
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.75,
+   "balanced_accuracy": 0.75,
+   "macro_f1": 0.7386363636363636
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.8,
+   "balanced_accuracy": 0.8,
+   "macro_f1": 0.793939393939394
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.5,
+   "balanced_accuracy": 0.5,
+   "macro_f1": 0.5
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.65,
+   "balanced_accuracy": 0.65,
+   "macro_f1": 0.6333333333333334
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.65,
+   "balanced_accuracy": 0.65,
+   "macro_f1": 0.6501068376068376
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.45,
+   "balanced_accuracy": 0.45,
+   "macro_f1": 0.4829545454545454
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.6,
+   "balanced_accuracy": 0.6,
+   "macro_f1": 0.6042207792207792
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.75,
+   "balanced_accuracy": 0.75,
+   "macro_f1": 0.7386363636363636
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.19444444444444445
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.7,
+   "balanced_accuracy": 0.7000000000000001,
+   "macro_f1": 0.7123015873015873
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.7,
+   "balanced_accuracy": 0.7,
+   "macro_f1": 0.6661255411255411
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "transistor",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.25,
+   "balanced_accuracy": 0.25,
+   "macro_f1": 0.10416666666666667
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.84,
+   "balanced_accuracy": 0.8785714285714286,
+   "macro_f1": 0.8611673414304993
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.96,
+   "balanced_accuracy": 0.9642857142857143,
+   "macro_f1": 0.9688644688644689
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.96,
+   "balanced_accuracy": 0.9642857142857143,
+   "macro_f1": 0.9688644688644689
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.92,
+   "balanced_accuracy": 0.9392857142857143,
+   "macro_f1": 0.933041958041958
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.84,
+   "balanced_accuracy": 0.8892857142857142,
+   "macro_f1": 0.8478327228327227
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.92,
+   "balanced_accuracy": 0.9392857142857143,
+   "macro_f1": 0.933041958041958
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.88,
+   "balanced_accuracy": 0.9142857142857143,
+   "macro_f1": 0.9020847573479153
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.88,
+   "balanced_accuracy": 0.9142857142857143,
+   "macro_f1": 0.9020847573479153
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.96,
+   "balanced_accuracy": 0.975,
+   "macro_f1": 0.9701754385964912
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.92,
+   "balanced_accuracy": 0.9392857142857143,
+   "macro_f1": 0.9392857142857143
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.88,
+   "balanced_accuracy": 0.9142857142857143,
+   "macro_f1": 0.8996288798920378
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 1.0,
+   "balanced_accuracy": 1.0,
+   "macro_f1": 1.0
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.88,
+   "balanced_accuracy": 0.9142857142857143,
+   "macro_f1": 0.8952991452991453
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.92,
+   "balanced_accuracy": 0.9392857142857143,
+   "macro_f1": 0.9392857142857143
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.8,
+   "balanced_accuracy": 0.8642857142857143,
+   "macro_f1": 0.8055290297937356
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "wood",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.4,
+   "macro_f1": 0.34375
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.54,
+   "balanced_accuracy": 0.5439814814814815,
+   "macro_f1": 0.534547152194211
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 111,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.8,
+   "balanced_accuracy": 0.8009259259259259,
+   "macro_f1": 0.802113327848622
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 111,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.82,
+   "balanced_accuracy": 0.8171296296296297,
+   "macro_f1": 0.821813725490196
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 111,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.52,
+   "balanced_accuracy": 0.5300925925925926,
+   "macro_f1": 0.5021284271284271
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 222,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.76,
+   "balanced_accuracy": 0.7592592592592592,
+   "macro_f1": 0.7570390436876505
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 222,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.84,
+   "balanced_accuracy": 0.8379629629629629,
+   "macro_f1": 0.8352095516569201
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 222,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.54,
+   "balanced_accuracy": 0.5370370370370371,
+   "macro_f1": 0.497008547008547
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 333,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.74,
+   "balanced_accuracy": 0.7384259259259259,
+   "macro_f1": 0.7396705146705146
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 333,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.86,
+   "balanced_accuracy": 0.8611111111111112,
+   "macro_f1": 0.8603174603174604
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 333,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.42,
+   "balanced_accuracy": 0.41203703703703703,
+   "macro_f1": 0.36652236652236647
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 444,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.78,
+   "balanced_accuracy": 0.7800925925925926,
+   "macro_f1": 0.7722222222222221
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 444,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.9,
+   "balanced_accuracy": 0.9004629629629629,
+   "macro_f1": 0.8989923747276688
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 444,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.56,
+   "balanced_accuracy": 0.5625,
+   "macro_f1": 0.5200914423740511
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 1,
+   "seed": 555,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.8,
+   "balanced_accuracy": 0.7986111111111112,
+   "macro_f1": 0.7889744786803611
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 3,
+   "seed": 555,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  },
+  {
+   "method": "cliplora_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.86,
+   "balanced_accuracy": 0.8611111111111112,
+   "macro_f1": 0.8568871115697742
+  },
+  {
+   "method": "clip_zeroshot_b16",
+   "product": "zipper",
+   "K": 5,
+   "seed": 555,
+   "top1_accuracy": 0.16,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1": 0.04597701149425288
+  }
+ ]
+}

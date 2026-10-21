@@ -1,0 +1,70 @@
+{
+  "integrity": "P14 predictions (A, ARR, SimpleShot; K 1/3/5) and P15 units (AUROC, taus, two-level ARR, three-way) reproduced",
+  "provenance": {
+    "head": "b50a02657b95a46477999742e7c2f7a54da7282f",
+    "tracked_tree_dirty": true
+  },
+  "statistic": "top1pct",
+  "tasks": {
+    "mtd__mtd6way": {
+      "calibration": 100,
+      "queries": 670,
+      "rows": 880
+    },
+    "visa__candle": {
+      "calibration": 100,
+      "queries": 534,
+      "rows": 683
+    },
+    "visa__cashew": {
+      "calibration": 100,
+      "queries": 284,
+      "rows": 425
+    },
+    "visa__chewinggum": {
+      "calibration": 100,
+      "queries": 274,
+      "rows": 403
+    },
+    "visa__fryum": {
+      "calibration": 100,
+      "queries": 282,
+      "rows": 413
+    },
+    "visa__macaroni1": {
+      "calibration": 100,
+      "queries": 538,
+      "rows": 687
+    },
+    "visa__macaroni2": {
+      "calibration": 100,
+      "queries": 534,
+      "rows": 684
+    },
+    "visa__pcb1": {
+      "calibration": 100,
+      "queries": 547,
+      "rows": 701
+    },
+    "visa__pcb2": {
+      "calibration": 100,
+      "queries": 545,
+      "rows": 697
+    },
+    "visa__pcb3": {
+      "calibration": 100,
+      "queries": 549,
+      "rows": 703
+    },
+    "visa__pcb4": {
+      "calibration": 100,
+      "queries": 517,
+      "rows": 641
+    },
+    "visa__pipe_fryum": {
+      "calibration": 100,
+      "queries": 293,
+      "rows": 442
+    }
+  }
+}

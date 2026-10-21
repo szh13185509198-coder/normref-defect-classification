@@ -1,0 +1,8 @@
+{
+  "schema_version": "p6b_pre_formal_protocol_lock_v1",
+  "protocol_lock_commit": "9714220f0406f47813e541acec4d2bb73b1b17c4",
+  "protocol_A_canonical_lf_sha256": "3568a03f4adf16f87a289b2e68e2b4afe0be0a6836347e46d043892b5a050b51",
+  "protocol_B_canonical_lf_sha256": "10a53d4d36f3cfc1a729498efa0e16932eb01b77808769759e1cf26e481cbdbf",
+  "decision_rule_canonical_lf_sha256": "9e7c079155cfb6c6db95385ed3196ba84d95e0febac26fdf97d63b426628f3c6",
+  "mvrec_upstream_commit": "112c187b6de8a7400fad89ca2a201545842a5d84"
+}

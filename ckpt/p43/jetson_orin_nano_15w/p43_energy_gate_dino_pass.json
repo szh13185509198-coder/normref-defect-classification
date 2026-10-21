@@ -1,0 +1,19 @@
+{
+ "schema_version": "p43_energy_v1",
+ "block": "gate_dino_pass",
+ "seconds": 60.0,
+ "torch": "2.8.0",
+ "start": {
+  "epoch": 1790995875.6269686,
+  "local": "2026-10-03 10:51:15"
+ },
+ "end": {
+  "epoch": 1790995935.6365066,
+  "local": "2026-10-03 10:52:15"
+ },
+ "forwards": 2075,
+ "mean_ms": 28.920220668436063,
+ "check": {
+  "screen_score_equal_p15_formula": true
+ }
+}

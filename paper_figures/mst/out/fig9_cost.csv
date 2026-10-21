@@ -1,0 +1,12 @@
+configuration,ba_mean_over_K_pct,forward_ms_pass1,forward_ms_pass2,new_task_s_pass1,new_task_s_pass2
+"Proposed, main features",80.99,18.987,19.136,2.54,2.69
+"Proposed, CLIP-L/14 only",80.43,14.985,14.99,1.88,2.4
+"Proposed, CLIP-L/14 only, half precision",80.43,12.077,8.416,2.14,2.12
+"Proposed, DINOv2-B",79.76,8.017,8.057,1.81,1.76
+"Proposed, DINOv2-S",78.47,4.029,4.032,1.79,1.96
+"Proposed, CLIP-B/16 at 336 px",75.9,4.585,3.929,2.25,1.86
+"Proposed, CLIP-B/16 at 224 px",72.62,3.505,3.475,1.7,1.99
+Trainable adapter,66.3,20.101,20.167,104.7,103.12
+"CLIP-LoRA, B/16 at 224 px",67.11,5.823,5.816,2493.01,2495.25
+"CLIP-LoRA, B/16 at 336 px",66.91,6.05,5.924,2633.6,2645.29
+"CLIP-LoRA, L/14 at 336 px",73.41,12.039,11.888,3611.42,3841.3

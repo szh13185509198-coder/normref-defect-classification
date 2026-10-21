@@ -1,0 +1,43 @@
+dataset,method,K,false_rejects_per_1000,escapes_per_1000
+VisA (object macro),simpleshot_cl2n,1,439.37,7.3
+VisA (object macro),fused_xclass_clip18,1,400.22,6.22
+VisA (object macro),fused_cons_soft_supq90,1,394.35,5.98
+VisA (object macro),fused_normref_clip18,1,404.89,6.41
+VisA (object macro),fused_adareg_regres_soft_q99,1,326.98,6.14
+VisA (object macro),ours,1,493.46,7.73
+VisA (object macro),mvrec_rgb_adaptation,1,486.08,9.34
+VisA (object macro),simpleshot_cl2n,3,312.1,5.52
+VisA (object macro),fused_xclass_clip18,3,288.39,4.11
+VisA (object macro),fused_cons_soft_supq90,3,220.06,5.24
+VisA (object macro),fused_normref_clip18,3,278.26,5.03
+VisA (object macro),fused_adareg_regres_soft_q99,3,179.26,4.88
+VisA (object macro),ours,3,485.61,3.43
+VisA (object macro),mvrec_rgb_adaptation,3,377.35,6.54
+VisA (object macro),simpleshot_cl2n,5,263.75,5.23
+VisA (object macro),fused_xclass_clip18,5,244.23,3.72
+VisA (object macro),fused_cons_soft_supq90,5,170.71,4.67
+VisA (object macro),fused_normref_clip18,5,229.91,4.91
+VisA (object macro),fused_adareg_regres_soft_q99,5,136.16,4.58
+VisA (object macro),ours,5,421.02,2.7
+VisA (object macro),mvrec_rgb_adaptation,5,325.16,4.95
+MTD,simpleshot_cl2n,1,756.81,6.03
+MTD,fused_xclass_clip18,1,706.11,7.06
+MTD,fused_cons_soft_supq90,1,714.5,6.24
+MTD,fused_normref_clip18,1,709.31,4.48
+MTD,fused_adareg_regres_soft_q99,1,814.68,4.02
+MTD,ours,1,595.15,14.02
+MTD,mvrec_rgb_adaptation,1,682.16,8.81
+MTD,simpleshot_cl2n,3,760.8,4.12
+MTD,fused_xclass_clip18,3,656.62,5.31
+MTD,fused_cons_soft_supq90,3,736.45,3.97
+MTD,fused_normref_clip18,3,662.21,5.52
+MTD,fused_adareg_regres_soft_q99,3,686.95,2.99
+MTD,ours,3,748.42,4.95
+MTD,mvrec_rgb_adaptation,3,611.51,8.71
+MTD,simpleshot_cl2n,5,658.21,6.19
+MTD,fused_xclass_clip18,5,549.64,7.11
+MTD,fused_cons_soft_supq90,5,600.34,5.05
+MTD,fused_normref_clip18,5,536.47,6.34
+MTD,fused_adareg_regres_soft_q99,5,597.94,3.66
+MTD,ours,5,571.6,7.37
+MTD,mvrec_rgb_adaptation,5,575.19,6.75

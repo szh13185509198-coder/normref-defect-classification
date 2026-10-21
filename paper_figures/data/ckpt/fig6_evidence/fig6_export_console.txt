@@ -1,0 +1,4 @@
+[fig6] screw: 199a211bbe52 true scratch_head; ours 15 patches, lambda 0.51; fixed lambda 0.10
+[fig6] capsule: 1e4e8416bf13 true crack; ours 18 patches, lambda 0.63; fixed lambda 0.09
+[fig6] metal_nut: 58cf9edeae91 true bent; ours 32 patches, lambda 0.96; fixed lambda 0.38
+[fig6] wrote paper_figures/数据/ckpt/fig6_evidence

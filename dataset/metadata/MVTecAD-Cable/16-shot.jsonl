@@ -1,0 +1,90 @@
+{"image_path": "bent_wire/train/images/000.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/000_mask.png"}
+{"image_path": "bent_wire/train/images/003.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/003_mask.png"}
+{"image_path": "bent_wire/train/images/004.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/004_mask.png"}
+{"image_path": "bent_wire/train/images/005.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/005_mask.png"}
+{"image_path": "bent_wire/train/images/007.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/007_mask.png"}
+{"image_path": "bent_wire/train/images/008.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/008_mask.png"}
+{"image_path": "bent_wire/train/images/009.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/009_mask.png"}
+{"image_path": "bent_wire/train/images/010.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/010_mask.png"}
+{"image_path": "bent_wire/train/images/011.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/011_mask.png"}
+{"image_path": "bent_wire/train/images/012.png", "label": 1.0, "class_name": "bent_wire", "mask_path": "bent_wire/train/masks/012_mask.png"}
+{"image_path": "cable_swap/train/images/000.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/000_mask.png"}
+{"image_path": "cable_swap/train/images/002.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/002_mask.png"}
+{"image_path": "cable_swap/train/images/003.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/003_mask.png"}
+{"image_path": "cable_swap/train/images/004.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/004_mask.png"}
+{"image_path": "cable_swap/train/images/005.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/005_mask.png"}
+{"image_path": "cable_swap/train/images/007.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/007_mask.png"}
+{"image_path": "cable_swap/train/images/008.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/008_mask.png"}
+{"image_path": "cable_swap/train/images/009.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/009_mask.png"}
+{"image_path": "cable_swap/train/images/010.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/010_mask.png"}
+{"image_path": "cable_swap/train/images/011.png", "label": 2.0, "class_name": "cable_swap", "mask_path": "cable_swap/train/masks/011_mask.png"}
+{"image_path": "combined/train/images/001.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/001_mask.png"}
+{"image_path": "combined/train/images/002.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/002_mask.png"}
+{"image_path": "combined/train/images/003.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/003_mask.png"}
+{"image_path": "combined/train/images/004.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/004_mask.png"}
+{"image_path": "combined/train/images/005.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/005_mask.png"}
+{"image_path": "combined/train/images/006.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/006_mask.png"}
+{"image_path": "combined/train/images/008.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/008_mask.png"}
+{"image_path": "combined/train/images/009.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/009_mask.png"}
+{"image_path": "combined/train/images/010.png", "label": 3.0, "class_name": "combined", "mask_path": "combined/train/masks/010_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/000.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/000_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/003.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/003_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/004.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/004_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/005.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/005_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/006.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/006_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/007.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/007_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/008.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/008_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/009.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/009_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/010.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/010_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/011.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/011_mask.png"}
+{"image_path": "cut_inner_insulation/train/images/013.png", "label": 4.0, "class_name": "cut_inner_insulation", "mask_path": "cut_inner_insulation/train/masks/013_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/000.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/000_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/001.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/001_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/002.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/002_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/004.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/004_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/005.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/005_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/006.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/006_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/007.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/007_mask.png"}
+{"image_path": "cut_outer_insulation/train/images/008.png", "label": 5.0, "class_name": "cut_outer_insulation", "mask_path": "cut_outer_insulation/train/masks/008_mask.png"}
+{"image_path": "good/train/images/003.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/004.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/007.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/009.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/010.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/011.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/019.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/020.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/021.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/023.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/034.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/041.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/043.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/050.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/054.png", "label": 0.0, "class_name": "good"}
+{"image_path": "good/train/images/056.png", "label": 0.0, "class_name": "good"}
+{"image_path": "missing_cable/train/images/001.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/001_mask.png"}
+{"image_path": "missing_cable/train/images/002.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/002_mask.png"}
+{"image_path": "missing_cable/train/images/003.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/003_mask.png"}
+{"image_path": "missing_cable/train/images/004.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/004_mask.png"}
+{"image_path": "missing_cable/train/images/005.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/005_mask.png"}
+{"image_path": "missing_cable/train/images/006.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/006_mask.png"}
+{"image_path": "missing_cable/train/images/007.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/007_mask.png"}
+{"image_path": "missing_cable/train/images/008.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/008_mask.png"}
+{"image_path": "missing_cable/train/images/009.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/009_mask.png"}
+{"image_path": "missing_cable/train/images/010.png", "label": 6.0, "class_name": "missing_cable", "mask_path": "missing_cable/train/masks/010_mask.png"}
+{"image_path": "missing_wire/train/images/001.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/001_mask.png"}
+{"image_path": "missing_wire/train/images/002.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/002_mask.png"}
+{"image_path": "missing_wire/train/images/003.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/003_mask.png"}
+{"image_path": "missing_wire/train/images/004.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/004_mask.png"}
+{"image_path": "missing_wire/train/images/006.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/006_mask.png"}
+{"image_path": "missing_wire/train/images/007.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/007_mask.png"}
+{"image_path": "missing_wire/train/images/008.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/008_mask.png"}
+{"image_path": "missing_wire/train/images/009.png", "label": 7.0, "class_name": "missing_wire", "mask_path": "missing_wire/train/masks/009_mask.png"}
+{"image_path": "poke_insulation/train/images/000.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/000_mask.png"}
+{"image_path": "poke_insulation/train/images/001.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/001_mask.png"}
+{"image_path": "poke_insulation/train/images/002.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/002_mask.png"}
+{"image_path": "poke_insulation/train/images/003.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/003_mask.png"}
+{"image_path": "poke_insulation/train/images/005.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/005_mask.png"}
+{"image_path": "poke_insulation/train/images/007.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/007_mask.png"}
+{"image_path": "poke_insulation/train/images/008.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/008_mask.png"}
+{"image_path": "poke_insulation/train/images/009.png", "label": 8.0, "class_name": "poke_insulation", "mask_path": "poke_insulation/train/masks/009_mask.png"}

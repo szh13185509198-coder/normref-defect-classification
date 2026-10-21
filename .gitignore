@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+*.log
+
+# datasets: only the manifest bundles are tracked
+data/*
+!data/p6b_stage1_manifest_bundle/
+!data/external_transfer_manifest_bundle/
+
+# weights and outputs
+*.pth
+*.pt
+*.onnx
+*.engine
+*.trt
+ckpt/
+pretrained/
+results/
+
+# third-party checkouts (see third_party/README.md)
+third_party/*
+!third_party/README.md
+AlphaCLIP-main/
+MVREC-main/buffer/
+MVREC-main/OUTPUT/
+
+# result files copied for redrawing the figures (JSON / JSONL only)
+!paper_figures/data/ckpt/
+!paper_figures/data/ckpt/**/results/
+
+# Local figure work: design alternatives, draw.io backups, pre-edit copies
+*_option.drawio
+*_option.pdf
+*_option.png
+.$*.bkp
+new image/

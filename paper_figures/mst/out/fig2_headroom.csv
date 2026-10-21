@@ -1,0 +1,14 @@
+section,group,method,balanced_accuracy_pct_K5
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Classifier changed, same frozen features",SimpleShot (whole image),74.09
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Classifier changed, same frozen features",Logistic regression,72.31
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Classifier changed, same frozen features",Trainable support adapter,73.87
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),Encoder fine-tuned (uses class names),"CLIP-LoRA, official code",81.68
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Better local evidence, no training",Cross-class contrast,77.13
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Better local evidence, no training",Support consensus (no conforming images),83.27
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Better local evidence, no training","Fixed-ratio normal reference",79.67
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Better local evidence, no training",Proposed method,87.48
+Main features (CLIP ViT-L/14 at 336 px with DINOv2-S),"Reference, not a method",Ground-truth mask pooling,90.52
+"CLIP ViT-B/16 at 224 px, the backbone of official CLIP-LoRA",,SimpleShot (whole image),61.08
+"CLIP ViT-B/16 at 224 px, the backbone of official CLIP-LoRA",,"CLIP-LoRA, official code",75.98
+"CLIP ViT-B/16 at 224 px, the backbone of official CLIP-LoRA",,Proposed method,80.0
+"CLIP ViT-B/16 at 224 px, the backbone of official CLIP-LoRA",,Ground-truth mask pooling,85.67

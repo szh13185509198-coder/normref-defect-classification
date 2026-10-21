@@ -1,0 +1,560 @@
+{
+ "schema_version": "p45_v1",
+ "protocol": "docs/P45_LINE_SIMULATION_PROTOCOL.md",
+ "mode": "frame_seq",
+ "engine": "/home/<USER>/p31/p35_trt/main_fused_r8.engine",
+ "rounds": 3,
+ "queue_depth": null,
+ "overall": {
+  "parts": 2874,
+  "stream_seconds": 178.135242741002,
+  "throughput_pps": 16.133809097948262,
+  "latency": {
+   "n": 2874,
+   "mean_ms": 61.975729151718184,
+   "p50_ms": 62.127333498210646,
+   "p90_ms": 62.25216499296948,
+   "p99_ms": 62.998267996590585,
+   "max_ms": 63.79717300296761
+  }
+ },
+ "peak_rss_mb": 2636.5625,
+ "lines": {
+  "bottle": {
+   "classes": 3,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 0.9766914960055146,
+   "changeover_state_s": 2.570199612993747,
+   "calibration_normals": 34,
+   "stream_normals": 33,
+   "defect_queries": 31,
+   "parts": 192,
+   "throughput_pps": 16.18470215565244,
+   "latency": {
+    "n": 192,
+    "mean_ms": 61.781366166542284,
+    "p50_ms": 61.8570195074426,
+    "p90_ms": 62.081267999019474,
+    "p99_ms": 62.3654350056313,
+    "max_ms": 63.432764989556745
+   },
+   "thresholds": {
+    "reject": 0.33544921875,
+    "accept": 0.282958984375
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 96,
+    "accept": 66,
+    "review": 30
+   }
+  },
+  "capsule": {
+   "classes": 5,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 2.2266656139981933,
+   "changeover_state_s": 3.030687967009726,
+   "calibration_normals": 32,
+   "stream_normals": 31,
+   "defect_queries": 53,
+   "parts": 252,
+   "throughput_pps": 16.081611251772856,
+   "latency": {
+    "n": 252,
+    "mean_ms": 62.17820847964576,
+    "p50_ms": 62.16842949652346,
+    "p90_ms": 62.31149099767208,
+    "p99_ms": 63.058743995497935,
+    "max_ms": 63.21039600879885
+   },
+   "thresholds": {
+    "reject": 0.35205078125,
+    "accept": 0.244384765625
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 123,
+    "accept": 48,
+    "review": 81
+   }
+  },
+  "carpet": {
+   "classes": 5,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 2.2981449240032816,
+   "changeover_state_s": 3.053201425995212,
+   "calibration_normals": 35,
+   "stream_normals": 35,
+   "defect_queries": 42,
+   "parts": 231,
+   "throughput_pps": 16.07187681389854,
+   "latency": {
+    "n": 231,
+    "mean_ms": 62.21571565783095,
+    "p50_ms": 62.17405300412793,
+    "p90_ms": 62.43274699954782,
+    "p99_ms": 63.20650000998285,
+    "max_ms": 63.32784799451474
+   },
+   "thresholds": {
+    "reject": 0.32421875,
+    "accept": 0.259765625
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 138,
+    "accept": 66,
+    "review": 27
+   }
+  },
+  "grid": {
+   "classes": 5,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 0.8717655310028931,
+   "changeover_state_s": 3.0341989830048988,
+   "calibration_normals": 34,
+   "stream_normals": 33,
+   "defect_queries": 25,
+   "parts": 174,
+   "throughput_pps": 16.076294829750505,
+   "latency": {
+    "n": 174,
+    "mean_ms": 62.19679790279017,
+    "p50_ms": 62.14973649912281,
+    "p90_ms": 62.275946998852305,
+    "p99_ms": 62.976672998047434,
+    "max_ms": 63.01212999096606
+   },
+   "thresholds": {
+    "reject": 0.37548828125,
+    "accept": 0.31396484375
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 81,
+    "accept": 66,
+    "review": 27
+   }
+  },
+  "hazelnut": {
+   "classes": 4,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 1.9355517770018196,
+   "changeover_state_s": 2.7237810809892835,
+   "calibration_normals": 36,
+   "stream_normals": 35,
+   "defect_queries": 34,
+   "parts": 207,
+   "throughput_pps": 16.082281370626767,
+   "latency": {
+    "n": 207,
+    "mean_ms": 62.17409726500833,
+    "p50_ms": 62.14916400494985,
+    "p90_ms": 62.2211660083849,
+    "p99_ms": 62.95571800728794,
+    "max_ms": 63.19175800308585
+   },
+   "thresholds": {
+    "reject": 0.51318359375,
+    "accept": 0.402099609375
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 99,
+    "accept": 72,
+    "review": 36
+   }
+  },
+  "leather": {
+   "classes": 5,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 1.9566665460006334,
+   "changeover_state_s": 3.037062663002871,
+   "calibration_normals": 34,
+   "stream_normals": 34,
+   "defect_queries": 44,
+   "parts": 234,
+   "throughput_pps": 16.087180512112777,
+   "latency": {
+    "n": 234,
+    "mean_ms": 62.15507820957295,
+    "p50_ms": 62.14315450779395,
+    "p90_ms": 62.21618100244086,
+    "p99_ms": 62.52358200435992,
+    "max_ms": 63.469914995948784
+   },
+   "thresholds": {
+    "reject": 0.434814453125,
+    "accept": 0.1986083984375
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 132,
+    "accept": 84,
+    "review": 18
+   }
+  },
+  "metal_nut": {
+   "classes": 4,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 0.8411519270011922,
+   "changeover_state_s": 2.6692372649995377,
+   "calibration_normals": 30,
+   "stream_normals": 29,
+   "defect_queries": 45,
+   "parts": 222,
+   "throughput_pps": 16.292024174534713,
+   "latency": {
+    "n": 222,
+    "mean_ms": 61.37363462616335,
+    "p50_ms": 61.333500503678806,
+    "p90_ms": 61.41183899308089,
+    "p99_ms": 62.14949399873149,
+    "max_ms": 62.43455900403205
+   },
+   "thresholds": {
+    "reject": 0.41455078125,
+    "accept": 0.3544921875
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 138,
+    "accept": 69,
+    "review": 15
+   }
+  },
+  "pill": {
+   "classes": 6,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 1.4749400840082671,
+   "changeover_state_s": 3.296488320993376,
+   "calibration_normals": 36,
+   "stream_normals": 35,
+   "defect_queries": 62,
+   "parts": 291,
+   "throughput_pps": 16.296157517746494,
+   "latency": {
+    "n": 291,
+    "mean_ms": 61.35806585896098,
+    "p50_ms": 61.33894399681594,
+    "p90_ms": 61.39513899688609,
+    "p99_ms": 62.131578000844456,
+    "max_ms": 62.54167199949734
+   },
+   "thresholds": {
+    "reject": 0.33154296875,
+    "accept": 0.2763671875
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 180,
+    "accept": 78,
+    "review": 33
+   }
+  },
+  "screw": {
+   "classes": 5,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 0.8493562590010697,
+   "changeover_state_s": 3.0380100479960674,
+   "calibration_normals": 35,
+   "stream_normals": 35,
+   "defect_queries": 58,
+   "parts": 279,
+   "throughput_pps": 16.072084740208428,
+   "latency": {
+    "n": 279,
+    "mean_ms": 62.213526233174505,
+    "p50_ms": 62.15606599289458,
+    "p90_ms": 62.24205100443214,
+    "p99_ms": 63.44637699658051,
+    "max_ms": 63.79717300296761
+   },
+   "thresholds": {
+    "reject": 0.373291015625,
+    "accept": 0.29443359375
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 78,
+    "accept": 99,
+    "review": 102
+   }
+  },
+  "tile": {
+   "classes": 5,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 1.6078640969935805,
+   "changeover_state_s": 3.0114864430070156,
+   "calibration_normals": 31,
+   "stream_normals": 31,
+   "defect_queries": 41,
+   "parts": 216,
+   "throughput_pps": 16.239356728988515,
+   "latency": {
+    "n": 216,
+    "mean_ms": 61.57252449143184,
+    "p50_ms": 61.425294501532335,
+    "p90_ms": 62.01689699082635,
+    "p99_ms": 62.17597299837507,
+    "max_ms": 62.69445399811957
+   },
+   "thresholds": {
+    "reject": 0.49853515625,
+    "accept": 0.322265625
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 120,
+    "accept": 69,
+    "review": 27
+   }
+  },
+  "transistor": {
+   "classes": 4,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 2.0949956080003176,
+   "changeover_state_s": 2.733157194990781,
+   "calibration_normals": 31,
+   "stream_normals": 30,
+   "defect_queries": 20,
+   "parts": 150,
+   "throughput_pps": 16.069537174280097,
+   "latency": {
+    "n": 150,
+    "mean_ms": 62.22336556015458,
+    "p50_ms": 62.16359399695648,
+    "p90_ms": 62.50082000042312,
+    "p99_ms": 62.88031999429222,
+    "max_ms": 63.37271998927463
+   },
+   "thresholds": {
+    "reject": 0.468994140625,
+    "accept": 0.319580078125
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 27,
+    "accept": 42,
+    "review": 81
+   }
+  },
+  "wood": {
+   "classes": 4,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 2.0793891640059883,
+   "changeover_state_s": 2.725105206001899,
+   "calibration_normals": 34,
+   "stream_normals": 33,
+   "defect_queries": 25,
+   "parts": 174,
+   "throughput_pps": 16.06522184320115,
+   "latency": {
+    "n": 174,
+    "mean_ms": 62.24014354599091,
+    "p50_ms": 62.17492749419762,
+    "p90_ms": 62.35003299661912,
+    "p99_ms": 62.995280997711234,
+    "max_ms": 63.67625200073235
+   },
+   "thresholds": {
+    "reject": 0.478759765625,
+    "accept": 0.356201171875
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 75,
+    "accept": 75,
+    "review": 24
+   }
+  },
+  "zipper": {
+   "classes": 6,
+   "support_source": "stage-1 manifest k5_s111",
+   "changeover_decode_s": 0.9033282839955064,
+   "changeover_state_s": 3.350069202002487,
+   "calibration_normals": 34,
+   "stream_normals": 34,
+   "defect_queries": 50,
+   "parts": 252,
+   "throughput_pps": 16.071549996707088,
+   "latency": {
+    "n": 252,
+    "mean_ms": 62.21524675418059,
+    "p50_ms": 62.17607749567833,
+    "p90_ms": 62.29194199841004,
+    "p99_ms": 62.8689029981615,
+    "max_ms": 63.168641994707286
+   },
+   "thresholds": {
+    "reject": 0.2919921875,
+    "accept": 0.231201171875
+   },
+   "decision_counts_not_evaluated": {
+    "reject": 138,
+    "accept": 81,
+    "review": 33
+   }
+  }
+ },
+ "windows": [
+  {
+   "product": "bottle",
+   "start": {
+    "epoch": 1790996819.1678534,
+    "local": "2026-10-03 11:06:59"
+   },
+   "end": {
+    "epoch": 1790996831.03094,
+    "local": "2026-10-03 11:07:11"
+   },
+   "parts": 192,
+   "seconds": 11.863054268993437
+  },
+  {
+   "product": "capsule",
+   "start": {
+    "epoch": 1790996844.4236224,
+    "local": "2026-10-03 11:07:24"
+   },
+   "end": {
+    "epoch": 1790996860.0937274,
+    "local": "2026-10-03 11:07:40"
+   },
+   "parts": 252,
+   "seconds": 15.670071615008055
+  },
+  {
+   "product": "carpet",
+   "start": {
+    "epoch": 1790996873.731325,
+    "local": "2026-10-03 11:07:53"
+   },
+   "end": {
+    "epoch": 1790996888.1042857,
+    "local": "2026-10-03 11:08:08"
+   },
+   "parts": 231,
+   "seconds": 14.372932463011239
+  },
+  {
+   "product": "grid",
+   "start": {
+    "epoch": 1790996896.0918412,
+    "local": "2026-10-03 11:08:16"
+   },
+   "end": {
+    "epoch": 1790996906.915259,
+    "local": "2026-10-03 11:08:26"
+   },
+   "parts": 174,
+   "seconds": 10.823389458993915
+  },
+  {
+   "product": "hazelnut",
+   "start": {
+    "epoch": 1790996919.1228955,
+    "local": "2026-10-03 11:08:39"
+   },
+   "end": {
+    "epoch": 1790996931.9942324,
+    "local": "2026-10-03 11:08:51"
+   },
+   "parts": 207,
+   "seconds": 12.871308194997255
+  },
+  {
+   "product": "leather",
+   "start": {
+    "epoch": 1790996944.3622165,
+    "local": "2026-10-03 11:09:04"
+   },
+   "end": {
+    "epoch": 1790996958.907989,
+    "local": "2026-10-03 11:09:18"
+   },
+   "parts": 234,
+   "seconds": 14.545743415001198
+  },
+  {
+   "product": "metal_nut",
+   "start": {
+    "epoch": 1790996966.586911,
+    "local": "2026-10-03 11:09:26"
+   },
+   "end": {
+    "epoch": 1790996980.2132387,
+    "local": "2026-10-03 11:09:40"
+   },
+   "parts": 222,
+   "seconds": 13.626299447001657
+  },
+  {
+   "product": "pill",
+   "start": {
+    "epoch": 1790996991.2998877,
+    "local": "2026-10-03 11:09:51"
+   },
+   "end": {
+    "epoch": 1790997009.156891,
+    "local": "2026-10-03 11:10:09"
+   },
+   "parts": 291,
+   "seconds": 17.85697025099944
+  },
+  {
+   "product": "screw",
+   "start": {
+    "epoch": 1790997017.9227197,
+    "local": "2026-10-03 11:10:17"
+   },
+   "end": {
+    "epoch": 1790997035.2820382,
+    "local": "2026-10-03 11:10:35"
+   },
+   "parts": 279,
+   "seconds": 17.35929125000257
+  },
+  {
+   "product": "tile",
+   "start": {
+    "epoch": 1790997045.6492987,
+    "local": "2026-10-03 11:10:45"
+   },
+   "end": {
+    "epoch": 1790997058.9503524,
+    "local": "2026-10-03 11:10:58"
+   },
+   "parts": 216,
+   "seconds": 13.301019467995502
+  },
+  {
+   "product": "transistor",
+   "start": {
+    "epoch": 1790997070.1685944,
+    "local": "2026-10-03 11:11:10"
+   },
+   "end": {
+    "epoch": 1790997079.503056,
+    "local": "2026-10-03 11:11:19"
+   },
+   "parts": 150,
+   "seconds": 9.334431873998255
+  },
+  {
+   "product": "wood",
+   "start": {
+    "epoch": 1790997091.4141414,
+    "local": "2026-10-03 11:11:31"
+   },
+   "end": {
+    "epoch": 1790997102.2450194,
+    "local": "2026-10-03 11:11:42"
+   },
+   "parts": 174,
+   "seconds": 10.83084950200282
+  },
+  {
+   "product": "zipper",
+   "start": {
+    "epoch": 1790997110.9902365,
+    "local": "2026-10-03 11:11:50"
+   },
+   "end": {
+    "epoch": 1790997126.6701512,
+    "local": "2026-10-03 11:12:06"
+   },
+   "parts": 252,
+   "seconds": 15.67988153299666
+  }
+ ],
+ "torch": "2.8.0"
+}

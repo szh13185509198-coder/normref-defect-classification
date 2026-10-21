@@ -1,0 +1,21 @@
+row,dataset,delta_pp,ci_low_pp,ci_high_pp
+Threshold quantile 0.95,MVTec-FS (13 products),-0.73,-1.37,-0.18
+Threshold quantile 0.95,VisA (11 objects),0.23,-1.22,1.82
+Threshold quantile 0.97,MVTec-FS (13 products),-0.46,-1.09,0.08
+Threshold quantile 0.97,VisA (11 objects),0.04,-0.7,0.87
+Threshold quantile 0.98,MVTec-FS (13 products),-0.22,-0.63,0.14
+Threshold quantile 0.98,VisA (11 objects),0.24,-0.6,1.03
+Threshold quantile 0.995,MVTec-FS (13 products),0.22,-0.13,0.61
+Threshold quantile 0.995,VisA (11 objects),-0.76,-2.13,0.43
+Minimum region 1 patch,MVTec-FS (13 products),-0.11,-0.36,0.06
+Minimum region 1 patch,VisA (11 objects),-1.57,-2.33,-0.8
+Minimum region 3 patches,MVTec-FS (13 products),-0.07,-0.22,0.06
+Minimum region 3 patches,VisA (11 objects),-0.45,-1.11,0.14
+Minimum region 12 patches,MVTec-FS (13 products),-0.56,-1.66,0.19
+Minimum region 12 patches,VisA (11 objects),-3.95,-5.88,-1.45
+Consensus threshold 0.80,MVTec-FS (13 products),-0.89,-1.64,-0.27
+Consensus threshold 0.80,VisA (11 objects),-1.53,-3.01,-0.22
+Consensus threshold 0.85,MVTec-FS (13 products),-0.2,-0.6,0.17
+Consensus threshold 0.85,VisA (11 objects),-0.83,-1.78,0.06
+Consensus threshold 0.95,MVTec-FS (13 products),0.8,-0.36,1.85
+Consensus threshold 0.95,VisA (11 objects),1.09,0.24,1.99

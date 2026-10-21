@@ -1,0 +1,956 @@
+{
+  "integrity": {
+    "mismatches": 0,
+    "predictions_rechecked": 1440
+  },
+  "persistent_errors_all_seeds": {
+    "fused_adareg_regres_soft_q99": [
+      "combined/train/images/001.png",
+      "combined/train/images/003.png",
+      "combined/train/images/004.png",
+      "combined/train/images/005.png",
+      "combined/train/images/008.png",
+      "combined/train/images/009.png",
+      "combined/train/images/010.png"
+    ],
+    "fused_adareg_soft_q99": [
+      "combined/train/images/001.png",
+      "combined/train/images/003.png",
+      "combined/train/images/004.png",
+      "combined/train/images/005.png",
+      "combined/train/images/008.png",
+      "combined/train/images/009.png",
+      "combined/train/images/010.png"
+    ],
+    "fused_cons_soft_supq90": [
+      "cable_swap/train/images/010.png",
+      "combined/train/images/001.png",
+      "combined/train/images/003.png",
+      "combined/train/images/004.png",
+      "combined/train/images/005.png",
+      "combined/train/images/008.png",
+      "combined/train/images/009.png",
+      "combined/train/images/010.png",
+      "cut_inner_insulation/train/images/000.png",
+      "good/train/images/010.png",
+      "good/train/images/023.png"
+    ],
+    "fused_normref_clip18": [
+      "combined/train/images/001.png",
+      "combined/train/images/003.png",
+      "combined/train/images/004.png",
+      "combined/train/images/005.png",
+      "combined/train/images/008.png",
+      "combined/train/images/010.png",
+      "cut_inner_insulation/train/images/000.png",
+      "poke_insulation/train/images/002.png"
+    ],
+    "fused_xclass_clip18": [
+      "bent_wire/train/images/003.png",
+      "cable_swap/train/images/000.png",
+      "cable_swap/train/images/008.png",
+      "cable_swap/train/images/010.png",
+      "combined/train/images/001.png",
+      "combined/train/images/003.png",
+      "combined/train/images/004.png",
+      "combined/train/images/005.png",
+      "combined/train/images/008.png",
+      "combined/train/images/009.png",
+      "combined/train/images/010.png",
+      "cut_inner_insulation/train/images/000.png",
+      "good/train/images/003.png",
+      "good/train/images/021.png",
+      "missing_cable/train/images/010.png",
+      "poke_insulation/train/images/002.png",
+      "poke_insulation/train/images/005.png",
+      "poke_insulation/train/images/009.png"
+    ],
+    "simpleshot_cl2n": [
+      "cable_swap/train/images/000.png",
+      "cable_swap/train/images/004.png",
+      "cable_swap/train/images/008.png",
+      "cable_swap/train/images/010.png",
+      "combined/train/images/001.png",
+      "combined/train/images/004.png",
+      "combined/train/images/005.png",
+      "combined/train/images/008.png",
+      "combined/train/images/010.png",
+      "cut_inner_insulation/train/images/000.png",
+      "cut_inner_insulation/train/images/008.png",
+      "good/train/images/003.png",
+      "good/train/images/009.png",
+      "good/train/images/010.png",
+      "good/train/images/020.png",
+      "good/train/images/021.png",
+      "good/train/images/023.png",
+      "poke_insulation/train/images/001.png",
+      "poke_insulation/train/images/002.png",
+      "poke_insulation/train/images/005.png",
+      "poke_insulation/train/images/009.png"
+    ]
+  },
+  "protocol": "docs/P14_FINAL_FORMAL_ADDENDUM.md",
+  "provenance": {
+    "head": "06a8e14a810bc41bfbd72a0bdc06710c0fa1966a",
+    "tracked_tree_dirty": true
+  },
+  "schema_version": "p14_final_cable_v1",
+  "summary": {
+    "fused_adareg_regres_soft_q99": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.8833333333333334,
+          "sd": 0.01583576979304356
+        },
+        "binary_ba": {
+          "mean": 0.9484375,
+          "sd": 0.05051009336013942
+        },
+        "defect_recall": {
+          "mean": 0.996875,
+          "sd": 0.006987712429686843
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.8839781746031747,
+          "sd": 0.009128534094580759
+        },
+        "escape_rate": {
+          "mean": 0.003125,
+          "sd": 0.006987712429686843
+        },
+        "false_reject_rate": {
+          "mean": 0.1,
+          "sd": 0.10458250331675945
+        },
+        "good_recall": {
+          "mean": 0.9,
+          "sd": 0.10458250331675945
+        },
+        "macro_f1": {
+          "mean": 0.8511987485052501,
+          "sd": 0.016055356069818887
+        },
+        "top1_accuracy": {
+          "mean": 0.8833333333333334,
+          "sd": 0.01583576979304356
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.8888888888888888,
+          "binary_ba": 0.9375,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.890625,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8566754577074495,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8888888888888888
+        },
+        "222": {
+          "balanced_accuracy": 0.875,
+          "binary_ba": 0.9921875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.873015873015873,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.8427865688185606,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.875
+        },
+        "333": {
+          "balanced_accuracy": 0.8611111111111112,
+          "binary_ba": 0.875,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.875,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.8285112290530248,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8611111111111112
+        },
+        "444": {
+          "balanced_accuracy": 0.9027777777777778,
+          "binary_ba": 1.0,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.890625,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.8706188128272752,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.9027777777777778
+        },
+        "555": {
+          "balanced_accuracy": 0.8888888888888888,
+          "binary_ba": 0.9375,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.890625,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8574016741199404,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8888888888888888
+        }
+      }
+    },
+    "fused_adareg_soft_q99": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.8583333333333334,
+          "sd": 0.026715811196765755
+        },
+        "binary_ba": {
+          "mean": 0.8609375,
+          "sd": 0.11054066347389996
+        },
+        "defect_recall": {
+          "mean": 0.996875,
+          "sd": 0.006987712429686843
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.8777281746031746,
+          "sd": 0.007260556135071649
+        },
+        "escape_rate": {
+          "mean": 0.003125,
+          "sd": 0.006987712429686843
+        },
+        "false_reject_rate": {
+          "mean": 0.275,
+          "sd": 0.22360679774997896
+        },
+        "good_recall": {
+          "mean": 0.725,
+          "sd": 0.22360679774997896
+        },
+        "macro_f1": {
+          "mean": 0.8248462730557675,
+          "sd": 0.03055547786856473
+        },
+        "top1_accuracy": {
+          "mean": 0.8583333333333334,
+          "sd": 0.026715811196765755
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.875,
+          "binary_ba": 0.9375,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.875,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8435127852310516,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.875
+        },
+        "222": {
+          "balanced_accuracy": 0.8611111111111112,
+          "binary_ba": 0.9296875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.873015873015873,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.830907197186867,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8611111111111112
+        },
+        "333": {
+          "balanced_accuracy": 0.8194444444444444,
+          "binary_ba": 0.6875,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.875,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.625,
+          "good_recall": 0.375,
+          "macro_f1": 0.7781929199111862,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8194444444444444
+        },
+        "444": {
+          "balanced_accuracy": 0.8472222222222222,
+          "binary_ba": 0.8125,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.875,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.375,
+          "good_recall": 0.625,
+          "macro_f1": 0.814216788829792,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8472222222222222
+        },
+        "555": {
+          "balanced_accuracy": 0.8888888888888888,
+          "binary_ba": 0.9375,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.890625,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8574016741199404,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8888888888888888
+        }
+      }
+    },
+    "fused_cons_soft_supq90": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.8472222222222221,
+          "sd": 0.0
+        },
+        "binary_ba": {
+          "mean": 0.875,
+          "sd": 0.0
+        },
+        "defect_recall": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.859375,
+          "sd": 0.0
+        },
+        "escape_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "false_reject_rate": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "good_recall": {
+          "mean": 0.75,
+          "sd": 0.0
+        },
+        "macro_f1": {
+          "mean": 0.8171889418535446,
+          "sd": 0.0
+        },
+        "top1_accuracy": {
+          "mean": 0.8472222222222221,
+          "sd": 0.0
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.8472222222222222,
+          "binary_ba": 0.875,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.859375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.8171889418535446,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8472222222222222
+        },
+        "222": {
+          "balanced_accuracy": 0.8472222222222222,
+          "binary_ba": 0.875,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.859375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.8171889418535446,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8472222222222222
+        },
+        "333": {
+          "balanced_accuracy": 0.8472222222222222,
+          "binary_ba": 0.875,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.859375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.8171889418535446,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8472222222222222
+        },
+        "444": {
+          "balanced_accuracy": 0.8472222222222222,
+          "binary_ba": 0.875,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.859375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.8171889418535446,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8472222222222222
+        },
+        "555": {
+          "balanced_accuracy": 0.8472222222222222,
+          "binary_ba": 0.875,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.859375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.8171889418535446,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8472222222222222
+        }
+      }
+    },
+    "fused_normref_clip18": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.8666666666666668,
+          "sd": 0.00760725774312728
+        },
+        "binary_ba": {
+          "mean": 0.9421875,
+          "sd": 0.02795084971874737
+        },
+        "defect_recall": {
+          "mean": 0.984375,
+          "sd": 0.0
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.8761904761904763,
+          "sd": 0.007098628499999307
+        },
+        "escape_rate": {
+          "mean": 0.015625,
+          "sd": 0.0
+        },
+        "false_reject_rate": {
+          "mean": 0.1,
+          "sd": 0.05590169943749474
+        },
+        "good_recall": {
+          "mean": 0.9,
+          "sd": 0.05590169943749474
+        },
+        "macro_f1": {
+          "mean": 0.8384621411917594,
+          "sd": 0.011167033539723821
+        },
+        "top1_accuracy": {
+          "mean": 0.8666666666666668,
+          "sd": 0.00760725774312728
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.8611111111111112,
+          "binary_ba": 0.9296875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.873015873015873,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8309616634178038,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8611111111111112
+        },
+        "222": {
+          "balanced_accuracy": 0.8611111111111112,
+          "binary_ba": 0.9296875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.873015873015873,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8309616634178038,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8611111111111112
+        },
+        "333": {
+          "balanced_accuracy": 0.8611111111111112,
+          "binary_ba": 0.9296875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.873015873015873,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8309616634178038,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8611111111111112
+        },
+        "444": {
+          "balanced_accuracy": 0.875,
+          "binary_ba": 0.9921875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.873015873015873,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.8435127852310516,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.875
+        },
+        "555": {
+          "balanced_accuracy": 0.875,
+          "binary_ba": 0.9296875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.8888888888888888,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.855912930474334,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.875
+        }
+      }
+    },
+    "fused_xclass_clip18": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.75,
+          "sd": 0.0
+        },
+        "binary_ba": {
+          "mean": 0.828125,
+          "sd": 0.0
+        },
+        "defect_recall": {
+          "mean": 0.90625,
+          "sd": 0.0
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.8275862068965518,
+          "sd": 0.0
+        },
+        "escape_rate": {
+          "mean": 0.09375,
+          "sd": 0.0
+        },
+        "false_reject_rate": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "good_recall": {
+          "mean": 0.75,
+          "sd": 0.0
+        },
+        "macro_f1": {
+          "mean": 0.7276834620487871,
+          "sd": 0.0
+        },
+        "top1_accuracy": {
+          "mean": 0.75,
+          "sd": 0.0
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.75,
+          "binary_ba": 0.828125,
+          "defect_recall": 0.90625,
+          "defect_type_acc_detected": 0.8275862068965517,
+          "escape_rate": 0.09375,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.7276834620487871,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.75
+        },
+        "222": {
+          "balanced_accuracy": 0.75,
+          "binary_ba": 0.828125,
+          "defect_recall": 0.90625,
+          "defect_type_acc_detected": 0.8275862068965517,
+          "escape_rate": 0.09375,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.7276834620487871,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.75
+        },
+        "333": {
+          "balanced_accuracy": 0.75,
+          "binary_ba": 0.828125,
+          "defect_recall": 0.90625,
+          "defect_type_acc_detected": 0.8275862068965517,
+          "escape_rate": 0.09375,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.7276834620487871,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.75
+        },
+        "444": {
+          "balanced_accuracy": 0.75,
+          "binary_ba": 0.828125,
+          "defect_recall": 0.90625,
+          "defect_type_acc_detected": 0.8275862068965517,
+          "escape_rate": 0.09375,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.7276834620487871,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.75
+        },
+        "555": {
+          "balanced_accuracy": 0.75,
+          "binary_ba": 0.828125,
+          "defect_recall": 0.90625,
+          "defect_type_acc_detected": 0.8275862068965517,
+          "escape_rate": 0.09375,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.7276834620487871,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.75
+        }
+      }
+    },
+    "residual_mean_clip18": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.8583333333333334,
+          "sd": 0.01810889557000735
+        },
+        "binary_ba": {
+          "mean": 0.9875,
+          "sd": 0.02795084971874737
+        },
+        "defect_recall": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.84375,
+          "sd": 0.015625
+        },
+        "escape_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "false_reject_rate": {
+          "mean": 0.025,
+          "sd": 0.05590169943749474
+        },
+        "good_recall": {
+          "mean": 0.975,
+          "sd": 0.05590169943749474
+        },
+        "macro_f1": {
+          "mean": 0.8249455064676944,
+          "sd": 0.020255030681996224
+        },
+        "top1_accuracy": {
+          "mean": 0.8583333333333334,
+          "sd": 0.01810889557000735
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.875,
+          "binary_ba": 1.0,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.859375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.8435127852310516,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.875
+        },
+        "222": {
+          "balanced_accuracy": 0.875,
+          "binary_ba": 1.0,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.859375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.8435127852310516,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.875
+        },
+        "333": {
+          "balanced_accuracy": 0.8472222222222222,
+          "binary_ba": 1.0,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.828125,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.8015374765890761,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8472222222222222
+        },
+        "444": {
+          "balanced_accuracy": 0.8333333333333334,
+          "binary_ba": 0.9375,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.828125,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.8056437389770723,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8333333333333334
+        },
+        "555": {
+          "balanced_accuracy": 0.8611111111111112,
+          "binary_ba": 1.0,
+          "defect_recall": 1.0,
+          "defect_type_acc_detected": 0.84375,
+          "escape_rate": 0.0,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.8305207463102201,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8611111111111112
+        }
+      }
+    },
+    "simpleshot_cl2n": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.7083333333333334,
+          "sd": 0.0
+        },
+        "binary_ba": {
+          "mean": 0.609375,
+          "sd": 0.0
+        },
+        "defect_recall": {
+          "mean": 0.96875,
+          "sd": 0.0
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.7903225806451613,
+          "sd": 0.0
+        },
+        "escape_rate": {
+          "mean": 0.03125,
+          "sd": 0.0
+        },
+        "false_reject_rate": {
+          "mean": 0.75,
+          "sd": 0.0
+        },
+        "good_recall": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "macro_f1": {
+          "mean": 0.6810234065136026,
+          "sd": 0.0
+        },
+        "top1_accuracy": {
+          "mean": 0.7083333333333334,
+          "sd": 0.0
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.7083333333333334,
+          "binary_ba": 0.609375,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.7903225806451613,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.75,
+          "good_recall": 0.25,
+          "macro_f1": 0.6810234065136026,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.7083333333333334
+        },
+        "222": {
+          "balanced_accuracy": 0.7083333333333334,
+          "binary_ba": 0.609375,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.7903225806451613,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.75,
+          "good_recall": 0.25,
+          "macro_f1": 0.6810234065136026,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.7083333333333334
+        },
+        "333": {
+          "balanced_accuracy": 0.7083333333333334,
+          "binary_ba": 0.609375,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.7903225806451613,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.75,
+          "good_recall": 0.25,
+          "macro_f1": 0.6810234065136026,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.7083333333333334
+        },
+        "444": {
+          "balanced_accuracy": 0.7083333333333334,
+          "binary_ba": 0.609375,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.7903225806451613,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.75,
+          "good_recall": 0.25,
+          "macro_f1": 0.6810234065136026,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.7083333333333334
+        },
+        "555": {
+          "balanced_accuracy": 0.7083333333333334,
+          "binary_ba": 0.609375,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.7903225806451613,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.75,
+          "good_recall": 0.25,
+          "macro_f1": 0.6810234065136026,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.7083333333333334
+        }
+      }
+    },
+    "v1_ours_tau": {
+      "mean_sd": {
+        "balanced_accuracy": {
+          "mean": 0.8166666666666667,
+          "sd": 0.006211299937499394
+        },
+        "binary_ba": {
+          "mean": 0.925,
+          "sd": 0.041560737744594956
+        },
+        "defect_recall": {
+          "mean": 0.975,
+          "sd": 0.00855816496101822
+        },
+        "defect_type_acc_detected": {
+          "mean": 0.8301587301587302,
+          "sd": 0.007890124274358673
+        },
+        "escape_rate": {
+          "mean": 0.025,
+          "sd": 0.00855816496101822
+        },
+        "false_reject_rate": {
+          "mean": 0.125,
+          "sd": 0.08838834764831845
+        },
+        "good_recall": {
+          "mean": 0.875,
+          "sd": 0.08838834764831845
+        },
+        "macro_f1": {
+          "mean": 0.7768504594820385,
+          "sd": 0.00674507299029734
+        },
+        "top1_accuracy": {
+          "mean": 0.8166666666666667,
+          "sd": 0.006211299937499394
+        }
+      },
+      "per_seed": {
+        "111": {
+          "balanced_accuracy": 0.8194444444444444,
+          "binary_ba": 0.921875,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.8387096774193549,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.7880189307691887,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8194444444444444
+        },
+        "222": {
+          "balanced_accuracy": 0.8194444444444444,
+          "binary_ba": 0.984375,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.8225806451612904,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.0,
+          "good_recall": 1.0,
+          "macro_f1": 0.7759201926384589,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8194444444444444
+        },
+        "333": {
+          "balanced_accuracy": 0.8194444444444444,
+          "binary_ba": 0.9296875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.8253968253968254,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.7716609060778308,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8194444444444444
+        },
+        "444": {
+          "balanced_accuracy": 0.8194444444444444,
+          "binary_ba": 0.921875,
+          "defect_recall": 0.96875,
+          "defect_type_acc_detected": 0.8387096774193549,
+          "escape_rate": 0.03125,
+          "false_reject_rate": 0.125,
+          "good_recall": 0.875,
+          "macro_f1": 0.7714358062913275,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8194444444444444
+        },
+        "555": {
+          "balanced_accuracy": 0.8055555555555556,
+          "binary_ba": 0.8671875,
+          "defect_recall": 0.984375,
+          "defect_type_acc_detected": 0.8253968253968254,
+          "escape_rate": 0.015625,
+          "false_reject_rate": 0.25,
+          "good_recall": 0.75,
+          "macro_f1": 0.7772164616333863,
+          "n_defect": 64,
+          "n_good": 8,
+          "top1_accuracy": 0.8055555555555556
+        }
+      }
+    }
+  }
+}

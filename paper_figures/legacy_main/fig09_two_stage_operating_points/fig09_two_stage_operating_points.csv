@@ -1,0 +1,19 @@
+dataset,operating_point,false_rejects_per_1000,escapes_per_1000,review_items_per_1000
+VisA (K=5),α=0.01,6.96,33.635,0.0
+VisA (K=5),α=0.02,17.576,27.636,0.0
+VisA (K=5),α=0.05,46.034,17.512,0.0
+VisA (K=5),3-way (0.1),6.96,9.893,113.932
+VisA (K=5),3-way (0.3),6.96,3.355,309.502
+VisA (K=5),argmax (no screening),136.163,4.582,0.0
+MTD (K=5),α=0.01,1.597,47.526,0.0
+MTD (K=5),α=0.02,3.992,45.464,0.0
+MTD (K=5),α=0.05,16.765,42.062,0.0
+MTD (K=5),3-way (0.1),1.597,31.804,72.402
+MTD (K=5),3-way (0.3),1.597,15.309,260.137
+MTD (K=5),argmax (no screening),597.941,3.66,0.0
+Cable held-out split (K=8),α=0.01,0.0,14.643,0.0
+Cable held-out split (K=8),α=0.02,3.8,11.786,0.0
+Cable held-out split (K=8),α=0.05,22.8,9.286,0.0
+Cable held-out split (K=8),3-way (0.1),0.0,7.5,56.543
+Cable held-out split (K=8),3-way (0.3),0.0,3.214,190.029
+Cable held-out split (K=8),argmax (no screening),57.0,0.0,0.0

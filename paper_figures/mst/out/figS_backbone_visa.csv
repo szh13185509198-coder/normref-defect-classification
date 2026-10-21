@@ -1,0 +1,13 @@
+row,dataset,delta_pp,ci_low_pp,ci_high_pp
+Proposed vs SimpleShot,CLIP ViT-L/14 + DINOv2-S (main),18.16,10.77,24.21
+Proposed vs SimpleShot,DINOv2-B/14 only,18.95,14.44,23.45
+Proposed vs SimpleShot,CLIP ViT-B/16 only,19.72,15.41,24.51
+Calibrated vs fixed 10% region,CLIP ViT-L/14 + DINOv2-S (main),9.64,3.68,14.53
+Calibrated vs fixed 10% region,DINOv2-B/14 only,11.42,7.61,15.53
+Calibrated vs fixed 10% region,CLIP ViT-B/16 only,7.4,4.58,9.94
+Deviation descriptor added,CLIP ViT-L/14 + DINOv2-S (main),2.34,0.24,4.24
+Deviation descriptor added,DINOv2-B/14 only,4.65,3.38,6.08
+Deviation descriptor added,CLIP ViT-B/16 only,4.25,2.26,6.18
+Support consensus vs cross-class,CLIP ViT-L/14 + DINOv2-S (main),3.81,1.15,6.47
+Support consensus vs cross-class,DINOv2-B/14 only,3.24,0.48,6.09
+Support consensus vs cross-class,CLIP ViT-B/16 only,2.58,-0.85,5.81

@@ -1,0 +1,30 @@
+{
+ "training_s": 103.122,
+ "runner_wall_s": 129.5236593983136,
+ "optimizer_steps": 80,
+ "trainable_whitelist": {
+  "model": [
+   "image_adapter.det_proj.fc.0.weight"
+  ],
+  "prototype_mem": [
+   "prototypes",
+   "logit_scale"
+  ]
+ },
+ "model_forward": {
+  "median_ms": 20.167208509519696,
+  "mean_ms": 20.294234044849873,
+  "p90_ms": 20.279853139072657,
+  "n": 200
+ },
+ "end_to_end": {
+  "median_ms": 85.19178838469088,
+  "mean_ms": 75.32452719053254,
+  "p90_ms": 100.0431589782238,
+  "n": 200
+ },
+ "peak_allocated_bytes": 2067883520,
+ "provenance_note": "no .git in the bundle; runner provenance = bundle git_head 101f7087 (diagnostic)",
+ "block_wall_s": 170.7360028717667,
+ "torch": "2.8.0+cu128"
+}

@@ -1,0 +1,1 @@
+{"actual_optimizer_steps":80,"batches_per_pass":2,"expected_optimizer_steps":80,"method":"ours","passes":80,"schema_version":"p6b_stage2_support_run_config_v1","total_forward_batches":160,"trainable_parameter_whitelist":{"model":["image_adapter.det_proj.fc.0.weight"],"prototype_mem":["prototypes","logit_scale"]}}

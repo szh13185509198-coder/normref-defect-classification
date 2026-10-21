@@ -1,0 +1,760 @@
+{
+ "schema_version": "p36_v1",
+ "tag": "jetson_orin_nano",
+ "environment": {
+  "platform": "Linux-5.15.199-tegra-aarch64-with-glibc2.35",
+  "python": "3.10.12",
+  "cpu_count": 6,
+  "telemetry_start": {
+   "source": "nvidia-smi",
+   "name": "Orin (nvgpu)",
+   "temp_c": "[N/A]",
+   "sm_mhz": "[N/A]",
+   "sm_max_mhz": "[N/A]",
+   "power_w": "[N/A]",
+   "mem_used_mib": "[N/A]",
+   "other_gpu_processes": 1
+  },
+  "os_release": "Ubuntu 22.04.5 LTS",
+  "cpu_model": "ARMv8 Processor rev 1 (v8l)",
+  "cgroup_cpu_max": null,
+  "cgroup_memory_max": null,
+  "host_mem_total": "7789888 kB",
+  "gpu": "Orin (nvgpu), [N/A], 540.5.0, [N/A], [N/A], [N/A], [N/A], [N/A]",
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "cuda_runtime": "12.6",
+  "cudnn": 90300,
+  "torch_threads": 6,
+  "cudnn_benchmark": false,
+  "tf32_matmul": false,
+  "tf32_cudnn": true
+ },
+ "setting": {
+  "product": "bottle",
+  "K": 5,
+  "seed": 111,
+  "bank": 20,
+  "batch": 1
+ },
+ "summary": {
+  "anchor_main_fp16": {
+   "1": {
+    "prep_s": 6.740724779999709,
+    "model_forward_ms": 147.10436750010558,
+    "end_to_end_ms": 170.1204164999126,
+    "head_ms": 13.911394999922777,
+    "gflops": 412.820097024,
+    "peak_mb": 2013.998046875
+   },
+   "2": {
+    "prep_s": 7.192168688999118,
+    "model_forward_ms": 144.41378300034557,
+    "end_to_end_ms": 171.4544860001297,
+    "head_ms": 13.958171000012953,
+    "gflops": 412.820097024,
+    "peak_mb": 2013.998046875
+   }
+  },
+  "anchor_l14_336_fp16": {
+   "1": {
+    "prep_s": 5.464518017000955,
+    "model_forward_ms": 131.58646099964244,
+    "end_to_end_ms": 155.67089499973008,
+    "head_ms": 13.316262999524042,
+    "gflops": 381.919789056,
+    "peak_mb": 1893.00537109375
+   },
+   "2": {
+    "prep_s": 5.28864295800031,
+    "model_forward_ms": 128.38101600027585,
+    "end_to_end_ms": 155.34966999985045,
+    "head_ms": 13.18069499984631,
+    "gflops": 381.919789056,
+    "peak_mb": 1893.00537109375
+   }
+  },
+  "l14_l18_fp32": {
+   "1": {
+    "prep_s": 11.338966874001017,
+    "model_forward_ms": 301.1520934996952,
+    "end_to_end_ms": 323.4316275002129,
+    "head_ms": 13.266422999549832,
+    "gflops": 286.6120704,
+    "peak_mb": 1908.31591796875
+   },
+   "2": {
+    "prep_s": 11.20721251500072,
+    "model_forward_ms": 298.3370684996771,
+    "end_to_end_ms": 320.7601670001168,
+    "head_ms": 13.203235000219138,
+    "gflops": 286.6120704,
+    "peak_mb": 1908.31591796875
+   }
+  },
+  "l14_l18_fp16": {
+   "1": {
+    "prep_s": 4.15257486200062,
+    "model_forward_ms": 95.82791049979278,
+    "end_to_end_ms": 122.69196399984139,
+    "head_ms": 13.249311999970814,
+    "gflops": 286.6120704,
+    "peak_mb": 1894.50537109375
+   },
+   "2": {
+    "prep_s": 4.1342638679998345,
+    "model_forward_ms": 96.9675055002881,
+    "end_to_end_ms": 121.03604499998255,
+    "head_ms": 13.139457999841397,
+    "gflops": 286.6120704,
+    "peak_mb": 1894.50537109375
+   }
+  },
+  "gate_l18_fp16": {
+   "1": {
+    "e2e_full_ms": 170.31238549998307,
+    "e2e_pass_ms": 119.1636670000662,
+    "e2e_flagged_ms": 171.4475050002875,
+    "full_forward_ms": 143.72615950060208,
+    "clip_to_layer18_ms": 96.67043200033731,
+    "clip_layers19_24_ms": 32.327609000276425,
+    "dino_forward_ms": 19.96393950048514,
+    "knn_clip_bank_ms": 11.05070049970891,
+    "knn_dino_bank_ms": 4.4873725000798,
+    "preprocess_to_device_ms": 11.235838999709813
+   },
+   "2": {
+    "e2e_full_ms": 169.8242859997663,
+    "e2e_pass_ms": 119.34387650035205,
+    "e2e_flagged_ms": 171.56089899981453,
+    "full_forward_ms": 143.55495500012694,
+    "clip_to_layer18_ms": 96.98822899963488,
+    "clip_layers19_24_ms": 32.30832749977708,
+    "dino_forward_ms": 20.41321149954456,
+    "knn_clip_bank_ms": 11.098038000000088,
+    "knn_dino_bank_ms": 4.513115999998263,
+    "preprocess_to_device_ms": 11.266396999872086
+   }
+  },
+  "gate_dino_fp16": {
+   "1": {
+    "e2e_full_ms": 170.75258449949615,
+    "e2e_pass_ms": 38.29591600015192,
+    "e2e_flagged_ms": 182.35907849975774,
+    "full_forward_ms": 143.55521149991546,
+    "clip_to_layer18_ms": 96.43416949984385,
+    "clip_layers19_24_ms": 32.15749149967451,
+    "dino_forward_ms": 20.71650600009889,
+    "knn_clip_bank_ms": 11.046803500448732,
+    "knn_dino_bank_ms": 4.493304500101658,
+    "preprocess_to_device_ms": 12.58741050014578
+   },
+   "2": {
+    "e2e_full_ms": 170.2789935002329,
+    "e2e_pass_ms": 37.32127249986661,
+    "e2e_flagged_ms": 180.88625299969863,
+    "full_forward_ms": 143.61050849993262,
+    "clip_to_layer18_ms": 96.1769769996863,
+    "clip_layers19_24_ms": 32.14165600002161,
+    "dino_forward_ms": 19.51733099986086,
+    "knn_clip_bank_ms": 11.083784999755153,
+    "knn_dino_bank_ms": 4.506569999648491,
+    "preprocess_to_device_ms": 11.225582999941253
+   }
+  },
+  "main_fp16_precast": {
+   "1": {
+    "prep_s": 5.996952584001519,
+    "model_forward_ms": 131.80746200032445,
+    "end_to_end_ms": 158.69207550031206,
+    "head_ms": 13.8962559999527,
+    "gflops": 412.820097024,
+    "peak_mb": 1416.22607421875
+   },
+   "2": {
+    "prep_s": 6.093195012000251,
+    "model_forward_ms": 131.60925800002587,
+    "end_to_end_ms": 159.52912700004163,
+    "head_ms": 13.99293550002767,
+    "gflops": 412.820097024,
+    "peak_mb": 1416.22607421875
+   }
+  },
+  "clipb16_224_fp16_precast": {
+   "1": {
+    "prep_s": 1.440924695000831,
+    "model_forward_ms": 22.361252999871795,
+    "end_to_end_ms": 38.17900899957749,
+    "head_ms": 4.336151000188693,
+    "gflops": 35.12690688,
+    "peak_mb": 497.50048828125
+   },
+   "2": {
+    "prep_s": 1.4191944070007594,
+    "model_forward_ms": 22.013717000390898,
+    "end_to_end_ms": 37.87108549977347,
+    "head_ms": 4.254891000073258,
+    "gflops": 35.12690688,
+    "peak_mb": 497.50048828125
+   }
+  },
+  "clipb16_336_fp16_precast": {
+   "1": {
+    "prep_s": 1.794396329999472,
+    "model_forward_ms": 27.15419549940634,
+    "end_to_end_ms": 46.662558000207355,
+    "head_ms": 8.04939399995419,
+    "gflops": 82.8051456,
+    "peak_mb": 599.28857421875
+   },
+   "2": {
+    "prep_s": 1.8050269040004423,
+    "model_forward_ms": 26.989052500084654,
+    "end_to_end_ms": 46.64247199980309,
+    "head_ms": 8.145377500113682,
+    "gflops": 82.8051456,
+    "peak_mb": 599.28857421875
+   }
+  },
+  "l14_l18_fp16_precast": {
+   "1": {
+    "prep_s": 4.475440953000543,
+    "model_forward_ms": 89.13179949968253,
+    "end_to_end_ms": 114.46397999952751,
+    "head_ms": 13.145699999768112,
+    "gflops": 286.6120704,
+    "peak_mb": 1319.57177734375
+   },
+   "2": {
+    "prep_s": 3.951328715999807,
+    "model_forward_ms": 89.13384850029615,
+    "end_to_end_ms": 114.49613250033508,
+    "head_ms": 13.232359999619803,
+    "gflops": 286.6120704,
+    "peak_mb": 1319.57177734375
+   }
+  }
+ },
+ "run_log": [
+  {
+   "pass": 1,
+   "block": "anchor_main_fp16",
+   "returncode": 0,
+   "wall_s": 183.11599757700014,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "anchor_l14_336_fp16",
+   "returncode": 0,
+   "wall_s": 98.05797164500018,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "l14_l18_fp32",
+   "returncode": 0,
+   "wall_s": 157.03976881500057,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "l14_l18_fp16",
+   "returncode": 0,
+   "wall_s": 72.45832520499971,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "gate_l18_fp16",
+   "returncode": 0,
+   "wall_s": 192.03974255699995,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "gate_dino_fp16",
+   "returncode": 0,
+   "wall_s": 170.37152225799946,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "main_fp16_precast",
+   "returncode": 0,
+   "wall_s": 172.50041651599986,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "clipb16_224_fp16_precast",
+   "returncode": 0,
+   "wall_s": 48.44395280000026,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "clipb16_336_fp16_precast",
+   "returncode": 0,
+   "wall_s": 55.49788954699943,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "l14_l18_fp16_precast",
+   "returncode": 0,
+   "wall_s": 70.45034105000013,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "l14_l18_fp16_precast",
+   "returncode": 0,
+   "wall_s": 69.73293447800006,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "clipb16_336_fp16_precast",
+   "returncode": 0,
+   "wall_s": 56.4355906589999,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "clipb16_224_fp16_precast",
+   "returncode": 0,
+   "wall_s": 47.25105809500019,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "main_fp16_precast",
+   "returncode": 0,
+   "wall_s": 172.62284721800006,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "gate_dino_fp16",
+   "returncode": 0,
+   "wall_s": 169.62720555899978,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "gate_l18_fp16",
+   "returncode": 0,
+   "wall_s": 188.9164628460003,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "l14_l18_fp16",
+   "returncode": 0,
+   "wall_s": 102.57932565699957,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "l14_l18_fp32",
+   "returncode": 0,
+   "wall_s": 156.10242958300023,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "anchor_l14_336_fp16",
+   "returncode": 0,
+   "wall_s": 86.02787264700055,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "anchor_main_fp16",
+   "returncode": 0,
+   "wall_s": 185.08846014900064,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  }
+ ]
+}

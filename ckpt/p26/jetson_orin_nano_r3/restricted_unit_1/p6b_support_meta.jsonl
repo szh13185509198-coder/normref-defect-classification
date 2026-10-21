@@ -1,0 +1,15 @@
+{"class_name": "broken_large", "image_path": "image/bottle/training/broken_large/004.png", "label": 0, "mask_path": ""}
+{"class_name": "broken_large", "image_path": "image/bottle/training/broken_large/009.png", "label": 0, "mask_path": ""}
+{"class_name": "broken_large", "image_path": "image/bottle/training/broken_large/003.png", "label": 0, "mask_path": ""}
+{"class_name": "broken_large", "image_path": "image/bottle/training/broken_large/007.png", "label": 0, "mask_path": ""}
+{"class_name": "broken_large", "image_path": "image/bottle/training/broken_large/002.png", "label": 0, "mask_path": ""}
+{"class_name": "broken_small", "image_path": "image/bottle/training/broken_small/009.png", "label": 1, "mask_path": ""}
+{"class_name": "broken_small", "image_path": "image/bottle/training/broken_small/006.png", "label": 1, "mask_path": ""}
+{"class_name": "broken_small", "image_path": "image/bottle/training/broken_small/008.png", "label": 1, "mask_path": ""}
+{"class_name": "broken_small", "image_path": "image/bottle/training/broken_small/005.png", "label": 1, "mask_path": ""}
+{"class_name": "broken_small", "image_path": "image/bottle/training/broken_small/004.png", "label": 1, "mask_path": ""}
+{"class_name": "contamination", "image_path": "image/bottle/training/contamination/006.png", "label": 2, "mask_path": ""}
+{"class_name": "contamination", "image_path": "image/bottle/training/contamination/009.png", "label": 2, "mask_path": ""}
+{"class_name": "contamination", "image_path": "image/bottle/training/contamination/007.png", "label": 2, "mask_path": ""}
+{"class_name": "contamination", "image_path": "image/bottle/training/contamination/003.png", "label": 2, "mask_path": ""}
+{"class_name": "contamination", "image_path": "image/bottle/training/contamination/001.png", "label": 2, "mask_path": ""}

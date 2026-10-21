@@ -1,0 +1,16 @@
+[DINOv2] Loaded from offline local torch.hub repo: D:\intergration\aaclip_optimize-main\third_party\dinov2
+[DINOv2] Local checkpoint: D:\intergration\aaclip_optimize-main\pretrained\dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+[p47-u4a-mvtec] bottle: 31 queries, window 0.880; windowed reference BA 88.91 %; 2.2 min
+[p47-u4a-mvtec] capsule: 53 queries, window 0.880; windowed reference BA 75.89 %; 5.2 min
+[p47-u4a-mvtec] carpet: 42 queries, window 0.880; windowed reference BA 87.00 %; 7.8 min
+[p47-u4a-mvtec] grid: 25 queries, window 0.880; windowed reference BA 88.80 %; 9.6 min
+[p47-u4a-mvtec] hazelnut: 34 queries, window 0.880; windowed reference BA 89.44 %; 11.9 min
+[p47-u4a-mvtec] leather: 44 queries, window 0.880; windowed reference BA 91.11 %; 14.7 min
+[p47-u4a-mvtec] metal_nut: 45 queries, window 0.880; windowed reference BA 96.02 %; 17.3 min
+[p47-u4a-mvtec] pill: 62 queries, window 0.880; windowed reference BA 83.48 %; 20.8 min
+[p47-u4a-mvtec] screw: 58 queries, window 0.880; windowed reference BA 74.24 %; 24.2 min
+[p47-u4a-mvtec] tile: 41 queries, window 0.880; windowed reference BA 99.50 %; 26.7 min
+[p47-u4a-mvtec] transistor: 20 queries, window 0.880; windowed reference BA 91.00 %; 28.3 min
+[p47-u4a-mvtec] wood: 25 queries, window 0.880; windowed reference BA 95.86 %; 30.2 min
+[p47-u4a-mvtec] zipper: 50 queries, window 0.880; windowed reference BA 84.35 %; 33.3 min

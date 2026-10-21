@@ -1,0 +1,15 @@
+[DINOv2] Loaded from offline local torch.hub repo: D:\intergration\aaclip_optimize-main\third_party\dinov2
+[DINOv2] Local checkpoint: D:\intergration\aaclip_optimize-main\pretrained\dinov2_vits14_pretrain.pth
+[DINOv2] Loaded 'dinov2_vits14' (dim=384), method=hub_local, patch_policy=full, freeze=True
+[p47-u25-extract] visa__candle: 534 queries; P14 and P15 reproduced; 2.5 min
+[p47-u25-extract] visa__cashew: 284 queries; P14 and P15 reproduced; 4.1 min
+[p47-u25-extract] visa__chewinggum: 274 queries; P14 and P15 reproduced; 5.6 min
+[p47-u25-extract] visa__fryum: 282 queries; P14 and P15 reproduced; 7.2 min
+[p47-u25-extract] visa__macaroni1: 538 queries; P14 and P15 reproduced; 9.7 min
+[p47-u25-extract] visa__macaroni2: 534 queries; P14 and P15 reproduced; 12.1 min
+[p47-u25-extract] visa__pcb1: 547 queries; P14 and P15 reproduced; 14.7 min
+[p47-u25-extract] visa__pcb2: 545 queries; P14 and P15 reproduced; 17.4 min
+[p47-u25-extract] visa__pcb3: 549 queries; P14 and P15 reproduced; 20.0 min
+[p47-u25-extract] visa__pcb4: 517 queries; P14 and P15 reproduced; 22.4 min
+[p47-u25-extract] visa__pipe_fryum: 293 queries; P14 and P15 reproduced; 24.0 min
+[p47-u25-extract] mtd__mtd6way: 670 queries; P14 and P15 reproduced; 26.9 min

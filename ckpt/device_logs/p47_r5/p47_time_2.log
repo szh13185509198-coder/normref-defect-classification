@@ -1,0 +1,19 @@
+/home/<USER>/p31/repo/experiments/p41/fused_engine.py:112: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /opt/pytorch/torch/csrc/utils/tensor_numpy.cpp:204.)
+  x = torch.from_numpy(np.asarray(image.convert("RGB"))).to(device, non_blocking=True)
+[10/03/2026-16:27:19] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p47] tiles g=2: new task 11.87 s, engine 234.9 ms, e2e 249.5 ms
+[10/03/2026-16:28:31] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[10/03/2026-16:28:32] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p47] C=2: 59.7 ms
+[p47] C=4: 59.7 ms
+[p47] C=8: 59.7 ms
+[p47] C=16: 59.7 ms
+[p47] SKUs=1: +46 MB, 59.7 ms
+[p47] SKUs=10: +460 MB, 59.7 ms
+[p47] SKUs=40: +1840 MB, 59.7 ms
+[10/03/2026-16:29:39] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p47] M=20: new task 2.43 s, engine 61.1 ms
+[p47] M=50: new task 5.55 s, engine 67.1 ms
+[p47] M=100: new task 13.07 s, engine 77.7 ms
+[p47] M=200: new task 37.21 s, engine 98.6 ms
+[p47] timing done

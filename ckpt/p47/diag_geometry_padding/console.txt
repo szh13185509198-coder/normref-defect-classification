@@ -1,0 +1,27 @@
+grid A 95s
+grid B 178s
+zipper A 98s
+zipper B 189s
+bottle A 87s
+bottle B 166s
+grid
+  A|none     FRR   5.0%  mean score 0.3461  exceed/img   31.2  in outer ring  50.7%
+  A|P5=5     FRR  90.0%  mean score 0.6140  exceed/img  126.7  in outer ring  62.5%
+  A|P6=5     FRR  95.0%  mean score 0.6293  exceed/img  137.0  in outer ring  62.9%
+  B|none     FRR   0.0%  mean score 0.3348  exceed/img   31.1  in outer ring  48.3%
+  B|P5=5     FRR   0.0%  mean score 0.3325  exceed/img   31.2  in outer ring  44.5%
+  B|P6=5     FRR   0.0%  mean score 0.3371  exceed/img   29.9  in outer ring  46.3%
+zipper
+  A|none     FRR   0.0%  mean score 0.2062  exceed/img    7.1  in outer ring  28.4%
+  A|P5=5     FRR  25.0%  mean score 0.3065  exceed/img   18.9  in outer ring  48.8%
+  A|P6=5     FRR   5.0%  mean score 0.2780  exceed/img   35.3  in outer ring  36.2%
+  B|none     FRR   0.0%  mean score 0.2046  exceed/img    5.9  in outer ring  33.6%
+  B|P5=5     FRR   0.0%  mean score 0.2621  exceed/img   22.0  in outer ring  57.6%
+  B|P6=5     FRR   0.0%  mean score 0.2721  exceed/img   31.8  in outer ring  67.0%
+bottle
+  A|none     FRR   0.0%  mean score 0.2489  exceed/img    3.8  in outer ring   0.0%
+  A|P5=5     FRR  60.0%  mean score 0.4382  exceed/img   11.2  in outer ring  43.1%
+  A|P6=5     FRR   0.0%  mean score 0.2532  exceed/img    4.2  in outer ring   0.0%
+  B|none     FRR   5.0%  mean score 0.2632  exceed/img    3.8  in outer ring   7.9%
+  B|P5=5     FRR   5.0%  mean score 0.2673  exceed/img    4.8  in outer ring  23.2%
+  B|P6=5     FRR  15.0%  mean score 0.2666  exceed/img    4.6  in outer ring   7.6%

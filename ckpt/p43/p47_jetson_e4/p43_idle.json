@@ -1,0 +1,28 @@
+{
+ "idle": {
+  "start": {
+   "epoch": 1791028997.8461013,
+   "local": "2026-10-03 20:03:17"
+  },
+  "end": {
+   "epoch": 1791029027.8761656,
+   "local": "2026-10-03 20:03:47"
+  }
+ },
+ "machine": {
+  "os_release": "Ubuntu 22.04.5 LTS",
+  "cpu_model": "ARMv8 Processor rev 1 (v8l)",
+  "cgroup_cpu_max": null,
+  "cgroup_memory_max": null,
+  "host_mem_total": "7789896 kB",
+  "gpu": "Orin (nvgpu), [N/A], 540.5.0, [N/A], [N/A], [N/A], [N/A], [N/A]",
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "cuda_runtime": "12.6",
+  "cudnn": 90300,
+  "torch_threads": 6,
+  "cudnn_benchmark": false,
+  "tf32_matmul": false,
+  "tf32_cudnn": true
+ }
+}

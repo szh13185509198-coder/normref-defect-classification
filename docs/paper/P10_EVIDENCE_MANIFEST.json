@@ -1,0 +1,523 @@
+{
+  "archive_file": "D:\\intergration\\evidence_archive\\p10_evidence_249541a_20260926T154428Z.tar.gz",
+  "archive_sha256": "a9f4393db3ab0f99d60bcbd957b77b949f2302a1ce28d64d26a7ed1b8103d011",
+  "created_utc": "20260926T154428Z",
+  "files": [
+    {
+      "archived": true,
+      "bytes": 126260,
+      "path": "ckpt/revision_c/c1_paired_bootstrap.json",
+      "sha256": "95889d006833fa1d266d6a897d4b60e68c0f24620248bdb65ebc904373dabb19"
+    },
+    {
+      "archived": true,
+      "bytes": 3467,
+      "path": "ckpt/revision_c/c1_paired_bootstrap_table.md",
+      "sha256": "2a76fd90d2717fe4a659cd98a35a0b61b8994bbb721273ccc7316dbf0cb3bf7e"
+    },
+    {
+      "archived": true,
+      "bytes": 3759,
+      "path": "ckpt/revision_c/c2_fidelity_report.json",
+      "sha256": "4ee40a88694830fb7d0cb66413996f6ad14274c6fc6572603453d59e849c5194"
+    },
+    {
+      "archived": true,
+      "bytes": 171771,
+      "path": "ckpt/revision_c/c2_frozen_feature_baselines.json",
+      "sha256": "4af9f4df5a2a5e07e6a93c6783603082b78968f94003430184c51fefc85f2e47"
+    },
+    {
+      "archived": true,
+      "bytes": 9568060,
+      "path": "ckpt/revision_c/c2_frozen_feature_predictions.jsonl",
+      "sha256": "24ee77b252f44a0751e7a527d9c640bf54059877284b407eb3b6d8361b39edf0"
+    },
+    {
+      "archived": false,
+      "bytes": 2488703,
+      "path": "ckpt/revision_c/c2_fusion_query_features.pt",
+      "sha256": "5eccd917ac5fdddb3330a66e608c0214cf5905f1071479ec64396fa355808e7e"
+    },
+    {
+      "archived": true,
+      "bytes": 37122,
+      "path": "ckpt/revision_c/c3_resource/c3_adapt_times.json",
+      "sha256": "a3371f24b02f2c7398089337ba70ecf8b84e0309384a7d806a7e8040d947ae6f"
+    },
+    {
+      "archived": true,
+      "bytes": 1105,
+      "path": "ckpt/revision_c/c3_resource/c3_latency_clip_proto_cuda.json",
+      "sha256": "f8f3a59b8cb8a18ca656950e5f1c178e80f846146304f6df0fd33e0e52ca7ca3"
+    },
+    {
+      "archived": true,
+      "bytes": 1105,
+      "path": "ckpt/revision_c/c3_resource/c3_latency_dino_proto_cuda.json",
+      "sha256": "598415b2302b4026c5c06316747ddcc9e6aa79d931cdf88260fbea18cce36abf"
+    },
+    {
+      "archived": true,
+      "bytes": 1108,
+      "path": "ckpt/revision_c/c3_resource/c3_latency_fusion_proto_cuda.json",
+      "sha256": "2c6cfac8216b9da15d0cdf4904eccee5241fba8d6517e23b7f7c9aa7e9700da2"
+    },
+    {
+      "archived": true,
+      "bytes": 1101,
+      "path": "ckpt/revision_c/c3_resource/c3_latency_ours_cuda.json",
+      "sha256": "337cad54369801aecd6e4b6a05e4e9574ed3c3a13f34467c07382d81821ca755"
+    },
+    {
+      "archived": true,
+      "bytes": 3152,
+      "path": "ckpt/revision_c/c3_resource/c3_params.json",
+      "sha256": "1760ba11d18b5988afcc8ac7d228b8a38701cd3362c545778d2d004a7545f3bb"
+    },
+    {
+      "archived": true,
+      "bytes": 345670,
+      "path": "ckpt/p10_pilot/controls_a_results.json",
+      "sha256": "5a619d362462bdb4e706003c974334e1e0ff3df7011d6b797dca2e459a76cef1"
+    },
+    {
+      "archived": true,
+      "bytes": 914,
+      "path": "ckpt/p10_pilot/controls_a_table.md",
+      "sha256": "3143837f772753559059639339c98788da0d9c47d1728ce826e2c3688668b91f"
+    },
+    {
+      "archived": true,
+      "bytes": 533551,
+      "path": "ckpt/p10_pilot/pilot_a_results.json",
+      "sha256": "afc3be034f9f264324057cd551f709fb08f55299cc700679a7eff3ade4ccde22"
+    },
+    {
+      "archived": true,
+      "bytes": 1994,
+      "path": "ckpt/p10_pilot/pilot_a_table.md",
+      "sha256": "e704999b9aa580bd2e74b20bec5a5a73fc9fc83e2ecae3a57c697c4a683a46f4"
+    },
+    {
+      "archived": true,
+      "bytes": 371057,
+      "path": "ckpt/p10_pilot/pilot_results.json",
+      "sha256": "869260db336fbf6f1e0fae9a778e5818ea60a8fc6ad8dfbb4780f9105c2e097b"
+    },
+    {
+      "archived": true,
+      "bytes": 969,
+      "path": "ckpt/p10_pilot/pilot_table.md",
+      "sha256": "a6845d3cc422a756c5e78752e19e51b910ee919b5e5172946863133890d2e522"
+    },
+    {
+      "archived": true,
+      "bytes": 188735,
+      "path": "ckpt/p10_pilot/supplement_s_dev_results.json",
+      "sha256": "df30fd8e05ed74206773181c7372a290cf011ca96232c5b135b336e0f71c3d94"
+    },
+    {
+      "archived": true,
+      "bytes": 483,
+      "path": "ckpt/p10_pilot/supplement_s_dev_table.md",
+      "sha256": "f63710749104fac9ed4a0c72880984d766f3ef4e55bca2e328068fe24a009d31"
+    },
+    {
+      "archived": false,
+      "bytes": 52130323,
+      "path": "ckpt/p10_pilot/dev_features/bottle.pt",
+      "sha256": "e4b0612845551079b978fa8d58c3a332d0c521acb77c65b993d951b99e7ac0c7"
+    },
+    {
+      "archived": false,
+      "bytes": 91225821,
+      "path": "ckpt/p10_pilot/dev_features/capsule.pt",
+      "sha256": "f76e4f53ef40fdd9ee7511e6cfb868f527d580f681959a2dd3934838d997a606"
+    },
+    {
+      "archived": false,
+      "bytes": 76564755,
+      "path": "ckpt/p10_pilot/dev_features/carpet.pt",
+      "sha256": "9e331a3b7f9a808c91468e0fd0914aedf866551d7cd7d88b4c84eaac56d07ed6"
+    },
+    {
+      "archived": false,
+      "bytes": 47242943,
+      "path": "ckpt/p10_pilot/dev_features/grid.pt",
+      "sha256": "051ed00f8dc1176f943bc17361fd5c9dd159d160b07d8c729faac6dbebc14c22"
+    },
+    {
+      "archived": false,
+      "bytes": 58646055,
+      "path": "ckpt/p10_pilot/dev_features/hazelnut.pt",
+      "sha256": "34b92d3b287d6fbc899c5e31ea3de5235bfa50c3515378578676cfab694b198f"
+    },
+    {
+      "archived": false,
+      "bytes": 78193565,
+      "path": "ckpt/p10_pilot/dev_features/leather.pt",
+      "sha256": "7111e92fe8eb31a92be11a4145dd6ff3c8275f8ea091047a33a35ac156df7ffc"
+    },
+    {
+      "archived": false,
+      "bytes": 73306993,
+      "path": "ckpt/p10_pilot/dev_features/metal_nut.pt",
+      "sha256": "07a7458498d8776c433bf3c9b3ad1d1b8b7aa2852492fca5821f8c1f796f091b"
+    },
+    {
+      "archived": false,
+      "bytes": 105886527,
+      "path": "ckpt/p10_pilot/dev_features/pill.pt",
+      "sha256": "250cffec45c92049c08a688cd64cb3c5ff517dfd225614a22948891d2efa7500"
+    },
+    {
+      "archived": false,
+      "bytes": 97742153,
+      "path": "ckpt/p10_pilot/dev_features/screw.pt",
+      "sha256": "33b3607f653b641ea5af1f44db413ad34ec3073bab20bfd7fc80533f135befe5"
+    },
+    {
+      "archived": false,
+      "bytes": 70048703,
+      "path": "ckpt/p10_pilot/dev_features/tile.pt",
+      "sha256": "a3951d64c67102efee24dcc24c8404b428c626cf4325515b6b93583cbe33295c"
+    },
+    {
+      "archived": false,
+      "bytes": 32582587,
+      "path": "ckpt/p10_pilot/dev_features/transistor.pt",
+      "sha256": "84f244404d0dae8f3011794b57b588c6a122b2530c9123f20c7f585c84e5dd10"
+    },
+    {
+      "archived": false,
+      "bytes": 47242879,
+      "path": "ckpt/p10_pilot/dev_features/wood.pt",
+      "sha256": "3bf6a6ac606d1e6036f88eff49dbe9ff179443280571fe5a963790a04049d3ef"
+    },
+    {
+      "archived": false,
+      "bytes": 89597139,
+      "path": "ckpt/p10_pilot/dev_features/zipper.pt",
+      "sha256": "213e3be805d1d3264d9745639264f6dd0c5e9ce1473a2ed75b473e2654d3a8ba"
+    },
+    {
+      "archived": false,
+      "bytes": 129764701,
+      "path": "ckpt/p10_pilot/normal_features/bottle.pt",
+      "sha256": "c314b4931cceacb4497c2c63fe2a7e71b20714028b1775bc4f06556501c4d714"
+    },
+    {
+      "archived": false,
+      "bytes": 133008805,
+      "path": "ckpt/p10_pilot/normal_features/capsule.pt",
+      "sha256": "53e19bbc623595e970eb42d0feb97fdea68322f634b2eea8f018d1ba940c14d0"
+    },
+    {
+      "archived": false,
+      "bytes": 142740957,
+      "path": "ckpt/p10_pilot/normal_features/carpet.pt",
+      "sha256": "845da8f991d8ae6bd2b00d8d662b84fe73224f73ee8de5141f627687ddf0883b"
+    },
+    {
+      "archived": false,
+      "bytes": 149229005,
+      "path": "ckpt/p10_pilot/normal_features/grid.pt",
+      "sha256": "441c4d3ad0d0524aca124bed0f203ac878a451b0f9df9b3f18b4a3d33c54267a"
+    },
+    {
+      "archived": false,
+      "bytes": 145985133,
+      "path": "ckpt/p10_pilot/normal_features/hazelnut.pt",
+      "sha256": "c08a9316f0979975b0e06138f32293013e3ebb8a793e975556f1a64e71ac10b1"
+    },
+    {
+      "archived": false,
+      "bytes": 136252901,
+      "path": "ckpt/p10_pilot/normal_features/leather.pt",
+      "sha256": "1675bd1a6675a6cdf9d9e939b10d97b96dbb998a2a7113cc43cde8486fbbda6d"
+    },
+    {
+      "archived": false,
+      "bytes": 137874997,
+      "path": "ckpt/p10_pilot/normal_features/metal_nut.pt",
+      "sha256": "06b7cf08d4af4ebc2fee734d027d4bae1230e2dc3a7610911c95aa3d5fdf546c"
+    },
+    {
+      "archived": false,
+      "bytes": 149229005,
+      "path": "ckpt/p10_pilot/normal_features/pill.pt",
+      "sha256": "f42e1456cdd0fba4858ca0ccd87e968523cee145c337c541a4a3a0a3e14a3529"
+    },
+    {
+      "archived": false,
+      "bytes": 133008725,
+      "path": "ckpt/p10_pilot/normal_features/screw.pt",
+      "sha256": "eb47a650e2f81f4658b8f4607d8a179a4f7e9acb7decaf72dca8704bdb4a80cc"
+    },
+    {
+      "archived": false,
+      "bytes": 133008717,
+      "path": "ckpt/p10_pilot/normal_features/tile.pt",
+      "sha256": "aa0deae85723f5f1104f3684d2b8c09b284af9cfa15a64fccb2b2daf1d0d48b3"
+    },
+    {
+      "archived": false,
+      "bytes": 134630973,
+      "path": "ckpt/p10_pilot/normal_features/transistor.pt",
+      "sha256": "1ef217ad7f5b601f5da83e5a562f2098b9b24cc616485984e01027de6b4e8a7f"
+    },
+    {
+      "archived": false,
+      "bytes": 139496845,
+      "path": "ckpt/p10_pilot/normal_features/wood.pt",
+      "sha256": "8fa87f11f40d2238f8fd0c9c68c21b1697fefa2b3f288812fa94d2fdd087be48"
+    },
+    {
+      "archived": false,
+      "bytes": 142740957,
+      "path": "ckpt/p10_pilot/normal_features/zipper.pt",
+      "sha256": "dfe0820a4d68b86ab21dc59697a06d47cc359e4dfd37d143e4e04b2f521425af"
+    },
+    {
+      "archived": true,
+      "bytes": 35485367,
+      "path": "ckpt/p10_formal/results/formal_predictions.jsonl",
+      "sha256": "f678b96436506e5932f62fba130b903868b0c5b59972eaab12d5b6145b3599ad"
+    },
+    {
+      "archived": true,
+      "bytes": 1155127,
+      "path": "ckpt/p10_formal/results/formal_results.json",
+      "sha256": "5d94619baa6933ee175cad9308ce16a4410532b33f6c4f47ef916a2a4b9da96c"
+    },
+    {
+      "archived": true,
+      "bytes": 2599,
+      "path": "ckpt/p10_formal/results/formal_table.md",
+      "sha256": "3626e72dbe8632a3279f79d50c45b329a5e30d9c54dcf3b9a940c460359bc5a3"
+    },
+    {
+      "archived": false,
+      "bytes": 141119069,
+      "path": "ckpt/p10_formal/features/normals_bottle.pt",
+      "sha256": "0a86fe4f01465988e08b4ebd4fe6ac58fb5c79ab6dc3220711869193bafe848c"
+    },
+    {
+      "archived": false,
+      "bytes": 134631013,
+      "path": "ckpt/p10_formal/features/normals_capsule.pt",
+      "sha256": "17277ae93005938f9b285b2846c746e56ce3b568f6d064b45eaef009fe5c4c4c"
+    },
+    {
+      "archived": false,
+      "bytes": 145985181,
+      "path": "ckpt/p10_formal/features/normals_carpet.pt",
+      "sha256": "f19d33738b214f4f55ec5a33de4990c7fdf8fe7c85a65c0b707872731187a201"
+    },
+    {
+      "archived": false,
+      "bytes": 141119053,
+      "path": "ckpt/p10_formal/features/normals_grid.pt",
+      "sha256": "29d1c31c8212444c7bbca6dca0233becf66812ce4e61ff5b0bbe65e3ec8fb7ad"
+    },
+    {
+      "archived": false,
+      "bytes": 147607213,
+      "path": "ckpt/p10_formal/features/normals_hazelnut.pt",
+      "sha256": "5dff248b180fbd4a9c4ab89d2b2cf8bf3dbc786254e2edc79c8cf95ae577ba89"
+    },
+    {
+      "archived": false,
+      "bytes": 142741157,
+      "path": "ckpt/p10_formal/features/normals_leather.pt",
+      "sha256": "b698b5d6f153bc4527b9f5924aa230352822deb9d09159eecb8295b4409fc52d"
+    },
+    {
+      "archived": false,
+      "bytes": 128142901,
+      "path": "ckpt/p10_formal/features/normals_metal_nut.pt",
+      "sha256": "b636a695063304e581ed6ffa1d0a53c5ea9d77aa7255d902c9e2c9a0257c2808"
+    },
+    {
+      "archived": false,
+      "bytes": 147607181,
+      "path": "ckpt/p10_formal/features/normals_pill.pt",
+      "sha256": "9474cfc0be91eb7b1054bdeb26b1d03b8ea1ed6eef7c8b65fb57b23510b636b1"
+    },
+    {
+      "archived": false,
+      "bytes": 145985173,
+      "path": "ckpt/p10_formal/features/normals_screw.pt",
+      "sha256": "32e2a5999c95d7c464b7e5a44b65f7316054ba3b0c5eb0d001b85ea5f6ba7cdd"
+    },
+    {
+      "archived": false,
+      "bytes": 133008909,
+      "path": "ckpt/p10_formal/features/normals_tile.pt",
+      "sha256": "f1498e4f7fb30803e98f0d3f863640d426e7c5be33643453e31e5dd5783137c8"
+    },
+    {
+      "archived": false,
+      "bytes": 131386941,
+      "path": "ckpt/p10_formal/features/normals_transistor.pt",
+      "sha256": "90c4ce4869c24be6ef336de6aebc97ed936e2792aacb6d072639b534efc3435c"
+    },
+    {
+      "archived": false,
+      "bytes": 141119053,
+      "path": "ckpt/p10_formal/features/normals_wood.pt",
+      "sha256": "1240be511c28e1eb6e8e7edfc61a9543fceae12138a9f946b608381bb8bf0731"
+    },
+    {
+      "archived": false,
+      "bytes": 142741149,
+      "path": "ckpt/p10_formal/features/normals_zipper.pt",
+      "sha256": "0a65d4e055b02850dc5b18ea736860d6e67ea243f0a01c21d223ec9d6a56fdc5"
+    },
+    {
+      "archived": false,
+      "bytes": 50501731,
+      "path": "ckpt/p10_formal/features/queries_bottle.pt",
+      "sha256": "7949980c35db9b0bf9c131809f108298b41e6bfa114eff56db1feaa205d4821a"
+    },
+    {
+      "archived": false,
+      "bytes": 86339757,
+      "path": "ckpt/p10_formal/features/queries_capsule.pt",
+      "sha256": "f278922ab74abd0af46d1a8b8557ae5c696b8a26e6ae8b509e1571be99115ea3"
+    },
+    {
+      "archived": false,
+      "bytes": 68420707,
+      "path": "ckpt/p10_formal/features/queries_carpet.pt",
+      "sha256": "d85008232618d59a2d87e39080932d3bd5d274e39c33dbd65d04b7ad7003ea85"
+    },
+    {
+      "archived": false,
+      "bytes": 40727695,
+      "path": "ckpt/p10_formal/features/queries_grid.pt",
+      "sha256": "66ab5419402709bef20635e5abd452d5ed09272d7886cd5ba51aa29af4f0fa64"
+    },
+    {
+      "archived": false,
+      "bytes": 55388727,
+      "path": "ckpt/p10_formal/features/queries_hazelnut.pt",
+      "sha256": "fe8c59f353cca05c4cd7e4a2017dee6338647af19a63008be20e0153b1a99e6c"
+    },
+    {
+      "archived": false,
+      "bytes": 71678765,
+      "path": "ckpt/p10_formal/features/queries_leather.pt",
+      "sha256": "21bb3dd027e520c8518f90f0a4213c3f3319fb298c899b8d404ba52e52850690"
+    },
+    {
+      "archived": false,
+      "bytes": 73307777,
+      "path": "ckpt/p10_formal/features/queries_metal_nut.pt",
+      "sha256": "c462d85428256d3f415394fcacd999da312c7b01c16f648dc76cbb384aa16cd0"
+    },
+    {
+      "archived": false,
+      "bytes": 101000655,
+      "path": "ckpt/p10_formal/features/queries_pill.pt",
+      "sha256": "2428c386ff06bf609f331ee16cdf5ebb4a25a3d98dfe88f079bbba22f4e87522"
+    },
+    {
+      "archived": false,
+      "bytes": 94484697,
+      "path": "ckpt/p10_formal/features/queries_screw.pt",
+      "sha256": "c125bc390c844fd6d9680529d014df8311cb55c7e35b3b4a5b09847f096ef40b"
+    },
+    {
+      "archived": false,
+      "bytes": 66791695,
+      "path": "ckpt/p10_formal/features/queries_tile.pt",
+      "sha256": "2268b3aaf2431465cb8b364f44f559f5cc3ca0335fdb18a4bcc743bdb3e48bdd"
+    },
+    {
+      "archived": false,
+      "bytes": 32582795,
+      "path": "ckpt/p10_formal/features/queries_transistor.pt",
+      "sha256": "1ffee2803613d13c7b1bdda82bb88e478d51e345eba3b5748d130f649bee05b7"
+    },
+    {
+      "archived": false,
+      "bytes": 40727695,
+      "path": "ckpt/p10_formal/features/queries_wood.pt",
+      "sha256": "be92f28e9e6a05b1da67f78d5cd844da2c2b940e9f534cd8cf2878a9dcd54d84"
+    },
+    {
+      "archived": false,
+      "bytes": 81452707,
+      "path": "ckpt/p10_formal/features/queries_zipper.pt",
+      "sha256": "c5681197e93bb2b441a5036b3ff3065ddea83ca2dfae0075f04dcd7f6c929f33"
+    },
+    {
+      "archived": true,
+      "bytes": 408176,
+      "path": "ckpt/p10_formal/supplement_s/supplement_s_results.json",
+      "sha256": "9a0d900c0511958c528bf45685f011790fe76e778bee562fb9ff343a346f9094"
+    },
+    {
+      "archived": true,
+      "bytes": 1008,
+      "path": "ckpt/p10_formal/supplement_s/supplement_s_table.md",
+      "sha256": "6aecc1fd75c083752af441b5209965892e1338332d96245d6e31463f132e4e08"
+    },
+    {
+      "archived": true,
+      "bytes": 559804,
+      "path": "ckpt/p10_external/results/external_results.json",
+      "sha256": "05060cbec6adad6c456102af10061651e9006901b01d0f1af86dc3da79b084cf"
+    },
+    {
+      "archived": true,
+      "bytes": 4156,
+      "path": "ckpt/p10_external/results/external_table.md",
+      "sha256": "3d15de1bbca488dc317d3b3d0ae49e7c7d6e38f2aeca3a34356f1f17f9824175"
+    },
+    {
+      "archived": true,
+      "bytes": 921464,
+      "path": "ckpt/p10_external/normal_aware/normal_aware_results.json",
+      "sha256": "1b8b2a8a0a4521e2c6f2313c0584f396578658c6fafdbb2d884a52bafe916ccf"
+    },
+    {
+      "archived": true,
+      "bytes": 4538,
+      "path": "ckpt/p10_external/normal_aware/normal_aware_table.md",
+      "sha256": "46f7b59a275a1d979ee98d87b9fef44453593480409105b047a52bd8f84eca26"
+    },
+    {
+      "archived": true,
+      "bytes": 24163304,
+      "path": "ckpt/p10_external/normal_aware/p10_external_predictions.jsonl.gz",
+      "sha256": "776c65d998dc0ddc1e163cde230a801b27eaf539bb65f6159ccdb2b9561d669b"
+    },
+    {
+      "archived": true,
+      "bytes": 422719,
+      "path": "ckpt/p10_cable/results/cable_predictions.jsonl",
+      "sha256": "0a3b4e3b7281478070a30a3bf88cf9d08e230cfdb7a333212efea7dca9148da8"
+    },
+    {
+      "archived": true,
+      "bytes": 61307,
+      "path": "ckpt/p10_cable/results/cable_results.json",
+      "sha256": "28b433e29fa735d6ec47f7baaecd61d90b5feee7c6d196d29dd39da6dd532f1a"
+    },
+    {
+      "archived": true,
+      "bytes": 1572,
+      "path": "ckpt/p10_cable/results/cable_table.md",
+      "sha256": "3f7158553767963803442e583763971c14426086b4d73c0d9d9f128e23e8c8f6"
+    }
+  ],
+  "missing_dirs": [],
+  "provenance": {
+    "head": "249541ab05ab721bbeb6209d9902ea3803758c01",
+    "tracked_tree_dirty": true
+  },
+  "schema_version": "p10_evidence_manifest_v1"
+}

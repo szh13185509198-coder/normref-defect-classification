@@ -1,0 +1,35 @@
+[10/03/2026-17:01:56] [TRT] [W] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+/home/<USER>/p31/repo/experiments/p41/fused_engine.py:112: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /opt/pytorch/torch/csrc/utils/tensor_numpy.cpp:204.)
+  x = torch.from_numpy(np.asarray(image.convert("RGB"))).to(device, non_blocking=True)
+[10/03/2026-17:01:56] [TRT] [W] Using default stream in enqueueV3() may lead to performance issues due to additional calls to cudaStreamSynchronize() by TensorRT to ensure correct synchronization. Please use non-default stream instead.
+[p48] bottle: 14 s, E 0.0093 0.0097 0.0097 0.0109 0.0089 | X 0.0984 0.1075 0.1029 0.0975 0.1077
+[p48] capsule: 14 s, E 0.0085 0.0103 0.0114 0.0134 0.0099 | X 0.0748 0.0738 0.0808 0.0871 0.0751
+[p48] carpet: 16 s, E 0.0098 0.0108 0.0105 0.0099 0.0099 | X 0.0551 0.0551 0.0631 0.0405 0.0514
+[p48] grid: 14 s, E 0.0171 0.0099 0.0091 0.0096 0.0087 | X 0.1757 0.1571 0.1610 0.1678 0.1822
+[p48] hazelnut: 15 s, E 0.0064 0.0066 0.0137 0.0138 0.0155 | X 0.1058 0.0943 0.1269 0.1196 0.1059
+[p48] leather: 14 s, E 0.0102 0.0103 0.0097 0.0102 0.0100 | X 0.0673 0.0732 0.0602 0.0682 0.0759
+[p48] metal_nut: 13 s, E 0.0096 0.0104 0.0094 0.0107 0.0097 | X 0.1061 0.1061 0.1057 0.1183 0.1078
+[p48] pill: 15 s, E 0.0100 0.0093 0.0103 0.0097 0.0110 | X 0.0532 0.0609 0.0572 0.0637 0.0661
+[p48] screw: 15 s, E 0.0111 0.0149 0.0083 0.0095 0.0111 | X 0.1205 0.1293 0.1356 0.1316 0.1296
+[p48] tile: 13 s, E 0.0105 0.0090 0.0105 0.0091 0.0106 | X 0.0712 0.0401 0.0619 0.0666 0.0800
+[p48] transistor: 14 s, E 0.0100 0.0094 0.0098 0.0102 0.0117 | X 0.1287 0.1230 0.0980 0.1326 0.1315
+[p48] wood: 15 s, E 0.0099 0.0096 0.0111 0.0112 0.0089 | X 0.1105 0.0946 0.0801 0.1129 0.0693
+[p48] zipper: 14 s, E 0.0112 0.0094 0.0100 0.0097 0.0101 | X 0.1040 0.0847 0.0999 0.1025 0.0851
+{
+ "rate_R": {
+  "macro": 0.010059859267895759,
+  "min_product": 0.008063847429519072,
+  "max_product": 0.011670812603648426
+ },
+ "rate_E": {
+  "macro": 0.010316178240265242,
+  "min_product": 0.009726109038142621,
+  "max_product": 0.011179332942097027
+ },
+ "rate_X": {
+  "macro": 0.09662499133704251,
+  "min_product": 0.053032242063492066,
+  "max_product": 0.1687621786898839
+ },
+ "tau_eng_minus_ref_mean": 0.13741340918724346
+}

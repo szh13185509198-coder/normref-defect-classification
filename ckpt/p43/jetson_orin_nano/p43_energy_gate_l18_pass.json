@@ -1,0 +1,19 @@
+{
+ "schema_version": "p43_energy_v1",
+ "block": "gate_l18_pass",
+ "seconds": 60.0,
+ "torch": "2.8.0",
+ "start": {
+  "epoch": 1790953167.5654345,
+  "local": "2026-10-02 22:59:27"
+ },
+ "end": {
+  "epoch": 1790953227.6022296,
+  "local": "2026-10-02 23:00:27"
+ },
+ "forwards": 997,
+ "mean_ms": 60.217396525577726,
+ "check": {
+  "screen_score_equal_p15_formula": true
+ }
+}

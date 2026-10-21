@@ -1,0 +1,13 @@
+NV Power Mode: MAXN_SUPER
+gpu min 1020000000 max 1020000000 cur 1020000000
+[p47 2026-10-03 16:22:31] dyn already built and checked
+[p47 2026-10-03 16:22:31] STEP_OK dyn built and checked
+[p47 2026-10-03 16:22:31] g2 already built and checked
+[p47 2026-10-03 16:22:31] STEP_OK g2 built and checked
+[p47 2026-10-03 16:22:31] g3 skipped
+NV Power Mode: MAXN_SUPER
+gpu min 1020000000 max 1020000000 cur 1020000000
+[p47 2026-10-03 16:27:13] STEP_OK timing pass 1
+[p47 2026-10-03 16:31:54] STEP_OK timing pass 2
+NV Power Mode: MAXN_SUPER
+gpu min 1020000000 max 1020000000 cur 1020000000

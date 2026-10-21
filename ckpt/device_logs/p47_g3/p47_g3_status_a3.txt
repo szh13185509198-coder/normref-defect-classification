@@ -1,0 +1,4 @@
+START 2026-10-03 16:35:56
+STEP_OK 2026-10-03 16:42:16 g3 built and checked
+STEP_OK 2026-10-03 16:44:32 timing pass 1
+STEP_OK 2026-10-03 16:46:48 timing pass 2

@@ -1,0 +1,21 @@
+row,dataset,delta_pp,ci_low_pp,ci_high_pp
+Proposed vs appearance-only region,1 shot,3.0512,-0.1511,5.7824
+Proposed vs appearance-only region,3 shots,2.7344,0.8892,4.4591
+Proposed vs appearance-only region,5 shots,1.2223,-0.6799,3.1017
+Proposed vs appearance-only region,mean,2.336,0.2425,4.2363
+Proposed vs SimpleShot,1 shot,18.1673,9.9863,24.9271
+Proposed vs SimpleShot,3 shots,19.6147,12.4838,25.6318
+Proposed vs SimpleShot,5 shots,16.7014,9.6187,22.6303
+Proposed vs SimpleShot,mean,18.1611,10.7705,24.2093
+Support consensus vs cross-class contrast,1 shot,3.1245,0.4518,5.8306
+Support consensus vs cross-class contrast,3 shots,4.131,0.9946,7.232
+Support consensus vs cross-class contrast,5 shots,4.187,0.9752,7.351
+Support consensus vs cross-class contrast,mean,3.8142,1.1509,6.4709
+Support consensus vs SimpleShot,1 shot,9.7858,6.6454,13.531
+Support consensus vs SimpleShot,3 shots,12.1298,9.2479,15.0422
+Support consensus vs SimpleShot,5 shots,11.6481,7.8558,15.1453
+Support consensus vs SimpleShot,mean,11.1879,8.3333,14.1826
+Fixed 10% normal-referenced vs SimpleShot,1 shot,5.6057,2.3326,8.8152
+Fixed 10% normal-referenced vs SimpleShot,3 shots,7.4296,4.7491,10.0164
+Fixed 10% normal-referenced vs SimpleShot,5 shots,5.5318,3.0824,8.395
+Fixed 10% normal-referenced vs SimpleShot,mean,6.189,3.7483,8.7572

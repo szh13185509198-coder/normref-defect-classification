@@ -1,0 +1,26 @@
+panel,series,bin,value
+purity,Whole-image mean,< 2%,0.0128
+purity,Whole-image mean,2–5%,0.032
+purity,Whole-image mean,5–15%,0.0792
+purity,Whole-image mean,≥ 15%,0.3416
+purity,"Fixed top 10%, uniform",< 2%,0.1102
+purity,"Fixed top 10%, uniform",2–5%,0.2592
+purity,"Fixed top 10%, uniform",5–15%,0.5887
+purity,"Fixed top 10%, uniform",≥ 15%,0.9486
+purity,"Normal-calibrated, uniform",< 2%,0.2921
+purity,"Normal-calibrated, uniform",2–5%,0.4236
+purity,"Normal-calibrated, uniform",5–15%,0.5672
+purity,"Normal-calibrated, uniform",≥ 15%,0.8098
+purity,"MEBin (per image), weighted",< 2%,0.5956
+purity,"MEBin (per image), weighted",2–5%,0.8063
+purity,"MEBin (per image), weighted",5–15%,0.8746
+purity,"MEBin (per image), weighted",≥ 15%,0.8906
+purity,"Normal-calibrated, weighted (proposed)",< 2%,0.5152
+purity,"Normal-calibrated, weighted (proposed)",2–5%,0.677
+purity,"Normal-calibrated, weighted (proposed)",5–15%,0.7899
+purity,"Normal-calibrated, weighted (proposed)",≥ 15%,0.9171
+exceedance,distance,1,22.770000000000003
+exceedance,distance,2,9.41
+exceedance,distance,3,5.93
+exceedance,distance,4–5,4.390000000000001
+exceedance,distance,≥ 6,3.39

@@ -1,0 +1,25 @@
+# Core (versions left open for CUDA 12.8 / newer GPUs)
+torch>=2.4.0
+torchvision
+
+# Other dependencies
+einops==0.7.0
+faiss-gpu
+ftfy==6.2.0
+kornia==0.6.9
+matplotlib
+opencv-python==4.9.0.80
+pandas
+Pillow
+regex
+scikit-learn
+scipy
+seaborn
+tiktoken==0.7.0
+timm==0.6.12
+tqdm
+transformers
+ipdb
+
+# Deployment rounds only (p35, p38, p41, p43-p46): onnx, and TensorRT 10 from the NVIDIA / JetPack install
+onnx

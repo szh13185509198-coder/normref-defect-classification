@@ -1,0 +1,60 @@
+{
+  "products": {
+    "bottle": {
+      "extracted": 208,
+      "train_good": 209
+    },
+    "capsule": {
+      "extracted": 218,
+      "train_good": 219
+    },
+    "carpet": {
+      "extracted": 268,
+      "train_good": 280
+    },
+    "grid": {
+      "extracted": 257,
+      "train_good": 264
+    },
+    "hazelnut": {
+      "extracted": 342,
+      "train_good": 391
+    },
+    "leather": {
+      "extracted": 237,
+      "train_good": 245
+    },
+    "metal_nut": {
+      "extracted": 218,
+      "train_good": 220
+    },
+    "pill": {
+      "extracted": 258,
+      "train_good": 267
+    },
+    "screw": {
+      "extracted": 304,
+      "train_good": 320
+    },
+    "tile": {
+      "extracted": 225,
+      "train_good": 230
+    },
+    "transistor": {
+      "extracted": 212,
+      "train_good": 213
+    },
+    "wood": {
+      "extracted": 237,
+      "train_good": 247
+    },
+    "zipper": {
+      "extracted": 232,
+      "train_good": 240
+    }
+  },
+  "provenance": {
+    "head": "54844f24733a8362026e309785afe840de59785b",
+    "tracked_tree_dirty": true
+  }
+}

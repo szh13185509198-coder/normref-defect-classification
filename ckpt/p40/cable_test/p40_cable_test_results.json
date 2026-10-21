@@ -1,0 +1,1922 @@
+{
+  "aggregate": {
+    "layer12": {
+      "8": {
+        "3way|pass=0.1|auto_false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.1|escape_rate": {
+          "mean": 0.10714285714285714,
+          "sd": 0.0
+        },
+        "3way|pass=0.1|escapes_per_1000": {
+          "mean": 5.357142857142861,
+          "sd": 0.0
+        },
+        "3way|pass=0.1|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.1|review_items_per_1000": {
+          "mean": 106.58571428571432,
+          "sd": 53.066631200206935
+        },
+        "3way|pass=0.3|auto_false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.3|escape_rate": {
+          "mean": 0.007142857142857143,
+          "sd": 0.015971914124998498
+        },
+        "3way|pass=0.3|escapes_per_1000": {
+          "mean": 0.35714285714285743,
+          "sd": 0.7985957062499255
+        },
+        "3way|pass=0.3|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.3|review_items_per_1000": {
+          "mean": 263.5857142857143,
+          "sd": 34.036460042796726
+        },
+        "auroc": {
+          "mean": 0.9774285714285714,
+          "sd": 0.007206856146073972
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|escape_rate": {
+          "mean": 0.6428571428571429,
+          "sd": 0.1010152544552211
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|escapes_per_1000": {
+          "mean": 32.14285714285717,
+          "sd": 5.050762722761058
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|type_acc_rejected_defects": {
+          "mean": 0.8630952380952381,
+          "sd": 0.018346470246931465
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|wrong_type_per_1000": {
+          "mean": 2.500000000000002,
+          "sd": 0.9780759955449404
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|escape_rate": {
+          "mean": 0.5071428571428571,
+          "sd": 0.13219111088086963
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|escapes_per_1000": {
+          "mean": 25.35714285714288,
+          "sd": 6.609555544043487
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|type_acc_rejected_defects": {
+          "mean": 0.8696117040853883,
+          "sd": 0.05748629082687975
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|wrong_type_per_1000": {
+          "mean": 3.2142857142857166,
+          "sd": 1.4940357616679931
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|escape_rate": {
+          "mean": 0.19285714285714284,
+          "sd": 0.08222046023729529
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|escapes_per_1000": {
+          "mean": 9.64285714285715,
+          "sd": 4.111023011864768
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|false_reject_rate": {
+          "mean": 0.008,
+          "sd": 0.01788854381999832
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|false_rejects_per_1000": {
+          "mean": 7.6,
+          "sd": 16.994116628998402
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|type_acc_rejected_defects": {
+          "mean": 0.8570649350649351,
+          "sd": 0.02556291535124365
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|wrong_type_per_1000": {
+          "mean": 5.714285714285719,
+          "sd": 0.7985957062499245
+        },
+        "oracle|escape_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "oracle|escapes_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "oracle|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "oracle|review_items_per_1000": {
+          "mean": 260.14285714285717,
+          "sd": 92.97701054452074
+        },
+        "pass|a=0.01|defect": {
+          "mean": 0.6428571428571429,
+          "sd": 0.1010152544552211
+        },
+        "pass|a=0.01|normal": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "pass|a=0.02|defect": {
+          "mean": 0.5071428571428571,
+          "sd": 0.13219111088086963
+        },
+        "pass|a=0.02|normal": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "pass|a=0.05|defect": {
+          "mean": 0.19285714285714284,
+          "sd": 0.08222046023729528
+        },
+        "pass|a=0.05|normal": {
+          "mean": 0.992,
+          "sd": 0.017888543819998333
+        },
+        "pass|a=0.1|defect": {
+          "mean": 0.10714285714285714,
+          "sd": 0.0
+        },
+        "pass|a=0.1|normal": {
+          "mean": 0.916,
+          "sd": 0.05727128425310541
+        },
+        "pass|a=0.3|defect": {
+          "mean": 0.007142857142857143,
+          "sd": 0.015971914124998498
+        },
+        "pass|a=0.3|normal": {
+          "mean": 0.756,
+          "sd": 0.03847076812334268
+        },
+        "simpleshot_cl2n|a=0.01|escape_rate": {
+          "mean": 0.6428571428571429,
+          "sd": 0.1010152544552211
+        },
+        "simpleshot_cl2n|a=0.01|escapes_per_1000": {
+          "mean": 32.14285714285717,
+          "sd": 5.050762722761058
+        },
+        "simpleshot_cl2n|a=0.01|false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "simpleshot_cl2n|a=0.01|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "simpleshot_cl2n|a=0.01|type_acc_rejected_defects": {
+          "mean": 0.8488095238095237,
+          "sd": 0.039618003076889854
+        },
+        "simpleshot_cl2n|a=0.01|wrong_type_per_1000": {
+          "mean": 2.8571428571428594,
+          "sd": 1.5971914124998512
+        },
+        "simpleshot_cl2n|a=0.02|escape_rate": {
+          "mean": 0.5071428571428571,
+          "sd": 0.13219111088086963
+        },
+        "simpleshot_cl2n|a=0.02|escapes_per_1000": {
+          "mean": 25.35714285714288,
+          "sd": 6.609555544043487
+        },
+        "simpleshot_cl2n|a=0.02|false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "simpleshot_cl2n|a=0.02|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "simpleshot_cl2n|a=0.02|type_acc_rejected_defects": {
+          "mean": 0.8465853882959147,
+          "sd": 0.05900356595283254
+        },
+        "simpleshot_cl2n|a=0.02|wrong_type_per_1000": {
+          "mean": 3.928571428571432,
+          "sd": 1.9561519910898808
+        },
+        "simpleshot_cl2n|a=0.05|escape_rate": {
+          "mean": 0.19285714285714284,
+          "sd": 0.08222046023729529
+        },
+        "simpleshot_cl2n|a=0.05|escapes_per_1000": {
+          "mean": 9.64285714285715,
+          "sd": 4.111023011864768
+        },
+        "simpleshot_cl2n|a=0.05|false_reject_rate": {
+          "mean": 0.008,
+          "sd": 0.01788854381999832
+        },
+        "simpleshot_cl2n|a=0.05|false_rejects_per_1000": {
+          "mean": 7.6,
+          "sd": 16.994116628998402
+        },
+        "simpleshot_cl2n|a=0.05|type_acc_rejected_defects": {
+          "mean": 0.7809264069264069,
+          "sd": 0.038974475797438096
+        },
+        "simpleshot_cl2n|a=0.05|wrong_type_per_1000": {
+          "mean": 8.928571428571436,
+          "sd": 2.1870444131992675
+        }
+      }
+    },
+    "layer18": {
+      "8": {
+        "3way|pass=0.1|auto_false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.1|escape_rate": {
+          "mean": 0.15,
+          "sd": 0.015971914124998505
+        },
+        "3way|pass=0.1|escapes_per_1000": {
+          "mean": 7.500000000000005,
+          "sd": 0.7985957062499256
+        },
+        "3way|pass=0.1|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.1|review_items_per_1000": {
+          "mean": 56.542857142857144,
+          "sd": 18.60296772462032
+        },
+        "3way|pass=0.3|auto_false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.3|escape_rate": {
+          "mean": 0.06428571428571428,
+          "sd": 0.02988071523335984
+        },
+        "3way|pass=0.3|escapes_per_1000": {
+          "mean": 3.2142857142857166,
+          "sd": 1.4940357616679931
+        },
+        "3way|pass=0.3|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "3way|pass=0.3|review_items_per_1000": {
+          "mean": 190.0285714285714,
+          "sd": 36.15247613390049
+        },
+        "auroc": {
+          "mean": 0.9692857142857143,
+          "sd": 0.010264362759428488
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|escape_rate": {
+          "mean": 0.2928571428571428,
+          "sd": 0.058684559732696345
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|escapes_per_1000": {
+          "mean": 14.642857142857153,
+          "sd": 2.934227986634819
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|type_acc_rejected_defects": {
+          "mean": 0.8280473912052859,
+          "sd": 0.025774849604509403
+        },
+        "fused_adareg_regres_soft_q99|a=0.01|wrong_type_per_1000": {
+          "mean": 6.0714285714285765,
+          "sd": 0.9780759955449391
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|escape_rate": {
+          "mean": 0.2357142857142857,
+          "sd": 0.08222046023729523
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|escapes_per_1000": {
+          "mean": 11.785714285714295,
+          "sd": 4.1110230118647655
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|false_reject_rate": {
+          "mean": 0.004,
+          "sd": 0.00894427190999916
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|false_rejects_per_1000": {
+          "mean": 3.8,
+          "sd": 8.497058314499201
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|type_acc_rejected_defects": {
+          "mean": 0.8301695444143956,
+          "sd": 0.03149903677812277
+        },
+        "fused_adareg_regres_soft_q99|a=0.02|wrong_type_per_1000": {
+          "mean": 6.428571428571433,
+          "sd": 0.9780759955449393
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|escape_rate": {
+          "mean": 0.18571428571428575,
+          "sd": 0.058684559732696345
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|escapes_per_1000": {
+          "mean": 9.285714285714295,
+          "sd": 2.9342279866348195
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|false_reject_rate": {
+          "mean": 0.024,
+          "sd": 0.016733200530681513
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|false_rejects_per_1000": {
+          "mean": 22.8,
+          "sd": 15.896540504147435
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|type_acc_rejected_defects": {
+          "mean": 0.8416666666666666,
+          "sd": 0.02511312274967735
+        },
+        "fused_adareg_regres_soft_q99|a=0.05|wrong_type_per_1000": {
+          "mean": 6.428571428571433,
+          "sd": 0.9780759955449391
+        },
+        "oracle|escape_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "oracle|escapes_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "oracle|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "oracle|review_items_per_1000": {
+          "mean": 326.24285714285713,
+          "sd": 105.9935091389649
+        },
+        "pass|a=0.01|defect": {
+          "mean": 0.29285714285714287,
+          "sd": 0.05868455973269638
+        },
+        "pass|a=0.01|normal": {
+          "mean": 1.0,
+          "sd": 0.0
+        },
+        "pass|a=0.02|defect": {
+          "mean": 0.2357142857142857,
+          "sd": 0.08222046023729529
+        },
+        "pass|a=0.02|normal": {
+          "mean": 0.9960000000000001,
+          "sd": 0.008944271909999166
+        },
+        "pass|a=0.05|defect": {
+          "mean": 0.18571428571428572,
+          "sd": 0.05868455973269637
+        },
+        "pass|a=0.05|normal": {
+          "mean": 0.976,
+          "sd": 0.016733200530681527
+        },
+        "pass|a=0.1|defect": {
+          "mean": 0.15,
+          "sd": 0.015971914124998505
+        },
+        "pass|a=0.1|normal": {
+          "mean": 0.9480000000000001,
+          "sd": 0.01788854381999829
+        },
+        "pass|a=0.3|defect": {
+          "mean": 0.06428571428571428,
+          "sd": 0.02988071523335984
+        },
+        "pass|a=0.3|normal": {
+          "mean": 0.8119999999999999,
+          "sd": 0.03633180424916988
+        },
+        "simpleshot_cl2n|a=0.01|escape_rate": {
+          "mean": 0.2928571428571428,
+          "sd": 0.058684559732696345
+        },
+        "simpleshot_cl2n|a=0.01|escapes_per_1000": {
+          "mean": 14.642857142857153,
+          "sd": 2.934227986634819
+        },
+        "simpleshot_cl2n|a=0.01|false_reject_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "simpleshot_cl2n|a=0.01|false_rejects_per_1000": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "simpleshot_cl2n|a=0.01|type_acc_rejected_defects": {
+          "mean": 0.7566340092655881,
+          "sd": 0.027115995114872386
+        },
+        "simpleshot_cl2n|a=0.01|wrong_type_per_1000": {
+          "mean": 8.57142857142858,
+          "sd": 0.7985957062499264
+        },
+        "simpleshot_cl2n|a=0.02|escape_rate": {
+          "mean": 0.2357142857142857,
+          "sd": 0.08222046023729523
+        },
+        "simpleshot_cl2n|a=0.02|escapes_per_1000": {
+          "mean": 11.785714285714295,
+          "sd": 4.1110230118647655
+        },
+        "simpleshot_cl2n|a=0.02|false_reject_rate": {
+          "mean": 0.004,
+          "sd": 0.00894427190999916
+        },
+        "simpleshot_cl2n|a=0.02|false_rejects_per_1000": {
+          "mean": 3.8,
+          "sd": 8.497058314499201
+        },
+        "simpleshot_cl2n|a=0.02|type_acc_rejected_defects": {
+          "mean": 0.7641373691144858,
+          "sd": 0.025801654158612592
+        },
+        "simpleshot_cl2n|a=0.02|wrong_type_per_1000": {
+          "mean": 8.928571428571436,
+          "sd": 1.5888218580782547e-15
+        },
+        "simpleshot_cl2n|a=0.05|escape_rate": {
+          "mean": 0.18571428571428575,
+          "sd": 0.058684559732696345
+        },
+        "simpleshot_cl2n|a=0.05|escapes_per_1000": {
+          "mean": 9.285714285714295,
+          "sd": 2.9342279866348195
+        },
+        "simpleshot_cl2n|a=0.05|false_reject_rate": {
+          "mean": 0.024,
+          "sd": 0.016733200530681513
+        },
+        "simpleshot_cl2n|a=0.05|false_rejects_per_1000": {
+          "mean": 22.8,
+          "sd": 15.896540504147435
+        },
+        "simpleshot_cl2n|a=0.05|type_acc_rejected_defects": {
+          "mean": 0.7797619047619048,
+          "sd": 0.01630126659241566
+        },
+        "simpleshot_cl2n|a=0.05|wrong_type_per_1000": {
+          "mean": 8.928571428571438,
+          "sd": 0.0
+        }
+      }
+    }
+  },
+  "integrity": {
+    "p15_units_reproduced": 5
+  },
+  "layer": 12,
+  "protocol": "docs/P40_SHALLOW_EXIT_PROTOCOL.md#3",
+  "provenance": {
+    "head": "8accee87c6f4e80b95d62947d82f604a5cba750c",
+    "tracked_tree_dirty": true
+  },
+  "schema_version": "p40_cable_test_v1",
+  "units": {
+    "111": {
+      "layer12": {
+        "auroc": 0.9792857142857143,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 244.71428571428575
+          },
+          "review_rate_defect": 0.7142857142857143,
+          "review_rate_good": 0.22,
+          "tau_pass": 0.394304633139564
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.7142857142857143,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.6428571428571429,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.25,
+            "normal": 1.0
+          },
+          "0.1": {
+            "defect": 0.10714285714285714,
+            "normal": 0.98
+          },
+          "0.3": {
+            "defect": 0.0,
+            "normal": 0.74
+          }
+        },
+        "taus": {
+          "0.01": 0.5307313203811646,
+          "0.02": 0.5184918642044067,
+          "0.05": 0.475145548582077,
+          "0.1": 0.43192124366760254,
+          "0.3": 0.386361688375473
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.10714285714285714,
+            "per_1000": {
+              "escapes": 5.357142857142861,
+              "false_rejects": 0.0,
+              "review_items": 49.357142857142875
+            },
+            "review_rate_defect": 0.6071428571428571,
+            "review_rate_good": 0.02
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.0,
+            "per_1000": {
+              "escapes": 0.0,
+              "false_rejects": 0.0,
+              "review_items": 282.7142857142858
+            },
+            "review_rate_defect": 0.7142857142857143,
+            "review_rate_good": 0.26
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.2857142857142857,
+              "escape_rate": 0.7142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 35.714285714285744,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142871
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.02": {
+              "defect_recall": 0.35714285714285715,
+              "escape_rate": 0.6428571428571428,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 32.14285714285717,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142867
+              },
+              "type_acc_rejected_defects": 0.9
+            },
+            "0.05": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142863
+              },
+              "type_acc_rejected_defects": 0.8571428571428571
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.2857142857142857,
+              "escape_rate": 0.7142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 35.714285714285744,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142871
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.02": {
+              "defect_recall": 0.35714285714285715,
+              "escape_rate": 0.6428571428571428,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 32.14285714285717,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142867
+              },
+              "type_acc_rejected_defects": 0.9
+            },
+            "0.05": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7619047619047619
+            }
+          }
+        }
+      },
+      "layer18": {
+        "auroc": 0.975,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 219.71428571428572
+          },
+          "review_rate_defect": 0.21428571428571427,
+          "review_rate_good": 0.22,
+          "tau_pass": 0.37336313724417824
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.21428571428571427,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.21428571428571427,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.14285714285714285,
+            "normal": 1.0
+          },
+          "0.1": {
+            "defect": 0.14285714285714285,
+            "normal": 0.96
+          },
+          "0.3": {
+            "defect": 0.07142857142857142,
+            "normal": 0.82
+          }
+        },
+        "taus": {
+          "0.01": 0.4870421886444092,
+          "0.02": 0.48415178060531616,
+          "0.05": 0.44398218393325806,
+          "0.1": 0.4113789498806,
+          "0.3": 0.3770292401313782
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.14285714285714285,
+            "per_1000": {
+              "escapes": 7.142857142857149,
+              "false_rejects": 0.0,
+              "review_items": 41.57142857142857
+            },
+            "review_rate_defect": 0.07142857142857142,
+            "review_rate_good": 0.04
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.07142857142857142,
+            "per_1000": {
+              "escapes": 3.5714285714285743,
+              "false_rejects": 0.0,
+              "review_items": 178.14285714285714
+            },
+            "review_rate_defect": 0.14285714285714285,
+            "review_rate_good": 0.18
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.7857142857142857,
+              "escape_rate": 0.2142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 10.714285714285724,
+                "false_rejects": 0.0,
+                "wrong_type": 7.142857142857147
+              },
+              "type_acc_rejected_defects": 0.8181818181818182
+            },
+            "0.02": {
+              "defect_recall": 0.7857142857142857,
+              "escape_rate": 0.2142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 10.714285714285724,
+                "false_rejects": 0.0,
+                "wrong_type": 7.142857142857147
+              },
+              "type_acc_rejected_defects": 0.8181818181818182
+            },
+            "0.05": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 0.0,
+                "wrong_type": 7.142857142857147
+              },
+              "type_acc_rejected_defects": 0.8333333333333334
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.7857142857142857,
+              "escape_rate": 0.2142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 10.714285714285724,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7727272727272727
+            },
+            "0.02": {
+              "defect_recall": 0.7857142857142857,
+              "escape_rate": 0.2142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 10.714285714285724,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7727272727272727
+            },
+            "0.05": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7916666666666666
+            }
+          }
+        }
+      }
+    },
+    "222": {
+      "layer12": {
+        "auroc": 0.9785714285714285,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 253.0
+          },
+          "review_rate_defect": 0.5,
+          "review_rate_good": 0.24,
+          "tau_pass": 0.3935299813737406
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.5,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.42857142857142855,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.10714285714285714,
+            "normal": 1.0
+          },
+          "0.1": {
+            "defect": 0.10714285714285714,
+            "normal": 0.88
+          },
+          "0.3": {
+            "defect": 0.0,
+            "normal": 0.74
+          }
+        },
+        "taus": {
+          "0.01": 0.5119765400886536,
+          "0.02": 0.4999699592590332,
+          "0.05": 0.4512961506843567,
+          "0.1": 0.42168378829956055,
+          "0.3": 0.39065659046173096
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.10714285714285714,
+            "per_1000": {
+              "escapes": 5.357142857142861,
+              "false_rejects": 0.0,
+              "review_items": 133.64285714285714
+            },
+            "review_rate_defect": 0.39285714285714285,
+            "review_rate_good": 0.12
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.0,
+            "per_1000": {
+              "escapes": 0.0,
+              "false_rejects": 0.0,
+              "review_items": 272.0
+            },
+            "review_rate_defect": 0.5,
+            "review_rate_good": 0.26
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.5,
+              "escape_rate": 0.5,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 25.00000000000002,
+                "false_rejects": 0.0,
+                "wrong_type": 3.5714285714285756
+              },
+              "type_acc_rejected_defects": 0.8571428571428571
+            },
+            "0.02": {
+              "defect_recall": 0.5714285714285714,
+              "escape_rate": 0.4285714285714286,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 21.42857142857145,
+                "false_rejects": 0.0,
+                "wrong_type": 3.5714285714285743
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.05": {
+              "defect_recall": 0.8928571428571429,
+              "escape_rate": 0.1071428571428571,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 5.357142857142859,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.88
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.5,
+              "escape_rate": 0.5,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 25.00000000000002,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142862
+              },
+              "type_acc_rejected_defects": 0.7857142857142857
+            },
+            "0.02": {
+              "defect_recall": 0.5714285714285714,
+              "escape_rate": 0.4285714285714286,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 21.42857142857145,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.8125
+            },
+            "0.05": {
+              "defect_recall": 0.8928571428571429,
+              "escape_rate": 0.1071428571428571,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 5.357142857142859,
+                "false_rejects": 0.0,
+                "wrong_type": 10.714285714285722
+              },
+              "type_acc_rejected_defects": 0.76
+            }
+          }
+        }
+      },
+      "layer18": {
+        "auroc": 0.9521428571428572,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 492.85714285714283
+          },
+          "review_rate_defect": 0.35714285714285715,
+          "review_rate_good": 0.5,
+          "tau_pass": 0.35862511396308083
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.35714285714285715,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.32142857142857145,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.25,
+            "normal": 0.96
+          },
+          "0.1": {
+            "defect": 0.17857142857142858,
+            "normal": 0.94
+          },
+          "0.3": {
+            "defect": 0.10714285714285714,
+            "normal": 0.76
+          }
+        },
+        "taus": {
+          "0.01": 0.4905308485031128,
+          "0.02": 0.472126305103302,
+          "0.05": 0.43819960951805115,
+          "0.1": 0.406800240278244,
+          "0.3": 0.3730778098106384
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.17857142857142858,
+            "per_1000": {
+              "escapes": 8.928571428571436,
+              "false_rejects": 0.0,
+              "review_items": 65.92857142857143
+            },
+            "review_rate_defect": 0.17857142857142858,
+            "review_rate_good": 0.06
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.10714285714285714,
+            "per_1000": {
+              "escapes": 5.357142857142861,
+              "false_rejects": 0.0,
+              "review_items": 240.5
+            },
+            "review_rate_defect": 0.25,
+            "review_rate_good": 0.24
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.6428571428571429,
+              "escape_rate": 0.3571428571428571,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 17.85714285714287,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.8333333333333334
+            },
+            "0.02": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142864
+              },
+              "type_acc_rejected_defects": 0.8421052631578947
+            },
+            "0.05": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.04,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 38.0,
+                "wrong_type": 5.357142857142863
+              },
+              "type_acc_rejected_defects": 0.8571428571428571
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.6428571428571429,
+              "escape_rate": 0.3571428571428571,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 17.85714285714287,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7222222222222222
+            },
+            "0.02": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7368421052631579
+            },
+            "0.05": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.04,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 38.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7619047619047619
+            }
+          }
+        }
+      }
+    },
+    "333": {
+      "layer12": {
+        "auroc": 0.9664285714285714,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 415.7142857142858
+          },
+          "review_rate_defect": 0.7142857142857143,
+          "review_rate_good": 0.4,
+          "tau_pass": 0.37274369597335
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.7142857142857143,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.6071428571428571,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.21428571428571427,
+            "normal": 1.0
+          },
+          "0.1": {
+            "defect": 0.10714285714285714,
+            "normal": 0.84
+          },
+          "0.3": {
+            "defect": 0.03571428571428571,
+            "normal": 0.76
+          }
+        },
+        "taus": {
+          "0.01": 0.5398507118225098,
+          "0.02": 0.5189977884292603,
+          "0.05": 0.4813064932823181,
+          "0.1": 0.43329235911369324,
+          "0.3": 0.3901086747646332
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.10714285714285714,
+            "per_1000": {
+              "escapes": 5.357142857142861,
+              "false_rejects": 0.0,
+              "review_items": 182.3571428571429
+            },
+            "review_rate_defect": 0.6071428571428571,
+            "review_rate_good": 0.16
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.03571428571428571,
+            "per_1000": {
+              "escapes": 1.7857142857142871,
+              "false_rejects": 0.0,
+              "review_items": 261.92857142857144
+            },
+            "review_rate_defect": 0.6785714285714286,
+            "review_rate_good": 0.24
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.2857142857142857,
+              "escape_rate": 0.7142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 35.714285714285744,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142871
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.02": {
+              "defect_recall": 0.39285714285714285,
+              "escape_rate": 0.6071428571428572,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 30.357142857142886,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142878
+              },
+              "type_acc_rejected_defects": 0.9090909090909091
+            },
+            "0.05": {
+              "defect_recall": 0.7857142857142857,
+              "escape_rate": 0.2142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 10.714285714285724,
+                "false_rejects": 0.0,
+                "wrong_type": 7.142857142857147
+              },
+              "type_acc_rejected_defects": 0.8181818181818182
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.2857142857142857,
+              "escape_rate": 0.7142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 35.714285714285744,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142871
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.02": {
+              "defect_recall": 0.39285714285714285,
+              "escape_rate": 0.6071428571428572,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 30.357142857142886,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142878
+              },
+              "type_acc_rejected_defects": 0.9090909090909091
+            },
+            "0.05": {
+              "defect_recall": 0.7857142857142857,
+              "escape_rate": 0.2142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 10.714285714285724,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7727272727272727
+            }
+          }
+        }
+      },
+      "layer18": {
+        "auroc": 0.9685714285714285,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 263.07142857142856
+          },
+          "review_rate_defect": 0.32142857142857145,
+          "review_rate_good": 0.26,
+          "tau_pass": 0.3698052167882456
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.32142857142857145,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.32142857142857145,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.25,
+            "normal": 0.96
+          },
+          "0.1": {
+            "defect": 0.14285714285714285,
+            "normal": 0.92
+          },
+          "0.3": {
+            "defect": 0.03571428571428571,
+            "normal": 0.8
+          }
+        },
+        "taus": {
+          "0.01": 0.5033666491508484,
+          "0.02": 0.4902506470680237,
+          "0.05": 0.46163445711135864,
+          "0.1": 0.4146665036678314,
+          "0.3": 0.3776029348373413
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.14285714285714285,
+            "per_1000": {
+              "escapes": 7.142857142857149,
+              "false_rejects": 0.0,
+              "review_items": 84.92857142857143
+            },
+            "review_rate_defect": 0.17857142857142858,
+            "review_rate_good": 0.08
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.03571428571428571,
+            "per_1000": {
+              "escapes": 1.7857142857142871,
+              "false_rejects": 0.0,
+              "review_items": 204.2857142857143
+            },
+            "review_rate_defect": 0.2857142857142857,
+            "review_rate_good": 0.2
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 7.142857142857149
+              },
+              "type_acc_rejected_defects": 0.7894736842105263
+            },
+            "0.02": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 7.142857142857149
+              },
+              "type_acc_rejected_defects": 0.7894736842105263
+            },
+            "0.05": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.04,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 38.0,
+                "wrong_type": 7.142857142857148
+              },
+              "type_acc_rejected_defects": 0.8095238095238095
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7368421052631579
+            },
+            "0.02": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7368421052631579
+            },
+            "0.05": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.04,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 38.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7619047619047619
+            }
+          }
+        }
+      }
+    },
+    "444": {
+      "layer12": {
+        "auroc": 0.9764285714285714,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 218.57142857142858
+          },
+          "review_rate_defect": 0.5714285714285714,
+          "review_rate_good": 0.2,
+          "tau_pass": 0.3979286849488749
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.5714285714285714,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.5357142857142857,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.2857142857142857,
+            "normal": 1.0
+          },
+          "0.1": {
+            "defect": 0.10714285714285714,
+            "normal": 0.92
+          },
+          "0.3": {
+            "defect": 0.0,
+            "normal": 0.72
+          }
+        },
+        "taus": {
+          "0.01": 0.5228323340415955,
+          "0.02": 0.5160465240478516,
+          "0.05": 0.46857571601867676,
+          "0.1": 0.43057459592819214,
+          "0.3": 0.3943270146846771
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.10714285714285714,
+            "per_1000": {
+              "escapes": 5.357142857142861,
+              "false_rejects": 0.0,
+              "review_items": 99.21428571428572
+            },
+            "review_rate_defect": 0.4642857142857143,
+            "review_rate_good": 0.08
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.0,
+            "per_1000": {
+              "escapes": 0.0,
+              "false_rejects": 0.0,
+              "review_items": 294.5714285714286
+            },
+            "review_rate_defect": 0.5714285714285714,
+            "review_rate_good": 0.28
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.42857142857142855,
+              "escape_rate": 0.5714285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 28.571428571428594,
+                "false_rejects": 0.0,
+                "wrong_type": 3.5714285714285734
+              },
+              "type_acc_rejected_defects": 0.8333333333333334
+            },
+            "0.02": {
+              "defect_recall": 0.4642857142857143,
+              "escape_rate": 0.5357142857142857,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 26.785714285714306,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.7692307692307693
+            },
+            "0.05": {
+              "defect_recall": 0.7142857142857143,
+              "escape_rate": 0.2857142857142857,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 14.285714285714297,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142862
+              },
+              "type_acc_rejected_defects": 0.85
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.42857142857142855,
+              "escape_rate": 0.5714285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 28.571428571428594,
+                "false_rejects": 0.0,
+                "wrong_type": 3.5714285714285734
+              },
+              "type_acc_rejected_defects": 0.8333333333333334
+            },
+            "0.02": {
+              "defect_recall": 0.4642857142857143,
+              "escape_rate": 0.5357142857142857,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 26.785714285714306,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.7692307692307693
+            },
+            "0.05": {
+              "defect_recall": 0.7142857142857143,
+              "escape_rate": 0.2857142857142857,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 14.285714285714297,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142862
+              },
+              "type_acc_rejected_defects": 0.85
+            }
+          }
+        }
+      },
+      "layer18": {
+        "auroc": 0.9721428571428572,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 358.07142857142856
+          },
+          "review_rate_defect": 0.32142857142857145,
+          "review_rate_good": 0.36,
+          "tau_pass": 0.3608866631974711
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.32142857142857145,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.17857142857142858,
+            "normal": 0.98
+          },
+          "0.05": {
+            "defect": 0.14285714285714285,
+            "normal": 0.98
+          },
+          "0.1": {
+            "defect": 0.14285714285714285,
+            "normal": 0.96
+          },
+          "0.3": {
+            "defect": 0.03571428571428571,
+            "normal": 0.82
+          }
+        },
+        "taus": {
+          "0.01": 0.4939309060573578,
+          "0.02": 0.4641290307044983,
+          "0.05": 0.43741846084594727,
+          "0.1": 0.4084344506263733,
+          "0.3": 0.3761269450187683
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.14285714285714285,
+            "per_1000": {
+              "escapes": 7.142857142857149,
+              "false_rejects": 0.0,
+              "review_items": 46.92857142857144
+            },
+            "review_rate_defect": 0.17857142857142858,
+            "review_rate_good": 0.04
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.03571428571428571,
+            "per_1000": {
+              "escapes": 1.7857142857142871,
+              "false_rejects": 0.0,
+              "review_items": 185.28571428571428
+            },
+            "review_rate_defect": 0.2857142857142857,
+            "review_rate_good": 0.18
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142864
+              },
+              "type_acc_rejected_defects": 0.8421052631578947
+            },
+            "0.02": {
+              "defect_recall": 0.8214285714285714,
+              "escape_rate": 0.1785714285714286,
+              "false_reject_rate": 0.02,
+              "per_1000": {
+                "escapes": 8.928571428571438,
+                "false_rejects": 19.0,
+                "wrong_type": 7.142857142857149
+              },
+              "type_acc_rejected_defects": 0.8260869565217391
+            },
+            "0.05": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.02,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 19.0,
+                "wrong_type": 7.142857142857147
+              },
+              "type_acc_rejected_defects": 0.8333333333333334
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 7.142857142857149
+              },
+              "type_acc_rejected_defects": 0.7894736842105263
+            },
+            "0.02": {
+              "defect_recall": 0.8214285714285714,
+              "escape_rate": 0.1785714285714286,
+              "false_reject_rate": 0.02,
+              "per_1000": {
+                "escapes": 8.928571428571438,
+                "false_rejects": 19.0,
+                "wrong_type": 8.928571428571434
+              },
+              "type_acc_rejected_defects": 0.782608695652174
+            },
+            "0.05": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.02,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 19.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7916666666666666
+            }
+          }
+        }
+      }
+    },
+    "555": {
+      "layer12": {
+        "auroc": 0.9864285714285714,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 168.71428571428575
+          },
+          "review_rate_defect": 0.7142857142857143,
+          "review_rate_good": 0.14,
+          "tau_pass": 0.3979698121537699
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.7142857142857143,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.32142857142857145,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.10714285714285714,
+            "normal": 0.96
+          },
+          "0.1": {
+            "defect": 0.10714285714285714,
+            "normal": 0.96
+          },
+          "0.3": {
+            "defect": 0.0,
+            "normal": 0.82
+          }
+        },
+        "taus": {
+          "0.01": 0.5342727899551392,
+          "0.02": 0.5009860992431641,
+          "0.05": 0.4429805874824524,
+          "0.1": 0.4228677749633789,
+          "0.3": 0.39166826009750366
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.10714285714285714,
+            "per_1000": {
+              "escapes": 5.357142857142861,
+              "false_rejects": 0.0,
+              "review_items": 68.35714285714288
+            },
+            "review_rate_defect": 0.6071428571428571,
+            "review_rate_good": 0.04
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.0,
+            "per_1000": {
+              "escapes": 0.0,
+              "false_rejects": 0.0,
+              "review_items": 206.71428571428575
+            },
+            "review_rate_defect": 0.7142857142857143,
+            "review_rate_good": 0.18
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.2857142857142857,
+              "escape_rate": 0.7142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 35.714285714285744,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142871
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.02": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 3.5714285714285743
+              },
+              "type_acc_rejected_defects": 0.8947368421052632
+            },
+            "0.05": {
+              "defect_recall": 0.8928571428571429,
+              "escape_rate": 0.1071428571428571,
+              "false_reject_rate": 0.04,
+              "per_1000": {
+                "escapes": 5.357142857142859,
+                "false_rejects": 38.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.88
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.2857142857142857,
+              "escape_rate": 0.7142857142857143,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 35.714285714285744,
+                "false_rejects": 0.0,
+                "wrong_type": 1.7857142857142871
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.02": {
+              "defect_recall": 0.6785714285714286,
+              "escape_rate": 0.3214285714285714,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 16.071428571428584,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142864
+              },
+              "type_acc_rejected_defects": 0.8421052631578947
+            },
+            "0.05": {
+              "defect_recall": 0.8928571428571429,
+              "escape_rate": 0.1071428571428571,
+              "false_reject_rate": 0.04,
+              "per_1000": {
+                "escapes": 5.357142857142859,
+                "false_rejects": 38.0,
+                "wrong_type": 10.714285714285722
+              },
+              "type_acc_rejected_defects": 0.76
+            }
+          }
+        }
+      },
+      "layer18": {
+        "auroc": 0.9785714285714285,
+        "oracle_min_review": {
+          "auto_false_reject_rate": 0.0,
+          "escape_rate": 0.0,
+          "per_1000": {
+            "escapes": 0.0,
+            "false_rejects": 0.0,
+            "review_items": 297.5
+          },
+          "review_rate_defect": 0.25,
+          "review_rate_good": 0.3,
+          "tau_pass": 0.3661974370469584
+        },
+        "pass_rates": {
+          "0.01": {
+            "defect": 0.25,
+            "normal": 1.0
+          },
+          "0.02": {
+            "defect": 0.14285714285714285,
+            "normal": 1.0
+          },
+          "0.05": {
+            "defect": 0.14285714285714285,
+            "normal": 0.98
+          },
+          "0.1": {
+            "defect": 0.14285714285714285,
+            "normal": 0.96
+          },
+          "0.3": {
+            "defect": 0.07142857142857142,
+            "normal": 0.86
+          }
+        },
+        "taus": {
+          "0.01": 0.4784314036369324,
+          "0.02": 0.4449480175971985,
+          "0.05": 0.4226606786251068,
+          "0.1": 0.41053926944732666,
+          "0.3": 0.375983327627182
+        },
+        "three_way": {
+          "0.1": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.14285714285714285,
+            "per_1000": {
+              "escapes": 7.142857142857149,
+              "false_rejects": 0.0,
+              "review_items": 43.35714285714286
+            },
+            "review_rate_defect": 0.10714285714285714,
+            "review_rate_good": 0.04
+          },
+          "0.3": {
+            "auto_false_reject_rate": 0.0,
+            "escape_rate": 0.07142857142857142,
+            "per_1000": {
+              "escapes": 3.5714285714285743,
+              "false_rejects": 0.0,
+              "review_items": 141.92857142857144
+            },
+            "review_rate_defect": 0.17857142857142858,
+            "review_rate_good": 0.14
+          }
+        },
+        "two_level": {
+          "fused_adareg_regres_soft_q99": {
+            "0.01": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142863
+              },
+              "type_acc_rejected_defects": 0.8571428571428571
+            },
+            "0.02": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 0.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.875
+            },
+            "0.05": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.02,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 19.0,
+                "wrong_type": 5.357142857142861
+              },
+              "type_acc_rejected_defects": 0.875
+            }
+          },
+          "simpleshot_cl2n": {
+            "0.01": {
+              "defect_recall": 0.75,
+              "escape_rate": 0.25,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 12.50000000000001,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7619047619047619
+            },
+            "0.02": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.0,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 0.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7916666666666666
+            },
+            "0.05": {
+              "defect_recall": 0.8571428571428571,
+              "escape_rate": 0.1428571428571429,
+              "false_reject_rate": 0.02,
+              "per_1000": {
+                "escapes": 7.142857142857151,
+                "false_rejects": 19.0,
+                "wrong_type": 8.928571428571438
+              },
+              "type_acc_rejected_defects": 0.7916666666666666
+            }
+          }
+        }
+      }
+    }
+  }
+}

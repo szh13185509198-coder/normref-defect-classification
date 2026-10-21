@@ -1,0 +1,317 @@
+{
+  "assignment_rule": "Sort image_path within each class; fold f validates position f and trains on the other seven positions.",
+  "dataset": "MVTecAD-Cable",
+  "fold_count": 8,
+  "folds": [
+    {
+      "fold_id": 0,
+      "train": {
+        "filename": "fold_00_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "4421ee9701dfa7a8ae1d3ffdd513de6e29f3446641e0078f9fbc2ebd3aaad9af"
+      },
+      "validation": {
+        "filename": "fold_00_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "7f02c87a1e4298ca79cc69fc1197984e32d320a1bea60e1c0660ece111ed5945"
+      }
+    },
+    {
+      "fold_id": 1,
+      "train": {
+        "filename": "fold_01_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "2d3fcf81fa8ba4e5a78e3c781747b953787b6a9336f7b9645cd1f23028a30d00"
+      },
+      "validation": {
+        "filename": "fold_01_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "81c2033da1590827dee87a1cbd3fc990e7cf2d56398e858628e9c1450f7ddd83"
+      }
+    },
+    {
+      "fold_id": 2,
+      "train": {
+        "filename": "fold_02_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "3e1ad6bc60ce4f113cbafbe2de15dde6ff103f9a235775b3d92b3bea2d1bc303"
+      },
+      "validation": {
+        "filename": "fold_02_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "c46f48c3df15dc1b610b288c2a084e10aea92622846d01c48aee259e8b90d24b"
+      }
+    },
+    {
+      "fold_id": 3,
+      "train": {
+        "filename": "fold_03_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "ab67828b0d0090f7100c248344f8a23539cbe006ee450c08d9984b10a9eb4c91"
+      },
+      "validation": {
+        "filename": "fold_03_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "b8b903a15ee1d8687200813472aefeb1cfe91d09bdd3a1ef95601df12320eefc"
+      }
+    },
+    {
+      "fold_id": 4,
+      "train": {
+        "filename": "fold_04_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "1a609b6c41a437df21ace8544fd9d1571f1214e34ef2bd5999d2c703966f8808"
+      },
+      "validation": {
+        "filename": "fold_04_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "a04dea0746dec89d28020f41d2d9c4b4d4ea768d8d2f040e71cfbbc1c88a4b4f"
+      }
+    },
+    {
+      "fold_id": 5,
+      "train": {
+        "filename": "fold_05_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "9a1665fc39617b24a60f2fe7388c949386fe232532e3bd241a006be618e0842c"
+      },
+      "validation": {
+        "filename": "fold_05_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "07cbedcf6f09aeac73f73a2f7b5fb4143a25c4284722925a6197617c6e2ab8e6"
+      }
+    },
+    {
+      "fold_id": 6,
+      "train": {
+        "filename": "fold_06_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "48b528af8833ae306971aa516bf8657dcf7c117f4bf711352af5c63cf1ea4ce2"
+      },
+      "validation": {
+        "filename": "fold_06_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "baeaf4422c8dd3d6b514dab095c71af3ee40d7b71bf4dd155caaf309fdf81533"
+      }
+    },
+    {
+      "fold_id": 7,
+      "train": {
+        "filename": "fold_07_train.jsonl",
+        "per_class": {
+          "bent_wire": 7,
+          "cable_swap": 7,
+          "combined": 7,
+          "cut_inner_insulation": 7,
+          "cut_outer_insulation": 7,
+          "good": 7,
+          "missing_cable": 7,
+          "missing_wire": 7,
+          "poke_insulation": 7
+        },
+        "records": 63,
+        "sha256": "2e084a317244d922959a02d9ea0ed66ff643349a53be923d8fe54d5efebfd935"
+      },
+      "validation": {
+        "filename": "fold_07_val.jsonl",
+        "per_class": {
+          "bent_wire": 1,
+          "cable_swap": 1,
+          "combined": 1,
+          "cut_inner_insulation": 1,
+          "cut_outer_insulation": 1,
+          "good": 1,
+          "missing_cable": 1,
+          "missing_wire": 1,
+          "poke_insulation": 1
+        },
+        "records": 9,
+        "sha256": "d00a94a804ea15f24d3d136c21e424bd8bb54acbb1f67efbccf71f4d74606578"
+      }
+    }
+  ],
+  "oof_invariants": {
+    "duplicate_validation_assignments": 0,
+    "formal_test_records_used_in_folds": 0,
+    "source_records_covered_once": 72,
+    "train_records_per_class": 7,
+    "train_records_per_fold": 63,
+    "validation_records_per_class": 1,
+    "validation_records_per_fold": 9
+  },
+  "schema_version": "cable_oof_8fold_v1",
+  "sources": {
+    "formal_test_audit_only": {
+      "filename": "test-shot.jsonl",
+      "records": 79,
+      "sha256": "72695bad15744fb4e1e1f3a7eb3a1d4225ccb5f9aaa9b6bc20d78c184a83e626"
+    },
+    "train": {
+      "filename": "8-shot.jsonl",
+      "records": 72,
+      "sha256": "e103a7357a0ce2aabe86f0d13f2ed6fbd24cea37342877a0069d4c7c4f420ce9"
+    }
+  },
+  "split_audit": {
+    "content_sha256_overlap": 0,
+    "path_overlap": 0,
+    "test_image_set_sha256": "2dbdc8b0cd2cc4e8464f2eedc3a185580ba546aa67732b22278363df8f358760",
+    "test_missing_files": 0,
+    "train_image_set_sha256": "9a25e1eadb122ac61fe4676a39b1dbd3d3068f545ce837f6e0bcdb3cb37b262c",
+    "train_missing_files": 0
+  }
+}

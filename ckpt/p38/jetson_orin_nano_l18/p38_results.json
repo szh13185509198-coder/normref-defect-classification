@@ -1,0 +1,170 @@
+{
+ "schema_version": "p38_v1",
+ "tag": "jetson_orin_nano_l18",
+ "environment": {
+  "platform": "Linux-5.15.199-tegra-aarch64-with-glibc2.35",
+  "python": "3.10.12",
+  "telemetry_start": {
+   "source": "nvidia-smi",
+   "name": "Orin (nvgpu)",
+   "temp_c": "[N/A]",
+   "sm_mhz": "[N/A]",
+   "sm_max_mhz": "[N/A]",
+   "power_w": "[N/A]",
+   "mem_used_mib": "[N/A]",
+   "other_gpu_processes": 1
+  },
+  "os_release": "Ubuntu 22.04.5 LTS",
+  "cpu_model": "ARMv8 Processor rev 1 (v8l)",
+  "cgroup_cpu_max": null,
+  "cgroup_memory_max": null,
+  "host_mem_total": "7789892 kB",
+  "gpu": "Orin (nvgpu), [N/A], 540.5.0, [N/A], [N/A], [N/A], [N/A], [N/A]",
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "cuda_runtime": "12.6",
+  "cudnn": 90300,
+  "torch_threads": 6,
+  "cudnn_benchmark": false,
+  "tf32_matmul": false,
+  "tf32_cudnn": true
+ },
+ "summary": {
+  "trt_l14_l18": {
+   "1": {
+    "prep_s": 2.0449995130038587,
+    "engine_ms": 36.856045000604354,
+    "end_to_end_ms": 61.839151499953005,
+    "head_ms": 13.281815499794902,
+    "cos_patches": 0.99770587682724
+   },
+   "2": {
+    "prep_s": 2.038002608998795,
+    "engine_ms": 37.06550800052355,
+    "end_to_end_ms": 61.91069850137865,
+    "head_ms": 13.238589499451336,
+    "cos_patches": 0.99770587682724
+   }
+  },
+  "trt_gate_l18": {
+   "1": {
+    "e2e_pass_ms": 59.57526900056109,
+    "clip_l18_engine_ms": 36.814012501054094,
+    "preprocess_to_device_ms": 11.3525920023676,
+    "cos_patches": 0.99770587682724
+   },
+   "2": {
+    "e2e_pass_ms": 59.59513450034137,
+    "clip_l18_engine_ms": 36.94988499773899,
+    "preprocess_to_device_ms": 11.263209000389907,
+    "cos_patches": 0.99770587682724
+   }
+  }
+ },
+ "run_log": [
+  {
+   "pass": 1,
+   "block": "trt_l14_l18",
+   "returncode": 0,
+   "wall_s": 50.35771935299999,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 1,
+   "block": "trt_gate_l18",
+   "returncode": 0,
+   "wall_s": 77.3951885969982,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "trt_gate_l18",
+   "returncode": 0,
+   "wall_s": 46.00322985200182,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  },
+  {
+   "pass": 2,
+   "block": "trt_l14_l18",
+   "returncode": 0,
+   "wall_s": 51.612931001000106,
+   "telemetry_before": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   },
+   "telemetry_after": {
+    "source": "nvidia-smi",
+    "name": "Orin (nvgpu)",
+    "temp_c": "[N/A]",
+    "sm_mhz": "[N/A]",
+    "sm_max_mhz": "[N/A]",
+    "power_w": "[N/A]",
+    "mem_used_mib": "[N/A]",
+    "other_gpu_processes": 1
+   }
+  }
+ ]
+}
