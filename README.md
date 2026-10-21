@@ -99,6 +99,11 @@ Python 3.10+, PyTorch 2.x with CUDA. Install the dependencies:
 pip install -r requirements.txt
 ```
 
+The results in `ckpt/` were produced with Python 3.12, PyTorch 2.9.0 (CUDA 12.8) and kornia 0.6.9 on an
+NVIDIA GeForce RTX 4050 Laptop GPU; rerunning the external evaluation in this environment reproduces every
+published cell exactly. Other PyTorch builds run the same code but can shift individual balanced accuracies.
+On Windows with conda, set `KMP_DUPLICATE_LIB_OK=TRUE` if two OpenMP runtimes are loaded.
+
 The TensorRT parts (`p35`, `p38`, `p41`, `p43`–`p48`) also need TensorRT 10. They were run on a Jetson Orin Nano
 Super 8 GB with JetPack 6.
 
