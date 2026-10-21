@@ -1,0 +1,23 @@
+{
+  "title": "Code, protocols and results for: Normal-referenced defect evidence for training-free few-shot industrial defect classification with calibrated conformity screening",
+  "upload_type": "software",
+  "description": "Evaluation code, pre-committed protocols, split lists and result files (with SHA-256 checksums) for the paper \"Normal-referenced defect evidence for training-free few-shot industrial defect classification with calibrated conformity screening\". The repository README maps every table and figure of the paper to the scripts and result files that produce it.",
+  "creators": [
+    {"name": "Shen, Zehui", "affiliation": "College of Electrical and Electronic Engineering, Wenzhou University", "orcid": "0009-0005-2550-3506"},
+    {"name": "Yang, Jiajun", "affiliation": "College of Electrical and Electronic Engineering, Wenzhou University"},
+    {"name": "Fang, Jiayi", "affiliation": "College of Electrical and Electronic Engineering, Wenzhou University"},
+    {"name": "Li, Jianfeng", "affiliation": "Zhejiang Amplesun Energy Co., Ltd."},
+    {"name": "Yan, Zhengbing", "affiliation": "Zhejiang Key Laboratory of Smart Low-Voltage Apparatus and New Energy Application, Wenzhou University"},
+    {"name": "Hu, Wen", "affiliation": "College of Electrical and Electronic Engineering, Wenzhou University"},
+    {"name": "Ma, Jinghan", "affiliation": "College of Electrical and Electronic Engineering, Wenzhou University"}
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "automated visual inspection",
+    "few-shot defect classification",
+    "training-free",
+    "conformity assessment",
+    "measurement uncertainty"
+  ],
+  "access_right": "open"
+}
