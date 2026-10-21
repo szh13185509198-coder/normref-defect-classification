@@ -11,6 +11,11 @@ is changed). Placeholder copies hash differently; replace the placeholders back 
 
 Markdown tables (`*_table.md`, `*_report.md`) are summaries written by the same runs; S2.4 cites their JSON.
 
+`ckpt/external_query_grid_bundle.tar.gz` (SHA-256 `d20699fcd885f7fb8e15623f933b79450098850e5103cf0d6b370086ebbebfbd`,
+byte-identical) is the frozen VisA / MTD query grid of the P6.B round: the class order of every external task and
+the per-cell results of the frozen methods. `experiments/p10/external_evaluate.py` reads it, so it is needed to
+rerun the external evaluation and every round built on it.
+
 | File | SHA-256 of the original | Copy here |
 |---|---|---|
 | `ckpt/p10_cable/results/cable_results.json` | `28b433e29fa735d6ec47f7baaecd61d90b5feee7c6d196d29dd39da6dd532f1a` | identical |
